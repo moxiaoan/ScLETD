@@ -1,4 +1,4 @@
-input256.ini:
+input192.ini:
 
  260, 260, 260        Number of grids in x/y/z direction in each subdomain
  4, 4, 4              Number of subdomains in x/y/z direction
