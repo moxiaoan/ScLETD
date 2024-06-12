@@ -9,11 +9,14 @@ and optimizing microstructure-sensitive macroscopic material properties. ScLETD 
 To install the project, follow these steps:
 
 1. Clone the repository: https://github.com/moxiaoan/ScLETD
-2. Install dependencies and load the environment: compiler/devtoolset/7.3.1 mpi/hpcx/2.11.0/gcc-7.3.1 compiler/rocm/2.9
-3. Build the software:
+2. Install dependencies and load the environment:
+   compiler/devtoolset/7.3.1
+   mpi/hpcx/2.11.0/gcc-7.3.1
+   compiler/rocm/2.9
+4. Build the software:
    cd ScLETD_based_large-scale_simulation
    make clean && make -j 20
-4. Run the executable file: ./run.sh nodes 192
+5. Run the executable file: ./run.sh nodes 192
 
 ## Contributing
 
