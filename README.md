@@ -10,7 +10,7 @@ To install the project, follow these steps:
 
 1. Clone the repository: https://github.com/moxiaoan/ScLETD
 2. Install dependencies and load the environment:
-   compiler/devtoolset/7.3.1
+   compiler/devtoolset/7.3.1<br>
    mpi/hpcx/2.11.0/gcc-7.3.1
    compiler/rocm/2.9
 4. Build the software:
