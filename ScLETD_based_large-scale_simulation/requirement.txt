@@ -1,0 +1,11 @@
+Python version 3.8.2
+Python libraries:
+from matplotlib.ticker import FuncFormatter
+import matplotlib.pyplot as plt
+import numpy as np
+import matplotlib.gridspec as gridspec
+
+The module environment for all the experiments:
+compiler/devtoolset/7.3.1
+mpi/hpcx/2.11.0/gcc-7.3.1
+compiler/rocm/2.9
