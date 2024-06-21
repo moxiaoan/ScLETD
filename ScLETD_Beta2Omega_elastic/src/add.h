@@ -1,0 +1,43 @@
+#ifndef ADD_H
+#define ADD_H
+extern void start_mpi(int argc, char **argv);
+extern void alloc_vars();
+extern void init_vars();
+extern void init_KL();
+extern void read_ori(void);
+extern void write_chk(void);
+extern void write_Bn_im(double *tmpy_re, double *tmpy_im, int p);
+extern void write_Bn(double *f, int p, int q);
+extern void write_field2B(int irun);
+extern void outputfield();
+extern void outputfield2(double *field_data, char *fn, int size_x, int size_y, int size_z);
+extern void outputfield3(double *field_data, char *fn, int size_x, int size_y, int size_z);
+extern void outputfield4(float *field_data, char fn, int size_x, int size_y, int size_z, int tag);
+extern void read_chk(void);
+extern void anisotropic_input();
+extern void define_mpi_type();
+extern void sw_cart_creat();
+extern void init_para();
+extern void read_matrices();
+extern void rotation_matrix();
+extern void init_KL(void);
+extern void myball(int iter, double rad, double *field);
+extern void print_info(void);
+extern void check_soln_new(double time);
+extern void transfer(void);
+extern void ac_calc_F1(float *field2_all, int out_iter, int detect_iter);
+extern void compress_save_output(char *output_path, float *input, unsigned char *output, int size);
+extern void compress_data(double *src, unsigned int *dst, int src_size);
+extern void decompress_data(unsigned int *src, double *dst, int src_size, int dst_size, int proc_num);
+extern void close_mpi();
+extern void dealloc_vars();
+extern void elastic_input();
+extern void fft_setup();
+extern void elastic_init();
+extern void elastic_transfer(int p);
+extern void fft_finish();
+extern void elastic_init_transfer();
+extern void elastic_finish();
+extern void fft_forward(double *in, double *out_re, double *out_im);
+extern void fft_backward(double *in_re, double *in_im, double *out);
+#endif
