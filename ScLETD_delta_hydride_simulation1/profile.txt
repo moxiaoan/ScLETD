@@ -1,0 +1,4025 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 23.26      0.10     0.10       40     2.50     2.50  PUY
+ 16.28      0.17     0.07        4    17.50    17.50  check_soln_new
+ 13.95      0.23     0.06        8     7.50     8.66  ch_calc_FU
+  9.30      0.27     0.04       40     1.00     1.00  PUX
+  6.98      0.30     0.03        8     3.75     3.75  prepare_U1_new
+  4.65      0.32     0.02  2097152     0.00     0.00  AC_f
+  4.65      0.34     0.02       16     1.25     1.25  unpack
+  4.65      0.36     0.02       16     1.25     1.25  zxy_xyz
+  2.33      0.37     0.01  2260992     0.00     0.00  CH_f
+  2.33      0.38     0.01       40     0.25     0.25  PUZ
+  2.33      0.39     0.01       16     0.63     0.63  left_right_pack
+  2.33      0.40     0.01        8     1.25     1.25  ac_mu
+  2.33      0.41     0.01        8     1.25     1.25  correct_U_new
+  2.33      0.42     0.01        8     1.25     1.25  prepare_U2_new
+  2.33      0.43     0.01        1    10.00    10.00  init_para
+  0.00      0.43     0.00   849364     0.00     0.00  EF
+  0.00      0.43     0.00       16     0.00     0.00  enlarge
+  0.00      0.43     0.00       16     0.00     0.00  top_bottom_pack
+  0.00      0.43     0.00        8     0.00     2.50  ac_calc_FU
+  0.00      0.43     0.00        8     0.00     0.09  ch_mu
+  0.00      0.43     0.00        8     0.00     5.09  transfer
+  0.00      0.43     0.00        4     0.00     0.00  ac_updateU_new
+  0.00      0.43     0.00        4     0.00     0.00  ch_updateU_new
+  0.00      0.43     0.00        3     0.00     0.00  init_vars
+  0.00      0.43     0.00        2     0.00     0.00  write_section
+  0.00      0.43     0.00        1     0.00     0.00  ac_init_phi
+  0.00      0.43     0.00        1     0.00     0.00  alloc_vars
+  0.00      0.43     0.00        1     0.00     0.00  ch_init_phi
+  0.00      0.43     0.00        1     0.00     0.00  close_mpi
+  0.00      0.43     0.00        1     0.00     0.00  couple_init_field_cube
+  0.00      0.43     0.00        1     0.00     0.00  dealloc_vars
+  0.00      0.43     0.00        1     0.00     0.00  define_mpi_type
+  0.00      0.43     0.00        1     0.00     0.00  init_KL
+  0.00      0.43     0.00        1     0.00     0.00  init_field
+  0.00      0.43     0.00        1     0.00     0.00  read_matrices
+  0.00      0.43     0.00        1     0.00     0.00  start_mpi
+  0.00      0.43     0.00        1     0.00     0.00  sw_cart_creat
+
+			Call graph
+
+
+granularity: each sample hit covers 2 byte(s) for 2.33% of 0.43 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00    0.43                 main [1]
+                0.10    0.00      40/40          PUY [2]
+                0.07    0.00       4/4           check_soln_new [3]
+                0.06    0.01       8/8           ch_calc_FU [4]
+                0.00    0.04       8/8           transfer [5]
+                0.04    0.00      40/40          PUX [6]
+                0.03    0.00       8/8           prepare_U1_new [7]
+                0.02    0.00      16/16          zxy_xyz [10]
+                0.00    0.02       8/8           ac_calc_FU [11]
+                0.01    0.00      40/40          PUZ [13]
+                0.01    0.00       8/8           prepare_U2_new [17]
+                0.01    0.00       8/8           correct_U_new [16]
+                0.01    0.00       1/1           init_para [18]
+                0.00    0.00       4/4           ac_updateU_new [23]
+                0.00    0.00       4/4           ch_updateU_new [24]
+                0.00    0.00       1/1           start_mpi [37]
+                0.00    0.00       1/1           init_KL [34]
+                0.00    0.00       1/3           init_vars [25]
+                0.00    0.00       1/1           alloc_vars [28]
+                0.00    0.00       1/1           sw_cart_creat [38]
+                0.00    0.00       1/1           define_mpi_type [33]
+                0.00    0.00       1/1           init_field [35]
+                0.00    0.00       1/1           read_matrices [36]
+                0.00    0.00       1/1           close_mpi [30]
+                0.00    0.00       1/1           dealloc_vars [32]
+-----------------------------------------------
+                0.10    0.00      40/40          main [1]
+[2]     23.3    0.10    0.00      40         PUY [2]
+-----------------------------------------------
+                0.07    0.00       4/4           main [1]
+[3]     16.3    0.07    0.00       4         check_soln_new [3]
+                0.00    0.00  849364/849364      EF [20]
+                0.00    0.00       2/2           write_section [26]
+-----------------------------------------------
+                0.06    0.01       8/8           main [1]
+[4]     16.1    0.06    0.01       8         ch_calc_FU [4]
+                0.01    0.00 2097152/2260992     CH_f [12]
+-----------------------------------------------
+                0.00    0.04       8/8           main [1]
+[5]      9.5    0.00    0.04       8         transfer [5]
+                0.02    0.00      16/16          unpack [9]
+                0.01    0.00      16/16          left_right_pack [14]
+                0.01    0.00       8/8           ac_mu [15]
+                0.00    0.00       8/8           ch_mu [19]
+                0.00    0.00      16/16          top_bottom_pack [22]
+                0.00    0.00      16/16          enlarge [21]
+-----------------------------------------------
+                0.04    0.00      40/40          main [1]
+[6]      9.3    0.04    0.00      40         PUX [6]
+-----------------------------------------------
+                0.03    0.00       8/8           main [1]
+[7]      7.0    0.03    0.00       8         prepare_U1_new [7]
+-----------------------------------------------
+                0.02    0.00 2097152/2097152     ac_calc_FU [11]
+[8]      4.7    0.02    0.00 2097152         AC_f [8]
+-----------------------------------------------
+                0.02    0.00      16/16          transfer [5]
+[9]      4.7    0.02    0.00      16         unpack [9]
+-----------------------------------------------
+                0.02    0.00      16/16          main [1]
+[10]     4.7    0.02    0.00      16         zxy_xyz [10]
+-----------------------------------------------
+                0.00    0.02       8/8           main [1]
+[11]     4.7    0.00    0.02       8         ac_calc_FU [11]
+                0.02    0.00 2097152/2097152     AC_f [8]
+-----------------------------------------------
+                0.00    0.00  163840/2260992     ch_mu [19]
+                0.01    0.00 2097152/2260992     ch_calc_FU [4]
+[12]     2.3    0.01    0.00 2260992         CH_f [12]
+-----------------------------------------------
+                0.01    0.00      40/40          main [1]
+[13]     2.3    0.01    0.00      40         PUZ [13]
+-----------------------------------------------
+                0.01    0.00      16/16          transfer [5]
+[14]     2.3    0.01    0.00      16         left_right_pack [14]
+-----------------------------------------------
+                0.01    0.00       8/8           transfer [5]
+[15]     2.3    0.01    0.00       8         ac_mu [15]
+-----------------------------------------------
+                0.01    0.00       8/8           main [1]
+[16]     2.3    0.01    0.00       8         correct_U_new [16]
+-----------------------------------------------
+                0.01    0.00       8/8           main [1]
+[17]     2.3    0.01    0.00       8         prepare_U2_new [17]
+-----------------------------------------------
+                0.01    0.00       1/1           main [1]
+[18]     2.3    0.01    0.00       1         init_para [18]
+-----------------------------------------------
+                0.00    0.00       8/8           transfer [5]
+[19]     0.2    0.00    0.00       8         ch_mu [19]
+                0.00    0.00  163840/2260992     CH_f [12]
+-----------------------------------------------
+                0.00    0.00  849364/849364      check_soln_new [3]
+[20]     0.0    0.00    0.00  849364         EF [20]
+-----------------------------------------------
+                0.00    0.00      16/16          transfer [5]
+[21]     0.0    0.00    0.00      16         enlarge [21]
+-----------------------------------------------
+                0.00    0.00      16/16          transfer [5]
+[22]     0.0    0.00    0.00      16         top_bottom_pack [22]
+-----------------------------------------------
+                0.00    0.00       4/4           main [1]
+[23]     0.0    0.00    0.00       4         ac_updateU_new [23]
+-----------------------------------------------
+                0.00    0.00       4/4           main [1]
+[24]     0.0    0.00    0.00       4         ch_updateU_new [24]
+-----------------------------------------------
+                0.00    0.00       1/3           main [1]
+                0.00    0.00       2/3           alloc_vars [28]
+[25]     0.0    0.00    0.00       3         init_vars [25]
+-----------------------------------------------
+                0.00    0.00       2/2           check_soln_new [3]
+[26]     0.0    0.00    0.00       2         write_section [26]
+-----------------------------------------------
+                0.00    0.00       1/1           read_matrices [36]
+[27]     0.0    0.00    0.00       1         ac_init_phi [27]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[28]     0.0    0.00    0.00       1         alloc_vars [28]
+                0.00    0.00       2/3           init_vars [25]
+-----------------------------------------------
+                0.00    0.00       1/1           read_matrices [36]
+[29]     0.0    0.00    0.00       1         ch_init_phi [29]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[30]     0.0    0.00    0.00       1         close_mpi [30]
+-----------------------------------------------
+                0.00    0.00       1/1           init_field [35]
+[31]     0.0    0.00    0.00       1         couple_init_field_cube [31]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[32]     0.0    0.00    0.00       1         dealloc_vars [32]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[33]     0.0    0.00    0.00       1         define_mpi_type [33]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[34]     0.0    0.00    0.00       1         init_KL [34]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[35]     0.0    0.00    0.00       1         init_field [35]
+                0.00    0.00       1/1           couple_init_field_cube [31]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[36]     0.0    0.00    0.00       1         read_matrices [36]
+                0.00    0.00       1/1           ac_init_phi [27]
+                0.00    0.00       1/1           ch_init_phi [29]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[37]     0.0    0.00    0.00       1         start_mpi [37]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[38]     0.0    0.00    0.00       1         sw_cart_creat [38]
+-----------------------------------------------
+
+Index by function name
+
+   [8] AC_f                   [19] ch_mu                  [14] left_right_pack
+  [12] CH_f                   [24] ch_updateU_new          [7] prepare_U1_new
+  [20] EF                      [3] check_soln_new         [17] prepare_U2_new
+   [6] PUX                    [30] close_mpi              [36] read_matrices
+   [2] PUY                    [16] correct_U_new          [37] start_mpi
+  [13] PUZ                    [31] couple_init_field_cube [38] sw_cart_creat
+  [11] ac_calc_FU             [32] dealloc_vars           [22] top_bottom_pack
+  [27] ac_init_phi            [33] define_mpi_type         [5] transfer
+  [15] ac_mu                  [21] enlarge                 [9] unpack
+  [23] ac_updateU_new         [34] init_KL                [26] write_section
+  [28] alloc_vars             [35] init_field             [10] zxy_xyz
+   [4] ch_calc_FU             [18] init_para
+  [29] ch_init_phi            [25] init_vars
+
+*** File /home/scwss/phase_field/rebuild_ScLETD/src/formula.c:
+                #include <stdio.h>
+                #include "mpi.h"
+                #include "ScLETD.h"
+                #include <string.h>
+                #include <errno.h>
+                #include <stdlib.h>
+                void
+           1 -> init_KL () {
+                /*
+                // ac omega = [-0.5, 0.5]
+                  ac[0].LE = 1.0/epn2;
+                  ac[0].KE = 2.0;
+                */
+                /*
+                // ch omega = [0,0.5pi]
+                  ch[0].LCI = 1.0;
+                  ch[0].KCI = 2.0;
+                */
+                // ac and ch [0,160]
+                  ac[0].LE = 2.5;
+                  ac[0].KE = 117.0;
+                  ch[0].LCI = 2.0;
+                  ch[0].KCI = 63.0;
+                }
+                double
+      849364 -> EF(){
+                  return (1/2.0*62.5*(ch[0].c-0.2)*(ch[0].c-0.2)-1/2.0*15.0*ac[0].u*ac[0].u-1/4.0*12.5*ac[0].u*ac[0].u*ac[0].u*ac[0].u+1/6.0*6.25*ac[0].u*ac[0].u*ac[0].u*ac[0].u*ac[0].u*ac[0].u+1/2.0*25.0*ch[0].c*ac[0].u*ac[0].u)/4.0;
+                }
+                // ac_field1
+                /*
+                ac and ch
+                     f = 15.0 * ac[n].u + 12.5 * ac[n].u * ac[n].u * ac[n].u - 6.25 * ac[n].u * ac[n].u * ac[n].u * ac[n].u * ac[n].u - 25.0 * ch[0].c * ac[n].u;
+                
+                only ac
+                     f = ac[n].u - ac[n].u * ac[n].u * ac[n].u;
+                */
+     2097152 -> inline double AC_f(int n){
+                  double f;
+                  switch(n) {
+                    case 0 : {
+                     f = 15.0 * ac[n].u + 12.5 * ac[n].u * ac[n].u * ac[n].u - 6.25 * ac[n].u * ac[n].u * ac[n].u * ac[n].u * ac[n].u - 25.0 * ch[0].c * ac[n].u;
+                      break;
+                    }
+                    default: {
+                      printf ("error:please choose correct AC_FIELD function.\n");
+                      exit(1);
+                    }
+                  }
+                  return f;
+                }
+                
+                // ch_field1
+                /*
+                ac and ch
+                      f = 62.5 * (ch[n].c - 0.2) + 25.0 * ac[0].u * ac[0].u;
+                ch
+                      f = ch[n].c * ch[n].c * ch[n].c - ch[n].c;
+                */
+     2260992 -> inline double CH_f(int n){
+                  double f;
+                  switch(n) {
+                    case 0 : {
+                      f = 62.5 * (ch[n].c - 0.2) + 0.5 * 25.0 * ac[0].u * ac[0].u;
+                      break;
+                    }
+                    default: {
+                      printf ("error:please choose correct CH_FIELD function.\n");
+                      exit(1);
+                    }
+                  }
+                  return f;
+                }
+                
+                
+
+
+Top 10 Lines:
+
+     Line      Count
+
+       59    2260992
+       37    2097152
+       26     849364
+        8          1
+
+Execution Summary:
+
+        4   Executable lines in this file
+        4   Lines executed
+   100.00   Percent of the file executed
+
+  5207509   Total number of line executions
+1301877.25   Average executions per line
+
+
+*** File /home/scwss/phase_field/rebuild_ScLETD/src/mpi.c:
+                #include <stdio.h>
+                #include "mpi.h"
+                #include "ScLETD.h"
+                
+                
+                void
+                start_mpi (int argc, char **argv)
+           1 -> {
+                  MPI_Init (&argc, &argv);
+                
+                  MPI_Comm_size (MPI_COMM_WORLD, &nprocs);
+                  MPI_Comm_rank (MPI_COMM_WORLD, &myrank);
+                }
+                
+                
+                void
+                close_mpi (void)
+           1 -> {
+                  MPI_Type_free (&left_right);
+                  MPI_Type_free (&top_bottom);
+                  MPI_Type_free (&front_back);
+                  MPI_Finalize ();
+                }
+                
+                
+                void
+                define_mpi_type (void)
+           1 -> {
+                  MPI_Type_contiguous ((nghost + 2) * (ny + (nghost + 2) * 2) * (nz + (nghost + 2) * 2), MPI_DOUBLE, &left_right);
+                  MPI_Type_contiguous (nx * (nghost + 2) * (nz + (nghost + 2) * 2), MPI_DOUBLE, &top_bottom);
+                  MPI_Type_contiguous (nx * ny * (nghost + 2), MPI_DOUBLE, &front_back);
+                
+                  MPI_Type_commit (&left_right);
+                  MPI_Type_commit (&top_bottom);
+                  MPI_Type_commit (&front_back);
+                }
+                
+                
+                void
+                sw_cart_creat (void)
+           1 -> {
+                  int n;
+                  MPI_Comm XYZ_COMM;
+                  int reorder, periods[3];
+                  int color, key, coords[3], rank;
+                
+                  reorder = 0;
+                  periods[0] = periodic;
+                  periods[1] = periodic;
+                  periods[2] = periodic;
+                
+                  MPI_Cart_create (MPI_COMM_WORLD, 3, procs, periods, reorder, &XYZ_COMM);
+                  MPI_Cart_coords (XYZ_COMM, myrank, 3, cart_id);
+                  MPI_Cart_shift (XYZ_COMM, 0, 1, &left, &right);
+                  MPI_Cart_shift (XYZ_COMM, 1, 1, &top, &bottom);
+                  MPI_Cart_shift (XYZ_COMM, 2, 1, &front, &back);
+                
+                  MPI_Barrier (MPI_COMM_WORLD);
+                
+                  printf ("myrank = %d, (%d,%d,%d),%d,%d,%d,%d,%d,%d\n", myrank, cart_id[0], cart_id[1], cart_id[2], left, right, top, bottom, front, back);
+                
+                  color = cart_id[0];
+                  key = (cart_id[0] * procs[1] + cart_id[1]) * procs[2] + cart_id[2];
+                  MPI_Comm_split (XYZ_COMM, color, myrank, &YZ_COMM);
+                
+                  coords[0] = 0;
+                  coords[1] = 0;
+                  coords[2] = 0;
+                  MPI_Cart_rank (XYZ_COMM, coords, &prank);
+                  for (n = 0; n < nac; n++) {
+                    MPI_Send_init (&ac[n].fieldEs_left[0], 1, left_right, left, 9, MPI_COMM_WORLD, &ac[n].ireq_left_right_fieldE[0]);
+                    MPI_Recv_init (&ac[n].fieldEr_right[0], 1, left_right, right, 9, MPI_COMM_WORLD, &ac[n].ireq_left_right_fieldE[1]);
+                    MPI_Send_init (&ac[n].fieldEs_right[0], 1, left_right, right, 9, MPI_COMM_WORLD, &ac[n].ireq_left_right_fieldE[2]);
+                    MPI_Recv_init (&ac[n].fieldEr_left[0], 1, left_right, left, 9, MPI_COMM_WORLD, &ac[n].ireq_left_right_fieldE[3]);
+                    MPI_Send_init (&ac[n].fieldEs_top[0], 1, top_bottom, top, 9, MPI_COMM_WORLD, &ac[n].ireq_top_bottom_fieldE[0]);
+                    MPI_Recv_init (&ac[n].fieldEr_bottom[0], 1, top_bottom, bottom, 9, MPI_COMM_WORLD, &ac[n].ireq_top_bottom_fieldE[1]);
+                    MPI_Send_init (&ac[n].fieldEs_bottom[0], 1, top_bottom, bottom, 9, MPI_COMM_WORLD, &ac[n].ireq_top_bottom_fieldE[2]);
+                    MPI_Recv_init (&ac[n].fieldEr_top[0], 1, top_bottom, top, 9, MPI_COMM_WORLD, &ac[n].ireq_top_bottom_fieldE[3]);
+                    MPI_Send_init (&ac[n].fieldE[nx * ny * nghost], 1, front_back, front, 9, MPI_COMM_WORLD, &ac[n].ireq_front_back_fieldE[0]);
+                    MPI_Recv_init (&ac[n].fieldEr_back[0], 1, front_back, back, 9, MPI_COMM_WORLD, &ac[n].ireq_front_back_fieldE[1]);
+                    MPI_Send_init (&ac[n].fieldE[nx * ny * (nz - nghost - (nghost + 2))], 1, front_back, back, 9, MPI_COMM_WORLD, &ac[n].ireq_front_back_fieldE[2]);
+                    MPI_Recv_init (&ac[n].fieldEr_front[0], 1, front_back, front, 9, MPI_COMM_WORLD, &ac[n].ireq_front_back_fieldE[3]);
+                  }
+                
+                  for (n = 0; n < nch; n++) {
+                    MPI_Send_init (&ch[n].fieldCIs_left[0], 1, left_right, left, 9, MPI_COMM_WORLD, &ch[n].ireq_left_right_fieldCI[0]);
+                    MPI_Recv_init (&ch[n].fieldCIr_right[0], 1, left_right, right, 9, MPI_COMM_WORLD, &ch[n].ireq_left_right_fieldCI[1]);
+                    MPI_Send_init (&ch[n].fieldCIs_right[0], 1, left_right, right, 9, MPI_COMM_WORLD, &ch[n].ireq_left_right_fieldCI[2]);
+                    MPI_Recv_init (&ch[n].fieldCIr_left[0], 1, left_right, left, 9, MPI_COMM_WORLD, &ch[n].ireq_left_right_fieldCI[3]);
+                    MPI_Send_init (&ch[n].fieldCIs_top[0], 1, top_bottom, top, 9, MPI_COMM_WORLD, &ch[n].ireq_top_bottom_fieldCI[0]);
+                    MPI_Recv_init (&ch[n].fieldCIr_bottom[0], 1, top_bottom, bottom, 9, MPI_COMM_WORLD, &ch[n].ireq_top_bottom_fieldCI[1]);
+                    MPI_Send_init (&ch[n].fieldCIs_bottom[0], 1, top_bottom, bottom, 9, MPI_COMM_WORLD, &ch[n].ireq_top_bottom_fieldCI[2]);
+                    MPI_Recv_init (&ch[n].fieldCIr_top[0], 1, top_bottom, top, 9, MPI_COMM_WORLD, &ch[n].ireq_top_bottom_fieldCI[3]);
+                    MPI_Send_init (&ch[n].fieldCI[nx * ny * nghost], 1, front_back, front, 9, MPI_COMM_WORLD, &ch[n].ireq_front_back_fieldCI[0]);
+                    MPI_Recv_init (&ch[n].fieldCIr_back[0], 1, front_back, back, 9, MPI_COMM_WORLD, &ch[n].ireq_front_back_fieldCI[1]);
+                    MPI_Send_init (&ch[n].fieldCI[nx * ny * (nz - nghost - (nghost + 2))], 1, front_back, back, 9, MPI_COMM_WORLD, &ch[n].ireq_front_back_fieldCI[2]);
+                    MPI_Recv_init (&ch[n].fieldCIr_front[0], 1, front_back, front, 9, MPI_COMM_WORLD, &ch[n].ireq_front_back_fieldCI[3]);
+                  }
+                }
+
+
+Top 10 Lines:
+
+     Line      Count
+
+        8          1
+       18          1
+       28          1
+       41          1
+
+Execution Summary:
+
+        4   Executable lines in this file
+        4   Lines executed
+   100.00   Percent of the file executed
+
+        4   Total number of line executions
+     1.00   Average executions per line
+
+
+*** File /home/scwss/phase_field/rebuild_ScLETD/src/trans.c:
+                #include <stdio.h>
+                #include <math.h>
+                #include "mpi.h"
+                #include "ScLETD.h"
+                #include "mkl.h" 
+                
+                void
+                top_bottom_pack (double *field, double *fields_top, double *fields_bottom, double *fieldr_front, double *fieldr_back)
+          16 -> {
+                  int k_s, k_e;
+                  int f_j, f_k;
+                  int tb_j, tb_k;
+                  int t_ofst, b_ofst, i, j, k;
+                
+                  k_s = nghost + 2;
+                  k_e = nz + (nghost + 2);
+                  f_j = nx;
+                  f_k = nx * ny;
+                  tb_j = nx;
+                  tb_k = nx * (nghost + 2);
+                  t_ofst = nx * nghost;
+                  b_ofst = nx * (ny - nghost - (nghost + 2));
+                
+                  for (k = 0; k < nz + (nghost + 2) * 2; k++) {
+                    if (k < k_s) {
+                      if (front >= 0) {
+                	    for (j = 0; j < nghost + 2; j++) {
+                	      for (i = 0; i < nx; i++) {
+                	        fields_top[tb_k * k + tb_j * j + i] = fieldr_front[f_k * k + f_j * j + i + t_ofst];
+                	        fields_bottom[tb_k * k + tb_j * j + i] = fieldr_front[f_k * k + f_j * j + i + b_ofst];
+                	      }
+                	    }
+                      }
+                    }
+                    else if (k >= k_e) {
+                      if (back >= 0) {
+                	    for (j = 0; j < nghost + 2; j++) {
+                	      for (i = 0; i < nx; i++) {
+                	        fields_top[tb_k * k + tb_j * j + i] = fieldr_back[f_k * (k - k_e) + f_j * j + i + t_ofst];
+                	        fields_bottom[tb_k * k + tb_j * j + i] = fieldr_back[f_k * (k - k_e) + f_j * j + i + b_ofst];
+                	      }
+                	    }
+                      }
+                    }
+                    else {
+                      for (j = 0; j < nghost + 2; j++) {
+                	    for (i = 0; i < nx; i++) {
+                	      fields_top[tb_k * k + tb_j * j + i] = field[f_k * (k - k_s) + f_j * j + i + t_ofst];
+                	      fields_bottom[tb_k * k + tb_j * j + i] = field[f_k * (k - k_s) + f_j * j + i + b_ofst];
+                	    }
+                      }
+                    }
+                  }
+                }
+                
+                void
+                left_right_pack (double *field, double *fields_left, double *fields_right, double *fieldr_top, double *fieldr_bottom, double *fieldr_front, double *fieldr_back)
+          16 -> {
+                  int j_s, j_e, k_s, k_e;
+                  int f_j, f_k;
+                  int lr_j, lr_k;
+                  int tb_j, tb_k;
+                  int l_ofst, r_ofst, i, j, k;
+                
+                  j_s = nghost + 2;
+                  j_e = ny + (nghost + 2);
+                  k_s = nghost + 2;
+                  k_e = nz + (nghost + 2);
+                  f_j = nx;
+                  f_k = nx * ny;
+                  lr_j = nghost + 2;
+                  lr_k = (nghost + 2) * (ny + (nghost + 2) * 2);
+                  tb_j = nx;
+                  tb_k = nx * (nghost + 2);
+                  l_ofst = nghost;
+                  r_ofst = nx - nghost - (nghost + 2);
+                
+                  for (k = 0; k < nz + (nghost + 2) * 2; k++) {
+                    if (top >= 0) {
+                      for (j = 0; j < j_s; j++) {
+                	    for (i = 0; i < nghost + 2; i++) {
+                	      fields_left[lr_k * k + lr_j * j + i] = fieldr_top[tb_k * k + tb_j * j + i + l_ofst];
+                	      fields_right[lr_k * k + lr_j * j + i] = fieldr_top[tb_k * k + tb_j * j + i + r_ofst];
+                	    }
+                      }
+                    }
+                    if (bottom >= 0) {
+                      for (j = j_e; j < ny + (nghost + 2) * 2; j++) {
+                	    for (i = 0; i < nghost + 2; i++) {
+                	      fields_left[lr_k * k + lr_j * j + i] = fieldr_bottom[tb_k * k + tb_j * (j - j_e) + i + l_ofst];
+                	      fields_right[lr_k * k + lr_j * j + i] = fieldr_bottom[tb_k * k + tb_j * (j - j_e) + i + r_ofst];
+                	    }
+                      }
+                    }
+                    if (k < k_s) {
+                      if (front >= 0) {
+                	    for (j = j_s; j < j_e; j++) {
+                	      for (i = 0; i < nghost + 2; i++) {
+                	        fields_left[lr_k * k + lr_j * j + i] = fieldr_front[f_k * k + f_j * (j - j_s) + i + l_ofst];
+                	        fields_right[lr_k * k + lr_j * j + i] = fieldr_front[f_k * k + f_j * (j - j_s) + i + r_ofst];
+                	      }
+                	    }
+                      }
+                    }
+                    else if (k >= k_e) {
+                      if (back >= 0) {
+                        for (j = j_s; j < j_e; j++) {
+                	      for (i = 0; i < nghost + 2; i++) {
+                	        fields_left[lr_k * k + lr_j * j + i] = fieldr_back[f_k * (k - k_e) + f_j * (j - j_s) + i + l_ofst];
+                	        fields_right[lr_k * k + lr_j * j + i] = fieldr_back[f_k * (k - k_e) + f_j * (j - j_s) + i + r_ofst];
+                	      }
+                	    }
+                      }
+                    }
+                    else {
+                      for (j = j_s; j < j_e; j++) {
+                	    for (i = 0; i < nghost + 2; i++) {
+                          fields_left[lr_k * k + lr_j * j + i] = field[f_k * (k - k_s) + f_j * (j - j_s) + i + l_ofst];
+                	      fields_right[lr_k * k + lr_j * j + i] = field[f_k * (k - k_s) + f_j * (j - j_s) + i + r_ofst];
+                	    }
+                      }
+                    }
+                  }
+                }
+                
+                void
+                unpack (double *field, double *fieldr_left, double *fieldr_right, double *fieldr_top, double *fieldr_bottom, double *fieldr_front, double *fieldr_back)
+          16 -> {
+                  int f_j, f_k;
+                  int lr_k, lr_j;
+                  int tb_k, tb_j;
+                  int i, j, k;
+                
+                  f_j = nx;
+                  f_k = nx * ny;
+                  lr_j = nghost + 2;
+                  lr_k = (nghost + 2) * (ny + (nghost + 2) * 2);
+                  tb_j = nx;
+                  tb_k = nx * (nghost + 2);
+                
+                  if (left >= 0) {
+                    for (k = 0; k < nz; k++) {
+                      for (j = 0; j < ny; j++) {
+                	    for (i = 0; i < nghost; i++) {
+                	      field[f_k * k + f_j * j + i] = fieldr_left[lr_k * (k + (nghost + 2)) + lr_j * (j + (nghost + 2)) + i + 2];
+                	    }
+                      }
+                    }
+                  }
+                
+                  if (right >= 0) {
+                    for (k = 0; k < nz; k++) {
+                      for (j = 0; j < ny; j++) {
+                	    for (i = 0; i < nghost; i++) {
+                	      field[f_k * k + f_j * j + i + (nx - nghost)] = fieldr_right[lr_k * (k + (nghost + 2)) + lr_j * (j + (nghost + 2)) + i];
+                	    }
+                      }
+                    }
+                  }
+                
+                  if (top >= 0) {
+                    for (k = 0; k < nz; k++) {
+                      for (j = 0; j < nghost; j++) {
+                	    for (i = 0; i < nx; i++) {
+                	      field[f_k * k + f_j * j + i] = fieldr_top[tb_k * (k + (nghost + 2)) + tb_j * (j + 2) + i];
+                	    }
+                      }
+                    }
+                  }
+                
+                  if (bottom >= 0) {
+                    for (k = 0; k < nz; k++) {
+                      for (j = 0; j < nghost; j++) {
+                	    for (i = 0; i < nx; i++) {
+                	      field[f_k * k + f_j * (j + ny - nghost) + i] = fieldr_bottom[tb_k * (k + (nghost + 2)) + tb_j * j + i];
+                	    }
+                      }
+                    }
+                  }
+                
+                  if (front >= 0) {
+                    for (k = 0; k < nghost; k++) {
+                      for (j = 0; j < ny; j++) {
+                	    for (i = 0; i < nx; i++) {
+                	      field[f_k * k + f_j * j + i] = fieldr_front[f_k * (k + 2) + f_j * j + i];
+                	    }
+                      }
+                    }
+                  }
+                
+                  if (back >= 0) {
+                    for (k = 0; k < nghost; k++) {
+                      for (j = 0; j < ny; j++) {
+                	    for (i = 0; i < nx; i++) {
+                	      field[f_k * (k + nz - nghost) + f_j * j + i] = fieldr_back[f_k * k + f_j * j + i];
+                	    }
+                      }
+                    }
+                  }
+                }
+                
+                
+                void
+                enlarge (double *fielde_left, double *fielde_right, double *fielde_top, double *fielde_bottom, double *fielde_front, double *fielde_back,
+                         double *fieldr_left, double *fieldr_right, double *fieldr_top, double *fieldr_bottom, double *fieldr_front, double *fieldr_back)
+          16 -> {
+                  int j_s, j_e, k_s, k_e;
+                  int elr_k, elr_j, etb_k, etb_j, efb_k, efb_j;
+                  int lr_k, lr_j, tb_k, tb_j, fb_k, fb_j;
+                  int b_ofst;
+                  int i, j, k;
+                
+                  j_s = nghost + 2;
+                  j_e = j_s + ny - (nghost + 2);
+                  if (top < 0) {
+                    j_s -= nghost;
+                  }
+                  if (bottom < 0) {
+                    j_e += nghost;
+                  }
+                  k_s = nghost + 2;
+                  k_e = k_s + nz - (nghost + 2);
+                  if (front < 0) {
+                    k_s -= nghost;
+                  }
+                  if (back < 0) {
+                    k_e += nghost;
+                  }
+                
+                  elr_j = nghost + 2;
+                  elr_k = (nghost + 2) * (ny + 4);
+                  etb_j = nx + 4;
+                  etb_k = (nx + 4) * (nghost + 2);
+                  efb_j = (nx + 4) * (nghost + 2);
+                  efb_k = nx + 4;
+                  lr_j = nghost + 2;
+                  lr_k = (nghost + 2) * (ny + (nghost + 2) * 2);
+                  tb_j = nx;
+                  tb_k = nx * (nghost + 2);
+                  fb_j = nx;
+                  fb_k = nx * ny;
+                  b_ofst = nz + (nghost + 2);
+                
+                  // left face
+                  if (left >= 0) {
+                    for (k = 0; k < nz + 4; k++) {
+                      if (front >= 0 && k < k_s) {
+                	    for (j = 2; j < ny + 2; j++) {
+                	      for (i = 0; i < nghost + 2; i++) {
+                	        fielde_left[elr_k * k + elr_j * j + i] = fieldr_left[lr_k * k + lr_j * (j + nghost) + i];
+                	      }
+                	    }
+                
+                	    if (top >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_left[elr_k * k + elr_j * j + i] = fieldr_left[lr_k * k + lr_j * j + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (bottom >= 0) {
+                	      for (j = ny; j < ny + 4; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_left[elr_k * k + elr_j * j + i] = fieldr_left[lr_k * k + lr_j * (j + (nghost + 2)) + i];
+                	        }
+                	      }
+                	    } 
+                      }
+                
+                      if (k >= k_s && k < k_e) {
+                	    for (j = 2; j < ny + 2; j++) {
+                	      for (i = 0; i < nghost + 2; i++) {
+                	        fielde_left[elr_k * k + elr_j * j + i] = fieldr_left[lr_k * (k + nghost) + lr_j * (j + nghost) + i];
+                	      }
+                	    }
+                
+                	    if (top >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_left[elr_k * k + elr_j * j + i] = fieldr_left[lr_k * (k + nghost) + lr_j * j + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (bottom >= 0) {
+                	      for (j = ny; j < ny + 4; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_left[elr_k * k + elr_j * j + i] = fieldr_left[lr_k * (k + nghost) + lr_j * (j + (nghost + 2)) + i];
+                	        }
+                	      }
+                	    }
+                      }
+                
+                      if (back >= 0 && k >= k_e) {
+                	    for (j = 2; j < ny + 2; j++) {
+                	      for (i = 0; i < nghost + 2; i++) {
+                	        fielde_left[elr_k * k + elr_j * j + i] = fieldr_left[lr_k * (k + (nghost + 2)) + lr_j * (j + nghost) + i];
+                	      }
+                	    }
+                
+                	    if (top >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_left[elr_k * k + elr_j * j + i] = fieldr_left[lr_k * (k + (nghost + 2)) + lr_j * j + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (bottom >= 0) {
+                	      for (j = ny; j < ny + 4; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_left[elr_k * k + elr_j * j + i] = fieldr_left[lr_k * (k + (nghost + 2)) + lr_j * (j + (nghost + 2)) + i];
+                	        }
+                	      }
+                	    }
+                      }
+                    }
+                  }
+                
+                  // right face
+                  if (right >= 0) {
+                    for (k = 0; k < nz + 4; k++) {
+                      if (front >= 0 && k < k_s) {
+                	    for (j = 2; j < ny + 2; j++) {
+                	      for (i = 0; i < nghost + 2; i++) {
+                	        fielde_right[elr_k * k + elr_j * j + i] = fieldr_right[lr_k * k + lr_j * (j + nghost) + i];
+                	      }
+                	    }
+                
+                	    if (top >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_right[elr_k * k + elr_j * j + i] = fieldr_right[lr_k * k + lr_j * j + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (bottom >= 0) {
+                	      for (j = ny; j < ny + 4; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_right[elr_k * k + elr_j * j + i] = fieldr_right[lr_k * k + lr_j * (j + (nghost + 2)) + i];
+                	        }
+                	      }
+                	    }
+                      }
+                
+                      if (k >= k_s && k < k_e) {
+                	    for (j = 2; j < ny + 2; j++) {
+                	      for (i = 0; i < nghost + 2; i++) {
+                	        fielde_right[elr_k * k + elr_j * j + i] = fieldr_right[lr_k * (k + nghost) + lr_j * (j + nghost) + i];
+                	      }
+                	    }
+                
+                	    if (top >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_right[elr_k * k + elr_j * j + i] = fieldr_right[lr_k * (k + nghost) + lr_j * j + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (bottom >= 0) {
+                	      for (j = ny; j < ny + 4; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_right[elr_k * k + elr_j * j + i] = fieldr_right[lr_k * (k + nghost) + lr_j * (j + (nghost + 2)) + i];
+                	        }
+                	      }
+                	    }
+                      }
+                
+                      if (back >= 0 && k >= k_e) {
+                	    for (j = 2; j < ny + 2; j++) {
+                	      for (i = 0; i < nghost + 2; i++) {
+                	        fielde_right[elr_k * k + elr_j * j + i] = fieldr_right[lr_k * (k + (nghost + 2)) + lr_j * (j + nghost) + i];
+                	      }
+                	    }
+                
+                	    if (top >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_right[elr_k * k + elr_j * j + i] = fieldr_right[lr_k * (k + (nghost + 2)) + lr_j * j + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (bottom >= 0) {
+                	      for (j = ny; j < ny + 4; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_right[elr_k * k + elr_j * j + i] = fieldr_right[lr_k * (k + (nghost + 2)) + lr_j * (j + (nghost + 2)) + i];
+                	        }
+                	      }
+                	    }
+                      }
+                    }
+                  }
+                
+                  // top face
+                  if (top >= 0) {
+                    for (k = 0; k < nz + 4; k++) {
+                      if (front >= 0 && k < k_s) {
+                	    for (j = 0; j < nghost + 2; j++) {
+                	      for (i = 2; i < nx + 2; i++) {
+                	        fielde_top[etb_k * k + etb_j * j + i] = fieldr_top[tb_k * k + tb_j * j + (i - 2)];
+                	      }
+                	    }
+                
+                	    if (left >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_top[etb_k * k + etb_j * j + i] = fieldr_left[lr_k * k + lr_j * j + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (right >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = nx; i < nx + 4; i++) {
+                	          fielde_top[etb_k * k + etb_j * j + i] = fieldr_right[lr_k * k + lr_j * j + (i - nx)];
+                	        }
+                	      }
+                	    }
+                      }
+                
+                      if (k >= k_s && k < k_e) {
+                	    for (j = 0; j < nghost + 2; j++) {
+                	      for (i = 2; i < nx + 2; i++) {
+                	        fielde_top[etb_k * k + etb_j * j + i] = fieldr_top[tb_k * (k + nghost) + tb_j * j + (i - 2)];
+                	      }
+                	    }
+                
+                	    if (left >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_top[etb_k * k + etb_j * j + i] = fieldr_left[lr_k * (k + nghost) + lr_j * j + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (right >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = nx; i < nx + 4; i++) {
+                	          fielde_top[etb_k * k + etb_j * j + i] = fieldr_right[lr_k * (k + nghost) + lr_j * j + (i - nx)];
+                	        }
+                	      }
+                	    }
+                      }
+                
+                      if (back >= 0 && k >= k_e) {
+                	    for (j = 0; j < nghost + 2; j++) {
+                	      for (i = 2; i < nx + 2; i++) {
+                	        fielde_top[etb_k * k + etb_j * j + i] = fieldr_top[tb_k * (k + (nghost + 2)) + tb_j * j + (i - 2)];
+                	      }
+                	    }
+                
+                	    if (left >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_top[etb_k * k + etb_j * j + i] = fieldr_left[lr_k * (k + (nghost + 2)) + lr_j * j + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (right >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = nx; i < nx + 4; i++) {
+                	          fielde_top[etb_k * k + etb_j * j + i] = fieldr_right[lr_k * (k + (nghost + 2)) + lr_j * j + (i - nx)];
+                	        }
+                	      }
+                	    }
+                      }
+                    }
+                  }
+                
+                  // bottom face
+                  if (bottom >= 0) {
+                    for (k = 0; k < nz + 4; k++) {
+                      if (front >= 0 && k < nghost + 2) {
+                	    for (j = 0; j < nghost + 2; j++) {
+                	      for (i = 2; i < nx + 2; i++) {
+                	        fielde_bottom[etb_k * k + etb_j * j + i] = fieldr_bottom[tb_k * k + tb_j * j + (i - 2)];
+                	      }
+                	    }
+                
+                	    if (left >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_bottom[etb_k * k + etb_j * j + i] = fieldr_left[lr_k * k + lr_j * (j + (ny + (nghost + 2))) + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (right >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = nx; i < nx + 4; i++) {
+                	          fielde_bottom[etb_k * k + etb_j * j + i] = fieldr_right[lr_k * k + lr_j * (j + (ny + (nghost + 2))) + (i - nx)];
+                	        }
+                	      }
+                	    }
+                      }
+                
+                      if (k >= k_s && k < k_e) {
+                	    for (j = 0; j < nghost + 2; j++) {
+                	      for (i = 2; i < nx + 2; i++) {
+                	        fielde_bottom[etb_k * k + etb_j * j + i] = fieldr_bottom[tb_k * (k + nghost) + tb_j * j + (i - 2)];
+                	      }
+                	    }
+                
+                	    if (left >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_bottom[etb_k * k + etb_j * j + i] = fieldr_left[lr_k * (k + nghost) + lr_j * (j + (ny + (nghost + 2))) + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (right >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = nx; i < nx + 4; i++) {
+                	          fielde_bottom[etb_k * k + etb_j * j + i] = fieldr_right[lr_k * (k + nghost) + lr_j * (j + (ny + (nghost + 2))) + (i - nx)];
+                	        }
+                	      }
+                	    }
+                      }
+                
+                      if (back >= 0 && k >= k_e) {
+                	    for (j = 0; j < nghost + 2; j++) {
+                	      for (i = 2; i < nx + 2; i++) {
+                	        fielde_bottom[etb_k * k + etb_j * j + i] = fieldr_bottom[tb_k * (k + (nghost + 2)) + tb_j * j + (i - 2)];
+                	      }
+                	    }
+                
+                	    if (left >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_bottom[etb_k * k + etb_j * j + i] = fieldr_left[lr_k * (k + (nghost + 2)) + lr_j * (j + (ny + (nghost + 2))) + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (right >= 0) {
+                	      for (j = 0; j < nghost + 2; j++) {
+                	        for (i = nx; i < nx + 4; i++) {
+                	          fielde_bottom[etb_k * k + etb_j * j + i] = fieldr_right[lr_k * (k + (nghost + 2)) + lr_j * (j + (ny + (nghost + 2))) + (i - nx)];
+                	        }
+                	      }
+                	    }
+                      }
+                    }
+                  }
+                
+                  //front face
+                  if (front >= 0) {
+                    for (j = 0; j < ny + 4; j++) {
+                      if (top >= 0 && j < j_s) {
+                	    for (k = 0; k < nghost + 2; k++) {
+                	      for (i = 2; i < nx + 2; i++) {
+                	        fielde_front[efb_k * k + efb_j * j + i] = fieldr_top[tb_k * k + tb_j * j + i - 2];
+                	      }
+                	    }
+                
+                	    if (left >= 0) {
+                	      for (k = 0; k < nghost + 2; k++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_front[efb_k * k + efb_j * j + i] = fieldr_left[lr_k * k + lr_j * j + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (right >= 0) {
+                	      for (k = 0; k < nghost + 2; k++) {
+                	        for (i = nx; i < nx + 4; i++) {
+                	          fielde_front[efb_k * k + efb_j * j + i] = fieldr_right[lr_k * k + lr_j * j + i - nx];
+                	        }
+                	      }
+                	    }
+                      }
+                
+                      if (j >= j_s && j < j_e) {
+                	    for (k = 0; k < nghost + 2; k++) {
+                	      for (i = 2; i < nx + 2; i++) {
+                	        fielde_front[efb_k * k + efb_j * j + i] = fieldr_front[fb_k * k + fb_j * (j - nghost) + i - 2];
+                	      }
+                	    }
+                
+                	    if (left >= 0) {
+                	      for (k = 0; k < nghost + 2; k++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_front[efb_k * k + efb_j * j + i] = fieldr_left[lr_k * k + lr_j * (j + nghost) + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (right >= 0) {
+                	      for (k = 0; k < nghost + 2; k++) {
+                	        for (i = nx; i < nx + 4; i++) {
+                	          fielde_front[efb_k * k + efb_j * j + i] = fieldr_right[lr_k * k + lr_j * (j + nghost) + i - nx];
+                	        }
+                	      }
+                	    }
+                      }
+                
+                      if (bottom >= 0 && j >= j_e) {
+                	    for (k = 0; k < nghost + 2; k++) {
+                	      for (i = 2; i < nx + 2; i++) {
+                	        fielde_front[efb_k * k + efb_j * j + i] = fieldr_bottom[tb_k * k + tb_j * (j - j_e) + i - 2];
+                	      }
+                	    }
+                
+                	    if (left >= 0) {
+                	      for (k = 0; k < nghost + 2; k++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_front[efb_k * k + efb_j * j + i] = fieldr_left[lr_k * k + lr_j * (j + (nghost + 2)) + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (right >= 0) {
+                	      for (k = 0; k < nghost + 2; k++) {
+                	        for (i = nx; i < nx + 4; i++) {
+                	          fielde_front[efb_k * k + efb_j * j + i] = fieldr_right[lr_k * k + lr_j * (j + (nghost + 2)) + i - nx];
+                	        }
+                	      }
+                	    }
+                      }
+                    }
+                  }
+                
+                  //back face
+                  if (back >= 0) {
+                    for (j = 0; j < ny + 4; j++) {
+                      if (top >= 0 && j < j_s) {
+                	    for (k = 0; k < nghost + 2; k++) {
+                	      for (i = 2; i < nx + 2; i++) {
+                	        fielde_back[efb_k * k + efb_j * j + i] = fieldr_top[tb_k * (k + b_ofst) + tb_j * j + i - 2];
+                	      }
+                	    }
+                
+                	    if (left >= 0) {
+                	      for (k = 0; k < nghost + 2; k++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_back[efb_k * k + efb_j * j + i] = fieldr_left[lr_k * (k + b_ofst) + lr_j * j + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (right >= 0) {
+                	      for (k = 0; k < nghost + 2; k++) {
+                	        for (i = nx; i < nx + 4; i++) {
+                	          fielde_back[efb_k * k + efb_j * j + i] = fieldr_right[lr_k * (k + b_ofst) + lr_j * j + i - nx];
+                	        }
+                	      }
+                	    }
+                      }
+                
+                      if (j >= j_s && j < j_e) {
+                	    for (k = 0; k < nghost + 2; k++) {
+                	      for (i = 2; i < nx + 2; i++) {
+                	        fielde_back[efb_k * k + efb_j * j + i] = fieldr_back[fb_k * k + fb_j * (j - nghost) + i - 2];
+                	      }
+                	    }
+                
+                	    if (left >= 0) {
+                	      for (k = 0; k < nghost + 2; k++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_back[efb_k * k + efb_j * j + i] = fieldr_left[lr_k * (k + b_ofst) + lr_j * (j + nghost) + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (right >= 0) {
+                	      for (k = 0; k < nghost + 2; k++) {
+                	        for (i = nx; i < nx + 4; i++) {
+                	          fielde_back[efb_k * k + efb_j * j + i] = fieldr_right[lr_k * (k + b_ofst) + lr_j * (j + nghost) + i - nx];
+                	        }
+                	      }
+                	    }
+                      }
+                
+                      if (bottom >= 0 && j >= j_e) {
+                	    for (k = 0; k < nghost + 2; k++) {
+                	      for (i = 2; i < nx + 2; i++) {
+                	        fielde_back[efb_k * k + efb_j * j + i] = fieldr_bottom[tb_k * (k + b_ofst) + tb_j * (j - j_e) + i - 2];
+                	      }
+                	    }
+                
+                	    if (left >= 0) {
+                	      for (k = 0; k < nghost + 2; k++) {
+                	        for (i = 0; i < nghost + 2; i++) {
+                	          fielde_back[efb_k * k + efb_j * j + i] = fieldr_left[lr_k * (k + b_ofst) + lr_j * (j + (nghost + 2)) + i];
+                	        }
+                	      }
+                	    }
+                
+                	    if (right >= 0) {
+                	      for (k = 0; k < nghost + 2; k++) {
+                	        for (i = nx; i < nx + 4; i++) {
+                	          fielde_back[efb_k * k + efb_j * j + i] = fieldr_right[lr_k * (k + b_ofst) + lr_j * (j + (nghost + 2)) + i - nx];
+                	        }
+                	      }
+                	    }
+                      }
+                    }
+                  }
+                }
+                
+                
+                void
+                ac_mu (double* fieldmu_left, double* fieldmu_right, double* fieldmu_top, double* fieldmu_bottom, double* fieldmu_front, double* fieldmu_back,
+                       double* fielde_left, double* fielde_right, double* fielde_top, double* fielde_bottom, double* fielde_front, double* fielde_back,
+                	   double* fieldu_left, double* fieldu_right, double* fieldu_top, double* fieldu_bottom, double* fieldu_front, double* fieldu_back)
+           8 -> {
+                  int i, j, k;
+                  int mu_i, mu_j, mu_k;
+                  int e_i, e_j, e_k;
+                  int l_e, l_mu;
+                
+                  mu_k = ny;
+                  e_j = nghost + 2;
+                  e_k = (nghost + 2) * (ny + 4);
+                
+                  // left face
+                  if (left >= 0) {
+                    for (k = 2; k < nz + 2; k++) {
+                
+                      // left and right
+                      for (j = 2; j < ny + 2; j++) {
+                        l_e = k * e_k + j * e_j + 1;
+                        l_mu = (k - 2) * mu_k + j - 2;
+                        fieldmu_left[l_mu] = (fielde_left[l_e - 1] + (-2.0) * fielde_left[l_e] + fielde_left[l_e + 1]) / hx / hx;
+                      }
+                
+                      // top and bottom
+                      if (top < 0) {
+                        l_e = k * e_k + 2 * e_j + 1;
+                        l_mu = (k - 2) * mu_k;
+                        fieldmu_left[l_mu] += ((-2.0) * fielde_left[l_e] + (2.0) * fielde_left[l_e + e_j]) / hy / hy;
+                        for (j = 3; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 1;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_left[l_mu] += (fielde_left[l_e - e_j] + (-2.0) * fielde_left[l_e] + fielde_left[l_e + e_j]) / hy / hy;
+                        }
+                      }
+                      else if (bottom < 0) {
+                        for (j = 2; j < ny + 1; j++) {
+                          l_e = k * e_k + j * e_j + 1;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_left[l_mu] += (fielde_left[l_e - e_j] + (-2.0) * fielde_left[l_e] + fielde_left[l_e + e_j]) / hy / hy;
+                        }
+                        l_e = k * e_k + (ny + 1) * e_j + 1;
+                        l_mu = (k - 2) * mu_k + (ny + 1) - 2;
+                        fieldmu_left[l_mu] += ((2.0) * fielde_left[l_e - e_j] + (-2.0) * fielde_left[l_e]) / hy / hy;
+                      }
+                      else {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 1;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_left[l_mu] += (fielde_left[l_e - e_j] + (-2.0) * fielde_left[l_e] + fielde_left[l_e + e_j]) / hy / hy;
+                        }
+                      }
+                
+                      // front and back
+                      if (k == 2 && front < 0) {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 1;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_left[l_mu] += ((-2.0) * fielde_left[l_e] + (2.0) * fielde_left[l_e + e_k]) / hz / hz;
+                          fieldmu_left[l_mu] = epn2 * fieldmu_left[l_mu] - fielde_left[l_e] * (fielde_left[l_e] * fielde_left[l_e] - 1.0);
+                          fieldu_left[l_mu] = fielde_left[l_e];
+                        }
+                      }
+                      else if (k == nz + 1 && back < 0) {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 1;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_left[l_mu] += ((2.0) * fielde_left[l_e - e_k] + (-2.0) * fielde_left[l_e]) / hz / hz;
+                          fieldmu_left[l_mu] = epn2 * fieldmu_left[l_mu] - fielde_left[l_e] * (fielde_left[l_e] * fielde_left[l_e] - 1.0);
+                          fieldu_left[l_mu] = fielde_left[l_e];
+                        }
+                      }
+                      else {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 1;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_left[l_mu] += (fielde_left[l_e - e_k] + (-2.0) * fielde_left[l_e] + fielde_left[l_e + e_k]) / hz / hz;
+                          fieldmu_left[l_mu] = epn2 * fieldmu_left[l_mu] - fielde_left[l_e] * (fielde_left[l_e] * fielde_left[l_e] - 1.0);
+                          fieldu_left[l_mu] = fielde_left[l_e];
+                        }
+                      }
+                    }
+                  }
+                
+                  // right face
+                  if (right >= 0) {
+                    for (k = 2; k < nz + 2; k++) {
+                      // left and right
+                      for (j = 2; j < ny + 2; j++) {
+                        l_e = k * e_k + j * e_j + 2;
+                        l_mu = (k - 2) * mu_k + j - 2;
+                        fieldmu_right[l_mu] = (fielde_right[l_e - 1] + (-2.0) * fielde_right[l_e] + fielde_right[l_e + 1]) / hx / hx;
+                      }
+                
+                      // top and bottom
+                      if (top < 0) {
+                        l_e = k * e_k + 2 * e_j + 2;
+                        l_mu = (k - 2) * mu_k;
+                        fieldmu_right[l_mu] += ((-2.0) * fielde_right[l_e] + (2.0) * fielde_right[l_e + e_j]) / hy / hy;
+                        for (j = 3; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 2;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_right[l_mu] += (fielde_right[l_e - e_j] + (-2.0) * fielde_right[l_e] + fielde_right[l_e + e_j]) / hy / hy;
+                        }
+                      }
+                      else if (bottom < 0) {
+                        for (j = 2; j < ny + 1; j++) {
+                          l_e = k * e_k + j * e_j + 2;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_right[l_mu] += (fielde_right[l_e - e_j] + (-2.0) * fielde_right[l_e] + fielde_right[l_e + e_j]) / hy / hy;
+                        }
+                        l_e = k * e_k + (ny + 1) * e_j + 2;
+                        l_mu = (k - 2) * mu_k + (ny + 1) - 2;
+                        fieldmu_right[l_mu] += ((2.0) * fielde_right[l_e - e_j] + (-2.0) * fielde_right[l_e]) / hy / hy;
+                      }
+                      else {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 2;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_right[l_mu] += (fielde_right[l_e - e_j] + (-2.0) * fielde_right[l_e] + fielde_right[l_e + e_j]) / hy / hy;
+                        }
+                      }
+                
+                      // front and back
+                      if (k == 2 && front < 0) {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 2;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_right[l_mu] += ((-2.0) * fielde_right[l_e] + (2.0) * fielde_right[l_e + e_k]) / hz / hz;
+                          fieldmu_right[l_mu] = epn2 * fieldmu_right[l_mu] - fielde_right[l_e] * (fielde_right[l_e] * fielde_right[l_e] - 1.0);
+                          fieldu_right[l_mu] = fielde_right[l_e];
+                        }
+                      }
+                      else if (k == nz + 1 && back < 0) {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 2;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_right[l_mu] += ((2.0) * fielde_right[l_e - e_k] + (-2.0) * fielde_right[l_e]) / hz / hz;
+                          fieldmu_right[l_mu] = epn2 * fieldmu_right[l_mu] - fielde_right[l_e] * (fielde_right[l_e] * fielde_right[l_e] - 1.0);
+                          fieldu_right[l_mu] = fielde_right[l_e];
+                        }
+                      }
+                      else {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 2;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_right[l_mu] += (fielde_right[l_e - e_k] + (-2.0) * fielde_right[l_e] + fielde_right[l_e + e_k]) / hz / hz;
+                          fieldmu_right[l_mu] = epn2 * fieldmu_right[l_mu] - fielde_right[l_e] * (fielde_right[l_e] * fielde_right[l_e] - 1.0);
+                          fieldu_right[l_mu] = fielde_right[l_e];
+                        }
+                      }
+                    }
+                  }
+                
+                
+                  mu_k = nx;
+                  e_j = nx + 4;
+                  e_k = (nx + 4) * (nghost + 2);
+                
+                  // top face
+                  if (top >= 0) {
+                    for (k = 2; k < nz + 2; k++) {
+                
+                      // left and right
+                      if (left < 0) {
+                        l_e = k * e_k + e_j + 2;
+                        l_mu = (k - 2) * mu_k;
+                        fieldmu_top[l_mu] = ((-2.0) * fielde_top[l_e] + (2.0) * fielde_top[l_e + 1]) / hx / hx;
+                        for (j = 3; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_top[l_mu] = (fielde_top[l_e - 1] + (-2.0) * fielde_top[l_e] + fielde_top[l_e + 1]) / hx / hx;
+                        }
+                      }
+                      else if (right < 0) {
+                        for (j = 2; j < nx + 1; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_top[l_mu] = (fielde_top[l_e - 1] + (-2.0) * fielde_top[l_e] + fielde_top[l_e + 1]) / hx / hx;
+                        }
+                        l_e = k * e_k + e_j + (nx + 1);
+                        l_mu = (k - 2) * mu_k + (nx + 1) - 2;
+                        fieldmu_top[l_mu] = ((2.0) * fielde_top[l_e - 1] + (-2.0) * fielde_top[l_e]) / hx / hx;
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_top[l_mu] = (fielde_top[l_e - 1] + (-2.0) * fielde_top[l_e] + fielde_top[l_e + 1]) / hx / hx;
+                        }
+                      }
+                
+                      // top and bottom
+                      for (j = 2; j < nx + 2; j++) {
+                        l_e = k * e_k + e_j + j;
+                        l_mu = (k - 2) * mu_k + j - 2;
+                        fieldmu_top[l_mu] += (fielde_top[l_e - e_j] + (-2.0) * fielde_top[l_e] + fielde_top[l_e + e_j]) / hy / hy;
+                      }
+                
+                      // front and back
+                      if (k == 2 && front < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_top[l_mu] += ((-2.0) * fielde_top[l_e] + (2.0) * fielde_top[l_e + e_k]) / hz / hz;
+                          fieldmu_top[l_mu] = epn2 * fieldmu_top[l_mu] - fielde_top[l_e] * (fielde_top[l_e] * fielde_top[l_e] - 1.0);
+                          fieldu_top[l_mu] = fielde_top[l_e];
+                        }
+                      }
+                      else if (k == nz + 1 && back < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_top[l_mu] += ((2.0) * fielde_top[l_e - e_k] + (-2.0) * fielde_top[l_e]) / hz / hz;
+                          fieldmu_top[l_mu] = epn2 * fieldmu_top[l_mu] - fielde_top[l_e] * (fielde_top[l_e] * fielde_top[l_e] - 1.0);
+                          fieldu_top[l_mu] = fielde_top[l_e];
+                        }
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_top[l_mu] += (fielde_top[l_e - e_k] + (-2.0) * fielde_top[l_e] + fielde_top[l_e + e_k]) / hz / hz;
+                          fieldmu_top[l_mu] = epn2 * fieldmu_top[l_mu] - fielde_top[l_e] * (fielde_top[l_e] * fielde_top[l_e] - 1.0);
+                          fieldu_top[l_mu] = fielde_top[l_e];
+                        }
+                      }
+                    }
+                  }
+                
+                  // bottom face
+                  if (bottom >= 0) {
+                    for (k = 2; k < nz + 2; k++) {
+                
+                      // left and right
+                      if (left < 0) {
+                        l_e = k * e_k + e_j * nghost + 2;
+                        l_mu = (k - 2) * mu_k;
+                        fieldmu_bottom[l_mu] = ((-2.0) * fielde_bottom[l_e] + (2.0) * fielde_bottom[l_e + 1]) / hx / hx;
+                        for (j = 3; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_bottom[l_mu] = (fielde_bottom[l_e - 1] + (-2.0) * fielde_bottom[l_e] + fielde_bottom[l_e + 1]) / hx / hx;
+                        }
+                      }
+                      else if (right < 0) {
+                        for (j = 2; j < nx + 1; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_bottom[l_mu] = (fielde_bottom[l_e - 1] + (-2.0) * fielde_bottom[l_e] + fielde_bottom[l_e + 1]) / hx / hx;
+                        }
+                        l_e = k * e_k + e_j * nghost + (nx + 1);
+                        l_mu = (k - 2) * mu_k + (nx + 1) - 2;
+                        fieldmu_bottom[l_mu] = ((2.0) * fielde_bottom[l_e - 1] + (-2.0) * fielde_bottom[l_e]) / hx / hx;
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_bottom[l_mu] = (fielde_bottom[l_e - 1] + (-2.0) * fielde_bottom[l_e] + fielde_bottom[l_e + 1]) / hx / hx;
+                        }
+                      }
+                
+                      // top and bottom
+                      for (j = 2; j < nx + 2; j++) {
+                        l_e = k * e_k + e_j * nghost + j;
+                        l_mu = (k - 2) * mu_k + j - 2;
+                        fieldmu_bottom[l_mu] += (fielde_bottom[l_e - e_j] + (-2.0) * fielde_bottom[l_e] + fielde_bottom[l_e + e_j]) / hy / hy;
+                      }
+                
+                      // front and back
+                      if (k == 2 && front < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_bottom[l_mu] += ((-2.0) * fielde_bottom[l_e] + (2.0) * fielde_bottom[l_e + e_k]) / hz / hz;
+                          fieldmu_bottom[l_mu] = epn2 * fieldmu_bottom[l_mu] - fielde_bottom[l_e] * (fielde_bottom[l_e] * fielde_bottom[l_e] - 1.0);
+                          fieldu_bottom[l_mu] = fielde_bottom[l_e];
+                        }
+                      }
+                      else if (k == nz + 1 && back < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_bottom[l_mu] += ((2.0) * fielde_bottom[l_e - e_k] + (-2.0) * fielde_bottom[l_e]) / hz / hz;
+                          fieldmu_bottom[l_mu] = epn2 * fieldmu_bottom[l_mu] - fielde_bottom[l_e] * (fielde_bottom[l_e] * fielde_bottom[l_e] - 1.0);
+                          fieldu_bottom[l_mu] = fielde_bottom[l_e];
+                        }
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_bottom[l_mu] += (fielde_bottom[l_e - e_k] + (-2.0) * fielde_bottom[l_e] + fielde_bottom[l_e + e_k]) / hz / hz;
+                          fieldmu_bottom[l_mu] = epn2 * fieldmu_bottom[l_mu] - fielde_bottom[l_e] * (fielde_bottom[l_e] * fielde_bottom[l_e] - 1.0);
+                          fieldu_bottom[l_mu] = fielde_bottom[l_e];
+                        }
+                      }
+                    }
+                  }
+                
+                
+                  mu_k = nx;
+                  e_j = nx + 4;
+                  e_k = (nx + 4) * (nghost + 2);
+                
+                  // front face
+                  if (front >= 0) {
+                    for (k = 2; k < ny + 2; k++) {
+                
+                      // left and right
+                      if (left < 0) {
+                        l_e = k * e_k + e_j + 2;
+                        l_mu = (k - 2) * mu_k;
+                        fieldmu_front[l_mu] = ((-2.0) * fielde_front[l_e] + (2.0) * fielde_front[l_e + 1]) / hx / hx;
+                        for (j = 3; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                           fieldmu_front[l_mu] = (fielde_front[l_e - 1] + (-2.0) * fielde_front[l_e] + fielde_front[l_e + 1]) / hx / hx;
+                        }
+                      }
+                      else if (right < 0) {
+                        for (j = 2; j < nx + 1; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_front[l_mu] = (fielde_front[l_e - 1] + (-2.0) * fielde_front[l_e] + fielde_front[l_e + 1]) / hx / hx;
+                        }
+                        l_e = k * e_k + e_j + (nx + 1);
+                        l_mu = (k - 2) * mu_k + (nx + 1) - 2;
+                        fieldmu_front[l_mu] = ((2.0) * fielde_front[l_e - 1] + (-2.0) * fielde_front[l_e]) / hx / hx;
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_front[l_mu] = (fielde_front[l_e - 1] + (-2.0) * fielde_front[l_e] + fielde_front[l_e + 1]) / hx / hx;
+                        }
+                      }
+                
+                      // top and bottom
+                      if (k == 2 && top < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_front[l_mu] += ((-2.0) * fielde_front[l_e] + (2.0) * fielde_front[l_e + e_k]) / hy / hy;
+                        }
+                      }
+                      else if (k == ny + 1 && bottom < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_front[l_mu] += ((2.0) * fielde_front[l_e - e_k] + (-2.0) * fielde_front[l_e]) / hy / hy;
+                        }
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_front[l_mu] += (fielde_front[l_e - e_k] + (-2.0) * fielde_front[l_e] + fielde_front[l_e + e_k]) / hy / hy;
+                        }
+                      }
+                
+                      // front and back
+                      for (j = 2; j < nx + 2; j++) {
+                        l_e = k * e_k + e_j + j;
+                        l_mu = (k - 2) * mu_k + j - 2;
+                        fieldmu_front[l_mu] += (fielde_front[l_e - e_j] + (-2.0) * fielde_front[l_e] + fielde_front[l_e + e_j]) / hz / hz;
+                        fieldmu_front[l_mu] = epn2 * fieldmu_front[l_mu] - fielde_front[l_e] * (fielde_front[l_e] * fielde_front[l_e] - 1.0);
+                        fieldu_front[l_mu] = fielde_front[l_e];
+                      }
+                    }
+                  }
+                
+                  // back face
+                  if (back >= 0) {
+                    for (k = 2; k < ny + 2; k++) {
+                
+                      // left and right
+                      if (left < 0) {
+                        l_e = k * e_k + e_j * nghost + 2;
+                        l_mu = (k - 2) * mu_k;
+                        fieldmu_back[l_mu] = ((-2.0) * fielde_back[l_e] + (2.0) * fielde_back[l_e + 1]) / hx / hx;
+                        for (j = 3; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_back[l_mu] = (fielde_back[l_e - 1] + (-2.0) * fielde_back[l_e] + fielde_back[l_e + 1]) / hx / hx;
+                        }
+                      }
+                      else if (right < 0) {
+                        for (j = 2; j < nx + 1; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_back[l_mu] = (fielde_back[l_e - 1] + (-2.0) * fielde_back[l_e] + fielde_back[l_e + 1]) / hx / hx;
+                        }
+                        l_e = k * e_k + e_j * nghost + (nx + 1);
+                        l_mu = (k - 2) * mu_k + (nx + 1) - 2;
+                        fieldmu_back[l_mu] = ((2.0) * fielde_back[l_e - 1] + (-2.0) * fielde_back[l_e]) / hx / hx;
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_back[l_mu] = (fielde_back[l_e - 1] + (-2.0) * fielde_back[l_e] + fielde_back[l_e + 1]) / hx / hx;
+                        }
+                      }
+                
+                      // top and bottom
+                      if (k == 2 && top < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_back[l_mu] += ((-2.0) * fielde_back[l_e] + (2.0) * fielde_back[l_e + e_k]) / hy / hy;
+                        }
+                      }
+                      else if (k == ny + 1 && bottom < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_back[l_mu] += ((2.0) * fielde_back[l_e - e_k] + (-2.0) * fielde_back[l_e]) / hy / hy;
+                        }
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_back[l_mu] += (fielde_back[l_e - e_k] + (-2.0) * fielde_back[l_e] + fielde_back[l_e + e_k]) / hy / hy;
+                        }
+                      }
+                
+                      // front and back
+                      for (j = 2; j < nx + 2; j++) {
+                        l_e = k * e_k + e_j * nghost + j;
+                        l_mu = (k - 2) * mu_k + j - 2;
+                        fieldmu_back[l_mu] += (fielde_back[l_e - e_j] + (-2.0) * fielde_back[l_e] + fielde_back[l_e + e_j]) / hz / hz;
+                        fieldmu_back[l_mu] = epn2 * fieldmu_back[l_mu] - fielde_back[l_e] * (fielde_back[l_e] * fielde_back[l_e] - 1.0);
+                        fieldu_back[l_mu] = fielde_back[l_e];
+                      }
+                    }
+                  }
+                }
+                
+                
+                void
+                ch_mu (int n, double LCI, double* fieldmu_left, double* fieldmu_right, double* fieldmu_top, double* fieldmu_bottom, double* fieldmu_front, double* fieldmu_back,
+                       double* fielde_left, double* fielde_right, double* fielde_top, double* fielde_bottom, double* fielde_front, double* fielde_back,
+                	   double* fieldu_left, double* fieldu_right, double* fieldu_top, double* fieldu_bottom, double* fieldu_front, double* fieldu_back)
+           8 -> {
+                  int m;
+                  int i, j, k;
+                  int mu_i, mu_j, mu_k;
+                  int e_i, e_j, e_k;
+                  int l_e, l_mu;
+                
+                  mu_k = ny;
+                  e_j = nghost + 2;
+                  e_k = (nghost + 2) * (ny + 4);
+                
+                  // left face
+                  if (left >= 0) {
+                    for (k = 2; k < nz + 2; k++) {
+                
+                      // left and right
+                      for (j = 2; j < ny + 2; j++) {
+                        l_e = k * e_k + j * e_j + 1;
+                        l_mu = (k - 2) * mu_k + j - 2;
+                        fieldmu_left[l_mu] = (fielde_left[l_e - 1] + (-2.0) * fielde_left[l_e] + fielde_left[l_e + 1]) / hx / hx;
+                      }
+                
+                      // top and bottom
+                      if (top < 0) {
+                        l_e = k * e_k + 2 * e_j + 1;
+                        l_mu = (k - 2) * mu_k;
+                        fieldmu_left[l_mu] += ((-2.0) * fielde_left[l_e] + (2.0) * fielde_left[l_e + e_j]) / hy / hy;
+                        for (j = 3; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 1;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_left[l_mu] += (fielde_left[l_e - e_j] + (-2.0) * fielde_left[l_e] + fielde_left[l_e + e_j]) / hy / hy;
+                        }
+                      }
+                      else if (bottom < 0) {
+                        for (j = 2; j < ny + 1; j++) {
+                          l_e = k * e_k + j * e_j + 1;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_left[l_mu] += (fielde_left[l_e - e_j] + (-2.0) * fielde_left[l_e] + fielde_left[l_e + e_j]) / hy / hy;
+                        }
+                        l_e = k * e_k + (ny + 1) * e_j + 1;
+                        l_mu = (k - 2) * mu_k + (ny + 1) - 2;
+                        fieldmu_left[l_mu] += ((2.0) * fielde_left[l_e - e_j] + (-2.0) * fielde_left[l_e]) / hy / hy;
+                      }
+                      else {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 1;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_left[l_mu] += (fielde_left[l_e - e_j] + (-2.0) * fielde_left[l_e] + fielde_left[l_e + e_j]) / hy / hy;
+                        }
+                      }
+                
+                      // front and back
+                      if (k == 2 && front < 0) {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 1;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_left[l_mu] += ((-2.0) * fielde_left[l_e] + (2.0) * fielde_left[l_e + e_k]) / hz / hz;
+                          SWITCH_CH_FIELDMU(left);
+                          fieldu_left[l_mu] = fielde_left[l_e];
+                        }
+                      }
+                      else if (k == nz + 1 && back < 0) {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 1;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_left[l_mu] += ((2.0) * fielde_left[l_e - e_k] + (-2.0) * fielde_left[l_e]) / hz / hz;
+                          SWITCH_CH_FIELDMU(left);
+                          fieldu_left[l_mu] = fielde_left[l_e];
+                        }
+                      }
+                      else {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 1;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_left[l_mu] += (fielde_left[l_e - e_k] + (-2.0) * fielde_left[l_e] + fielde_left[l_e + e_k]) / hz / hz;
+                          SWITCH_CH_FIELDMU(left);
+                          fieldu_left[l_mu] = fielde_left[l_e];
+                        }
+                      }
+                    }
+                  }
+                
+                  // right face
+                  if (right >= 0) {
+                    for (k = 2; k < nz + 2; k++) {
+                
+                      // left and right
+                      for (j = 2; j < ny + 2; j++) {
+                        l_e = k * e_k + j * e_j + 2;
+                        l_mu = (k - 2) * mu_k + j - 2;
+                        fieldmu_right[l_mu] = (fielde_right[l_e - 1] + (-2.0) * fielde_right[l_e] + fielde_right[l_e + 1]) / hx / hx;
+                      }
+                
+                      // top and bottom
+                      if (top < 0) {
+                        l_e = k * e_k + 2 * e_j + 2;
+                        l_mu = (k - 2) * mu_k;
+                        fieldmu_right[l_mu] += ((-2.0) * fielde_right[l_e] + (2.0) * fielde_right[l_e + e_j]) / hy / hy;
+                        for (j = 3; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 2;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_right[l_mu] += (fielde_right[l_e - e_j] + (-2.0) * fielde_right[l_e] + fielde_right[l_e + e_j]) / hy / hy;
+                        }
+                      }
+                      else if (bottom < 0) {
+                        for (j = 2; j < ny + 1; j++) {
+                          l_e = k * e_k + j * e_j + 2;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_right[l_mu] += (fielde_right[l_e - e_j] + (-2.0) * fielde_right[l_e] + fielde_right[l_e + e_j]) / hy / hy;
+                        }
+                        l_e = k * e_k + (ny + 1) * e_j + 2;
+                        l_mu = (k - 2) * mu_k + (ny + 1) - 2;
+                        fieldmu_right[l_mu] += ((2.0) * fielde_right[l_e - e_j] + (-2.0) * fielde_right[l_e]) / hy / hy;
+                      }
+                      else {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 2;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_right[l_mu] += (fielde_right[l_e - e_j] + (-2.0) * fielde_right[l_e] + fielde_right[l_e + e_j]) / hy / hy;
+                        }
+                      }
+                
+                      // front and back
+                      if (k == 2 && front < 0) {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 2;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_right[l_mu] += ((-2.0) * fielde_right[l_e] + (2.0) * fielde_right[l_e + e_k]) / hz / hz;
+                          SWITCH_CH_FIELDMU(right);
+                          fieldu_right[l_mu] = fielde_right[l_e];
+                        }
+                      }
+                      else if (k == nz + 1 && back < 0) {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 2;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_right[l_mu] += ((2.0) * fielde_right[l_e - e_k] + (-2.0) * fielde_right[l_e]) / hz / hz;
+                          SWITCH_CH_FIELDMU(right);
+                          fieldu_right[l_mu] = fielde_right[l_e];
+                        }
+                      }
+                      else {
+                        for (j = 2; j < ny + 2; j++) {
+                          l_e = k * e_k + j * e_j + 2;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_right[l_mu] += (fielde_right[l_e - e_k] + (-2.0) * fielde_right[l_e] + fielde_right[l_e + e_k]) / hz / hz;
+                          SWITCH_CH_FIELDMU(right);
+                          //fieldmu_right[l_mu] = epn2 * fieldmu_right[l_mu] - fielde_right[l_e] * (fielde_right[l_e] * fielde_right[l_e] - 1.0);
+                          //fieldmu_right[l_mu] = LCI * epn2 * fieldmu_right[l_mu] - LCI * (A1 * (fielde_right[l_e] - C1) + 0.5 * A5 * ac[0].fieldEe_right[l_e] * ac[0].fieldEe_right[l_e]);
+                          fieldu_right[l_mu] = fielde_right[l_e];
+                        }
+                      }
+                    }
+                  }
+                
+                  mu_k = nx;
+                  e_j = nx + 4;
+                  e_k = (nx + 4) * (nghost + 2);
+                
+                
+                  // top face
+                  if (top >= 0) {
+                    for (k = 2; k < nz + 2; k++) {
+                
+                      // left and right
+                      if (left < 0) {
+                        l_e = k * e_k + e_j + 2;
+                        l_mu = (k - 2) * mu_k;
+                        fieldmu_top[l_mu] = ((-2.0) * fielde_top[l_e] + (2.0) * fielde_top[l_e + 1]) / hx / hx;
+                        for (j = 3; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_top[l_mu] = (fielde_top[l_e - 1] + (-2.0) * fielde_top[l_e] + fielde_top[l_e + 1]) / hx / hx;
+                        }
+                      }
+                      else if (right < 0) {
+                        for (j = 2; j < nx + 1; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_top[l_mu] = (fielde_top[l_e - 1] + (-2.0) * fielde_top[l_e] + fielde_top[l_e + 1]) / hx / hx;
+                        }
+                        l_e = k * e_k + e_j + (nx + 1);
+                        l_mu = (k - 2) * mu_k + (nx + 1) - 2;
+                        fieldmu_top[l_mu] = ((2.0) * fielde_top[l_e - 1] + (-2.0) * fielde_top[l_e]) / hx / hx;
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_top[l_mu] = (fielde_top[l_e - 1] + (-2.0) * fielde_top[l_e] + fielde_top[l_e + 1]) / hx / hx;
+                        }
+                      }
+                
+                      // top and bottom
+                      for (j = 2; j < nx + 2; j++) {
+                        l_e = k * e_k + e_j + j;
+                        l_mu = (k - 2) * mu_k + j - 2;
+                        fieldmu_top[l_mu] += (fielde_top[l_e - e_j] + (-2.0) * fielde_top[l_e] + fielde_top[l_e + e_j]) / hy / hy;
+                      }
+                
+                      // front and back
+                      if (k == 2 && front < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_top[l_mu] += ((-2.0) * fielde_top[l_e] + (2.0) * fielde_top[l_e + e_k]) / hz / hz;
+                          SWITCH_CH_FIELDMU(top);
+                          fieldu_top[l_mu] = fielde_top[l_e];
+                        }
+                      }
+                      else if (k == nz + 1 && back < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_top[l_mu] += ((2.0) * fielde_top[l_e - e_k] + (-2.0) * fielde_top[l_e]) / hz / hz;
+                          SWITCH_CH_FIELDMU(top);
+                          fieldu_top[l_mu] = fielde_top[l_e];
+                        }
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_top[l_mu] += (fielde_top[l_e - e_k] + (-2.0) * fielde_top[l_e] + fielde_top[l_e + e_k]) / hz / hz;
+                          SWITCH_CH_FIELDMU(top);
+                          //fieldmu_top[l_mu] = epn2 * fieldmu_top[l_mu] - fielde_top[l_e] * (fielde_top[l_e] * fielde_top[l_e] - 1.0);
+                          //fieldmu_top[l_mu] = LCI * epn2 * fieldmu_top[l_mu] - LCI * (A1 * (fielde_top[l_e] - C1) + 0.5 * A5 * ac[0].fieldEe_top[l_e] * ac[0].fieldEe_top[l_e]);
+                          fieldu_top[l_mu] = fielde_top[l_e];
+                        }
+                      }
+                    }
+                  }
+                
+                  // bottom face
+                  if (bottom >= 0) {
+                    for (k = 2; k < nz + 2; k++) {
+                
+                      // left and right
+                      if (left < 0) {
+                        l_e = k * e_k + e_j * nghost + 2;
+                        l_mu = (k - 2) * mu_k;
+                        fieldmu_bottom[l_mu] = ((-2.0) * fielde_bottom[l_e] + (2.0) * fielde_bottom[l_e + 1]) / hx / hx;
+                        for (j = 3; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_bottom[l_mu] = (fielde_bottom[l_e - 1] + (-2.0) * fielde_bottom[l_e] + fielde_bottom[l_e + 1]) / hx / hx;
+                        }
+                      }
+                      else if (right < 0) {
+                        for (j = 2; j < nx + 1; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_bottom[l_mu] = (fielde_bottom[l_e - 1] + (-2.0) * fielde_bottom[l_e] + fielde_bottom[l_e + 1]) / hx / hx;
+                        }
+                        l_e = k * e_k + e_j * nghost + (nx + 1);
+                        l_mu = (k - 2) * mu_k + (nx + 1) - 2;
+                        fieldmu_bottom[l_mu] = ((2.0) * fielde_bottom[l_e - 1] + (-2.0) * fielde_bottom[l_e]) / hx / hx;
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_bottom[l_mu] = (fielde_bottom[l_e - 1] + (-2.0) * fielde_bottom[l_e] + fielde_bottom[l_e + 1]) / hx / hx;
+                        }
+                      }
+                
+                      // top and bottom
+                      for (j = 2; j < nx + 2; j++) {
+                        l_e = k * e_k + e_j * nghost + j;
+                        l_mu = (k - 2) * mu_k + j - 2;
+                        fieldmu_bottom[l_mu] += (fielde_bottom[l_e - e_j] + (-2.0) * fielde_bottom[l_e] + fielde_bottom[l_e + e_j]) / hy / hy;
+                      }
+                
+                      // front and back
+                      if (k == 2 && front < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_bottom[l_mu] += ((-2.0) * fielde_bottom[l_e] + (2.0) * fielde_bottom[l_e + e_k]) / hz / hz;
+                          SWITCH_CH_FIELDMU(bottom);
+                          fieldu_bottom[l_mu] = fielde_bottom[l_e];
+                        }
+                      }
+                      else if (k == nz + 1 && back < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_bottom[l_mu] += ((2.0) * fielde_bottom[l_e - e_k] + (-2.0) * fielde_bottom[l_e]) / hz / hz;
+                          SWITCH_CH_FIELDMU(bottom);
+                          fieldu_bottom[l_mu] = fielde_bottom[l_e];
+                        }
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_bottom[l_mu] += (fielde_bottom[l_e - e_k] + (-2.0) * fielde_bottom[l_e] + fielde_bottom[l_e + e_k]) / hz / hz;
+                          SWITCH_CH_FIELDMU(bottom);
+                          fieldu_bottom[l_mu] = fielde_bottom[l_e];
+                        }
+                      }
+                    }
+                  }
+                
+                  mu_k = nx;
+                  e_j = nx + 4;
+                  e_k = (nx + 4) * (nghost + 2);
+                
+                  // front face
+                  if (front >= 0) {
+                    for (k = 2; k < ny + 2; k++) {
+                
+                      // left and right
+                      if (left < 0) {
+                        l_e = k * e_k + e_j + 2;
+                        l_mu = (k - 2) * mu_k;
+                        fieldmu_front[l_mu] = ((-2.0) * fielde_front[l_e] + (2.0) * fielde_front[l_e + 1]) / hx / hx;
+                        for (j = 3; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_front[l_mu] = (fielde_front[l_e - 1] + (-2.0) * fielde_front[l_e] + fielde_front[l_e + 1]) / hx / hx;
+                        }
+                      }
+                      else if (right < 0) {
+                        for (j = 2; j < nx + 1; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_front[l_mu] = (fielde_front[l_e - 1] + (-2.0) * fielde_front[l_e] + fielde_front[l_e + 1]) / hx / hx;
+                        }
+                        l_e = k * e_k + e_j + (nx + 1);
+                        l_mu = (k - 2) * mu_k + (nx + 1) - 2;
+                        fieldmu_front[l_mu] = ((2.0) * fielde_front[l_e - 1] + (-2.0) * fielde_front[l_e]) / hx / hx;
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_front[l_mu] = (fielde_front[l_e - 1] + (-2.0) * fielde_front[l_e] + fielde_front[l_e + 1]) / hx / hx;
+                        }
+                      }
+                
+                      // top and bottom
+                      if (k == 2 && top < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_front[l_mu] += ((-2.0) * fielde_front[l_e] + (2.0) * fielde_front[l_e + e_k]) / hy / hy;
+                        }
+                      }
+                      else if (k == ny + 1 && bottom < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_front[l_mu] += ((2.0) * fielde_front[l_e - e_k] + (-2.0) * fielde_front[l_e]) / hy / hy;
+                        }
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_front[l_mu] += (fielde_front[l_e - e_k] + (-2.0) * fielde_front[l_e] + fielde_front[l_e + e_k]) / hy / hy;
+                        }
+                      }
+                
+                      // front and back
+                      for (j = 2; j < nx + 2; j++) {
+                        l_e = k * e_k + e_j + j;
+                        l_mu = (k - 2) * mu_k + j - 2;
+                        fieldmu_front[l_mu] += (fielde_front[l_e - e_j] + (-2.0) * fielde_front[l_e] + fielde_front[l_e + e_j]) / hz / hz;
+                        SWITCH_CH_FIELDMU(front);
+                        fieldu_front[l_mu] = fielde_front[l_e];
+                      }
+                    }
+                  }
+                
+                  // back face
+                  if (back >= 0) {
+                    for (k = 2; k < ny + 2; k++) {
+                
+                      // left and right
+                      if (left < 0) {
+                        l_e = k * e_k + e_j * nghost + 2;
+                        l_mu = (k - 2) * mu_k;
+                        fieldmu_back[l_mu] = ((-2.0) * fielde_back[l_e] + (2.0) * fielde_back[l_e + 1]) / hx / hx;
+                        for (j = 3; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_back[l_mu] = (fielde_back[l_e - 1] + (-2.0) * fielde_back[l_e] + fielde_back[l_e + 1]) / hx / hx;
+                        }
+                      }
+                      else if (right < 0) {
+                        for (j = 2; j < nx + 1; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_back[l_mu] = (fielde_back[l_e - 1] + (-2.0) * fielde_back[l_e] + fielde_back[l_e + 1]) / hx / hx;
+                        }
+                        l_e = k * e_k + e_j * nghost + (nx + 1);
+                        l_mu = (k - 2) * mu_k + (nx + 1) - 2;
+                        fieldmu_back[l_mu] = ((2.0) * fielde_back[l_e - 1] + (-2.0) * fielde_back[l_e]) / hx / hx;
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_back[l_mu] = (fielde_back[l_e - 1] + (-2.0) * fielde_back[l_e] + fielde_back[l_e + 1]) / hx / hx;
+                        }
+                      }
+                
+                      // top and bottom
+                      if (k == 2 && top < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_back[l_mu] += ((-2.0) * fielde_back[l_e] + (2.0) * fielde_back[l_e + e_k]) / hy / hy;
+                        }
+                      }
+                      else if (k == ny + 1 && bottom < 0) {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_back[l_mu] += ((2.0) * fielde_back[l_e - e_k] + (-2.0) * fielde_back[l_e]) / hy / hy;
+                        }
+                      }
+                      else {
+                        for (j = 2; j < nx + 2; j++) {
+                          l_e = k * e_k + e_j * nghost + j;
+                          l_mu = (k - 2) * mu_k + j - 2;
+                          fieldmu_back[l_mu] += (fielde_back[l_e - e_k] + (-2.0) * fielde_back[l_e] + fielde_back[l_e + e_k]) / hy / hy;
+                        }
+                      }
+                
+                      // front and back
+                      for (j = 2; j < nx + 2; j++) {
+                        l_e = k * e_k + e_j * nghost + j;
+                        l_mu = (k - 2) * mu_k + j - 2;
+                        fieldmu_back[l_mu] += (fielde_back[l_e - e_j] + (-2.0) * fielde_back[l_e] + fielde_back[l_e + e_j]) / hz / hz;
+                        SWITCH_CH_FIELDMU(back);
+                        fieldu_back[l_mu] = fielde_back[l_e];
+                      }
+                    }
+                  }
+                }
+                
+                
+                
+                void
+                transfer (void)
+           8 -> {
+                  int i, j, k;
+                  // barrier
+                  int n;
+                  for (n = 0; n < nac; n++) {
+                    MPI_Startall (4, ac[n].ireq_front_back_fieldE);
+                    MPI_Waitall (4, ac[n].ireq_front_back_fieldE, status);
+                  }
+                  for (n = 0; n < nch; n++) {
+                    MPI_Startall (4, ch[n].ireq_front_back_fieldCI);
+                    MPI_Waitall (4, ch[n].ireq_front_back_fieldCI, status);
+                  }
+                  for (n = 0; n < nac; n++) {
+                    top_bottom_pack (ac[n].fieldE, ac[n].fieldEs_top, ac[n].fieldEs_bottom, ac[n].fieldEr_front, ac[n].fieldEr_back);
+                    MPI_Startall (4, ac[n].ireq_top_bottom_fieldE);
+                    MPI_Waitall (4, ac[n].ireq_top_bottom_fieldE, status);
+                  }
+                  for (n = 0; n < nch; n++) {
+                    top_bottom_pack (ch[n].fieldCI, ch[n].fieldCIs_top, ch[n].fieldCIs_bottom, ch[n].fieldCIr_front, ch[n].fieldCIr_back);
+                    MPI_Startall (4, ch[n].ireq_top_bottom_fieldCI);
+                    MPI_Waitall (4, ch[n].ireq_top_bottom_fieldCI, status);
+                  }
+                
+                  for (n = 0; n < nac; n++) {
+                    left_right_pack (ac[n].fieldE, ac[n].fieldEs_left, ac[n].fieldEs_right, ac[n].fieldEr_top, ac[n].fieldEr_bottom, ac[n].fieldEr_front, ac[n].fieldEr_back);
+                    MPI_Startall (4, ac[n].ireq_left_right_fieldE);
+                    MPI_Waitall (4, ac[n].ireq_left_right_fieldE, status);
+                  }
+                  for (n = 0; n < nch; n++) {
+                    left_right_pack (ch[n].fieldCI, ch[n].fieldCIs_left, ch[n].fieldCIs_right, ch[n].fieldCIr_top, ch[n].fieldCIr_bottom, ch[n].fieldCIr_front, ch[n].fieldCIr_back);
+                    MPI_Startall (4, ch[n].ireq_left_right_fieldCI);
+                    MPI_Waitall (4, ch[n].ireq_left_right_fieldCI, status);
+                  }
+                  // barrier
+                  for (n = 0; n < nac; n++) {
+                    enlarge (ac[n].fieldEe_left, ac[n].fieldEe_right, ac[n].fieldEe_top, ac[n].fieldEe_bottom, ac[n].fieldEe_front, ac[n].fieldEe_back,
+                            ac[n].fieldEr_left, ac[n].fieldEr_right, ac[n].fieldEr_top, ac[n].fieldEr_bottom, ac[n].fieldEr_front, ac[n].fieldEr_back);
+                  }
+                  for (n = 0; n < nch; n++) {
+                    enlarge (ch[n].fieldCIe_left, ch[n].fieldCIe_right, ch[n].fieldCIe_top, ch[n].fieldCIe_bottom, ch[n].fieldCIe_front, ch[n].fieldCIe_back,
+                            ch[n].fieldCIr_left, ch[n].fieldCIr_right, ch[n].fieldCIr_top, ch[n].fieldCIr_bottom, ch[n].fieldCIr_front, ch[n].fieldCIr_back);
+                  }
+                  // barrier
+                  for (n = 0; n < nac; n++) {
+                    ac_mu (ac[n].fieldEmu_left,  ac[n].fieldEmu_right,  ac[n].fieldEmu_top,  ac[n].fieldEmu_bottom,  ac[n].fieldEmu_front,  ac[n].fieldEmu_back,
+                          ac[n].fieldEe_left,  ac[n].fieldEe_right,  ac[n].fieldEe_top,  ac[n].fieldEe_bottom,  ac[n].fieldEe_front,  ac[n].fieldEe_back,
+                		      ac[n].fieldEu_left,  ac[n].fieldEu_right,  ac[n].fieldEu_top,  ac[n].fieldEu_bottom,  ac[n].fieldEu_front,  ac[n].fieldEu_back);
+                  }
+                  for (n = 0; n < nch; n++) {
+                    ch_mu (n, ch[n].LCI, ch[n].fieldCImu_left,  ch[n].fieldCImu_right,  ch[n].fieldCImu_top,  ch[n].fieldCImu_bottom,  ch[n].fieldCImu_front,  ch[n].fieldCImu_back,
+                          ch[n].fieldCIe_left,  ch[n].fieldCIe_right,  ch[n].fieldCIe_top,  ch[n].fieldCIe_bottom,  ch[n].fieldCIe_front,  ch[n].fieldCIe_back,
+                		      ch[n].fieldCIu_left,  ch[n].fieldCIu_right,  ch[n].fieldCIu_top,  ch[n].fieldCIu_bottom,  ch[n].fieldCIu_front,  ch[n].fieldCIu_back);
+                  }
+                  // barrier
+                  for (n = 0; n < nac; n++) {
+                    unpack (ac[n].fieldE, ac[n].fieldEr_left, ac[n].fieldEr_right, ac[n].fieldEr_top, ac[n].fieldEr_bottom, ac[n].fieldEr_front, ac[n].fieldEr_back);
+                  }
+                  for (n = 0; n < nch; n++) {
+                    unpack (ch[n].fieldCI, ch[n].fieldCIr_left, ch[n].fieldCIr_right, ch[n].fieldCIr_top, ch[n].fieldCIr_bottom, ch[n].fieldCIr_front, ch[n].fieldCIr_back); 
+                  }
+                }
+
+
+Top 10 Lines:
+
+     Line      Count
+
+        9         16
+       58         16
+      128         16
+      206         16
+      712          8
+     1155          8
+     1602          8
+
+Execution Summary:
+
+        7   Executable lines in this file
+        7   Lines executed
+   100.00   Percent of the file executed
+
+       88   Total number of line executions
+    12.57   Average executions per line
+
+
+*** File /home/scwss/phase_field/rebuild_ScLETD/src/vars.c:
+                #include <stdio.h>
+                #include <stdlib.h>
+                #include <math.h>
+                #include <time.h>
+                #include <string.h>
+                #include <errno.h>
+                #include "mpi.h"
+                #include "ScLETD.h"
+                #if defined(__INTEL_COMPILER)
+                #include <malloc.h>
+                #else
+                #include <mm_malloc.h>
+                #endif
+                
+                void
+                global_index (void)
+       ##### -> {
+                  int i, j, k, gx, gy, gz;
+                  double x, y, z, cx, cy, cz;
+                
+                  if (cart_id[0] == 0) {
+                    gx = 0;
+                  }
+                  else {
+                    gx = cart_id[0] * nx - 2 * nghost * cart_id[0];
+                  }
+                  if (cart_id[1] == 0) {
+                    gy = 0;
+                  }
+                  else {
+                    gy = cart_id[1] * ny - 2 * nghost * cart_id[1];
+                  }
+                  if (cart_id[2] == 0) {
+                    gz = 0;
+                  }
+                  else {
+                    gz = cart_id[2] * nz - 2 * nghost * cart_id[2];
+                  }
+                  for (k = iz1; k < iz4; k++) {
+                    for (j = iy1; j < iy4; j++) {
+                      for (i = ix1; i < ix4; i++) {
+                        fieldgx[k * nx * ny + j * nx + i] = gx + i;
+                        fieldgy[k * nx * ny + j * nx + i] = gy + j;
+                        fieldgz[k * nx * ny + j * nx + i] = gz + k;
+                      }
+                    }
+                  }
+                }
+                
+                void
+                init_para (void)
+           1 -> {
+                  if (left < 0) {
+                    ix1 = 0;
+                    ix2 = ix1;
+                    ix3 = ix1 + nx - nghost;
+                    ix4 = nx;
+                  }
+                  else if (right < 0) {
+                    ix1 = 0;
+                    ix2 = ix1 + nghost;
+                    ix3 = ix1 + nx;
+                    ix4 = nx;
+                  }
+                  else {
+                    ix1 = 0;
+                    ix2 = ix1 + nghost;
+                    ix3 = ix1 + nx - nghost;
+                    ix4 = nx;
+                  }
+                  lnx = ix4 - ix1;
+                  if (periodic) {
+                    gnx = lnx * procs[0] - 2 * nghost * procs[0];
+                  } else {
+                    gnx = lnx * procs[0] - 2 * nghost * (procs[0] - 1);
+                  }
+                
+                  if (top < 0) {
+                    iy1 = 0;
+                    iy2 = iy1;
+                    iy3 = iy1 + ny - nghost;
+                    iy4 = ny;
+                  }
+                  else if (bottom < 0) {
+                    iy1 = 0;
+                    iy2 = iy1 + nghost;
+                    iy3 = iy1 + ny;
+                    iy4 = ny;
+                  }
+                  else {
+                    iy1 = 0;
+                    iy2 = iy1 + nghost;
+                    iy3 = iy1 + ny - nghost;
+                    iy4 = ny;
+                  }
+                  lny = iy4 - iy1;
+                  if (periodic) {
+                    gny = lny * procs[0] - 2 * nghost * procs[0];
+                  } else {
+                    gny = lny * procs[0] - 2 * nghost * (procs[0] - 1);
+                  }
+                
+                  if (front < 0) {
+                    iz1 = 0;
+                    iz2 = iz1;
+                    iz3 = iz1 + nz - nghost;
+                    iz4 = nz;
+                  }
+                  else if (back < 0) {
+                    iz1 = 0;
+                    iz2 = iz1 + nghost;
+                    iz3 = iz1 + nz;
+                    iz4 = nz;
+                  }
+                  else {
+                    iz1 = 0;
+                    iz2 = iz1 + nghost;
+                    iz3 = iz1 + nz - nghost;
+                    iz4 = nz;
+                  }
+                  lnz = iz4 - iz1;
+                  if (periodic) {
+                    gnz = lnz * procs[0] - 2 * nghost * procs[0];
+                  } else {
+                    gnz = lnz * procs[0] - 2 * nghost * (procs[0] - 1);
+                  }
+                
+                  hx = (xmax - xmin) / (gnx - 1);
+                  hy = (ymax - ymin) / (gny - 1);
+                  hz = (zmax - zmin) / (gnz - 1);
+                  global_index();
+                }
+                
+                
+                
+                
+                void
+                init_vars (void)
+           3 -> {
+                  pi = 3.141592653589793;
+                  epn2 = epsilon * epsilon;
+                  alpha = 1.0;
+                  beta = 0.0;
+                  init_KL();
+                }
+                
+                void
+                alloc_vars (void)
+           1 -> {
+                  int n;
+                  fieldgx = (int *) _mm_malloc (sizeof (int) * nx * ny * nz, 256);
+                  fieldgy = (int *) _mm_malloc (sizeof (int) * nx * ny * nz, 256);
+                  fieldgz = (int *) _mm_malloc (sizeof (int) * nx * ny * nz, 256);
+                  ac = (struct Allen_Cahn *) _mm_malloc (nac * sizeof (struct Allen_Cahn), 256);
+                  for (n = 0; n < nac; n++) {
+                    ac[n].fieldE = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ac[n].fieldE1 = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ac[n].fieldE2 = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ac[n].fieldEt = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ac[n].fieldEp = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ac[n].fieldE1p = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ac[n].fieldEs_left = (double *) _mm_malloc (sizeof (double) * (nghost + 2) * (ny + (nghost + 2) * 2) * (nz + (nghost + 2) * 2), 256);
+                    ac[n].fieldEr_left = (double *) _mm_malloc (sizeof (double) * (nghost + 2) * (ny + (nghost + 2) * 2) * (nz + (nghost + 2) * 2), 256);
+                    ac[n].fieldEs_right = (double *) _mm_malloc (sizeof (double) * (nghost + 2) * (ny + (nghost + 2) * 2) * (nz + (nghost + 2) * 2), 256);
+                    ac[n].fieldEr_right = (double *) _mm_malloc (sizeof (double) * (nghost + 2) * (ny + (nghost + 2) * 2) * (nz + (nghost + 2) * 2), 256);
+                    ac[n].fieldEs_top = (double *) _mm_malloc (sizeof (double) * nx * (nghost + 2) * (nz + (nghost + 2) * 2), 256);
+                    ac[n].fieldEr_top = (double *) _mm_malloc (sizeof (double) * nx * (nghost + 2) * (nz + (nghost + 2) * 2), 256);
+                    ac[n].fieldEs_bottom = (double *) _mm_malloc (sizeof (double) * nx * (nghost + 2) * (nz + (nghost + 2) * 2), 256);
+                    ac[n].fieldEr_bottom = (double *) _mm_malloc (sizeof (double) * nx * (nghost + 2) * (nz + (nghost + 2) * 2), 256);
+                    ac[n].fieldEr_front = (double *) _mm_malloc (sizeof (double) * nx * ny * (nghost + 2), 256);
+                    ac[n].fieldEr_back = (double *) _mm_malloc (sizeof (double) * nx * ny * (nghost + 2), 256);
+                    ac[n].fieldEe_left = (double *) _mm_malloc (sizeof (double) * (nghost + 2) * (ny + 4) * (nz + 4), 256);
+                    ac[n].fieldEe_right = (double *) _mm_malloc (sizeof (double) * (nghost + 2) * (ny + 4) * (nz + 4), 256);
+                    ac[n].fieldEe_top = (double *) _mm_malloc (sizeof (double) * (nx + 4) * (nghost + 2) * (nz + 4), 256);
+                    ac[n].fieldEe_bottom = (double *) _mm_malloc (sizeof (double) * (nx + 4) * (nghost + 2) * (nz + 4), 256);
+                    ac[n].fieldEe_front = (double *) _mm_malloc (sizeof (double) * (nx + 4) * (ny + 4) * (nghost + 2), 256);
+                    ac[n].fieldEe_back = (double *) _mm_malloc (sizeof (double) * (nx + 4) * (ny + 4) * (nghost + 2), 256);
+                    ac[n].fieldEu_left = (double *) _mm_malloc (sizeof (double) * ny * nz, 256);
+                    ac[n].fieldEu_right = (double *) _mm_malloc (sizeof (double) * ny * nz, 256);
+                    ac[n].fieldEu_top = (double *) _mm_malloc (sizeof (double) * nx * nz, 256);
+                    ac[n].fieldEu_bottom = (double *) _mm_malloc (sizeof (double) * nx * nz, 256);
+                    ac[n].fieldEu_front = (double *) _mm_malloc (sizeof (double) * nx * ny, 256);
+                    ac[n].fieldEu_back = (double *) _mm_malloc (sizeof (double) * nx * ny, 256);
+                    ac[n].fieldEmu_left = (double *) _mm_malloc (sizeof (double) * ny * nz, 256);
+                    ac[n].fieldEmu_right = (double *) _mm_malloc (sizeof (double) * ny * nz, 256);
+                    ac[n].fieldEmu_top = (double *) _mm_malloc (sizeof (double) * nx * nz, 256);
+                    ac[n].fieldEmu_bottom = (double *) _mm_malloc (sizeof (double) * nx * nz, 256);
+                    ac[n].fieldEmu_front = (double *) _mm_malloc (sizeof (double) * nx * ny, 256);
+                    ac[n].fieldEmu_back = (double *) _mm_malloc (sizeof (double) * nx * ny, 256);
+                    ac[n].phiE = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ac[n].phiE2 = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ac[n].ireq_left_right_fieldE = (MPI_Request *) calloc (4, sizeof (MPI_Request));
+                    ac[n].ireq_top_bottom_fieldE = (MPI_Request *) calloc (4, sizeof (MPI_Request));
+                    ac[n].ireq_front_back_fieldE = (MPI_Request *) calloc (4, sizeof (MPI_Request));
+                  }
+                
+                  ch = (struct Cahn_Hilliard *) _mm_malloc (nch * sizeof (struct Cahn_Hilliard), 256);
+                  for (n = 0; n < nch; n++) {
+                    ch[n].fieldCI = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ch[n].fieldCI1 = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ch[n].fieldCI2 = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ch[n].fieldCIt = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ch[n].fieldCIp = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ch[n].fieldCI1p = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ch[n].fieldCIs_left = (double *) _mm_malloc (sizeof (double) * (nghost + 2) * (ny + (nghost + 2) * 2) * (nz + (nghost + 2) * 2), 256);
+                    ch[n].fieldCIr_left = (double *) _mm_malloc (sizeof (double) * (nghost + 2) * (ny + (nghost + 2) * 2) * (nz + (nghost + 2) * 2), 256);
+                    ch[n].fieldCIs_right = (double *) _mm_malloc (sizeof (double) * (nghost + 2) * (ny + (nghost + 2) * 2) * (nz + (nghost + 2) * 2), 256);
+                    ch[n].fieldCIr_right = (double *) _mm_malloc (sizeof (double) * (nghost + 2) * (ny + (nghost + 2) * 2) * (nz + (nghost + 2) * 2), 256);
+                    ch[n].fieldCIs_top = (double *) _mm_malloc (sizeof (double) * nx * (nghost + 2) * (nz + (nghost + 2) * 2), 256);
+                    ch[n].fieldCIr_top = (double *) _mm_malloc (sizeof (double) * nx * (nghost + 2) * (nz + (nghost + 2) * 2), 256);
+                    ch[n].fieldCIs_bottom = (double *) _mm_malloc (sizeof (double) * nx * (nghost + 2) * (nz + (nghost + 2) * 2), 256);
+                    ch[n].fieldCIr_bottom = (double *) _mm_malloc (sizeof (double) * nx * (nghost + 2) * (nz + (nghost + 2) * 2), 256);
+                    ch[n].fieldCIr_front = (double *) _mm_malloc (sizeof (double) * nx * ny * (nghost + 2), 256);
+                    ch[n].fieldCIr_back = (double *) _mm_malloc (sizeof (double) * nx * ny * (nghost + 2), 256);
+                    ch[n].fieldCIe_left = (double *) _mm_malloc (sizeof (double) * (nghost + 2) * (ny + 4) * (nz + 4), 256);
+                    ch[n].fieldCIe_right = (double *) _mm_malloc (sizeof (double) * (nghost + 2) * (ny + 4) * (nz + 4), 256);
+                    ch[n].fieldCIe_top = (double *) _mm_malloc (sizeof (double) * (nx + 4) * (nghost + 2) * (nz + 4), 256);
+                    ch[n].fieldCIe_bottom = (double *) _mm_malloc (sizeof (double) * (nx + 4) * (nghost + 2) * (nz + 4), 256);
+                    ch[n].fieldCIe_front = (double *) _mm_malloc (sizeof (double) * (nx + 4) * (ny + 4) * (nghost + 2), 256);
+                    ch[n].fieldCIe_back = (double *) _mm_malloc (sizeof (double) * (nx + 4) * (ny + 4) * (nghost + 2), 256);
+                    ch[n].fieldCIu_left = (double *) _mm_malloc (sizeof (double) * ny * nz, 256);
+                    ch[n].fieldCIu_right = (double *) _mm_malloc (sizeof (double) * ny * nz, 256);
+                    ch[n].fieldCIu_top = (double *) _mm_malloc (sizeof (double) * nx * nz, 256);
+                    ch[n].fieldCIu_bottom = (double *) _mm_malloc (sizeof (double) * nx * nz, 256);
+                    ch[n].fieldCIu_front = (double *) _mm_malloc (sizeof (double) * nx * ny, 256);
+                    ch[n].fieldCIu_back = (double *) _mm_malloc (sizeof (double) * nx * ny, 256);
+                    ch[n].fieldCImu_left = (double *) _mm_malloc (sizeof (double) * ny * nz, 256);
+                    ch[n].fieldCImu_right = (double *) _mm_malloc (sizeof (double) * ny * nz, 256);
+                    ch[n].fieldCImu_top = (double *) _mm_malloc (sizeof (double) * nx * nz, 256);
+                    ch[n].fieldCImu_bottom = (double *) _mm_malloc (sizeof (double) * nx * nz, 256);
+                    ch[n].fieldCImu_front = (double *) _mm_malloc (sizeof (double) * nx * ny, 256);
+                    ch[n].fieldCImu_back = (double *) _mm_malloc (sizeof (double) * nx * ny, 256);
+                    ch[n].phiCI = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ch[n].phiCI2 = (double *) _mm_malloc (sizeof (double) * nx * ny * nz, 256);
+                    ch[n].ireq_left_right_fieldCI = (MPI_Request *) calloc (4, sizeof (MPI_Request));
+                    ch[n].ireq_top_bottom_fieldCI = (MPI_Request *) calloc (4, sizeof (MPI_Request));
+                    ch[n].ireq_front_back_fieldCI = (MPI_Request *) calloc (4, sizeof (MPI_Request));
+                  }
+                  MPX = (double *) _mm_malloc (sizeof (double) * nx * nx, 256);
+                  MPY = (double *) _mm_malloc (sizeof (double) * ny * ny, 256);
+                  MPZ = (double *) _mm_malloc (sizeof (double) * nz * nz, 256);
+                  MPXI = (double *) _mm_malloc (sizeof (double) * nx * nx, 256);
+                  MPYI = (double *) _mm_malloc (sizeof (double) * ny * ny, 256);
+                  MPZI = (double *) _mm_malloc (sizeof (double) * nz * nz, 256);
+                  DDX = (double *) _mm_malloc (sizeof (double) * nx, 256);
+                  DDY = (double *) _mm_malloc (sizeof (double) * ny, 256);
+                  DDZ = (double *) _mm_malloc (sizeof (double) * nz, 256);
+                  MPX_b = (double *) _mm_malloc (sizeof (double) * nx * nx * 4, 256);
+                  MPY_b = (double *) _mm_malloc (sizeof (double) * ny * ny * 4, 256);
+                  MPZ_b = (double *) _mm_malloc (sizeof (double) * nz * nz * 4, 256);
+                  MPXI_b = (double *) _mm_malloc (sizeof (double) * nx * nx * 4, 256);
+                  MPYI_b = (double *) _mm_malloc (sizeof (double) * ny * ny * 4, 256);
+                  MPZI_b = (double *) _mm_malloc (sizeof (double) * nz * nz * 4, 256);
+                  DDX_b = (double *) _mm_malloc (sizeof (double) * nx * 4, 256);
+                  DDY_b = (double *) _mm_malloc (sizeof (double) * ny * 4, 256);
+                  DDZ_b = (double *) _mm_malloc (sizeof (double) * nz * 4, 256);
+                  status = (MPI_Status *) calloc (4, sizeof (MPI_Status));
+                }
+                
+           1 -> ac_init_phi(double LE, double KE, double *phi, double *phi2) {
+                  int i, j, k, l;
+                  double Hijk, Gijk, tmp;
+                //#pragma omp parallel for private(i,k,l,tmp,Gijk,Hijk) schedule(static,1)
+                  for (j = iy1; j < iy4; j++) {
+                    for (i = ix1; i < ix4; i++) {
+                //#pragma simd
+                      for (k = iz1; k < iz4; k++) {
+                        l = j * nz * nx + i * nz + k;
+                        tmp = kkz * DDZ[k] + kky * DDY[j] + kkx * DDX[i];
+                        Gijk = tmp;
+                        Hijk = -LE * (tmp * epn2 - KE);
+                        if (fabs(Hijk) > 1.0e-8) {
+                          tmp = exp (-dt * Hijk);
+                          phi[l] = (1.0 - tmp) / Hijk;
+                          phi2[l] = (1.0 - phi[l] / dt) / Hijk;
+                        }
+                        else {
+                          phi[l] = dt;
+                          phi2[l] = dt / 2;
+                        }
+                      }
+                    }
+                  }
+                }
+                
+           1 -> ch_init_phi(double LCI, double KCI, double *phi, double *phi2) {
+                  int i, j, k, l;
+                  double Hijk, Gijk, tmp;
+                //#pragma omp parallel for private(i,k,l,tmp,Gijk,Hijk) schedule(static,1)
+                  for (j = iy1; j < iy4; j++) {
+                    for (i = ix1; i < ix4; i++) {
+                //#pragma simd
+                      for (k = iz1; k < iz4; k++) {
+                        l = j * nz * nx + i * nz + k;
+                        tmp = DDZ[k] + DDY[j] + DDX[i];
+                        Hijk = LCI * (tmp * tmp * epn2 - KCI * tmp);
+                        if (fabs(Hijk) > 1.0e-8) {
+                          tmp = exp (-dt * Hijk);
+                          phi[l] = (1.0 - tmp) / Hijk;
+                          phi2[l] = (1.0 - phi[l] / dt) / Hijk;
+                        }
+                        else {
+                          phi[l] = dt;
+                          phi2[l] = dt / 2;
+                        }
+                      }
+                    }
+                  }
+                }
+                
+                void
+                read_matrices (void)
+           1 -> {
+                  int n;
+                  char filename[1024];
+                  int i, j, k, l, id, mp_ofst, d_ofst;
+                  FILE *file;
+                
+                  if (cart_id[1] == 0 && cart_id[2] == 0) { 
+                    for (k = 0; k < 4; k++) {
+                      mp_ofst = k * nx * nx;
+                      d_ofst = k * nx;
+                
+                      sprintf (filename, "d%d%d.dat", k, nx);
+                      file = fopen (filename, "r");
+                      for (l = 0; l < nx; l++) {
+                        fscanf (file, "%lf", DDX_b + d_ofst + l);
+                        DDX_b[d_ofst + l] = DDX_b[d_ofst + l];
+                      }
+                      fclose (file);
+                
+                      sprintf (filename, "v%d%d.dat", k, nx);
+                      file = fopen (filename, "r");
+                      for (j = 0; j < nx; j++) {
+                        for (i = 0; i < nx; i++) {
+                          l = i * nx + j;
+                          fscanf (file, "%lf", MPX_b + mp_ofst + l);
+                        }
+                      }
+                      fclose (file);
+                
+                      sprintf (filename, "vi%d%d.dat", k, nx);
+                      file = fopen (filename, "r");
+                      for (j = 0; j < nx; j++) {
+                        for (i = 0; i < nx; i++) {
+                          l = i * nx + j;
+                          fscanf (file, "%lf", MPXI_b + mp_ofst + l);
+                        }
+                      }
+                      fclose (file);
+                
+                      mp_ofst = k * ny * ny;
+                      d_ofst = k * ny;
+                
+                      sprintf (filename, "d%d%d.dat", k, ny);
+                      file = fopen (filename, "r");
+                      for (l = 0; l < ny; l++) {
+                        fscanf (file, "%lf", DDY_b + d_ofst + l);
+                      }
+                      fclose (file);
+                
+                      sprintf (filename, "v%d%d.dat", k, ny);
+                      file = fopen (filename, "r");
+                      for (j = 0; j < ny; j++) {
+                        for (i = 0; i < ny; i++) {
+                          l = i * ny + j;
+                          fscanf (file, "%lf", MPY_b + mp_ofst + l);
+                        }
+                      }
+                      fclose (file);
+                
+                      sprintf (filename, "vi%d%d.dat", k, ny);
+                      file = fopen (filename, "r");
+                      for (j = 0; j < ny; j++) {
+                        for (i = 0; i < ny; i++) {
+                          l = i * ny + j;
+                          fscanf (file, "%lf", MPYI_b + mp_ofst + l);
+                        }
+                      }
+                      fclose (file);
+                
+                      mp_ofst = k * nz * nz;
+                      d_ofst = k * nz;
+                
+                      sprintf (filename, "d%d%d.dat", k, nz);
+                      file = fopen (filename, "r");
+                      for (l = 0; l < nz; l++) {
+                        fscanf (file, "%lf", DDZ_b + d_ofst + l);
+                      }
+                      fclose (file);
+                
+                      sprintf (filename, "v%d%d.dat", k, nz);
+                      file = fopen (filename, "r");
+                      for (j = 0; j < nz; j++) {
+                        for (i = 0; i < nz; i++) {
+                          l = i * nz + j;
+                          fscanf (file, "%lf", MPZ_b + mp_ofst + l);
+                        }
+                      }
+                      fclose (file);
+                
+                      sprintf (filename, "vi%d%d.dat", k, nz);
+                      file = fopen (filename, "r");
+                      for (j = 0; j < nz; j++) {
+                        for (i = 0; i < nz; i++) {
+                          l = i * nz + j;
+                          fscanf (file, "%lf", MPZI_b + mp_ofst + l);
+                        }
+                      }
+                      fclose (file);
+                    }
+                  }
+                
+                  MPI_Bcast (&DDX_b[0], nx * 4, MPI_DOUBLE, 0, YZ_COMM);
+                  MPI_Bcast (&MPX_b[0], nx * ny * 4, MPI_DOUBLE, 0, YZ_COMM);
+                  MPI_Bcast (&MPXI_b[0], nx * ny * 4, MPI_DOUBLE, 0, YZ_COMM);
+                  MPI_Bcast (&DDY_b[0], ny * 4, MPI_DOUBLE, 0, YZ_COMM);
+                  MPI_Bcast (&MPY_b[0], ny * ny * 4, MPI_DOUBLE, 0, YZ_COMM);
+                  MPI_Bcast (&MPYI_b[0], ny * ny * 4, MPI_DOUBLE, 0, YZ_COMM);
+                  MPI_Bcast (&DDZ_b[0], nz * 4, MPI_DOUBLE, 0, YZ_COMM);
+                  MPI_Bcast (&MPZ_b[0], nz * nz * 4, MPI_DOUBLE, 0, YZ_COMM);
+                  MPI_Bcast (&MPZI_b[0], nz * nz * 4, MPI_DOUBLE, 0, YZ_COMM);
+                
+                  if (left < 0) {
+                    k = 1;
+                  }
+                  else {
+                    k = 2;
+                  }
+                
+                  if (right < 0) {
+                    l = 1;
+                  }
+                  else {
+                    l = 2;
+                  }
+                
+                  id = (k - 1) + (l - 1) * 2;
+                  mp_ofst = id * nx * nx;
+                  d_ofst = id * nx;
+                
+                  for (l = 0; l < nx; l++) {
+                    DDX[l] = DDX_b[d_ofst + l] / hx / hx;
+                  }
+                  for (l = 0; l < nx * nx; l++) {
+                    MPX[l] = MPX_b[mp_ofst + l];
+                    MPXI[l] = MPXI_b[mp_ofst + l];
+                  }
+                
+                  if (top < 0) {
+                    k = 1;
+                  }
+                  else {
+                    k = 2;
+                  }
+                
+                  if (bottom < 0) {
+                    l = 1;
+                  }
+                  else {
+                    l = 2;
+                  }
+                
+                  id = (k - 1) + (l - 1) * 2;
+                  mp_ofst = id * ny * ny;
+                  d_ofst = id * ny;
+                
+                  for (l = 0; l < ny; l++) {
+                    DDY[l] = DDY_b[d_ofst + l] / hy / hy;
+                  }
+                  for (l = 0; l < ny * ny; l++) {
+                    MPY[l] = MPY_b[mp_ofst + l];
+                    MPYI[l] = MPYI_b[mp_ofst + l];
+                  }
+                
+                  if (front < 0) {
+                    k = 1;
+                  }
+                  else {
+                    k = 2;
+                  }
+                
+                  if (back < 0) {
+                    l = 1;
+                  }
+                  else {
+                    l = 2;
+                  }
+                
+                  id = (k - 1) + (l - 1) * 2;
+                  mp_ofst = id * nz * nz;
+                  d_ofst = id * nz;
+                
+                  for (l = 0; l < nz; l++) {
+                    DDZ[l] = DDZ_b[d_ofst + l] / hz / hz;
+                  }
+                  for (l = 0; l < nz * nz; l++) {
+                    MPZ[l] = MPZ_b[mp_ofst + l];
+                    MPZI[l] = MPZI_b[mp_ofst + l];
+                  }
+                  for (n = 0; n < nac; n++) {
+                    ac_init_phi (ac[n].LE, ac[n].KE, ac[n].phiE, ac[n].phiE2);
+                  }
+                  for (n = 0; n < nch; n++) {
+                    ch_init_phi (ch[n].LCI, ch[n].KCI, ch[n].phiCI, ch[n].phiCI2);
+                  }
+                }
+                
+                void
+                dealloc_vars (void)
+           1 -> {
+                  int l;
+                  int n;
+                  _mm_free (fieldgx);
+                  _mm_free (fieldgy);
+                  _mm_free (fieldgz);
+                  for (n = 0; n < nac; n++) {
+                    _mm_free (ac[n].fieldE);
+                    _mm_free (ac[n].fieldE1);
+                    _mm_free (ac[n].fieldE2);
+                    _mm_free (ac[n].fieldEt);
+                    _mm_free (ac[n].fieldEp);
+                    _mm_free (ac[n].fieldE1p);
+                    _mm_free (ac[n].fieldEs_left);
+                    _mm_free (ac[n].fieldEr_left);
+                    _mm_free (ac[n].fieldEs_right);
+                    _mm_free (ac[n].fieldEr_right);
+                    _mm_free (ac[n].fieldEs_top);
+                    _mm_free (ac[n].fieldEr_top);
+                    _mm_free (ac[n].fieldEs_bottom);
+                    _mm_free (ac[n].fieldEr_bottom);
+                    _mm_free (ac[n].fieldEr_front);
+                    _mm_free (ac[n].fieldEr_back);
+                    _mm_free (ac[n].fieldEe_left);
+                    _mm_free (ac[n].fieldEe_right);
+                    _mm_free (ac[n].fieldEe_top);
+                    _mm_free (ac[n].fieldEe_bottom);
+                    _mm_free (ac[n].fieldEe_front);
+                    _mm_free (ac[n].fieldEe_back);
+                    _mm_free (ac[n].fieldEu_left);
+                    _mm_free (ac[n].fieldEu_right);
+                    _mm_free (ac[n].fieldEu_top);
+                    _mm_free (ac[n].fieldEu_bottom);
+                    _mm_free (ac[n].fieldEu_front);
+                    _mm_free (ac[n].fieldEu_back);
+                    _mm_free (ac[n].fieldEmu_left);
+                    _mm_free (ac[n].fieldEmu_right);
+                    _mm_free (ac[n].fieldEmu_top);
+                    _mm_free (ac[n].fieldEmu_bottom);
+                    _mm_free (ac[n].fieldEmu_front);
+                    _mm_free (ac[n].fieldEmu_back);
+                    _mm_free (ac[n].phiE);
+                    _mm_free (ac[n].phiE2);
+                    for (l = 0; l < 4; l++) {
+                      MPI_Request_free (&ac[n].ireq_left_right_fieldE[l]);
+                      MPI_Request_free (&ac[n].ireq_top_bottom_fieldE[l]);
+                      MPI_Request_free (&ac[n].ireq_front_back_fieldE[l]);
+                    }
+                    free (ac[n].ireq_left_right_fieldE);
+                    free (ac[n].ireq_top_bottom_fieldE);
+                    free (ac[n].ireq_front_back_fieldE);
+                  }
+                
+                  _mm_free(ac);
+                
+                  for (n = 0; n < nch; n++) {
+                    _mm_free (ch[n].fieldCI);
+                    _mm_free (ch[n].fieldCI1);
+                    _mm_free (ch[n].fieldCI2);
+                    _mm_free (ch[n].fieldCIt);
+                    _mm_free (ch[n].fieldCIp);
+                    _mm_free (ch[n].fieldCI1p);
+                    _mm_free (ch[n].fieldCIs_left);
+                    _mm_free (ch[n].fieldCIr_left);
+                    _mm_free (ch[n].fieldCIs_right);
+                    _mm_free (ch[n].fieldCIr_right);
+                    _mm_free (ch[n].fieldCIs_top);
+                    _mm_free (ch[n].fieldCIr_top);
+                    _mm_free (ch[n].fieldCIs_bottom);
+                    _mm_free (ch[n].fieldCIr_bottom);
+                    _mm_free (ch[n].fieldCIr_front);
+                    _mm_free (ch[n].fieldCIr_back);
+                    _mm_free (ch[n].fieldCIe_left);
+                    _mm_free (ch[n].fieldCIe_right);
+                    _mm_free (ch[n].fieldCIe_top);
+                    _mm_free (ch[n].fieldCIe_bottom);
+                    _mm_free (ch[n].fieldCIe_front);
+                    _mm_free (ch[n].fieldCIe_back);
+                    _mm_free (ch[n].fieldCIu_left);
+                    _mm_free (ch[n].fieldCIu_right);
+                    _mm_free (ch[n].fieldCIu_top);
+                    _mm_free (ch[n].fieldCIu_bottom);
+                    _mm_free (ch[n].fieldCIu_front);
+                    _mm_free (ch[n].fieldCIu_back);
+                    _mm_free (ch[n].fieldCImu_left);
+                    _mm_free (ch[n].fieldCImu_right);
+                    _mm_free (ch[n].fieldCImu_top);
+                    _mm_free (ch[n].fieldCImu_bottom);
+                    _mm_free (ch[n].fieldCImu_front);
+                    _mm_free (ch[n].fieldCImu_back);
+                    _mm_free (ch[n].phiCI);
+                    _mm_free (ch[n].phiCI2);
+                    for (l = 0; l < 4; l++) {
+                      MPI_Request_free (&ch[n].ireq_left_right_fieldCI[l]);
+                      MPI_Request_free (&ch[n].ireq_top_bottom_fieldCI[l]);
+                      MPI_Request_free (&ch[n].ireq_front_back_fieldCI[l]);
+                    }
+                    free (ch[n].ireq_left_right_fieldCI);
+                    free (ch[n].ireq_top_bottom_fieldCI);
+                    free (ch[n].ireq_front_back_fieldCI);
+                  }
+                  _mm_free (ch);
+                
+                  _mm_free (MPX);
+                  _mm_free (MPY);
+                  _mm_free (MPZ);
+                  _mm_free (MPXI);
+                  _mm_free (MPYI);
+                  _mm_free (MPZI);
+                  _mm_free (DDX);
+                  _mm_free (DDY);
+                  _mm_free (DDZ);
+                  _mm_free (MPX_b);
+                  _mm_free (MPY_b);
+                  _mm_free (MPZ_b);
+                  _mm_free (MPXI_b);
+                  _mm_free (MPYI_b);
+                  _mm_free (MPZI_b);
+                  _mm_free (DDX_b);
+                  _mm_free (DDY_b);
+                  _mm_free (DDZ_b);
+                  free (status);
+                }
+                
+
+
+Top 10 Lines:
+
+     Line      Count
+
+      139          3
+       52          1
+      149          1
+      260          1
+      286          1
+      313          1
+      511          1
+
+Execution Summary:
+
+        8   Executable lines in this file
+        8   Lines executed
+   100.00   Percent of the file executed
+
+        9   Total number of line executions
+     1.12   Average executions per line
+
+
+*** File /home/scwss/phase_field/rebuild_ScLETD/src/calc.c:
+                #include <stdio.h>
+                #include <math.h>
+                #include "mpi.h"
+                #include "ScLETD.h"
+                #include "mkl.h" 
+                
+                void
+                ac_calc_FU (int n, double *fielde1)
+           8 -> {
+                  int m;
+                  int i, j, k;
+                  int n_left, n_right, n_top, n_bottom, n_front, n_back;
+                  double f_left, f_right, f_top, f_bottom, f_front, f_back;
+                  double tmp1, tmp2;
+                  //f1 = ac[n].LE*A2*AC+ac[n].LE*A3*(AC.^3)-ac[n].LE*A4*(AC.^5)-ac[n].LE*A5*CH.*AC+ac[n].KE*ac[n].LE*AC;
+                  //f2 = ch[n].LCI*(A*(A1*(CH-C1)+0.5*A5*(AC.^2))+(A1*(CH-C1)+0.5*A5*(AC.^2))*B')-ch[n].KCI*ch[n].LCI*(A*(CH)+(CH)*B');
+                  //#pragma omp parallel for private(i,j) schedule(static,1)
+                  for (k = iz1; k < iz4; k++) {
+                    for (j = iy1; j < iy4; j++) {
+                      //#pragma simd
+                      for (i = ix1; i < ix4; i++) {
+                        SWTICH_AC_FIELD1(fielde1[k * nx * ny + j * nx + i]);
+                      }
+                    }
+                  }
+                  if (left >= 0) {
+                    i = ix1;
+                    for (k = iz1; k < iz4; k++) {
+                      for (j = iy1; j < iy4; j++) {
+                	    fielde1[k * nx * ny + j * nx + i] += ac[n].LE * epn2 * ac[n].fieldEu_left[k * ny + j] / hx / hx;
+                	  }
+                    }
+                  }
+                
+                  if (right >= 0) {
+                    i = ix4 - 1;
+                    for (k = iz1; k < iz4; k++) {
+                      for (j = iy1; j < iy4; j++) {
+                	    fielde1[k * nx * ny + j * nx + i] += ac[n].LE * epn2 * ac[n].fieldEu_right[k * ny + j] / hx / hx;
+                      }
+                    }
+                  }
+                
+                  if (top >= 0) {
+                    j = iy1;
+                    for (k = iz1; k < iz4; k++) {
+                      for (i = ix1; i < ix4; i++) {
+                	    fielde1[k * nx * ny + j * nx + i] += ac[n].LE * epn2 * ac[n].fieldEu_top[k * nx + i] / hy / hy;
+                      }
+                    }
+                  }
+                
+                  if (bottom >= 0) {
+                    j = iy4 - 1;
+                    for (k = iz1; k < iz4; k++) {
+                      for (i = ix1; i < ix4; i++) {
+                	    fielde1[k * nx * ny + j * nx + i] += ac[n].LE * epn2 * ac[n].fieldEu_bottom[k * nx + i] / hy / hy;
+                      }
+                    }
+                  }
+                
+                  if (front >= 0) {
+                    k = iz1;
+                    for (j = iy1; j < iy4; j++) {
+                      for (i = ix1; i < ix4; i++) {
+                	    fielde1[k * nx * ny + j * nx + i] += ac[n].LE * epn2 * ac[n].fieldEu_front[j * nx + i] / hz / hz;
+                      }
+                    }
+                  }
+                
+                  if (back >= 0) {
+                    k = iz4 - 1;
+                    for (j = iy1; j < iy4; j++) {
+                      for (i = ix1; i < ix4; i++) {
+                	    fielde1[k * nx * ny + j * nx + i] += ac[n].LE * epn2 * ac[n].fieldEu_back[j * nx + i] / hz / hz;
+                      }
+                    }
+                  }
+                }
+                
+                
+                void
+                ch_calc_FU (int n, double *fieldci1)
+           8 -> {
+                  int m;
+                  int i, j, k;
+                  int n_left, n_right, n_top, n_bottom, n_front, n_back;
+                  double f_left, f_right, f_top, f_bottom, f_front, f_back;
+                  double tmp1, tmp2;
+                  //f1 = ac[n].LE*A2*AC+ac[n].LE*A3*(AC.^3)-ac[n].LE*A4*(AC.^5)-ac[n].LE*A5*CH.*AC+ac[n].KE*ac[n].LE*AC;
+                  //f2 = ch[n].LCI*(A*(A1*(CH-C1)+0.5*A5*(AC.^2))+(A1*(CH-C1)+0.5*A5*(AC.^2))*B')-ch[n].KCI*ch[n].LCI*(A*(CH)+(CH)*B');
+                
+                  //#pragma omp parallel for private(i,j) schedule(static,1)
+                  for (k = iz1; k < iz4; k++) {
+                    for (j = iy1; j < iy4; j++) {
+                      //#pragma simd
+                      for (i = ix1; i < ix4; i++) {
+                      SWITCH_CH_FIELD1(ch[n].fieldCIt[k * nx * ny + j * nx + i]);
+                /*
+                        tmp1 = ac[0].fieldE[k * nx * ny + j * nx + i];
+                        tmp2 = ch[n].fieldCI[k * nx * ny + j * nx + i];
+                        ch[n].fieldCIt[k * nx * ny + j * nx + i] = ch[n].LCI * (A1 * (tmp2 - C1) + 0.5 * A5 * tmp1 * tmp1) - ch[n].KCI * ch[n].LCI *tmp2; 
+                */
+                      }
+                    }
+                  }
+                
+                  if (left >= 0) {
+                    i = ix1;
+                    for (k = iz1; k < iz4; k++) {
+                      for (j = iy1; j < iy4; j++) {
+                        ch[n].fieldCIt[k * nx * ny + j * nx + i] -= ch[n].LCI * epn2 * ch[n].fieldCIu_left[k * ny + j] / hx / hx;
+                      }
+                    }
+                  }
+                
+                  if (right >= 0) {
+                    i = ix4 - 1;
+                    for (k = iz1; k < iz4; k++) {
+                      for (j = iy1; j < iy4; j++) {
+                        ch[n].fieldCIt[k * nx * ny + j * nx + i] -= ch[n].LCI * epn2 * ch[n].fieldCIu_right[k * ny + j] / hx / hx;
+                      }
+                    }
+                  }
+                
+                  if (top >= 0) {
+                    j = iy1;
+                    for (k = iz1; k < iz4; k++) {
+                      for (i = ix1; i < ix4; i++) {
+                        ch[n].fieldCIt[k * nx * ny + j * nx + i] -= ch[n].LCI * epn2 * ch[n].fieldCIu_top[k * nx + i] / hy / hy;
+                      }
+                    }
+                  }
+                
+                  if (bottom >= 0) {
+                    j = iy4 - 1;
+                    for (k = iz1; k < iz4; k++) {
+                      for (i = ix1; i < ix4; i++) {
+                        ch[n].fieldCIt[k * nx * ny + j * nx + i] -= ch[n].LCI * epn2 * ch[n].fieldCIu_bottom[k * nx + i] / hy / hy;
+                      }
+                    }
+                  }
+                
+                  if (front >= 0) {
+                    k = iz1;
+                    for (j = iy1; j < iy4; j++) {
+                      for (i = ix1; i < ix4; i++) {
+                        ch[n].fieldCIt[k * nx * ny + j * nx + i] -= ch[n].LCI * epn2 * ch[n].fieldCIu_front[j * nx + i] / hz / hz;
+                      }
+                    }
+                  }
+                
+                  if (back >= 0) {
+                    k = iz4 - 1;
+                    for (j = iy1; j < iy4; j++) {
+                      for (i = ix1; i < ix4; i++) {
+                        ch[n].fieldCIt[k * nx * ny + j * nx + i] -= ch[n].LCI * epn2 * ch[n].fieldCIu_back[j * nx + i] / hz / hz;
+                      }
+                    }
+                  }
+                
+                  //#pragma omp parallel for private(i,j,n_left,n_right,n_top,n_bottom,n_front,n_back,f_left,f_right,f_top,f_bottom,f_front,f_back) schedule(static,1)
+                  for (k = iz1; k < iz4; k++) {
+                    for (j = iy1; j < iy4; j++) {
+                      for (i = ix1; i < ix4; i++) {
+                	if (left < 0) {
+                	  if (i == ix1) {
+                	    n_left = ix1 + 1;
+                	    n_right = ix1 + 1;
+                	  }
+                	  else if (i < ix4 - 1) {
+                	    n_left = i - 1;
+                	    n_right = i + 1;
+                	  }
+                	  else {
+                	    n_left = i - 1;
+                	    n_right = -1;
+                	  }
+                	}
+                	else if (right >= 0) {
+                	  if (i == ix1) {
+                	    n_left = -1;
+                	    n_right = i + 1;
+                	  }
+                	  else if (i < ix4 - 1) {
+                	    n_left = i - 1;
+                	    n_right = i + 1;
+                	  }
+                	  else {
+                	    n_left = i - 1;
+                	    n_right = -1;
+                	  }
+                	}
+                	else {
+                	  if (i == ix1) {
+                	    n_left = -1;
+                	    n_right = i + 1;
+                	  }
+                	  else if (i < ix4 - 1) {
+                	    n_left = i - 1;
+                	    n_right = i + 1;
+                	  }
+                	  else {
+                	    n_left = i - 1;
+                	    n_right = i - 1;
+                	  }
+                	}
+                
+                	if (top < 0) {
+                	  if (j == iy1) {
+                	    n_top = j + 1;
+                	    n_bottom = j + 1;
+                	  }
+                	  else if (j < iy4 - 1) {
+                	    n_top = j - 1;
+                	    n_bottom = j + 1;
+                	  }
+                	  else {
+                	    n_top = j - 1;
+                	    n_bottom = -1;
+                	  }
+                	}
+                	else if (bottom >= 0) {
+                	  if (j == iy1) {
+                	    n_top = -1;
+                	    n_bottom = j + 1;
+                	  }
+                	  else if (j < iy4 - 1) {
+                	    n_top = j - 1;
+                	    n_bottom = j + 1;
+                	  }
+                	  else {
+                	    n_top = j - 1;
+                	    n_bottom = -1;
+                	  }
+                	}
+                	else {
+                	  if (j == iy1) {
+                	    n_top = -1;
+                	    n_bottom = j + 1;
+                	  }
+                	  else if (j < iy4 - 1) {
+                	    n_top = j - 1;
+                	    n_bottom = j + 1;
+                	  }
+                	  else {
+                	    n_top = j - 1;
+                	    n_bottom = j - 1;
+                	  }
+                	}
+                	if (front < 0) {
+                	  if (k == iz1) {
+                	    n_front = k + 1;
+                	    n_back = k + 1;
+                	  }
+                	  else if (k < iz4 - 1) {
+                	    n_front = k - 1;
+                	    n_back = k + 1;
+                	  }
+                	  else {
+                	    n_front = k - 1;
+                	    n_back = -1;
+                	  }
+                	}
+                	else if (back >= 0) {
+                	  if (k == iz1) {
+                	    n_front = -1;
+                	    n_back = k + 1;
+                	  }
+                	  else if (k < iz4 - 1) {
+                	    n_front = k - 1;
+                	    n_back = k + 1;
+                	  }
+                	  else {
+                	    n_front = k - 1;
+                	    n_back = -1;
+                	  }
+                	}
+                	else {
+                	  if (k == iz1) {
+                	    n_front = -1;
+                	    n_back = k + 1;
+                	  }
+                	  else if (k < iz4 - 1) {
+                	    n_front = k - 1;
+                	    n_back = k + 1;
+                	  }
+                	  else {
+                	    n_front = k - 1;
+                	    n_back = k - 1;
+                	  }
+                	}
+                
+                	if (n_front > -1) {
+                	  f_front = ch[n].fieldCIt[n_front * nx * ny + j * nx + i];
+                        }
+                	else {
+                	  f_front = 0;
+                        }
+                	if (n_back > -1) {
+                	  f_back = ch[n].fieldCIt[n_back * nx * ny + j * nx + i];
+                        }
+                	else {
+                	  f_back = 0;
+                        }
+                	if (n_top > -1) {
+                	  f_top = ch[n].fieldCIt[k * nx * ny + n_top * nx + i];
+                        }
+                	else {
+                	  f_top = 0;
+                        }
+                	if (n_bottom > -1) {
+                	  f_bottom = ch[n].fieldCIt[k * nx * ny + n_bottom * nx + i];
+                        }
+                	else {
+                	  f_bottom = 0;
+                        }
+                	if (n_right > -1) {
+                	  f_right = ch[n].fieldCIt[k * nx * ny + j * nx + n_right];
+                        }
+                	else {
+                	  f_right = 0;
+                        }
+                	if (n_left > -1) {
+                	  f_left = ch[n].fieldCIt[k * nx * ny + j * nx + n_left];
+                        }
+                	else {
+                	  f_left = 0;
+                        }
+                
+                	fieldci1[k * nx * ny + j * nx + i] = (f_left + f_right - 2.0 * ch[n].fieldCIt[k * nx * ny + j * nx + i]) / hx / hx;
+                	fieldci1[k * nx * ny + j * nx + i] += (f_top + f_bottom - 2.0 * ch[n].fieldCIt[k * nx * ny + j * nx + i]) / hy / hy;
+                	fieldci1[k * nx * ny + j * nx + i] += (f_front + f_back - 2.0 * ch[n].fieldCIt[k * nx * ny + j * nx + i]) / hz / hz;
+                      }
+                    }
+                  }
+                
+                  if (left >= 0) {
+                    i = ix1;
+                    for (k = iz1; k < iz4; k++) {
+                      for (j = iy1; j < iy4; j++) {
+                	fieldci1[k * nx * ny + j * nx + i] -= ch[n].fieldCImu_left[k * ny + j] / hx / hx;
+                      }
+                    }
+                  }
+                
+                  if (right >= 0) {
+                    i = ix4 - 1;
+                    for (k = iz1; k < iz4; k++) {
+                      for (j = iy1; j < iy4; j++) {
+                	fieldci1[k * nx * ny + j * nx + i] -= ch[n].fieldCImu_right[k * ny + j] / hx / hx;
+                      }
+                    }
+                  }
+                
+                  if (top >= 0) {
+                    j = iy1;
+                    for (k = iz1; k < iz4; k++) {
+                      for (i = ix1; i < ix4; i++) {
+                	fieldci1[k * nx * ny + j * nx + i] -= ch[n].fieldCImu_top[k * nx + i] / hy / hy;
+                      }
+                    }
+                  }
+                
+                  if (bottom >= 0) {
+                    j = iy4 - 1;
+                    for (k = iz1; k < iz4; k++) {
+                      for (i = ix1; i < ix4; i++) {
+                	fieldci1[k * nx * ny + j * nx + i] -= ch[n].fieldCImu_bottom[k * nx + i] / hy / hy;
+                      }
+                    }
+                  }
+                
+                  if (front >= 0) {
+                    k = iz1;
+                    for (j = iy1; j < iy4; j++) {
+                      for (i = ix1; i < ix4; i++) {
+                	fieldci1[k * nx * ny + j * nx + i] -= ch[n].fieldCImu_front[j * nx + i] / hz / hz;
+                      }
+                    }
+                  }
+                
+                  if (back >= 0) {
+                    k = iz4 - 1;
+                    for (j = iy1; j < iy4; j++) {
+                      for (i = ix1; i < ix4; i++) {
+                	fieldci1[k * nx * ny + j * nx + i] -= ch[n].fieldCImu_back[j * nx + i] / hz / hz;
+                      }
+                    }
+                  }
+                }
+                
+                void
+                ac_updateU_new (int n, double *field, double *field1)
+           4 -> {
+                  double tmp, HijKE;
+                  int i, j, k, l;
+                
+                /*
+                    AC = Pxi*AC*Pyi'.*Het1;
+                    AC = Px*(AC+phiE(:,:,1).*F1(:,:,1))*Py';
+                    f1 = ac[n].LE*A2*AC+ac[n].LE*A3*(AC.^3)-ac[n].LE*A4*(AC.^5)-ac[n].LE*A5*CH.*AC+ac[n].KE*ac[n].LE*AC;
+                    F1(:,:,1) = Pxi*f1*Pyi';
+                */
+                
+                  //#pragma omp parallel for private(i,k,l,tmp,Gijk,HijKE) schedule(static,1)
+                  for (j = iy1; j < iy4; j++) {
+                    for (i = ix1; i < ix4; i++) {
+                      //#pragma simd
+                      for (k = iz1; k < iz4; k++) {
+                	    l = j * nz * nx + i * nz + k;
+                	    tmp = kkz * DDZ[k] + kky * DDY[j] + kkx * DDX[i];
+                	    HijKE = -ac[n].LE * (tmp * epn2 - ac[n].KE);
+                	    if (fabs(HijKE) < 1.0e-8) {
+                	      HijKE = 0.0;
+                	    }
+                	    tmp = 1.0 - ac[n].phiE[l] * HijKE;
+                	    field[l] = tmp * field[l] + ac[n].phiE[l] * field1[l];
+                      }
+                    }
+                  }
+                }
+                
+                void
+                ch_updateU_new (int n, double *field, double *field1)
+           4 -> {
+                  double tmp, HijKCI;
+                  int i, j, k, l;
+                
+                /*
+                    CH = Pxi*CH*Pyi'.*Het2;
+                    CH = Px*(CH+phiCI(:,:,1).*F2(:,:,1))*Py';
+                    f2 = ch[n].LCI*(A*(A1*(CH-C1)+0.5*A5*(AC.^2))+(A1*(CH-C1)+0.5*A5*(AC.^2))*B')-ch[n].KCI*ch[n].LCI*(A*(CH)+(CH)*B');
+                    F2(:,:,1) = Pxi*f2*Pyi';
+                */
+                
+                  //#pragma omp parallel for private(i,k,l,tmp,HijKE,HijKCI) schedule(static,1)
+                  for (j = iy1; j < iy4; j++) {
+                    for (i = ix1; i < ix4; i++) {
+                      //#pragma simd
+                      for (k = iz1; k < iz4; k++) {
+                	    l = j * nz * nx + i * nz + k;
+                	    tmp = DDZ[k] + DDY[j] + DDX[i];
+                        HijKCI = ch[n].LCI * (tmp * tmp * epn2 - ch[n].KCI * tmp);
+                        if (fabs(HijKCI) < 1.0e-8) {
+                          HijKCI = 0.0;
+                        }
+                	    tmp = 1.0 - ch[n].phiCI[l] * HijKCI;
+                	    field[l] = tmp * field[l] + ch[n].phiCI[l] * field1[l];
+                      }
+                    }
+                  }
+                }
+                
+                
+                prepare_U1_new (double *field1, double *field2)
+           8 -> {
+                  int i, j, k, l;
+                
+                  //#pragma omp parallel for private(i,j,l) schedule(static,1)
+                  for (k = iz1; k < iz4; k++) {
+                    for (j = iy1; j < iy4; j++) {
+                      //#pragma simd
+                      for (i = ix1; i < ix4; i++) {
+                	    l = k * nx * ny + j * nx + i;
+                	    field2[l] = field2[l] - field1[l];
+                      }
+                    }
+                  }
+                }
+                
+                void
+                prepare_U2_new (double *phi, double *field1, double *field2)
+           8 -> {
+                  int i, j, k, l;
+                
+                  //#pragma omp parallel for private(i,k,l) schedule(static,1)
+                  for (j = iy1; j < iy4; j++) {
+                    for (i = ix1; i < ix4; i++) {
+                      //#pragma simd
+                      for (k = iz1; k < iz4; k++) {
+                	    l = j * nx * nz + i * nz + k;
+                	    field2[l] = phi[l] * field2[l];
+                      }
+                    }
+                  }
+                }
+                
+                
+                void
+                correct_U_new (double *field, double *field1)
+           8 -> {
+                  int i, j, k, l;
+                
+                  //#pragma omp parallel for private(i,j,l) schedule(static,1)
+                  for (k = iz1; k < iz4; k++) {
+                    for (j = iy1; j < iy4; j++) {
+                      //#pragma simd
+                      for (i = ix1; i < ix4; i++) {
+                	    l = k * nx * ny + j * nx + i;
+                	    field[l] += field1[l];
+                      }
+                    }
+                  }
+                }
+                
+                
+                void
+                xyz_yzx (double *f, double *ft)
+       ##### -> {
+                  int i, j, k;
+                
+                  //#pragma omp parallel for private(j,k) schedule(static,1)
+                  for (i = ix1; i < ix4; i++) {
+                    for (k = iz1; k < iz4; k++) {
+                      //#pragma simd
+                      for (j = iy1; j < iy4; j++) {
+                	      ft[i * ny * nz + k * ny + j] = f[k * nx * ny + j * nx + i];
+                      }
+                    }
+                  }
+                }
+                
+                
+                void
+                yzx_zxy (double *f, double *ft)
+       ##### -> {
+                  int i, j, k;
+                
+                  //#pragma omp parallel for private(i,k) schedule(static,1)
+                  for (j = iy1; j < iy4; j++) {
+                    for (i = ix1; i < ix4; i++) {
+                      //#pragma simd
+                      for (k = iz1; k < iz4; k++) {
+                	ft[j * nz * nx + i * nz + k] = f[i * ny * nz + k * ny + j];
+                      }
+                    }
+                  }
+                }
+                
+                
+                void
+                zxy_xyz (double *f, double *ft)
+          16 -> {
+                  int i, j, k;
+                
+                  //#pragma omp parallel for private(i,j) schedule(static,1)
+                  for (k = iz1; k < iz4; k++) {
+                    for (j = iy1; j < iy4; j++) {
+                      //#pragma simd
+                      for (i = ix1; i < ix4; i++) {
+                	ft[k * nx * ny + j * nx + i] = f[j * nz * nx + i * nz + k];
+                      }
+                    }
+                  }
+                }
+                
+                
+                void
+                PUX (double *A, double *B, double *C, double *D)
+          40 -> {
+                  int m, n, k;
+                
+                  m = nx;
+                  n = ny * nz;
+                  k = nx;
+                
+                  cblas_dgemm(CblasColMajor, CblasNoTrans,CblasNoTrans, m, n, k, alpha, A, m, B, k, beta, D, m);
+                  xyz_yzx (D, C);
+                }
+                
+                
+                void
+                PUY (double *A, double *B, double *C, double *D)
+          40 -> {
+                  int m, n, k;
+                
+                  m = ny;
+                  n = nz * nx;
+                  k = ny;
+                
+                  cblas_dgemm(CblasColMajor, CblasNoTrans,CblasNoTrans, m, n, k, alpha, A, m, B, k, beta, D, m);
+                  yzx_zxy (D, C);
+                }
+                
+                
+                void
+                PUZ (double *A, double *B, double *C, double *D, double *E)
+          40 -> {
+                  int m, n, k;
+                
+                  m = nz;
+                  n = nx * ny;
+                  k = nz;
+                
+                  switch (stage) {
+                  case 0:
+                
+                    cblas_dgemm(CblasColMajor, CblasNoTrans,CblasNoTrans, m, n, k, alpha, A, m, B, k, beta, C, m);
+                
+                    break;
+                
+                  case 1:
+                
+                    cblas_dgemm(CblasColMajor, CblasNoTrans,CblasNoTrans, m, n, k, alpha, A, m, B, k, beta, D, m);
+                    //updateU_new (D, E);
+                    //zxy_xyz (D, C);
+                
+                    break;
+                
+                  case 2:
+                
+                    cblas_dgemm(CblasColMajor, CblasNoTrans,CblasNoTrans, m, n, k, alpha, A, m, B, k, beta, D, m);
+                    xyz_yzx (D, C);
+                
+                    break;
+                  }
+                }
+                
+
+
+Top 10 Lines:
+
+     Line      Count
+
+      561         40
+      575         40
+      589         40
+      544         16
+        9          8
+       84          8
+      457          8
+      474          8
+      492          8
+      395          4
+
+Execution Summary:
+
+       13   Executable lines in this file
+       13   Lines executed
+   100.00   Percent of the file executed
+
+      184   Total number of line executions
+    14.15   Average executions per line
+
+
+*** File /home/scwss/phase_field/rebuild_ScLETD/src/field.c:
+                #include <stdio.h>
+                #include <stdlib.h>
+                #include <math.h>
+                #include <time.h>
+                #include <string.h>
+                #include <errno.h>
+                #include "mpi.h"
+                #include "ScLETD.h"
+                
+                
+                void
+                write_section (char *fname, double *field)
+           2 -> {
+                  FILE *fp;
+                  int i, j, k;
+                  if (cart_id[2] == (procs[2]/2)) {
+                    fp = fopen (fname, "w");
+                    if (fp == NULL) {
+                      printf ("fopen error %s!\n", strerror(errno));
+                      exit (1);
+                    }
+                    k = iz2;
+                    for (j = iy2; j < iy3; j++) {
+                      for (i = ix2; i < ix3; i++) {
+                        fprintf (fp, "%+1.15lf ", field[k * nx * ny + j * nx + i]);
+                      }
+                      fprintf (fp, "\n");
+                    }
+                    fclose (fp);
+                  }
+                }
+                
+                
+                read_field (char *fname, double *field)
+       ##### -> {
+                  FILE *fp;
+                  int i, j, k;
+                  fp = fopen (fname, "r");
+                  if (fp == NULL) {
+                    printf ("fopen error %s!\n", strerror(errno));
+                    exit (1);
+                  }
+                  for (k = iz1; k < iz4; k++) {
+                    for (j = iy1; j < iy4; j++) {
+                      for (i = ix1; i < ix4; i++) {
+                        fscanf (fp, "%lf", &field[k * nx * ny + j * nx + i]);
+                      }
+                    }
+                  }
+                  fclose (fp);
+                }
+                
+                void
+                write_field (char* fname, double* field)
+       ##### -> {
+                  FILE *fp;
+                  int i, j, k;
+                  fp = fopen (fname, "w");
+                  if (fp == NULL) {
+                    printf ("fopen error %s!\n", strerror(errno));
+                    exit (1);
+                  }
+                  for (k = iz1; k < iz4; k++) {
+                    for (j = iy1; j < iy4; j++) {
+                      for (i = ix1; i < ix4; i++) {
+                        fprintf (fp, "%+1.15lf ", field[k * nx * ny + j * nx + i]);
+                      }
+                      fprintf (fp, "\n");
+                    }
+                  }
+                  fclose (fp);
+                }
+                
+                
+                void
+                init_field_check (void)
+       ##### -> {
+                  int n;
+                  int l;
+                  int i, j, k;
+                  int rad1;
+                  int cnt1;
+                  int x, y, z;
+                  cnt1 = nx * procs[0] / 2;
+                  rad1 = nx * procs[0] / 6;
+                
+                  for (n = 0; n < nac; n++) {
+                    for (l = 0; l < nx * ny * nz; l++) {
+                        ac[n].fieldE[l] = 1.0;
+                    }
+                    for (i = 0; i < nx; i++) {
+                      for (j = 0; j < ny; j++) {
+                        for (k = 0; k < nz; k++) {
+                          x = cart_id[0] * nx + i;
+                          y = cart_id[1] * ny + j;
+                          z = cart_id[2] * nz + k;
+                          x = abs(x-cnt1);
+                          y = abs(y-cnt1);
+                          z = abs(z-cnt1);
+                          if ((x<rad1) && (y<rad1) && (z<rad1)){
+                            ac[n].fieldE[k * nx * ny + j * nx + i] = -1.0;
+                          }
+                        }
+                      }
+                    }
+                  }
+                  for (n = 0; n < nch; n++) {
+                    for (l = 0; l < nx * ny * nz; l++) {
+                        ch[n].fieldCI[l] = -1.0;
+                    }
+                    for (i = 0; i < nx; i++) {
+                      for (j = 0; j < ny; j++) {
+                        for (k = 0; k < nz; k++) {
+                          x = cart_id[0] * nx + i;
+                          y = cart_id[1] * ny + j;
+                          z = cart_id[2] * nz + k;
+                          x = abs(x-cnt1);
+                          y = abs(y-cnt1);
+                          z = abs(z-cnt1);
+                          if ((x<rad1) && (y<rad1) && (z<rad1)){
+                            ch[n].fieldCI[k * nx * ny + j * nx + i] = 1.0;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                
+                
+                void 
+                couple_init_field_two_sphere ()
+       ##### -> {
+                  int l;
+                  int i, j, k;
+                  double x, y, z;
+                  double c1[3], c2[3];
+                  double rad1, rad2;
+                  double d1, d2;
+                  // two sphere in y direction
+                  c1[0] = xmin + (xmax - xmin) / 2.0;
+                  c1[1] = ymin + (ymax - ymin) / 3.0;
+                  c1[2] = zmin + (zmax - zmin) / 2.0;
+                  c2[0] = xmin + (xmax - xmin) / 2.0;
+                  c2[1] = ymax - (ymax - ymin) / 3.0;
+                  c2[2] = zmin + (zmax - zmin) / 2.0;
+                  rad1 = rad2 = (xmax - xmin) / 5.0;
+                  for (l = 0; l < nx * ny * nz; l++) {
+                    ac[0].fieldE[l] = 1.4;
+                    ch[0].fieldCI[l] = 0.24;
+                  }
+                
+                  for (i = ix1; i < ix4; i++) {
+                    for (j = iy1; j < iy4; j++) {
+                      for (k = iz1; k < iz4; k++) {
+                        x = xmin + fieldgx[k * ny * nx + j * nx + i] * hx;
+                        y = ymin + fieldgy[k * ny * nx + j * nx + i] * hy;
+                        z = zmin + fieldgz[k * ny * nx + j * nx + i] * hz;
+                        d1 = sqrt((x-c1[0]) * (x-c1[0]) + (y-c1[1]) * (y-c1[1]) + (z-c1[2])*(z-c1[2]));
+                        d2 = sqrt((x-c2[0]) * (x-c2[0]) + (y-c2[1]) * (y-c2[1]) + (z-c2[2])*(z-c2[2]));
+                        if ((d1 < rad1) || (d2 < rad2)) {
+                          ac[0].fieldE[k * nx * ny + j * nx + i] = 0.0;
+                          ch[0].fieldCI[k * nx * ny + j * nx + i] = 0.65;
+                        }
+                      }
+                    }
+                  }
+                }
+                
+                
+                void
+                couple_init_field_cube ()
+           1 -> {
+                  int n;
+                  int l;
+                  int i, j, k;
+                  int rad1;
+                  int cnt1;
+                  int x, y, z;
+                  cnt1 = nx * procs[0] / 2;
+                  rad1 = nx * procs[0] / 4;
+                  for (n = 0; n < nac; n++) {
+                    for (l = 0; l < nx * ny * nz; l++) {
+                      ac[n].fieldE[l] = 1.4;
+                    }
+                    for (i = 0; i < nx; i++) {
+                      for (j = 0; j < ny; j++) {
+                        for (k = 0; k < nz; k++) {
+                          x = cart_id[0] * nx + i;
+                          y = cart_id[1] * ny + j;
+                          z = cart_id[2] * nz + k;
+                          x = abs(x-cnt1);
+                          y = abs(y-cnt1);
+                          z = abs(z-cnt1);
+                          if ((x<rad1) && (y<rad1) && (z<rad1)){
+                            ac[n].fieldE[k * nx * ny + j * nx + i] = 0.0;
+                          }
+                        }
+                      }
+                    }
+                  }
+                  for (n = 0; n < nch; n++) {
+                    for (l = 0; l < nx * ny * nz; l++) {
+                      ch[n].fieldCI[l] = 0.24;
+                    }
+                    for (i = 0; i < nx; i++) {
+                      for (j = 0; j < ny; j++) {
+                        for (k = 0; k < nz; k++) {
+                          x = cart_id[0] * nx + i;
+                          y = cart_id[1] * ny + j;
+                          z = cart_id[2] * nz + k;
+                          x = abs(x-cnt1);
+                          y = abs(y-cnt1);
+                          z = abs(z-cnt1);
+                          if ((x<rad1) && (y<rad1) && (z<rad1)){
+                            ch[n].fieldCI[k * nx * ny + j * nx + i] = 0.65;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                
+                
+                
+                void
+                init_field_cube (double *field)
+       ##### -> {
+                  int l;
+                  int i, j, k;
+                  int rad1;
+                  int cnt1;
+                  int x, y, z;
+                  cnt1 = nx * procs[0] / 2;
+                  rad1 = nx * procs[0] / 6;
+                
+                  for (l = 0; l < nx * ny * nz; l++) {
+                    field[l] = -1.0;
+                  }
+                
+                  for (i = 0; i < nx; i++) {
+                    for (j = 0; j < ny; j++) {
+                      for (k = 0; k < nz; k++) {
+                        x = cart_id[0] * nx + i;
+                        y = cart_id[1] * ny + j;
+                        z = cart_id[2] * nz + k;
+                        x = abs(x-cnt1);
+                        y = abs(y-cnt1);
+                        z = abs(z-cnt1);
+                        if ((x<rad1) && (y<rad1) && (z<rad1)){
+                          field[k * nx * ny + j * nx + i] = 1.0;
+                        }
+                      }
+                    }
+                  }
+                }
+                
+                void
+                init_field_sphere (double *field)
+       ##### -> {
+                  int l;
+                  int i, j, k;
+                  double x, y, z;
+                  for (l = 0; l < nx * ny * nz; l++) {
+                    field[l] = 0.0;
+                  }
+                
+                  for (i = ix1; i < ix4; i++) {
+                    for (j = iy1; j < iy4; j++) {
+                      for (k = iz1; k < iz4; k++) {
+                        // none perme
+                        x = xmin + fieldgx[k * ny * nx + j * nx + i] * hx;
+                        y = ymin + fieldgy[k * ny * nx + j * nx + i] * hy;
+                        z = zmin + fieldgz[k * ny * nx + j * nx + i] * hz;
+                        field[k * nx * ny + j * nx + i] = tanh ((0.4 - sqrt(x * x + y * y + z * z)) / sqrt (2.0) / epsilon);
+                      }
+                    }
+                  }
+                }
+                
+                void
+                check_soln_new (double time)
+           4 -> {
+                  if (myrank == prank) {
+                    printf ("--------------iter %d--------------\n", iter);
+                  }
+                  int n;
+                  int i, j, k;
+                  double tmp, maxtmp, mintmp, voltmp, engtmp, mmax, mmin, vol, eng;
+                  double f_val[8], f_ux, f_uy, f_uz;
+                  FILE *fp;
+                  char fname[1024];
+                  if (iter == 0) {
+                    if (nac > 0 && nch > 0) {
+                        if (myrank == prank) {
+                        sprintf (fname, "%sphi_couple.csv", work_dir);
+                        fp = fopen (fname, "w");
+                        if (fp == NULL) {
+                          printf ("fopen error %s!\n", strerror(errno));
+                          exit (1);
+                        }
+                        fprintf (fp, "iter,eng\n");
+                        fclose (fp);
+                        }
+                    }
+                    for (n = 0; n < nac; n++) {
+                      if (myrank == prank) {
+                        sprintf (fname, "%sphi_ac_%d.csv", work_dir, n);
+                        fp = fopen (fname, "w");
+                        if (fp == NULL) {
+                          printf ("fopen error %s!\n", strerror(errno));
+                          exit (1);
+                        }
+                        fprintf (fp, "iter,maxphiE,minphiE,volE,engE\n");
+                        fclose (fp);
+                      }
+                    }
+                    for (n = 0; n < nch; n++) {
+                      if (myrank == prank) {
+                        sprintf (fname, "%sphi_ch_%d.csv", work_dir, n);
+                        fp = fopen (fname, "w");
+                        if (fp == NULL) {
+                          printf ("fopen error %s!\n", strerror(errno));
+                          exit (1);
+                        }
+                        fprintf (fp, "iter,maxphiCI,minphiCI,volCI,engCI\n");
+                        fclose (fp);
+                      }
+                    }
+                  }
+                  for (n = 0; n < nac; n++) {
+                    if (myrank == prank) {
+                      sprintf (fname, "%sphi_ac_%d.csv", work_dir, n);
+                      errno = 0;
+                      fp = fopen (fname, "a");
+                      if (fp == NULL) {
+                        printf ("fopen error %s!\n", strerror(errno));
+                        exit (1);
+                      }
+                    }
+                    maxtmp = -1.0e30;
+                    mintmp = 1.0e30;
+                    voltmp = 0.0;
+                    engtmp = 0.0;
+                    for (k = iz2; k < iz3; k++) {
+                      for (j = iy2; j < iy3; j++) {
+                        for (i = ix2; i < ix3; i++) {
+                           tmp = ac[n].fieldE[k * nx * ny + j * nx + i];
+                          if (tmp > maxtmp) {
+                            maxtmp = tmp;
+                          }
+                          if (tmp < mintmp) {
+                            mintmp = tmp;
+                          }
+                          voltmp += tmp + 1.0;
+                        }
+                      }
+                    }
+                    voltmp *= hx * hy * hz;
+                
+                    for (k = iz2; k < iz3 - 1; k++) {
+                      for (j = iy2; j < iy3 - 1; j++) {
+                        for (i = ix2; i < ix3 - 1; i++) {
+                          f_val[0] = ac[n].fieldE[k * nx * ny + j * nx + i];
+                          f_val[1] = ac[n].fieldE[k * nx * ny + j * nx + i + 1];
+                          f_val[2] = ac[n].fieldE[k * nx * ny + (j + 1) * nx + i];
+                          f_val[3] = ac[n].fieldE[k * nx * ny + (j + 1) * nx + i + 1];
+                          f_val[4] = ac[n].fieldE[(k + 1) * nx * ny + j * nx + i];
+                          f_val[5] = ac[n].fieldE[(k + 1) * nx * ny + j * nx + i + 1];
+                          f_val[6] = ac[n].fieldE[(k + 1) * nx * ny + (j + 1) * nx + i];
+                          f_val[7] = ac[n].fieldE[(k + 1) * nx * ny + (j + 1) * nx + i + 1];
+                          ac[n].u = (f_val[0] + f_val[1] + f_val[2] + f_val[3] + f_val[4] + f_val[5] + f_val[6] + f_val[7]) / 8;
+                          f_ux = ((f_val[1] - f_val[0]) + (f_val[3] - f_val[2]) + (f_val[5] - f_val[4]) + (f_val[7] - f_val[6])) / 4 / hx;
+                          f_uy = ((f_val[2] - f_val[0]) + (f_val[3] - f_val[1]) + (f_val[6] - f_val[4]) + (f_val[7] - f_val[5])) / 4 / hy;
+                          f_uz = ((f_val[4] - f_val[0]) + (f_val[5] - f_val[1]) + (f_val[6] - f_val[2]) + (f_val[7] - f_val[3])) / 4 / hz;
+                		      engtmp += epn2 * (f_ux * f_ux + f_uy * f_uy + f_uz * f_uz) / 2;
+                          engtmp += ((ac[n].u * ac[n].u - 1) * (ac[n].u * ac[n].u - 1) / 4);
+                        }
+                      }
+                    }
+                    engtmp = engtmp * hx * hy * hz;
+                    MPI_Reduce (&maxtmp, &mmax, 1, MPI_DOUBLE, MPI_MAX, prank, MPI_COMM_WORLD);
+                    MPI_Reduce (&mintmp, &mmin, 1, MPI_DOUBLE, MPI_MIN, prank, MPI_COMM_WORLD);
+                    MPI_Reduce (&voltmp, &vol, 1, MPI_DOUBLE, MPI_SUM, prank, MPI_COMM_WORLD);
+                    MPI_Reduce (&engtmp, &eng, 1, MPI_DOUBLE, MPI_SUM, prank, MPI_COMM_WORLD);
+                	
+                    if (myrank == prank) {
+                      printf ("ac[%d].fieldE\n", n);
+                      printf ("max phi\t\t%+1.15lf\n", mmax);
+                      printf ("min phi\t\t%+1.15lf\n", mmin);
+                      printf ("vol\t\t%+1.15lf\n", vol);
+                      printf ("eng\t\t%+1.15lf\n", eng);
+                      fprintf (fp, "%d,%+1.15lf,%+1.15lf,%+1.15lf,%+1.15lf\n", iter, mmax, mmin, vol, eng);
+                      fclose (fp); 
+                    }
+                  }
+                
+                  for (n = 0; n < nch; n++) {
+                    if (myrank == prank) {
+                      sprintf (fname, "%sphi_ch_%d.csv", work_dir, n);
+                      fp = fopen (fname, "a");
+                      if (fp == NULL) {
+                        printf ("fopen error %s!\n", strerror(errno));
+                        exit (1);
+                      }
+                    }  
+                    maxtmp = -1.0e30;
+                    mintmp = 1.0e30;
+                    voltmp = 0.0;
+                    engtmp = 0.0;
+                
+                    for (k = iz2; k < iz3; k++) {
+                      for (j = iy2; j < iy3; j++) {
+                        for (i = ix2; i < ix3; i++) {
+                          tmp = ch[n].fieldCI[k * nx * ny + j * nx + i];
+                          if (tmp > maxtmp) {
+                            maxtmp = tmp;
+                          }
+                          if (tmp < mintmp) {
+                            mintmp = tmp;
+                          }
+                          voltmp += tmp + 1;
+                        }
+                      }
+                    }
+                    voltmp *= hx * hy * hz;
+                
+                    for (k = iz2; k < iz3 - 1; k++) {
+                      for (j = iy2; j < iy3 - 1; j++) {
+                        for (i = ix2; i < ix3 - 1; i++) {
+                          f_val[0] = ch[n].fieldCI[k * nx * ny + j * nx + i];
+                          f_val[1] = ch[n].fieldCI[k * nx * ny + j * nx + i + 1];
+                          f_val[2] = ch[n].fieldCI[k * nx * ny + (j + 1) * nx + i];
+                          f_val[3] = ch[n].fieldCI[k * nx * ny + (j + 1) * nx + i + 1];
+                          f_val[4] = ch[n].fieldCI[(k + 1) * nx * ny + j * nx + i];
+                          f_val[5] = ch[n].fieldCI[(k + 1) * nx * ny + j * nx + i + 1];
+                          f_val[6] = ch[n].fieldCI[(k + 1) * nx * ny + (j + 1) * nx + i];
+                          f_val[7] = ch[n].fieldCI[(k + 1) * nx * ny + (j + 1) * nx + i + 1];
+                          ch[n].c = (f_val[0] + f_val[1] + f_val[2] + f_val[3] + f_val[4] + f_val[5] + f_val[6] + f_val[7]) / 8;
+                          f_ux = ((f_val[1] - f_val[0]) + (f_val[3] - f_val[2]) + (f_val[5] - f_val[4]) + (f_val[7] - f_val[6])) / 4 / hx;
+                          f_uy = ((f_val[2] - f_val[0]) + (f_val[3] - f_val[1]) + (f_val[6] - f_val[4]) + (f_val[7] - f_val[5])) / 4 / hy;
+                          f_uz = ((f_val[4] - f_val[0]) + (f_val[5] - f_val[1]) + (f_val[6] - f_val[2]) + (f_val[7] - f_val[3])) / 4 / hz;
+                    		  engtmp += epn2 * (f_ux * f_ux + f_uy * f_uy + f_uz * f_uz) / 2;
+                          engtmp += ((ch[n].c * ch[n].c - 1) * (ch[n].c * ch[n].c - 1) / 4);
+                        }
+                      }
+                    }
+                    engtmp = engtmp * hx * hy * hz;
+                    MPI_Reduce (&maxtmp, &mmax, 1, MPI_DOUBLE, MPI_MAX, prank, MPI_COMM_WORLD);
+                    MPI_Reduce (&mintmp, &mmin, 1, MPI_DOUBLE, MPI_MIN, prank, MPI_COMM_WORLD);
+                    MPI_Reduce (&voltmp, &vol, 1, MPI_DOUBLE, MPI_SUM, prank, MPI_COMM_WORLD);
+                    MPI_Reduce (&engtmp, &eng, 1, MPI_DOUBLE, MPI_SUM, prank, MPI_COMM_WORLD);
+                
+                    if (myrank == prank) {
+                      printf ("ch[%d].fieldCI\n", n);
+                      printf ("max phi\t\t%+1.15lf\n", mmax);
+                      printf ("min phi\t\t%+1.15lf\n", mmin);
+                      printf ("vol\t\t%+1.15lf\n", vol);
+                      printf ("eng\t\t%+1.15lf\n", eng);
+                      fprintf (fp, "%d,%+1.15lf,%+1.15lf,%+1.15lf,%+1.15lf\n", iter, mmax, mmin, vol, eng);
+                      fclose (fp); 
+                    }
+                  }
+                
+                
+                  if (nac > 0 && nch > 0) {
+                    if (myrank == prank) {
+                      sprintf (fname, "%sphi_couple.csv", work_dir);
+                      fp = fopen (fname, "a");
+                      if (fp == NULL) {
+                        printf ("fopen error %s!\n", strerror(errno));
+                        exit (1);
+                      }
+                    }   
+                    for (k = iz2; k < iz3 - 1; k++) {
+                      for (j = iy2; j < iy3 - 1; j++) {
+                        for (i = ix2; i < ix3 - 1; i++) {
+                		      for (n = 0; n < nch; n++) {
+                            f_val[0] = ac[n].fieldE[k * nx * ny + j * nx + i];
+                            f_val[1] = ac[n].fieldE[k * nx * ny + j * nx + i + 1];
+                            f_val[2] = ac[n].fieldE[k * nx * ny + (j + 1) * nx + i];
+                            f_val[3] = ac[n].fieldE[k * nx * ny + (j + 1) * nx + i + 1];
+                            f_val[4] = ac[n].fieldE[(k + 1) * nx * ny + j * nx + i];
+                            f_val[5] = ac[n].fieldE[(k + 1) * nx * ny + j * nx + i + 1];
+                            f_val[6] = ac[n].fieldE[(k + 1) * nx * ny + (j + 1) * nx + i];
+                            f_val[7] = ac[n].fieldE[(k + 1) * nx * ny + (j + 1) * nx + i + 1];
+                            ac[n].u = (f_val[0] + f_val[1] + f_val[2] + f_val[3] + f_val[4] + f_val[5] + f_val[6] + f_val[7]) / 8;
+                            f_ux = ((f_val[1] - f_val[0]) + (f_val[3] - f_val[2]) + (f_val[5] - f_val[4]) + (f_val[7] - f_val[6])) / 4 / hx;
+                            f_uy = ((f_val[2] - f_val[0]) + (f_val[3] - f_val[1]) + (f_val[6] - f_val[4]) + (f_val[7] - f_val[5])) / 4 / hy;
+                            f_uz = ((f_val[4] - f_val[0]) + (f_val[5] - f_val[1]) + (f_val[6] - f_val[2]) + (f_val[7] - f_val[3])) / 4 / hz;
+                            engtmp +=  epn2 * (f_ux * f_ux + f_uy * f_uy + f_uz * f_uz) / 2;
+                          }
+                		  for (n = 0; n < nch; n++) {
+                            f_val[0] = ch[n].fieldCI[k * nx * ny + j * nx + i];
+                            f_val[1] = ch[n].fieldCI[k * nx * ny + j * nx + i + 1];
+                            f_val[2] = ch[n].fieldCI[k * nx * ny + (j + 1) * nx + i];
+                            f_val[3] = ch[n].fieldCI[k * nx * ny + (j + 1) * nx + i + 1];
+                            f_val[4] = ch[n].fieldCI[(k + 1) * nx * ny + j * nx + i];
+                            f_val[5] = ch[n].fieldCI[(k + 1) * nx * ny + j * nx + i + 1];
+                            f_val[6] = ch[n].fieldCI[(k + 1) * nx * ny + (j + 1) * nx + i];
+                            f_val[7] = ch[n].fieldCI[(k + 1) * nx * ny + (j + 1) * nx + i + 1];
+                            ch[n].c = (f_val[0] + f_val[1] + f_val[2] + f_val[3] + f_val[4] + f_val[5] + f_val[6] + f_val[7]) / 8;
+                            f_ux = ((f_val[1] - f_val[0]) + (f_val[3] - f_val[2]) + (f_val[5] - f_val[4]) + (f_val[7] - f_val[6])) / 4 / hx;
+                            f_uy = ((f_val[2] - f_val[0]) + (f_val[3] - f_val[1]) + (f_val[6] - f_val[4]) + (f_val[7] - f_val[5])) / 4 / hy;
+                            f_uz = ((f_val[4] - f_val[0]) + (f_val[5] - f_val[1]) + (f_val[6] - f_val[2]) + (f_val[7] - f_val[3])) / 4 / hz;
+                            engtmp += epn2 * (f_ux * f_ux + f_uy * f_uy + f_uz * f_uz) / 2;
+                          }
+                    		  engtmp += EF();
+                        }
+                      }
+                	  }
+                    engtmp = engtmp * hx * hy * hz;
+                    MPI_Reduce (&engtmp, &eng, 1, MPI_DOUBLE, MPI_SUM, prank, MPI_COMM_WORLD);
+                	  if (myrank == prank) {
+                      printf ("eng\t\t%+1.15lf\n", eng);
+                      fprintf (fp, "%d,%+1.15lf\n", iter, eng);
+                      fclose (fp); 
+                    }
+                  }
+                
+                
+                  if (iter % 100 == 0) {
+                    for (n = 0; n < nac; n++) {
+                      sprintf (fname, "%siter_%d_ac_%d_fieldE_%d%d%d.txt", work_dir, iter, n, cart_id[0], cart_id[1], cart_id[2]);
+                      write_section (fname, ac[n].fieldE);
+                    }
+                    for (n = 0; n < nch; n++) {
+                      sprintf (fname, "%siter_%d_ch_%d_fieldCI_%d%d%d.txt", work_dir, iter, n, cart_id[0], cart_id[1], cart_id[2]);
+                      write_section (fname, ch[n].fieldCI);
+                    }
+                  }
+                  if (iter == write_iter) {
+                    for (n = 0; n < nac; n++) {
+                      sprintf (fname, "%sfield_iter%d_ac%d_%d%d%d.txt", work_dir, iter, n, cart_id[0], cart_id[1], cart_id[2]);
+                      write_field (fname, ac[n].fieldE);
+                    }
+                    for (n = 0; n < nch; n++) {
+                      sprintf (fname, "%sfield_iter%d_ch%d_%d%d%d.txt", work_dir, iter, n, cart_id[0], cart_id[1], cart_id[2]);
+                      write_field (fname, ch[n].fieldCI);
+                    }
+                  }
+                }
+                
+                
+                void
+                
+           1 -> init_field() {
+                  int n;
+                  char fname[1024];
+                  if (restart == 1) {
+                    for (n = 0; n < nac; n++) {
+                      sprintf (fname, "%sfield_iter%d_ac%d_%d%d%d.txt", restart_dir, restart_iter, n, cart_id[0], cart_id[1], cart_id[2]);
+                      read_field (fname, ac[n].fieldE);
+                    }
+                    for (n = 0; n < nch; n++) {
+                      sprintf (fname, "%sfield_iter%d_ch%d_%d%d%d.txt", restart_dir, restart_iter, n, cart_id[0], cart_id[1], cart_id[2]);
+                      read_field (fname, ch[n].fieldCI);
+                    }
+                  } else {
+                    //init_field_check ();
+                    if (nch == 0) {
+                      for (n = 0; n < nac; n++) {
+                        init_field_sphere(ac[n].fieldE);
+                      }
+                    }
+                    if (nac == 0) {
+                      for (n = 0; n < nch; n++) {
+                        init_field_cube(ch[n].fieldCI);
+                      }
+                    }
+                    if (nac > 0 && nch > 0) {
+                      couple_init_field_cube();
+                    }
+                  }
+                }
+
+
+Top 10 Lines:
+
+     Line      Count
+
+      282          4
+       13          2
+      172          1
+      546          1
+
+Execution Summary:
+
+       10   Executable lines in this file
+       10   Lines executed
+   100.00   Percent of the file executed
+
+        8   Total number of line executions
+     0.80   Average executions per line
