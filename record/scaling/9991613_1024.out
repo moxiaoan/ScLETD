@@ -1,0 +1,6314 @@
+running   on	4096   processors
+restart		0
+nx,ny,nz	132	132	68
+px,py,pz	16	16	16
+nghost		2
+output   dir	./output/output2/
+data   dir	./data/
+dt,t_total	2.000000,200.100000
+ELASTIC		1
+ANISOTROPIC		1
+nac,nch		6,2
+xmin,ymin,zmin	0.000000	0.000000	0.000000
+xmax,ymax,zmax	2048.000000	2048.000000	1024.000000
+checkpoint_,nchk,chk	1,1000,0
+nout		10000
+Approx		32
+detect_iter		100000
+Reading input.txt file:
+myrank = 801 P = 5 Q = 1
+myrank = 746 P = 3 Q = 3
+myrank = 802 P = 2 Q = 3
+myrank = 3697 P = 0 Q = 2
+myrank = 1923 P = 0 Q = 1
+myrank = 743 P = 5 Q = 0
+myrank = 3979 P = 0 Q = 5
+myrank = 2143 P = 3 Q = 5
+myrank = 3879 P = 1 Q = 2
+myrank = 1046 P = 5 Q = 2
+myrank = 2660 P = 0 Q = 4
+myrank = 3976 P = 1 Q = 0
+myrank = 3699 P = 3 Q = 1
+myrank = 744 P = 5 Q = 0
+myrank = 3969 P = 2 Q = 2
+myrank = 2661 P = 4 Q = 2
+myrank = 1047 P = 1 Q = 5
+myrank = 2516 P = 0 Q = 4
+myrank = 2140 P = 4 Q = 2
+myrank = 2650 P = 2 Q = 4
+myrank = 3768 P = 3 Q = 5
+myrank = 2579 P = 4 Q = 4
+myrank = 1575 P = 1 Q = 5
+myrank = 1572 P = 3 Q = 2
+myrank = 3877 P = 3 Q = 5
+myrank = 2578 P = 4 Q = 4
+myrank = 3964 P = 1 Q = 2
+myrank = 1038 P = 3 Q = 2
+myrank = 3970 P = 0 Q = 0
+myrank = 1308 P = 1 Q = 3
+myrank = 1259 P = 2 Q = 0
+myrank = 1037 P = 0 Q = 2
+myrank = 1920 P = 1 Q = 4
+myrank = 2535 P = 2 Q = 1
+myrank = 3736 P = 5 Q = 1
+myrank = 3739 P = 1 Q = 1
+myrank = 2663 P = 4 Q = 4
+myrank = 803 P = 4 Q = 1
+myrank = 2597 P = 2 Q = 4
+myrank = 1033 P = 2 Q = 2
+myrank = 2532 P = 3 Q = 1
+myrank = 3738 P = 1 Q = 2
+myrank = 1891 P = 4 Q = 3
+myrank = 3913 P = 3 Q = 5
+myrank = 3914 P = 4 Q = 3
+myrank = 2649 P = 5 Q = 2
+myrank = 800 P = 2 Q = 4
+myrank = 2517 P = 2 Q = 1
+myrank = 1256 P = 1 Q = 0
+myrank = 3731 P = 1 Q = 4
+myrank = 3965 P = 0 Q = 0
+myrank = 741 P = 3 Q = 3
+myrank = 1036 P = 1 Q = 2
+myrank = 740 P = 0 Q = 0
+myrank = 3770 P = 3 Q = 4
+myrank = 1543 P = 0 Q = 1
+myrank = 2415 P = 0 Q = 0
+myrank = 1171 P = 4 Q = 0
+myrank = 3987 P = 0 Q = 3
+myrank = 1922 P = 0 Q = 4
+myrank = 3696 P = 1 Q = 1
+myrank = 1258 P = 3 Q = 0
+myrank = 3980 P = 4 Q = 3
+myrank = 2395 P = 1 Q = 0
+myrank = 1039 P = 0 Q = 4
+myrank = 727 P = 0 Q = 1
+myrank = 1999 P = 0 Q = 1
+myrank = 2411 P = 5 Q = 1
+myrank = 1524 P = 0 Q = 2
+myrank = 2583 P = 2 Q = 2
+myrank = 1044 P = 3 Q = 5
+myrank = 2598 P = 3 Q = 5
+myrank = 2514 P = 2 Q = 0
+myrank = 742 P = 2 Q = 1
+myrank = 813 P = 5 Q = 4
+myrank = 1257 P = 0 Q = 3
+myrank = 3729 P = 3 Q = 1
+myrank = 3967 P = 2 Q = 3
+myrank = 2406 P = 1 Q = 4
+myrank = 3783 P = 5 Q = 2
+myrank = 3865 P = 3 Q = 2
+myrank = 818 P = 2 Q = 4
+myrank = 2662 P = 1 Q = 2
+myrank = 2142 P = 3 Q = 5
+myrank = 3986 P = 2 Q = 3
+myrank = 2576 P = 0 Q = 1
+myrank = 3995 P = 0 Q = 0
+myrank = 3612 P = 4 Q = 1
+myrank = 2414 P = 0 Q = 4
+myrank = 1045 P = 5 Q = 2
+myrank = 819 P = 2 Q = 1
+myrank = 1169 P = 5 Q = 3
+myrank = 2409 P = 3 Q = 4
+myrank = 3775 P = 4 Q = 1
+myrank = 2027 P = 1 Q = 4
+myrank = 3958 P = 1 Q = 3
+myrank = 724 P = 5 Q = 4
+myrank = 3982 P = 3 Q = 0
+myrank = 3759 P = 2 Q = 4
+myrank = 1774 P = 0 Q = 3
+myrank = 3985 P = 5 Q = 3
+myrank = 1525 P = 3 Q = 1
+myrank = 1035 P = 4 Q = 2
+myrank = 1541 P = 0 Q = 2
+myrank = 3971 P = 0 Q = 2
+myrank = 1032 P = 5 Q = 2
+myrank = 3861 P = 4 Q = 3
+myrank = 1428 P = 3 Q = 1
+myrank = 3966 P = 3 Q = 2
+myrank = 1921 P = 1 Q = 3
+myrank = 2148 P = 3 Q = 2
+myrank = 3535 P = 2 Q = 0
+myrank = 1899 P = 3 Q = 3
+myrank = 1847 P = 2 Q = 0
+myrank = 738 P = 1 Q = 0
+myrank = 2150 P = 2 Q = 5
+myrank = 726 P = 2 Q = 3
+myrank = 3737 P = 5 Q = 4
+myrank = 2600 P = 3 Q = 4
+myrank = 2819 P = 3 Q = 5
+myrank = 1890 P = 4 Q = 4
+myrank = 3776 P = 5 Q = 2
+myrank = 4038 P = 2 Q = 3
+myrank = 1699 P = 2 Q = 5
+myrank = 3983 P = 3 Q = 0
+myrank = 2577 P = 0 Q = 1
+myrank = 1998 P = 3 Q = 4
+myrank = 2410 P = 3 Q = 3
+myrank = 1772 P = 1 Q = 3
+myrank = 1735 P = 5 Q = 2
+myrank = 2643 P = 4 Q = 5
+myrank = 2603 P = 4 Q = 5
+myrank = 4091 P = 5 Q = 1
+myrank = 2641 P = 3 Q = 2
+myrank = 2596 P = 5 Q = 4
+myrank = 2512 P = 2 Q = 1
+myrank = 737 P = 1 Q = 1
+myrank = 4037 P = 3 Q = 3
+myrank = 3840 P = 1 Q = 2
+myrank = 731 P = 5 Q = 3
+myrank = 3843 P = 2 Q = 2
+myrank = 2518 P = 5 Q = 1
+myrank = 730 P = 2 Q = 3
+myrank = 2408 P = 4 Q = 0
+myrank = 1295 P = 5 Q = 0
+myrank = 3992 P = 4 Q = 0
+myrank = 3981 P = 4 Q = 0
+myrank = 3860 P = 2 Q = 2
+myrank = 2582 P = 3 Q = 1
+myrank = 1309 P = 3 Q = 4
+myrank = 3956 P = 2 Q = 2
+myrank = 2147 P = 0 Q = 2
+myrank = 3614 P = 3 Q = 1
+myrank = 1429 P = 3 Q = 4
+myrank = 2645 P = 4 Q = 1
+myrank = 2407 P = 4 Q = 3
+myrank = 1293 P = 3 Q = 3
+myrank = 3867 P = 5 Q = 2
+myrank = 2394 P = 4 Q = 0
+myrank = 1431 P = 5 Q = 4
+myrank = 1846 P = 3 Q = 0
+myrank = 1696 P = 3 Q = 5
+myrank = 2515 P = 3 Q = 1
+myrank = 3533 P = 5 Q = 4
+myrank = 812 P = 0 Q = 0
+myrank = 3780 P = 4 Q = 4
+myrank = 3774 P = 1 Q = 5
+myrank = 1732 P = 0 Q = 2
+myrank = 816 P = 4 Q = 4
+myrank = 725 P = 2 Q = 0
+myrank = 795 P = 5 Q = 1
+myrank = 739 P = 4 Q = 0
+myrank = 1897 P = 3 Q = 4
+myrank = 1896 P = 2 Q = 3
+myrank = 2145 P = 5 Q = 2
+myrank = 2024 P = 3 Q = 1
+myrank = 1845 P = 0 Q = 3
+myrank = 2580 P = 3 Q = 2
+myrank = 1034 P = 5 Q = 4
+myrank = 793 P = 3 Q = 1
+myrank = 3698 P = 3 Q = 4
+myrank = 3862 P = 4 Q = 5
+myrank = 1844 P = 3 Q = 4
+myrank = 2646 P = 3 Q = 5
+myrank = 3984 P = 3 Q = 5
+myrank = 3771 P = 2 Q = 5
+myrank = 2599 P = 0 Q = 1
+myrank = 722 P = 3 Q = 1
+myrank = 1430 P = 5 Q = 2
+myrank = 3837 P = 5 Q = 5
+myrank = 4039 P = 5 Q = 3
+myrank = 3824 P = 5 Q = 2
+myrank = 3757 P = 4 Q = 1
+myrank = 3723 P = 5 Q = 1
+myrank = 3841 P = 5 Q = 2
+myrank = 2795 P = 3 Q = 0
+myrank = 1540 P = 1 Q = 1
+myrank = 3993 P = 4 Q = 0
+myrank = 1775 P = 0 Q = 0
+myrank = 2644 P = 4 Q = 2
+myrank = 817 P = 1 Q = 0
+myrank = 720 P = 1 Q = 0
+myrank = 3538 P = 0 Q = 3
+myrank = 1292 P = 0 Q = 4
+myrank = 1048 P = 1 Q = 2
+myrank = 1888 P = 5 Q = 3
+myrank = 3951 P = 5 Q = 5
+myrank = 1573 P = 3 Q = 2
+myrank = 747 P = 5 Q = 1
+myrank = 736 P = 2 Q = 0
+myrank = 808 P = 5 Q = 1
+myrank = 1517 P = 1 Q = 5
+myrank = 1527 P = 2 Q = 2
+myrank = 3782 P = 3 Q = 4
+myrank = 2581 P = 3 Q = 1
+myrank = 1733 P = 5 Q = 0
+myrank = 2792 P = 1 Q = 3
+myrank = 3864 P = 3 Q = 2
+myrank = 3953 P = 0 Q = 3
+myrank = 2738 P = 2 Q = 5
+myrank = 3534 P = 2 Q = 0
+myrank = 3615 P = 0 Q = 1
+myrank = 1311 P = 0 Q = 0
+myrank = 3968 P = 5 Q = 3
+myrank = 3778 P = 1 Q = 2
+myrank = 2405 P = 2 Q = 3
+myrank = 2151 P = 5 Q = 1
+myrank = 3839 P = 4 Q = 5
+myrank = 1996 P = 2 Q = 4
+myrank = 3733 P = 3 Q = 5
+myrank = 3932 P = 2 Q = 0
+myrank = 2700 P = 0 Q = 2
+myrank = 1342 P = 2 Q = 1
+myrank = 2141 P = 1 Q = 4
+myrank = 3866 P = 2 Q = 0
+myrank = 1051 P = 2 Q = 5
+myrank = 797 P = 5 Q = 0
+myrank = 2393 P = 0 Q = 0
+myrank = 2601 P = 2 Q = 1
+myrank = 1889 P = 4 Q = 1
+myrank = 2404 P = 5 Q = 1
+myrank = 811 P = 3 Q = 4
+myrank = 3836 P = 5 Q = 2
+myrank = 3842 P = 5 Q = 5
+myrank = 2593 P = 3 Q = 5
+myrank = 2519 P = 5 Q = 3
+myrank = 3832 P = 4 Q = 5
+myrank = 809 P = 5 Q = 3
+myrank = 2513 P = 2 Q = 4
+myrank = 3934 P = 0 Q = 0
+myrank = 63 P = 4 Q = 2
+myrank = 4090 P = 4 Q = 3
+myrank = 3954 P = 0 Q = 5
+myrank = 1294 P = 2 Q = 4
+myrank = 3931 P = 0 Q = 2
+myrank = 3734 P = 3 Q = 4
+myrank = 62 P = 4 Q = 0
+myrank = 3903 P = 2 Q = 5
+myrank = 3835 P = 0 Q = 2
+myrank = 2511 P = 0 Q = 4
+myrank = 1698 P = 5 Q = 3
+myrank = 3223 P = 2 Q = 5
+myrank = 785 P = 4 Q = 1
+myrank = 3949 P = 3 Q = 5
+myrank = 2592 P = 4 Q = 1
+myrank = 2144 P = 5 Q = 5
+myrank = 745 P = 3 Q = 4
+myrank = 3876 P = 3 Q = 3
+myrank = 4050 P = 2 Q = 4
+myrank = 3933 P = 1 Q = 5
+myrank = 1542 P = 3 Q = 5
+myrank = 1310 P = 0 Q = 0
+myrank = 4088 P = 1 Q = 4
+myrank = 3693 P = 3 Q = 4
+myrank = 2602 P = 5 Q = 1
+myrank = 2647 P = 0 Q = 4
+myrank = 2146 P = 4 Q = 4
+myrank = 1773 P = 3 Q = 0
+myrank = 3769 P = 0 Q = 4
+myrank = 3935 P = 3 Q = 0
+myrank = 3689 P = 5 Q = 4
+myrank = 3613 P = 4 Q = 1
+myrank = 2575 P = 3 Q = 5
+myrank = 2026 P = 1 Q = 4
+myrank = 3833 P = 1 Q = 1
+myrank = 3722 P = 3 Q = 1
+myrank = 2739 P = 1 Q = 2
+myrank = 2257 P = 5 Q = 2
+myrank = 2025 P = 3 Q = 1
+myrank = 3994 P = 4 Q = 5
+myrank = 3777 P = 5 Q = 4
+myrank = 2648 P = 5 Q = 2
+myrank = 1694 P = 1 Q = 2
+myrank = 3781 P = 3 Q = 5
+myrank = 1340 P = 0 Q = 4
+myrank = 729 P = 5 Q = 4
+myrank = 3943 P = 5 Q = 2
+myrank = 3838 P = 5 Q = 1
+myrank = 810 P = 0 Q = 4
+myrank = 4035 P = 0 Q = 0
+myrank = 2794 P = 1 Q = 2
+myrank = 2263 P = 5 Q = 0
+myrank = 1343 P = 2 Q = 1
+myrank = 2574 P = 4 Q = 4
+myrank = 3720 P = 3 Q = 2
+myrank = 2256 P = 2 Q = 5
+myrank = 2260 P = 3 Q = 3
+myrank = 1734 P = 2 Q = 0
+myrank = 2573 P = 1 Q = 4
+myrank = 2586 P = 4 Q = 1
+myrank = 2703 P = 2 Q = 4
+myrank = 2572 P = 2 Q = 4
+myrank = 3691 P = 4 Q = 4
+myrank = 1574 P = 1 Q = 5
+myrank = 1174 P = 0 Q = 0
+myrank = 3959 P = 4 Q = 2
+myrank = 1898 P = 0 Q = 3
+myrank = 1515 P = 2 Q = 4
+myrank = 792 P = 4 Q = 0
+myrank = 3532 P = 0 Q = 3
+myrank = 2816 P = 2 Q = 2
+myrank = 2392 P = 3 Q = 0
+myrank = 2833 P = 5 Q = 3
+myrank = 4089 P = 1 Q = 0
+myrank = 2818 P = 0 Q = 3
+myrank = 2835 P = 1 Q = 0
+myrank = 2793 P = 4 Q = 5
+myrank = 3878 P = 5 Q = 2
+myrank = 3825 P = 2 Q = 5
+myrank = 791 P = 1 Q = 4
+myrank = 3779 P = 1 Q = 2
+myrank = 2640 P = 4 Q = 1
+myrank = 1526 P = 2 Q = 5
+myrank = 3974 P = 5 Q = 2
+myrank = 3973 P = 2 Q = 3
+myrank = 2509 P = 1 Q = 3
+myrank = 4073 P = 2 Q = 1
+myrank = 2651 P = 4 Q = 5
+myrank = 755 P = 1 Q = 4
+myrank = 3826 P = 1 Q = 5
+myrank = 2398 P = 3 Q = 3
+myrank = 2736 P = 3 Q = 5
+myrank = 3787 P = 3 Q = 4
+myrank = 3940 P = 4 Q = 0
+myrank = 2534 P = 0 Q = 4
+myrank = 2642 P = 0 Q = 4
+myrank = 1697 P = 3 Q = 2
+myrank = 1738 P = 3 Q = 0
+myrank = 806 P = 0 Q = 4
+myrank = 4049 P = 0 Q = 0
+myrank = 3834 P = 0 Q = 5
+myrank = 2399 P = 5 Q = 3
+myrank = 814 P = 2 Q = 1
+myrank = 3785 P = 2 Q = 1
+myrank = 2875 P = 1 Q = 0
+myrank = 59 P = 2 Q = 0
+myrank = 2827 P = 1 Q = 3
+myrank = 60 P = 5 Q = 5
+myrank = 784 P = 5 Q = 0
+myrank = 2412 P = 2 Q = 0
+myrank = 1693 P = 4 Q = 3
+myrank = 4059 P = 1 Q = 3
+myrank = 798 P = 4 Q = 4
+myrank = 3827 P = 1 Q = 2
+myrank = 1050 P = 5 Q = 2
+myrank = 2737 P = 5 Q = 2
+myrank = 1512 P = 3 Q = 4
+myrank = 2499 P = 3 Q = 0
+myrank = 3978 P = 3 Q = 3
+myrank = 3942 P = 5 Q = 0
+myrank = 2508 P = 4 Q = 1
+myrank = 3667 P = 3 Q = 1
+myrank = 799 P = 1 Q = 3
+myrank = 772 P = 4 Q = 1
+myrank = 2258 P = 1 Q = 3
+myrank = 1341 P = 0 Q = 3
+myrank = 3939 P = 1 Q = 0
+myrank = 2413 P = 4 Q = 3
+myrank = 796 P = 2 Q = 4
+myrank = 3823 P = 5 Q = 2
+myrank = 3694 P = 5 Q = 4
+myrank = 52 P = 3 Q = 0
+myrank = 1175 P = 0 Q = 5
+myrank = 2510 P = 0 Q = 1
+myrank = 2587 P = 4 Q = 1
+myrank = 4044 P = 2 Q = 0
+myrank = 775 P = 0 Q = 4
+myrank = 1997 P = 2 Q = 4
+myrank = 2259 P = 4 Q = 2
+myrank = 728 P = 0 Q = 0
+myrank = 815 P = 4 Q = 4
+myrank = 787 P = 3 Q = 1
+myrank = 1516 P = 1 Q = 2
+myrank = 2149 P = 5 Q = 5
+myrank = 2549 P = 2 Q = 1
+myrank = 2498 P = 0 Q = 4
+myrank = 1579 P = 5 Q = 2
+myrank = 3721 P = 3 Q = 4
+myrank = 3941 P = 4 Q = 2
+myrank = 1836 P = 4 Q = 1
+myrank = 70 P = 3 Q = 0
+myrank = 4056 P = 2 Q = 3
+myrank = 3902 P = 2 Q = 2
+myrank = 2836 P = 1 Q = 5
+myrank = 3692 P = 3 Q = 2
+myrank = 3938 P = 2 Q = 5
+myrank = 752 P = 0 Q = 1
+myrank = 3930 P = 3 Q = 3
+myrank = 2817 P = 3 Q = 3
+myrank = 2834 P = 2 Q = 5
+myrank = 1363 P = 3 Q = 1
+myrank = 1519 P = 2 Q = 5
+myrank = 71 P = 1 Q = 0
+myrank = 3695 P = 4 Q = 1
+myrank = 4074 P = 2 Q = 0
+myrank = 3906 P = 4 Q = 2
+myrank = 2032 P = 2 Q = 4
+myrank = 2623 P = 3 Q = 2
+myrank = 2497 P = 0 Q = 1
+myrank = 2824 P = 1 Q = 5
+myrank = 3948 P = 3 Q = 0
+myrank = 4036 P = 3 Q = 0
+myrank = 2864 P = 2 Q = 0
+myrank = 3389 P = 1 Q = 5
+myrank = 2533 P = 3 Q = 1
+myrank = 3724 P = 5 Q = 1
+myrank = 2397 P = 0 Q = 0
+myrank = 3869 P = 3 Q = 5
+myrank = 1629 P = 5 Q = 5
+myrank = 751 P = 1 Q = 0
+myrank = 3222 P = 1 Q = 1
+myrank = 786 P = 1 Q = 0
+myrank = 2839 P = 5 Q = 2
+myrank = 3952 P = 0 Q = 0
+myrank = 4076 P = 4 Q = 3
+myrank = 4034 P = 2 Q = 0
+myrank = 773 P = 1 Q = 1
+myrank = 2865 P = 0 Q = 3
+myrank = 4033 P = 5 Q = 0
+myrank = 4051 P = 5 Q = 3
+myrank = 3977 P = 0 Q = 0
+myrank = 3937 P = 5 Q = 3
+myrank = 1282 P = 5 Q = 3
+myrank = 3383 P = 3 Q = 0
+myrank = 2826 P = 0 Q = 2
+myrank = 3957 P = 1 Q = 0
+myrank = 733 P = 1 Q = 0
+myrank = 3975 P = 1 Q = 0
+myrank = 3703 P = 3 Q = 1
+myrank = 4072 P = 3 Q = 0
+myrank = 835 P = 0 Q = 4
+myrank = 2863 P = 5 Q = 0
+myrank = 3892 P = 4 Q = 2
+myrank = 2671 P = 5 Q = 5
+myrank = 3375 P = 1 Q = 3
+myrank = 3718 P = 2 Q = 4
+myrank = 4032 P = 0 Q = 3
+myrank = 3915 P = 1 Q = 5
+myrank = 3905 P = 1 Q = 5
+myrank = 1469 P = 4 Q = 1
+myrank = 3991 P = 2 Q = 3
+myrank = 4066 P = 0 Q = 3
+myrank = 3870 P = 0 Q = 5
+myrank = 2668 P = 5 Q = 4
+myrank = 1172 P = 1 Q = 5
+myrank = 3390 P = 2 Q = 3
+myrank = 794 P = 0 Q = 3
+myrank = 1471 P = 0 Q = 2
+myrank = 3883 P = 0 Q = 2
+myrank = 2591 P = 1 Q = 1
+myrank = 3955 P = 5 Q = 3
+myrank = 3384 P = 0 Q = 5
+myrank = 2867 P = 0 Q = 5
+myrank = 2804 P = 2 Q = 5
+myrank = 2938 P = 5 Q = 4
+myrank = 2936 P = 4 Q = 3
+myrank = 3890 P = 5 Q = 5
+myrank = 2876 P = 4 Q = 0
+myrank = 774 P = 4 Q = 0
+myrank = 2396 P = 3 Q = 4
+myrank = 2805 P = 4 Q = 3
+myrank = 3950 P = 2 Q = 0
+myrank = 2501 P = 2 Q = 1
+myrank = 2550 P = 0 Q = 4
+myrank = 3536 P = 0 Q = 1
+myrank = 3627 P = 0 Q = 1
+myrank = 3894 P = 0 Q = 0
+myrank = 2837 P = 1 Q = 2
+myrank = 2503 P = 4 Q = 4
+myrank = 1349 P = 5 Q = 0
+myrank = 4068 P = 2 Q = 4
+myrank = 4075 P = 5 Q = 3
+myrank = 2872 P = 1 Q = 5
+myrank = 732 P = 1 Q = 1
+myrank = 1522 P = 4 Q = 5
+myrank = 3880 P = 4 Q = 2
+myrank = 3388 P = 4 Q = 0
+myrank = 2832 P = 5 Q = 0
+myrank = 749 P = 5 Q = 0
+myrank = 1170 P = 5 Q = 2
+myrank = 4024 P = 4 Q = 3
+myrank = 790 P = 1 Q = 4
+myrank = 3382 P = 3 Q = 3
+myrank = 55 P = 1 Q = 5
+myrank = 4064 P = 1 Q = 3
+myrank = 3773 P = 4 Q = 5
+myrank = 1351 P = 1 Q = 0
+myrank = 2589 P = 2 Q = 4
+myrank = 3772 P = 2 Q = 4
+myrank = 2873 P = 2 Q = 3
+myrank = 1338 P = 1 Q = 1
+myrank = 57 P = 0 Q = 3
+myrank = 4057 P = 2 Q = 0
+myrank = 2861 P = 3 Q = 0
+myrank = 3972 P = 2 Q = 0
+myrank = 3848 P = 0 Q = 5
+myrank = 2807 P = 3 Q = 3
+myrank = 4067 P = 3 Q = 3
+myrank = 1041 P = 1 Q = 2
+myrank = 3700 P = 5 Q = 2
+myrank = 2034 P = 1 Q = 1
+myrank = 4031 P = 0 Q = 0
+myrank = 2496 P = 1 Q = 4
+myrank = 3686 P = 0 Q = 4
+myrank = 2877 P = 1 Q = 2
+myrank = 3897 P = 4 Q = 5
+myrank = 2866 P = 0 Q = 3
+myrank = 1576 P = 4 Q = 4
+myrank = 3928 P = 4 Q = 5
+myrank = 805 P = 0 Q = 4
+myrank = 1582 P = 1 Q = 5
+myrank = 3891 P = 2 Q = 5
+myrank = 3811 P = 3 Q = 2
+myrank = 2806 P = 4 Q = 2
+myrank = 56 P = 3 Q = 0
+myrank = 753 P = 3 Q = 3
+myrank = 3639 P = 2 Q = 1
+myrank = 3373 P = 5 Q = 5
+myrank = 3395 P = 0 Q = 3
+myrank = 1838 P = 1 Q = 0
+myrank = 2500 P = 5 Q = 1
+myrank = 3378 P = 3 Q = 5
+myrank = 3872 P = 5 Q = 2
+myrank = 3636 P = 2 Q = 1
+myrank = 2825 P = 3 Q = 0
+myrank = 3391 P = 5 Q = 5
+myrank = 4084 P = 0 Q = 0
+myrank = 1513 P = 3 Q = 4
+myrank = 4016 P = 1 Q = 3
+myrank = 53 P = 0 Q = 5
+myrank = 1173 P = 3 Q = 0
+myrank = 1894 P = 5 Q = 4
+myrank = 4020 P = 5 Q = 0
+myrank = 1336 P = 5 Q = 0
+myrank = 3904 P = 0 Q = 0
+myrank = 1042 P = 3 Q = 2
+myrank = 789 P = 3 Q = 0
+myrank = 3687 P = 2 Q = 5
+myrank = 3988 P = 0 Q = 0
+myrank = 750 P = 1 Q = 1
+myrank = 2373 P = 1 Q = 3
+myrank = 1133 P = 5 Q = 0
+myrank = 2295 P = 0 Q = 3
+myrank = 3990 P = 5 Q = 0
+myrank = 3895 P = 3 Q = 5
+myrank = 2849 P = 3 Q = 5
+myrank = 788 P = 0 Q = 1
+myrank = 1362 P = 3 Q = 4
+myrank = 2670 P = 1 Q = 1
+myrank = 3822 P = 1 Q = 5
+myrank = 4027 P = 5 Q = 0
+myrank = 1352 P = 2 Q = 1
+myrank = 1895 P = 5 Q = 4
+myrank = 2400 P = 5 Q = 3
+myrank = 2856 P = 2 Q = 0
+myrank = 832 P = 2 Q = 0
+myrank = 2733 P = 5 Q = 2
+myrank = 3755 P = 1 Q = 5
+myrank = 1339 P = 1 Q = 3
+myrank = 2620 P = 2 Q = 4
+myrank = 3685 P = 0 Q = 4
+myrank = 3960 P = 2 Q = 0
+myrank = 3929 P = 0 Q = 0
+myrank = 2372 P = 4 Q = 3
+myrank = 4022 P = 5 Q = 5
+myrank = 2375 P = 0 Q = 3
+myrank = 3719 P = 2 Q = 4
+myrank = 54 P = 1 Q = 3
+myrank = 1621 P = 5 Q = 5
+myrank = 748 P = 2 Q = 0
+myrank = 3732 P = 4 Q = 4
+myrank = 3886 P = 2 Q = 2
+myrank = 2665 P = 3 Q = 1
+myrank = 3808 P = 4 Q = 2
+myrank = 1631 P = 0 Q = 5
+myrank = 734 P = 1 Q = 3
+myrank = 1842 P = 4 Q = 0
+myrank = 2860 P = 0 Q = 3
+myrank = 3871 P = 2 Q = 3
+myrank = 4012 P = 1 Q = 2
+myrank = 833 P = 1 Q = 4
+myrank = 1514 P = 2 Q = 2
+myrank = 2588 P = 5 Q = 2
+myrank = 560 P = 5 Q = 5
+myrank = 3735 P = 2 Q = 2
+myrank = 4019 P = 0 Q = 3
+myrank = 3665 P = 4 Q = 4
+myrank = 4087 P = 5 Q = 3
+myrank = 2858 P = 4 Q = 0
+myrank = 1350 P = 1 Q = 1
+myrank = 1347 P = 5 Q = 1
+myrank = 2502 P = 1 Q = 1
+myrank = 4025 P = 2 Q = 3
+myrank = 69 P = 3 Q = 3
+myrank = 3380 P = 1 Q = 0
+myrank = 2403 P = 1 Q = 3
+myrank = 4071 P = 3 Q = 3
+myrank = 1736 P = 1 Q = 3
+myrank = 3882 P = 3 Q = 2
+myrank = 3756 P = 4 Q = 2
+myrank = 3859 P = 2 Q = 5
+myrank = 1630 P = 3 Q = 5
+myrank = 4046 P = 4 Q = 3
+myrank = 1178 P = 3 Q = 3
+myrank = 2854 P = 1 Q = 5
+myrank = 2033 P = 1 Q = 2
+myrank = 2870 P = 1 Q = 3
+myrank = 2669 P = 1 Q = 2
+myrank = 1518 P = 4 Q = 1
+myrank = 3907 P = 5 Q = 3
+myrank = 3893 P = 4 Q = 2
+myrank = 2862 P = 0 Q = 5
+myrank = 2838 P = 5 Q = 3
+myrank = 4042 P = 4 Q = 0
+myrank = 72 P = 4 Q = 0
+myrank = 2293 P = 1 Q = 3
+myrank = 3888 P = 0 Q = 5
+myrank = 4017 P = 4 Q = 5
+myrank = 1283 P = 5 Q = 3
+myrank = 3858 P = 1 Q = 2
+myrank = 1337 P = 1 Q = 1
+myrank = 3812 P = 3 Q = 2
+myrank = 3847 P = 3 Q = 5
+myrank = 4069 P = 2 Q = 3
+myrank = 4028 P = 4 Q = 3
+myrank = 1348 P = 5 Q = 1
+myrank = 4021 P = 2 Q = 3
+myrank = 1135 P = 1 Q = 0
+myrank = 3851 P = 3 Q = 2
+myrank = 3921 P = 5 Q = 5
+myrank = 2845 P = 1 Q = 0
+myrank = 3850 P = 5 Q = 5
+myrank = 3626 P = 1 Q = 3
+myrank = 61 P = 1 Q = 0
+myrank = 3726 P = 4 Q = 4
+myrank = 723 P = 3 Q = 3
+myrank = 2850 P = 2 Q = 0
+myrank = 3899 P = 0 Q = 3
+myrank = 2653 P = 2 Q = 2
+myrank = 3385 P = 2 Q = 3
+myrank = 4010 P = 1 Q = 3
+myrank = 2462 P = 0 Q = 1
+myrank = 3962 P = 1 Q = 3
+myrank = 3392 P = 4 Q = 3
+myrank = 821 P = 4 Q = 1
+myrank = 754 P = 3 Q = 0
+myrank = 4082 P = 1 Q = 3
+myrank = 1049 P = 1 Q = 5
+myrank = 2883 P = 0 Q = 0
+myrank = 834 P = 4 Q = 4
+myrank = 1843 P = 1 Q = 3
+myrank = 3963 P = 1 Q = 0
+myrank = 1695 P = 3 Q = 3
+myrank = 3372 P = 2 Q = 0
+myrank = 3900 P = 3 Q = 2
+myrank = 2594 P = 3 Q = 4
+myrank = 4041 P = 4 Q = 3
+myrank = 3924 P = 5 Q = 3
+myrank = 3386 P = 5 Q = 5
+myrank = 58 P = 3 Q = 2
+myrank = 667 P = 1 Q = 3
+myrank = 4048 P = 3 Q = 0
+myrank = 3764 P = 0 Q = 1
+myrank = 2595 P = 5 Q = 2
+myrank = 2621 P = 4 Q = 2
+myrank = 3743 P = 4 Q = 5
+myrank = 3857 P = 4 Q = 2
+myrank = 3946 P = 1 Q = 5
+myrank = 2035 P = 1 Q = 1
+myrank = 1577 P = 3 Q = 5
+myrank = 562 P = 3 Q = 2
+myrank = 2374 P = 0 Q = 3
+myrank = 3758 P = 5 Q = 5
+myrank = 4043 P = 5 Q = 0
+myrank = 24 P = 2 Q = 0
+myrank = 25 P = 5 Q = 2
+myrank = 2289 P = 4 Q = 5
+myrank = 2871 P = 1 Q = 0
+myrank = 1053 P = 4 Q = 5
+myrank = 158 P = 3 Q = 3
+myrank = 1134 P = 2 Q = 2
+myrank = 1840 P = 0 Q = 3
+myrank = 3624 P = 4 Q = 4
+myrank = 3295 P = 0 Q = 5
+myrank = 3792 P = 1 Q = 4
+myrank = 1370 P = 3 Q = 1
+myrank = 3680 P = 0 Q = 1
+myrank = 3945 P = 1 Q = 3
+myrank = 1176 P = 5 Q = 3
+myrank = 3753 P = 2 Q = 2
+myrank = 1043 P = 3 Q = 2
+myrank = 3681 P = 0 Q = 4
+myrank = 1280 P = 3 Q = 0
+myrank = 3625 P = 1 Q = 4
+myrank = 4058 P = 1 Q = 0
+myrank = 2634 P = 3 Q = 5
+myrank = 3927 P = 4 Q = 3
+myrank = 1692 P = 0 Q = 2
+myrank = 1587 P = 1 Q = 2
+myrank = 3767 P = 2 Q = 4
+myrank = 1281 P = 0 Q = 0
+myrank = 1353 P = 2 Q = 1
+myrank = 3666 P = 5 Q = 4
+myrank = 3394 P = 1 Q = 2
+myrank = 4026 P = 5 Q = 0
+myrank = 4080 P = 0 Q = 0
+myrank = 1118 P = 1 Q = 3
+myrank = 2584 P = 5 Q = 1
+myrank = 664 P = 5 Q = 3
+myrank = 3684 P = 5 Q = 4
+myrank = 2857 P = 2 Q = 2
+myrank = 3795 P = 0 Q = 4
+myrank = 2874 P = 2 Q = 0
+myrank = 3889 P = 2 Q = 0
+myrank = 68 P = 4 Q = 5
+myrank = 1520 P = 5 Q = 4
+myrank = 1892 P = 0 Q = 1
+myrank = 1179 P = 0 Q = 3
+myrank = 74 P = 0 Q = 3
+myrank = 1371 P = 3 Q = 1
+myrank = 4077 P = 4 Q = 0
+myrank = 3664 P = 3 Q = 1
+myrank = 3376 P = 1 Q = 2
+myrank = 75 P = 3 Q = 0
+myrank = 1132 P = 0 Q = 5
+myrank = 3364 P = 4 Q = 2
+myrank = 3220 P = 2 Q = 1
+myrank = 3675 P = 5 Q = 1
+myrank = 2015 P = 4 Q = 2
+myrank = 1333 P = 4 Q = 1
+myrank = 665 P = 5 Q = 3
+myrank = 487 P = 1 Q = 0
+myrank = 3381 P = 1 Q = 5
+myrank = 26 P = 3 Q = 0
+myrank = 1332 P = 4 Q = 4
+myrank = 3294 P = 0 Q = 2
+myrank = 3637 P = 4 Q = 1
+myrank = 1628 P = 5 Q = 5
+myrank = 3728 P = 0 Q = 2
+myrank = 3701 P = 5 Q = 1
+myrank = 2791 P = 2 Q = 2
+myrank = 484 P = 1 Q = 5
+myrank = 721 P = 1 Q = 3
+myrank = 4083 P = 3 Q = 1
+myrank = 2701 P = 5 Q = 5
+myrank = 3873 P = 2 Q = 5
+myrank = 3896 P = 3 Q = 2
+myrank = 3898 P = 1 Q = 5
+myrank = 3868 P = 5 Q = 5
+myrank = 1841 P = 3 Q = 3
+myrank = 2852 P = 5 Q = 2
+myrank = 2247 P = 3 Q = 0
+myrank = 2635 P = 3 Q = 4
+myrank = 3856 P = 1 Q = 5
+myrank = 4023 P = 1 Q = 3
+myrank = 3789 P = 5 Q = 5
+myrank = 3727 P = 1 Q = 1
+myrank = 2633 P = 3 Q = 2
+myrank = 2622 P = 4 Q = 1
+myrank = 4029 P = 1 Q = 3
+myrank = 1168 P = 2 Q = 0
+myrank = 1583 P = 1 Q = 5
+myrank = 1107 P = 1 Q = 2
+myrank = 2814 P = 0 Q = 5
+myrank = 4009 P = 5 Q = 0
+myrank = 3365 P = 3 Q = 0
+myrank = 822 P = 4 Q = 0
+myrank = 2590 P = 4 Q = 2
+myrank = 3844 P = 4 Q = 2
+myrank = 1468 P = 1 Q = 2
+myrank = 1334 P = 4 Q = 3
+myrank = 3820 P = 2 Q = 2
+myrank = 4040 P = 4 Q = 1
+myrank = 3821 P = 4 Q = 2
+myrank = 3926 P = 2 Q = 5
+myrank = 2585 P = 1 Q = 2
+myrank = 4047 P = 4 Q = 0
+myrank = 3369 P = 5 Q = 5
+myrank = 27 P = 0 Q = 5
+myrank = 2655 P = 2 Q = 4
+myrank = 1117 P = 5 Q = 5
+myrank = 3374 P = 5 Q = 2
+myrank = 3393 P = 1 Q = 3
+myrank = 3076 P = 3 Q = 1
+myrank = 4030 P = 3 Q = 0
+myrank = 4053 P = 3 Q = 3
+myrank = 2800 P = 3 Q = 3
+myrank = 3794 P = 0 Q = 5
+myrank = 4078 P = 0 Q = 1
+myrank = 1052 P = 1 Q = 2
+myrank = 735 P = 5 Q = 0
+myrank = 2788 P = 1 Q = 2
+myrank = 666 P = 1 Q = 0
+myrank = 2417 P = 2 Q = 0
+myrank = 1335 P = 5 Q = 1
+myrank = 3881 P = 3 Q = 0
+myrank = 2798 P = 5 Q = 2
+myrank = 4007 P = 4 Q = 2
+myrank = 2402 P = 1 Q = 3
+myrank = 3961 P = 2 Q = 2
+myrank = 2245 P = 5 Q = 3
+myrank = 3887 P = 0 Q = 5
+myrank = 1839 P = 3 Q = 4
+myrank = 4092 P = 2 Q = 3
+myrank = 2844 P = 0 Q = 2
+myrank = 3702 P = 3 Q = 5
+myrank = 4070 P = 5 Q = 3
+myrank = 4018 P = 3 Q = 3
+myrank = 2734 P = 0 Q = 5
+myrank = 2632 P = 5 Q = 1
+myrank = 3672 P = 1 Q = 1
+myrank = 2887 P = 2 Q = 3
+myrank = 4002 P = 5 Q = 0
+myrank = 3765 P = 5 Q = 2
+myrank = 1324 P = 3 Q = 0
+myrank = 3815 P = 4 Q = 4
+myrank = 1578 P = 3 Q = 5
+myrank = 4079 P = 0 Q = 0
+myrank = 3730 P = 4 Q = 5
+myrank = 3537 P = 3 Q = 0
+myrank = 2667 P = 5 Q = 2
+myrank = 3885 P = 5 Q = 5
+myrank = 781 P = 4 Q = 3
+myrank = 2732 P = 5 Q = 5
+myrank = 1177 P = 5 Q = 5
+myrank = 3884 P = 5 Q = 0
+myrank = 1837 P = 1 Q = 0
+myrank = 2932 P = 3 Q = 0
+myrank = 3715 P = 3 Q = 2
+myrank = 2401 P = 4 Q = 4
+myrank = 245 P = 4 Q = 4
+myrank = 4065 P = 1 Q = 3
+myrank = 3716 P = 0 Q = 4
+myrank = 2284 P = 3 Q = 5
+myrank = 4093 P = 4 Q = 4
+myrank = 2654 P = 5 Q = 2
+myrank = 485 P = 3 Q = 5
+myrank = 1327 P = 3 Q = 4
+myrank = 3813 P = 1 Q = 2
+myrank = 2012 P = 0 Q = 1
+myrank = 247 P = 1 Q = 3
+myrank = 782 P = 2 Q = 4
+myrank = 3249 P = 2 Q = 5
+myrank = 3705 P = 5 Q = 5
+myrank = 3221 P = 1 Q = 2
+myrank = 4014 P = 0 Q = 3
+myrank = 1523 P = 1 Q = 4
+myrank = 159 P = 3 Q = 0
+myrank = 3829 P = 0 Q = 2
+myrank = 3293 P = 4 Q = 2
+myrank = 1108 P = 3 Q = 2
+myrank = 3744 P = 1 Q = 4
+myrank = 2927 P = 0 Q = 0
+myrank = 3714 P = 1 Q = 4
+myrank = 439 P = 3 Q = 4
+myrank = 1355 P = 4 Q = 4
+myrank = 3831 P = 4 Q = 2
+myrank = 3936 P = 0 Q = 5
+myrank = 1040 P = 4 Q = 2
+myrank = 1326 P = 4 Q = 0
+myrank = 2851 P = 5 Q = 0
+myrank = 1325 P = 4 Q = 4
+myrank = 2280 P = 5 Q = 3
+myrank = 1111 P = 5 Q = 2
+myrank = 573 P = 0 Q = 3
+myrank = 2652 P = 0 Q = 1
+myrank = 1119 P = 4 Q = 2
+myrank = 3784 P = 2 Q = 5
+myrank = 1585 P = 2 Q = 2
+myrank = 820 P = 1 Q = 1
+myrank = 3717 P = 0 Q = 4
+myrank = 2460 P = 1 Q = 4
+myrank = 2799 P = 2 Q = 2
+myrank = 2246 P = 5 Q = 2
+myrank = 2848 P = 3 Q = 0
+myrank = 4013 P = 0 Q = 3
+myrank = 3159 P = 0 Q = 1
+myrank = 4086 P = 2 Q = 3
+myrank = 2815 P = 2 Q = 3
+myrank = 3367 P = 2 Q = 3
+myrank = 2879 P = 0 Q = 3
+myrank = 3766 P = 2 Q = 5
+myrank = 3793 P = 0 Q = 5
+myrank = 2014 P = 2 Q = 1
+myrank = 4094 P = 4 Q = 0
+myrank = 4008 P = 2 Q = 0
+myrank = 1470 P = 4 Q = 1
+myrank = 3901 P = 0 Q = 2
+myrank = 2933 P = 5 Q = 1
+myrank = 3989 P = 1 Q = 5
+myrank = 2391 P = 0 Q = 4
+myrank = 1814 P = 0 Q = 0
+myrank = 4000 P = 3 Q = 0
+myrank = 3814 P = 4 Q = 5
+myrank = 4005 P = 4 Q = 0
+myrank = 3663 P = 0 Q = 1
+myrank = 2387 P = 2 Q = 0
+myrank = 3704 P = 3 Q = 1
+myrank = 1623 P = 1 Q = 2
+myrank = 2812 P = 3 Q = 3
+myrank = 1580 P = 5 Q = 5
+myrank = 3679 P = 4 Q = 4
+myrank = 3676 P = 2 Q = 1
+myrank = 4015 P = 1 Q = 3
+myrank = 2790 P = 2 Q = 0
+myrank = 3791 P = 1 Q = 5
+myrank = 2859 P = 4 Q = 0
+myrank = 3786 P = 0 Q = 2
+myrank = 3539 P = 2 Q = 0
+myrank = 3849 P = 2 Q = 5
+myrank = 4081 P = 1 Q = 3
+myrank = 588 P = 1 Q = 3
+myrank = 3875 P = 4 Q = 5
+myrank = 1361 P = 2 Q = 1
+myrank = 2931 P = 3 Q = 0
+myrank = 3366 P = 0 Q = 2
+myrank = 1125 P = 0 Q = 3
+myrank = 3745 P = 3 Q = 5
+myrank = 3807 P = 2 Q = 2
+myrank = 3251 P = 3 Q = 2
+myrank = 3673 P = 1 Q = 4
+myrank = 1124 P = 4 Q = 2
+myrank = 156 P = 4 Q = 3
+myrank = 3746 P = 0 Q = 4
+myrank = 3874 P = 4 Q = 5
+myrank = 2886 P = 2 Q = 0
+myrank = 3713 P = 1 Q = 1
+myrank = 2803 P = 5 Q = 2
+myrank = 3077 P = 1 Q = 1
+myrank = 1521 P = 1 Q = 2
+myrank = 1581 P = 5 Q = 1
+myrank = 1344 P = 5 Q = 3
+myrank = 3708 P = 1 Q = 1
+myrank = 4011 P = 1 Q = 0
+myrank = 4052 P = 2 Q = 0
+myrank = 3619 P = 3 Q = 4
+myrank = 437 P = 3 Q = 5
+myrank = 1354 P = 5 Q = 3
+myrank = 804 P = 4 Q = 3
+myrank = 3379 P = 0 Q = 5
+myrank = 3158 P = 3 Q = 5
+myrank = 3947 P = 3 Q = 3
+myrank = 4001 P = 3 Q = 0
+myrank = 2659 P = 3 Q = 2
+myrank = 1276 P = 3 Q = 3
+myrank = 1123 P = 1 Q = 0
+myrank = 3377 P = 0 Q = 3
+myrank = 2802 P = 2 Q = 0
+myrank = 2551 P = 0 Q = 4
+myrank = 73 P = 1 Q = 2
+myrank = 2244 P = 3 Q = 2
+myrank = 3254 P = 2 Q = 2
+myrank = 4003 P = 2 Q = 0
+myrank = 3248 P = 0 Q = 4
+myrank = 2463 P = 3 Q = 0
+myrank = 3912 P = 3 Q = 3
+myrank = 2789 P = 4 Q = 5
+myrank = 2831 P = 0 Q = 5
+myrank = 3589 P = 1 Q = 4
+myrank = 1851 P = 1 Q = 0
+myrank = 3252 P = 3 Q = 5
+myrank = 3998 P = 1 Q = 0
+myrank = 3754 P = 2 Q = 1
+myrank = 3371 P = 3 Q = 2
+myrank = 3925 P = 2 Q = 5
+myrank = 1360 P = 2 Q = 4
+myrank = 2292 P = 0 Q = 5
+myrank = 1345 P = 3 Q = 1
+myrank = 1127 P = 0 Q = 2
+myrank = 1120 P = 3 Q = 3
+myrank = 2281 P = 5 Q = 3
+myrank = 3761 P = 4 Q = 2
+myrank = 4045 P = 1 Q = 1
+myrank = 2286 P = 5 Q = 3
+myrank = 3752 P = 3 Q = 1
+myrank = 1329 P = 3 Q = 3
+myrank = 147 P = 5 Q = 3
+myrank = 3999 P = 1 Q = 2
+myrank = 3079 P = 1 Q = 3
+myrank = 823 P = 3 Q = 1
+myrank = 3790 P = 2 Q = 4
+myrank = 1103 P = 0 Q = 2
+myrank = 3355 P = 5 Q = 2
+myrank = 3944 P = 4 Q = 0
+myrank = 4006 P = 1 Q = 3
+myrank = 1848 P = 2 Q = 0
+myrank = 246 P = 1 Q = 1
+myrank = 3229 P = 3 Q = 2
+myrank = 574 P = 3 Q = 2
+myrank = 2540 P = 0 Q = 1
+myrank = 3747 P = 3 Q = 1
+myrank = 2631 P = 2 Q = 5
+myrank = 2630 P = 3 Q = 4
+myrank = 3760 P = 4 Q = 5
+myrank = 2797 P = 5 Q = 0
+myrank = 2628 P = 0 Q = 2
+myrank = 2461 P = 4 Q = 0
+myrank = 2385 P = 1 Q = 0
+myrank = 436 P = 1 Q = 4
+myrank = 1322 P = 3 Q = 1
+myrank = 3660 P = 4 Q = 1
+myrank = 51 P = 0 Q = 0
+myrank = 244 P = 2 Q = 1
+myrank = 1849 P = 1 Q = 1
+myrank = 2813 P = 0 Q = 5
+myrank = 1739 P = 0 Q = 3
+myrank = 1323 P = 3 Q = 0
+myrank = 2735 P = 0 Q = 5
+myrank = 4085 P = 0 Q = 0
+myrank = 2416 P = 2 Q = 1
+myrank = 3678 P = 1 Q = 1
+myrank = 783 P = 5 Q = 1
+myrank = 575 P = 3 Q = 2
+myrank = 3231 P = 2 Q = 5
+myrank = 2881 P = 5 Q = 0
+myrank = 2524 P = 2 Q = 4
+myrank = 3230 P = 3 Q = 4
+myrank = 4095 P = 1 Q = 0
+myrank = 2868 P = 5 Q = 3
+myrank = 2869 P = 2 Q = 0
+myrank = 3788 P = 2 Q = 2
+myrank = 2935 P = 2 Q = 0
+myrank = 2926 P = 0 Q = 0
+myrank = 433 P = 5 Q = 5
+myrank = 157 P = 3 Q = 4
+myrank = 4063 P = 4 Q = 0
+myrank = 3806 P = 2 Q = 2
+myrank = 3031 P = 1 Q = 3
+myrank = 2548 P = 5 Q = 1
+myrank = 1893 P = 3 Q = 0
+myrank = 2418 P = 2 Q = 3
+myrank = 3397 P = 2 Q = 0
+myrank = 2820 P = 5 Q = 0
+myrank = 3682 P = 5 Q = 5
+myrank = 3324 P = 5 Q = 3
+myrank = 1815 P = 3 Q = 0
+myrank = 3156 P = 1 Q = 1
+myrank = 31 P = 1 Q = 3
+myrank = 3214 P = 2 Q = 2
+myrank = 2781 P = 2 Q = 5
+myrank = 1321 P = 4 Q = 0
+myrank = 2934 P = 2 Q = 3
+myrank = 1850 P = 4 Q = 0
+myrank = 4060 P = 3 Q = 4
+myrank = 1620 P = 2 Q = 5
+myrank = 1369 P = 4 Q = 0
+myrank = 2388 P = 2 Q = 0
+myrank = 3255 P = 5 Q = 5
+myrank = 2731 P = 3 Q = 5
+myrank = 831 P = 5 Q = 1
+myrank = 3387 P = 1 Q = 0
+myrank = 2776 P = 4 Q = 5
+myrank = 3353 P = 3 Q = 5
+myrank = 830 P = 2 Q = 1
+myrank = 3610 P = 0 Q = 1
+myrank = 2541 P = 3 Q = 1
+myrank = 2784 P = 0 Q = 5
+myrank = 209 P = 2 Q = 0
+myrank = 4004 P = 2 Q = 3
+myrank = 3751 P = 0 Q = 2
+myrank = 3909 P = 1 Q = 0
+myrank = 2823 P = 1 Q = 3
+myrank = 3638 P = 4 Q = 1
+myrank = 3661 P = 1 Q = 4
+myrank = 3910 P = 1 Q = 2
+myrank = 322 P = 1 Q = 1
+myrank = 3398 P = 2 Q = 3
+myrank = 146 P = 0 Q = 3
+myrank = 285 P = 5 Q = 3
+myrank = 3922 P = 1 Q = 0
+myrank = 3325 P = 5 Q = 2
+myrank = 1330 P = 5 Q = 1
+myrank = 3212 P = 3 Q = 4
+myrank = 3588 P = 5 Q = 3
+myrank = 829 P = 3 Q = 4
+myrank = 2294 P = 4 Q = 0
+myrank = 3352 P = 0 Q = 3
+myrank = 3762 P = 1 Q = 4
+myrank = 2930 P = 1 Q = 3
+myrank = 2878 P = 0 Q = 0
+myrank = 2291 P = 0 Q = 0
+myrank = 1331 P = 5 Q = 0
+myrank = 2780 P = 5 Q = 2
+myrank = 3706 P = 5 Q = 1
+myrank = 3590 P = 4 Q = 4
+myrank = 3707 P = 1 Q = 5
+myrank = 3662 P = 3 Q = 1
+myrank = 2783 P = 3 Q = 5
+myrank = 2283 P = 0 Q = 3
+myrank = 3763 P = 3 Q = 5
+myrank = 2288 P = 4 Q = 3
+myrank = 2290 P = 3 Q = 0
+myrank = 2627 P = 4 Q = 1
+myrank = 701 P = 2 Q = 0
+myrank = 1346 P = 0 Q = 3
+myrank = 3683 P = 2 Q = 1
+myrank = 1812 P = 2 Q = 0
+myrank = 590 P = 4 Q = 2
+myrank = 828 P = 3 Q = 4
+myrank = 3710 P = 0 Q = 2
+myrank = 3804 P = 3 Q = 2
+myrank = 807 P = 0 Q = 0
+myrank = 3609 P = 0 Q = 4
+myrank = 3227 P = 4 Q = 5
+myrank = 3591 P = 2 Q = 1
+myrank = 2379 P = 3 Q = 3
+myrank = 1622 P = 1 Q = 5
+myrank = 2013 P = 2 Q = 2
+myrank = 287 P = 4 Q = 1
+myrank = 1933 P = 0 Q = 1
+myrank = 2287 P = 2 Q = 2
+myrank = 2929 P = 1 Q = 3
+myrank = 2729 P = 0 Q = 2
+myrank = 2525 P = 1 Q = 1
+myrank = 2624 P = 3 Q = 1
+myrank = 2779 P = 3 Q = 2
+myrank = 2285 P = 5 Q = 0
+myrank = 65 P = 2 Q = 3
+myrank = 1126 P = 3 Q = 0
+myrank = 1328 P = 3 Q = 0
+myrank = 3617 P = 2 Q = 1
+myrank = 2880 P = 2 Q = 3
+myrank = 171 P = 3 Q = 3
+myrank = 169 P = 4 Q = 0
+myrank = 3711 P = 3 Q = 1
+myrank = 1105 P = 4 Q = 3
+myrank = 168 P = 4 Q = 3
+myrank = 3349 P = 2 Q = 3
+myrank = 3350 P = 5 Q = 5
+myrank = 2702 P = 2 Q = 2
+myrank = 1122 P = 3 Q = 2
+myrank = 3725 P = 4 Q = 2
+myrank = 3250 P = 2 Q = 2
+myrank = 2527 P = 0 Q = 1
+myrank = 780 P = 4 Q = 1
+myrank = 3219 P = 5 Q = 2
+myrank = 2782 P = 0 Q = 3
+myrank = 2778 P = 3 Q = 5
+myrank = 2629 P = 3 Q = 1
+myrank = 2107 P = 0 Q = 5
+myrank = 3654 P = 2 Q = 3
+myrank = 3279 P = 1 Q = 5
+myrank = 3801 P = 5 Q = 5
+myrank = 67 P = 4 Q = 3
+myrank = 2282 P = 5 Q = 2
+myrank = 2656 P = 1 Q = 2
+myrank = 435 P = 1 Q = 5
+myrank = 1102 P = 4 Q = 2
+myrank = 635 P = 5 Q = 3
+myrank = 1106 P = 4 Q = 2
+myrank = 3326 P = 5 Q = 2
+myrank = 1104 P = 2 Q = 2
+myrank = 2730 P = 3 Q = 5
+myrank = 1116 P = 5 Q = 5
+myrank = 572 P = 4 Q = 5
+myrank = 3292 P = 4 Q = 5
+myrank = 3215 P = 4 Q = 4
+myrank = 2777 P = 3 Q = 3
+myrank = 531 P = 1 Q = 2
+myrank = 1109 P = 0 Q = 2
+myrank = 3677 P = 1 Q = 2
+myrank = 297 P = 2 Q = 4
+myrank = 3749 P = 4 Q = 4
+myrank = 3920 P = 5 Q = 5
+myrank = 1551 P = 5 Q = 4
+myrank = 3078 P = 4 Q = 1
+myrank = 1368 P = 4 Q = 4
+myrank = 3740 P = 5 Q = 2
+myrank = 486 P = 3 Q = 2
+myrank = 3502 P = 3 Q = 0
+myrank = 3709 P = 4 Q = 4
+myrank = 2840 P = 4 Q = 3
+myrank = 2796 P = 0 Q = 2
+myrank = 29 P = 2 Q = 3
+myrank = 3712 P = 0 Q = 1
+myrank = 1121 P = 3 Q = 5
+myrank = 2657 P = 1 Q = 5
+myrank = 1608 P = 0 Q = 5
+myrank = 3028 P = 0 Q = 3
+myrank = 555 P = 4 Q = 2
+myrank = 3503 P = 5 Q = 1
+myrank = 2787 P = 1 Q = 3
+myrank = 2928 P = 4 Q = 1
+myrank = 2843 P = 0 Q = 0
+myrank = 934 P = 4 Q = 2
+myrank = 1586 P = 5 Q = 1
+myrank = 1279 P = 3 Q = 1
+myrank = 3798 P = 0 Q = 2
+myrank = 993 P = 5 Q = 4
+myrank = 432 P = 2 Q = 2
+myrank = 3225 P = 2 Q = 1
+myrank = 2342 P = 1 Q = 3
+myrank = 35 P = 0 Q = 2
+myrank = 2728 P = 1 Q = 2
+myrank = 3671 P = 5 Q = 1
+myrank = 3608 P = 4 Q = 0
+myrank = 3213 P = 5 Q = 2
+myrank = 589 P = 1 Q = 3
+myrank = 438 P = 3 Q = 2
+myrank = 3226 P = 1 Q = 2
+myrank = 3316 P = 5 Q = 5
+myrank = 3805 P = 0 Q = 4
+myrank = 3396 P = 3 Q = 2
+myrank = 163 P = 4 Q = 3
+myrank = 3618 P = 2 Q = 1
+myrank = 1110 P = 2 Q = 0
+myrank = 1320 P = 1 Q = 1
+myrank = 2785 P = 2 Q = 0
+myrank = 591 P = 3 Q = 3
+myrank = 2526 P = 1 Q = 1
+myrank = 3611 P = 2 Q = 0
+myrank = 39 P = 3 Q = 3
+myrank = 3137 P = 2 Q = 4
+myrank = 2801 P = 3 Q = 5
+myrank = 2811 P = 1 Q = 2
+myrank = 529 P = 5 Q = 2
+myrank = 64 P = 2 Q = 0
+myrank = 2924 P = 4 Q = 0
+myrank = 3304 P = 1 Q = 5
+myrank = 145 P = 4 Q = 0
+myrank = 703 P = 1 Q = 3
+myrank = 1813 P = 5 Q = 0
+myrank = 375 P = 5 Q = 1
+myrank = 2941 P = 4 Q = 0
+myrank = 3690 P = 4 Q = 1
+myrank = 3030 P = 1 Q = 1
+myrank = 3319 P = 2 Q = 3
+myrank = 3307 P = 2 Q = 2
+myrank = 3668 P = 0 Q = 4
+myrank = 3187 P = 4 Q = 1
+myrank = 2882 P = 5 Q = 2
+myrank = 2364 P = 2 Q = 0
+myrank = 2343 P = 0 Q = 0
+myrank = 3139 P = 4 Q = 1
+myrank = 3500 P = 2 Q = 3
+myrank = 3228 P = 3 Q = 5
+myrank = 210 P = 3 Q = 4
+myrank = 1927 P = 3 Q = 4
+myrank = 1101 P = 1 Q = 5
+myrank = 1926 P = 1 Q = 3
+myrank = 563 P = 5 Q = 0
+myrank = 2261 P = 3 Q = 2
+myrank = 37 P = 4 Q = 2
+myrank = 2841 P = 4 Q = 3
+myrank = 2377 P = 4 Q = 3
+myrank = 3628 P = 0 Q = 1
+myrank = 3674 P = 1 Q = 4
+myrank = 561 P = 0 Q = 0
+myrank = 553 P = 4 Q = 0
+myrank = 1609 P = 0 Q = 1
+myrank = 3339 P = 4 Q = 0
+myrank = 380 P = 5 Q = 4
+myrank = 315 P = 2 Q = 4
+myrank = 3224 P = 2 Q = 2
+myrank = 3049 P = 3 Q = 4
+myrank = 3157 P = 4 Q = 4
+myrank = 3688 P = 5 Q = 1
+myrank = 350 P = 5 Q = 4
+myrank = 3253 P = 0 Q = 1
+myrank = 1610 P = 5 Q = 2
+myrank = 1275 P = 0 Q = 0
+myrank = 994 P = 3 Q = 2
+myrank = 296 P = 5 Q = 4
+myrank = 144 P = 1 Q = 4
+myrank = 3630 P = 4 Q = 4
+myrank = 321 P = 1 Q = 1
+myrank = 211 P = 0 Q = 3
+myrank = 530 P = 1 Q = 0
+myrank = 2808 P = 3 Q = 5
+myrank = 2358 P = 4 Q = 1
+myrank = 1737 P = 1 Q = 2
+myrank = 2842 P = 1 Q = 5
+myrank = 2821 P = 5 Q = 2
+myrank = 617 P = 5 Q = 3
+myrank = 592 P = 3 Q = 5
+myrank = 3742 P = 2 Q = 4
+myrank = 1924 P = 0 Q = 3
+myrank = 2106 P = 3 Q = 2
+myrank = 2105 P = 4 Q = 4
+myrank = 632 P = 4 Q = 3
+myrank = 2853 P = 1 Q = 0
+myrank = 544 P = 0 Q = 2
+myrank = 48 P = 2 Q = 5
+myrank = 2666 P = 2 Q = 5
+myrank = 1027 P = 2 Q = 5
+myrank = 351 P = 1 Q = 2
+myrank = 700 P = 2 Q = 0
+myrank = 3118 P = 2 Q = 1
+myrank = 162 P = 1 Q = 1
+myrank = 3643 P = 4 Q = 4
+myrank = 545 P = 5 Q = 3
+myrank = 2925 P = 1 Q = 3
+myrank = 349 P = 2 Q = 1
+myrank = 528 P = 2 Q = 5
+myrank = 3354 P = 2 Q = 0
+myrank = 2658 P = 0 Q = 2
+myrank = 2855 P = 2 Q = 3
+myrank = 2884 P = 3 Q = 0
+myrank = 36 P = 4 Q = 3
+myrank = 3616 P = 0 Q = 0
+myrank = 2664 P = 3 Q = 2
+myrank = 547 P = 5 Q = 2
+myrank = 3276 P = 0 Q = 5
+myrank = 1278 P = 2 Q = 3
+myrank = 2341 P = 1 Q = 3
+myrank = 320 P = 3 Q = 4
+myrank = 2262 P = 3 Q = 5
+myrank = 3641 P = 2 Q = 1
+myrank = 3603 P = 0 Q = 3
+myrank = 2366 P = 3 Q = 3
+myrank = 554 P = 4 Q = 5
+myrank = 3640 P = 2 Q = 4
+myrank = 619 P = 1 Q = 0
+myrank = 38 P = 1 Q = 2
+myrank = 1925 P = 4 Q = 1
+myrank = 3011 P = 0 Q = 0
+myrank = 3357 P = 4 Q = 3
+myrank = 3605 P = 2 Q = 1
+myrank = 3359 P = 3 Q = 3
+myrank = 3607 P = 1 Q = 1
+myrank = 3997 P = 1 Q = 0
+myrank = 3111 P = 0 Q = 1
+myrank = 66 P = 4 Q = 3
+myrank = 949 P = 2 Q = 5
+myrank = 170 P = 0 Q = 3
+myrank = 3642 P = 4 Q = 1
+myrank = 28 P = 2 Q = 3
+myrank = 21 P = 3 Q = 3
+myrank = 948 P = 3 Q = 1
+myrank = 3572 P = 1 Q = 1
+myrank = 3348 P = 3 Q = 2
+myrank = 3653 P = 5 Q = 1
+myrank = 3008 P = 1 Q = 3
+myrank = 1935 P = 2 Q = 1
+myrank = 3655 P = 1 Q = 1
+myrank = 360 P = 3 Q = 1
+myrank = 3578 P = 4 Q = 3
+myrank = 3217 P = 3 Q = 4
+myrank = 1129 P = 5 Q = 2
+myrank = 348 P = 4 Q = 1
+myrank = 1272 P = 1 Q = 0
+myrank = 1885 P = 1 Q = 4
+myrank = 634 P = 5 Q = 0
+myrank = 1887 P = 2 Q = 1
+myrank = 3606 P = 2 Q = 3
+myrank = 1255 P = 4 Q = 3
+myrank = 3796 P = 4 Q = 2
+myrank = 2104 P = 1 Q = 5
+myrank = 3048 P = 5 Q = 1
+myrank = 3602 P = 3 Q = 1
+myrank = 3138 P = 1 Q = 1
+myrank = 2809 P = 3 Q = 5
+myrank = 3996 P = 3 Q = 3
+myrank = 3816 P = 0 Q = 2
+myrank = 3026 P = 1 Q = 0
+myrank = 1611 P = 5 Q = 5
+myrank = 3183 P = 2 Q = 5
+myrank = 2542 P = 0 Q = 0
+myrank = 932 P = 2 Q = 4
+myrank = 3184 P = 2 Q = 4
+myrank = 2384 P = 1 Q = 3
+myrank = 3604 P = 2 Q = 1
+myrank = 3010 P = 3 Q = 0
+myrank = 3575 P = 5 Q = 3
+myrank = 251 P = 4 Q = 1
+myrank = 2136 P = 1 Q = 4
+myrank = 719 P = 1 Q = 1
+myrank = 2822 P = 4 Q = 3
+myrank = 2786 P = 5 Q = 5
+myrank = 1130 P = 1 Q = 0
+myrank = 3180 P = 0 Q = 5
+myrank = 1546 P = 3 Q = 2
+myrank = 1929 P = 0 Q = 0
+myrank = 2810 P = 1 Q = 0
+myrank = 2133 P = 2 Q = 4
+myrank = 2976 P = 1 Q = 4
+myrank = 469 P = 5 Q = 4
+myrank = 2132 P = 5 Q = 5
+myrank = 824 P = 3 Q = 4
+myrank = 2829 P = 1 Q = 2
+myrank = 298 P = 4 Q = 4
+myrank = 951 P = 1 Q = 5
+myrank = 3810 P = 4 Q = 1
+myrank = 2135 P = 4 Q = 2
+myrank = 323 P = 1 Q = 4
+myrank = 2939 P = 2 Q = 3
+myrank = 34 P = 0 Q = 0
+myrank = 2750 P = 2 Q = 2
+myrank = 1547 P = 3 Q = 2
+myrank = 1584 P = 5 Q = 2
+myrank = 878 P = 5 Q = 5
+myrank = 2131 P = 2 Q = 5
+myrank = 582 P = 5 Q = 2
+myrank = 3287 P = 4 Q = 5
+myrank = 3579 P = 3 Q = 4
+myrank = 3216 P = 3 Q = 2
+myrank = 2828 P = 1 Q = 3
+myrank = 3218 P = 5 Q = 5
+myrank = 3283 P = 3 Q = 2
+myrank = 2847 P = 4 Q = 2
+myrank = 1274 P = 0 Q = 4
+myrank = 3573 P = 1 Q = 0
+myrank = 2424 P = 4 Q = 1
+myrank = 2386 P = 5 Q = 1
+myrank = 358 P = 1 Q = 4
+myrank = 3277 P = 0 Q = 5
+myrank = 382 P = 1 Q = 2
+myrank = 593 P = 2 Q = 3
+myrank = 3305 P = 4 Q = 2
+myrank = 299 P = 1 Q = 1
+myrank = 2743 P = 3 Q = 5
+myrank = 623 P = 0 Q = 2
+myrank = 3911 P = 1 Q = 2
+myrank = 827 P = 2 Q = 3
+myrank = 3819 P = 2 Q = 2
+myrank = 1277 P = 2 Q = 0
+myrank = 1 P = 1 Q = 0
+myrank = 2830 P = 0 Q = 3
+myrank = 3649 P = 0 Q = 1
+myrank = 1545 P = 5 Q = 5
+myrank = 2340 P = 2 Q = 0
+myrank = 284 P = 5 Q = 1
+myrank = 581 P = 2 Q = 0
+myrank = 618 P = 5 Q = 2
+myrank = 3916 P = 1 Q = 2
+myrank = 3581 P = 2 Q = 1
+myrank = 2937 P = 4 Q = 3
+myrank = 3301 P = 5 Q = 0
+myrank = 3919 P = 2 Q = 3
+myrank = 3233 P = 0 Q = 5
+myrank = 383 P = 1 Q = 1
+myrank = 1932 P = 4 Q = 1
+myrank = 286 P = 4 Q = 1
+myrank = 3846 P = 0 Q = 2
+myrank = 2356 P = 0 Q = 0
+myrank = 3809 P = 4 Q = 2
+myrank = 3036 P = 5 Q = 3
+myrank = 1026 P = 3 Q = 2
+myrank = 3802 P = 2 Q = 2
+myrank = 616 P = 2 Q = 3
+myrank = 3327 P = 4 Q = 5
+myrank = 2846 P = 4 Q = 3
+myrank = 3185 P = 2 Q = 4
+myrank = 3009 P = 0 Q = 4
+myrank = 702 P = 1 Q = 3
+myrank = 1100 P = 1 Q = 3
+myrank = 4061 P = 3 Q = 3
+myrank = 150 P = 4 Q = 0
+myrank = 356 P = 5 Q = 2
+myrank = 995 P = 3 Q = 5
+myrank = 950 P = 5 Q = 1
+myrank = 3748 P = 4 Q = 2
+myrank = 4062 P = 0 Q = 0
+myrank = 3243 P = 3 Q = 4
+myrank = 3050 P = 0 Q = 1
+myrank = 3177 P = 3 Q = 4
+myrank = 234 P = 4 Q = 0
+myrank = 3179 P = 1 Q = 1
+myrank = 434 P = 1 Q = 2
+myrank = 2357 P = 2 Q = 3
+myrank = 2760 P = 3 Q = 2
+myrank = 3141 P = 5 Q = 1
+myrank = 633 P = 4 Q = 5
+myrank = 924 P = 0 Q = 5
+myrank = 1054 P = 4 Q = 5
+myrank = 50 P = 4 Q = 2
+myrank = 1264 P = 5 Q = 1
+myrank = 2710 P = 4 Q = 5
+myrank = 2748 P = 0 Q = 2
+myrank = 2744 P = 1 Q = 2
+myrank = 363 P = 2 Q = 1
+myrank = 208 P = 2 Q = 1
+myrank = 3071 P = 5 Q = 1
+myrank = 3399 P = 5 Q = 5
+myrank = 2427 P = 0 Q = 4
+myrank = 3117 P = 2 Q = 5
+myrank = 1795 P = 5 Q = 0
+myrank = 3750 P = 3 Q = 5
+myrank = 2389 P = 1 Q = 3
+myrank = 470 P = 1 Q = 2
+myrank = 672 P = 4 Q = 0
+myrank = 3501 P = 0 Q = 0
+myrank = 933 P = 5 Q = 1
+myrank = 826 P = 2 Q = 1
+myrank = 2390 P = 1 Q = 3
+myrank = 22 P = 3 Q = 5
+myrank = 594 P = 5 Q = 3
+myrank = 3235 P = 0 Q = 1
+myrank = 142 P = 2 Q = 0
+myrank = 1544 P = 2 Q = 5
+myrank = 3531 P = 0 Q = 4
+myrank = 140 P = 0 Q = 0
+myrank = 1055 P = 0 Q = 2
+myrank = 381 P = 5 Q = 1
+myrank = 1112 P = 5 Q = 2
+myrank = 2352 P = 5 Q = 0
+myrank = 556 P = 0 Q = 5
+myrank = 3029 P = 1 Q = 1
+myrank = 3112 P = 4 Q = 5
+myrank = 3576 P = 1 Q = 4
+myrank = 2543 P = 4 Q = 1
+myrank = 3306 P = 4 Q = 2
+myrank = 825 P = 5 Q = 4
+myrank = 23 P = 2 Q = 0
+myrank = 935 P = 4 Q = 1
+myrank = 141 P = 0 Q = 3
+myrank = 2722 P = 1 Q = 2
+myrank = 3651 P = 3 Q = 4
+myrank = 2378 P = 1 Q = 0
+myrank = 1182 P = 5 Q = 0
+myrank = 3577 P = 1 Q = 4
+myrank = 3845 P = 4 Q = 2
+myrank = 359 P = 3 Q = 5
+myrank = 213 P = 5 Q = 1
+myrank = 2129 P = 0 Q = 2
+myrank = 3368 P = 2 Q = 5
+myrank = 4 P = 3 Q = 2
+myrank = 3652 P = 2 Q = 4
+myrank = 3278 P = 0 Q = 2
+myrank = 1930 P = 5 Q = 1
+myrank = 312 P = 3 Q = 1
+myrank = 718 P = 2 Q = 3
+myrank = 160 P = 5 Q = 3
+myrank = 559 P = 2 Q = 2
+myrank = 2967 P = 3 Q = 3
+myrank = 3601 P = 2 Q = 0
+myrank = 1115 P = 5 Q = 0
+myrank = 2885 P = 2 Q = 0
+myrank = 3908 P = 2 Q = 5
+myrank = 2376 P = 4 Q = 3
+myrank = 374 P = 5 Q = 5
+myrank = 3830 P = 0 Q = 5
+myrank = 3670 P = 5 Q = 1
+myrank = 580 P = 0 Q = 5
+myrank = 2749 P = 5 Q = 0
+myrank = 33 P = 1 Q = 2
+myrank = 1183 P = 1 Q = 3
+myrank = 3175 P = 3 Q = 2
+myrank = 3136 P = 5 Q = 4
+myrank = 233 P = 4 Q = 4
+myrank = 3741 P = 2 Q = 1
+myrank = 926 P = 5 Q = 2
+myrank = 3337 P = 2 Q = 2
+myrank = 927 P = 5 Q = 4
+myrank = 620 P = 1 Q = 5
+myrank = 3108 P = 4 Q = 4
+myrank = 713 P = 5 Q = 3
+myrank = 2139 P = 4 Q = 5
+myrank = 1025 P = 0 Q = 2
+myrank = 391 P = 3 Q = 4
+myrank = 143 P = 5 Q = 3
+myrank = 468 P = 2 Q = 5
+myrank = 367 P = 5 Q = 1
+myrank = 3234 P = 3 Q = 5
+myrank = 373 P = 0 Q = 4
+myrank = 3025 P = 1 Q = 4
+myrank = 546 P = 2 Q = 2
+myrank = 2353 P = 4 Q = 4
+myrank = 3051 P = 0 Q = 0
+myrank = 552 P = 5 Q = 2
+myrank = 3629 P = 1 Q = 4
+myrank = 3528 P = 1 Q = 4
+myrank = 397 P = 5 Q = 2
+myrank = 2128 P = 1 Q = 4
+myrank = 1422 P = 4 Q = 4
+myrank = 2130 P = 0 Q = 5
+myrank = 1955 P = 1 Q = 1
+myrank = 3659 P = 2 Q = 0
+myrank = 583 P = 1 Q = 0
+myrank = 11 P = 2 Q = 0
+myrank = 992 P = 2 Q = 2
+myrank = 362 P = 2 Q = 4
+myrank = 712 P = 2 Q = 3
+myrank = 392 P = 2 Q = 5
+myrank = 379 P = 5 Q = 2
+myrank = 3027 P = 3 Q = 4
+myrank = 3338 P = 5 Q = 2
+myrank = 1223 P = 3 Q = 0
+myrank = 396 P = 3 Q = 4
+myrank = 3242 P = 5 Q = 2
+myrank = 3284 P = 5 Q = 2
+myrank = 1420 P = 4 Q = 1
+myrank = 2751 P = 5 Q = 5
+myrank = 2974 P = 3 Q = 1
+myrank = 2709 P = 4 Q = 5
+myrank = 471 P = 1 Q = 2
+myrank = 3178 P = 4 Q = 5
+myrank = 3336 P = 3 Q = 5
+myrank = 1180 P = 0 Q = 2
+myrank = 3351 P = 2 Q = 2
+myrank = 1024 P = 4 Q = 1
+myrank = 3669 P = 3 Q = 1
+myrank = 3318 P = 0 Q = 5
+myrank = 3342 P = 3 Q = 3
+myrank = 3116 P = 0 Q = 1
+myrank = 20 P = 1 Q = 5
+myrank = 214 P = 2 Q = 3
+myrank = 2359 P = 4 Q = 0
+myrank = 3 P = 3 Q = 0
+myrank = 1931 P = 5 Q = 4
+myrank = 3644 P = 0 Q = 4
+myrank = 49 P = 1 Q = 0
+myrank = 3308 P = 2 Q = 5
+myrank = 2 P = 1 Q = 5
+myrank = 2134 P = 4 Q = 5
+myrank = 2212 P = 0 Q = 0
+myrank = 205 P = 3 Q = 1
+myrank = 3320 P = 2 Q = 5
+myrank = 3063 P = 3 Q = 4
+myrank = 3370 P = 4 Q = 3
+myrank = 14 P = 1 Q = 5
+myrank = 717 P = 2 Q = 0
+myrank = 3172 P = 5 Q = 4
+myrank = 3828 P = 1 Q = 4
+myrank = 1114 P = 3 Q = 5
+myrank = 673 P = 4 Q = 3
+myrank = 2947 P = 1 Q = 0
+myrank = 3186 P = 3 Q = 2
+myrank = 3286 P = 4 Q = 5
+myrank = 0 P = 2 Q = 2
+myrank = 3241 P = 5 Q = 2
+myrank = 3310 P = 4 Q = 2
+myrank = 404 P = 4 Q = 5
+myrank = 3583 P = 2 Q = 3
+myrank = 640 P = 0 Q = 3
+myrank = 361 P = 5 Q = 5
+myrank = 2945 P = 0 Q = 3
+myrank = 2946 P = 4 Q = 0
+myrank = 2426 P = 4 Q = 3
+myrank = 1537 P = 5 Q = 5
+myrank = 161 P = 5 Q = 0
+myrank = 232 P = 2 Q = 3
+myrank = 4054 P = 0 Q = 3
+myrank = 1535 P = 4 Q = 1
+myrank = 386 P = 0 Q = 4
+myrank = 2944 P = 3 Q = 0
+myrank = 2720 P = 5 Q = 5
+myrank = 206 P = 3 Q = 3
+myrank = 388 P = 4 Q = 4
+myrank = 715 P = 4 Q = 0
+myrank = 3435 P = 0 Q = 3
+myrank = 4055 P = 2 Q = 1
+myrank = 1421 P = 4 Q = 1
+myrank = 1928 P = 3 Q = 1
+myrank = 12 P = 2 Q = 5
+myrank = 3182 P = 0 Q = 1
+myrank = 32 P = 1 Q = 5
+myrank = 2964 P = 2 Q = 0
+myrank = 877 P = 3 Q = 4
+myrank = 3631 P = 4 Q = 0
+myrank = 2365 P = 5 Q = 3
+myrank = 622 P = 3 Q = 3
+myrank = 2761 P = 0 Q = 5
+myrank = 339 P = 4 Q = 1
+myrank = 3052 P = 2 Q = 1
+myrank = 3570 P = 5 Q = 0
+myrank = 3282 P = 3 Q = 2
+myrank = 2940 P = 2 Q = 3
+myrank = 3317 P = 3 Q = 5
+myrank = 3110 P = 0 Q = 4
+myrank = 3100 P = 2 Q = 1
+myrank = 1270 P = 2 Q = 3
+myrank = 2138 P = 2 Q = 5
+myrank = 2708 P = 5 Q = 5
+myrank = 3300 P = 0 Q = 2
+myrank = 876 P = 3 Q = 1
+myrank = 2073 P = 4 Q = 2
+myrank = 3024 P = 4 Q = 1
+myrank = 398 P = 2 Q = 1
+myrank = 1953 P = 5 Q = 1
+myrank = 884 P = 5 Q = 4
+myrank = 3281 P = 0 Q = 2
+myrank = 1794 P = 2 Q = 0
+myrank = 384 P = 0 Q = 2
+myrank = 3433 P = 5 Q = 3
+myrank = 2975 P = 5 Q = 3
+myrank = 15 P = 1 Q = 2
+myrank = 716 P = 4 Q = 3
+myrank = 2715 P = 5 Q = 2
+myrank = 372 P = 0 Q = 1
+myrank = 3340 P = 1 Q = 2
+myrank = 91 P = 5 Q = 2
+myrank = 2355 P = 4 Q = 0
+myrank = 185 P = 4 Q = 1
+myrank = 444 P = 3 Q = 4
+myrank = 2350 P = 0 Q = 0
+myrank = 870 P = 4 Q = 4
+myrank = 871 P = 3 Q = 1
+myrank = 3119 P = 5 Q = 1
+myrank = 2978 P = 4 Q = 3
+myrank = 3285 P = 2 Q = 2
+myrank = 1538 P = 5 Q = 1
+myrank = 387 P = 1 Q = 5
+myrank = 3302 P = 5 Q = 5
+myrank = 2957 P = 2 Q = 3
+myrank = 3596 P = 1 Q = 0
+myrank = 314 P = 5 Q = 1
+myrank = 1549 P = 2 Q = 5
+myrank = 3600 P = 5 Q = 4
+myrank = 1113 P = 0 Q = 3
+myrank = 443 P = 3 Q = 5
+myrank = 268 P = 1 Q = 1
+myrank = 1254 P = 4 Q = 3
+myrank = 1802 P = 1 Q = 3
+myrank = 2747 P = 3 Q = 5
+myrank = 1266 P = 2 Q = 3
+myrank = 3620 P = 0 Q = 4
+myrank = 925 P = 0 Q = 1
+myrank = 3623 P = 2 Q = 1
+myrank = 271 P = 0 Q = 4
+myrank = 2943 P = 0 Q = 4
+myrank = 714 P = 4 Q = 4
+myrank = 3917 P = 0 Q = 3
+myrank = 869 P = 4 Q = 1
+myrank = 711 P = 3 Q = 3
+myrank = 3574 P = 2 Q = 4
+myrank = 2955 P = 4 Q = 0
+myrank = 3621 P = 3 Q = 0
+myrank = 369 P = 4 Q = 2
+myrank = 313 P = 2 Q = 2
+myrank = 364 P = 4 Q = 2
+myrank = 709 P = 0 Q = 4
+myrank = 2354 P = 1 Q = 3
+myrank = 241 P = 0 Q = 1
+myrank = 2741 P = 4 Q = 5
+myrank = 2979 P = 3 Q = 1
+myrank = 858 P = 0 Q = 1
+myrank = 2742 P = 0 Q = 2
+myrank = 710 P = 0 Q = 0
+myrank = 393 P = 5 Q = 1
+myrank = 88 P = 0 Q = 3
+myrank = 445 P = 2 Q = 2
+myrank = 44 P = 0 Q = 3
+myrank = 2721 P = 5 Q = 4
+myrank = 1273 P = 1 Q = 3
+myrank = 1539 P = 4 Q = 5
+myrank = 207 P = 3 Q = 0
+myrank = 3657 P = 5 Q = 1
+myrank = 1952 P = 2 Q = 4
+myrank = 279 P = 5 Q = 1
+myrank = 2713 P = 3 Q = 2
+myrank = 2367 P = 3 Q = 3
+myrank = 3062 P = 3 Q = 1
+myrank = 1937 P = 1 Q = 4
+myrank = 3648 P = 1 Q = 1
+myrank = 357 P = 5 Q = 1
+myrank = 3343 P = 0 Q = 5
+myrank = 3356 P = 5 Q = 5
+myrank = 3103 P = 1 Q = 1
+myrank = 131 P = 5 Q = 3
+myrank = 671 P = 1 Q = 1
+myrank = 1982 P = 3 Q = 4
+myrank = 1221 P = 3 Q = 3
+myrank = 3918 P = 3 Q = 2
+myrank = 1268 P = 4 Q = 0
+myrank = 1981 P = 3 Q = 1
+myrank = 3102 P = 4 Q = 1
+myrank = 3855 P = 5 Q = 2
+myrank = 879 P = 5 Q = 4
+myrank = 385 P = 0 Q = 4
+myrank = 399 P = 4 Q = 2
+myrank = 3176 P = 3 Q = 1
+myrank = 407 P = 3 Q = 5
+myrank = 3080 P = 3 Q = 4
+myrank = 886 P = 4 Q = 1
+myrank = 887 P = 1 Q = 1
+myrank = 3070 P = 2 Q = 1
+myrank = 1533 P = 5 Q = 4
+myrank = 3303 P = 5 Q = 2
+myrank = 3333 P = 5 Q = 5
+myrank = 2965 P = 5 Q = 3
+myrank = 2360 P = 1 Q = 3
+myrank = 235 P = 0 Q = 1
+myrank = 674 P = 0 Q = 0
+myrank = 3060 P = 4 Q = 4
+myrank = 1548 P = 0 Q = 1
+myrank = 2762 P = 1 Q = 2
+myrank = 2999 P = 2 Q = 1
+myrank = 3347 P = 3 Q = 3
+myrank = 2075 P = 1 Q = 1
+myrank = 1938 P = 1 Q = 1
+myrank = 3315 P = 5 Q = 2
+myrank = 319 P = 3 Q = 1
+myrank = 3173 P = 1 Q = 5
+myrank = 249 P = 2 Q = 4
+myrank = 2348 P = 0 Q = 3
+myrank = 3101 P = 2 Q = 4
+myrank = 338 P = 0 Q = 1
+myrank = 3309 P = 1 Q = 5
+myrank = 763 P = 3 Q = 0
+myrank = 1855 P = 1 Q = 0
+myrank = 2277 P = 4 Q = 2
+myrank = 2279 P = 3 Q = 2
+myrank = 378 P = 0 Q = 1
+myrank = 558 P = 2 Q = 3
+myrank = 8 P = 0 Q = 3
+myrank = 3432 P = 0 Q = 5
+myrank = 3593 P = 5 Q = 3
+myrank = 2966 P = 3 Q = 4
+myrank = 240 P = 3 Q = 4
+myrank = 376 P = 0 Q = 5
+myrank = 179 P = 5 Q = 3
+myrank = 3358 P = 4 Q = 5
+myrank = 976 P = 1 Q = 4
+myrank = 264 P = 4 Q = 4
+myrank = 2972 P = 4 Q = 3
+myrank = 3267 P = 2 Q = 2
+myrank = 1016 P = 5 Q = 1
+myrank = 390 P = 3 Q = 1
+myrank = 341 P = 0 Q = 5
+myrank = 2266 P = 0 Q = 2
+myrank = 2752 P = 1 Q = 5
+myrank = 177 P = 5 Q = 4
+myrank = 3622 P = 2 Q = 1
+myrank = 2973 P = 1 Q = 0
+myrank = 2953 P = 5 Q = 3
+myrank = 2723 P = 1 Q = 2
+myrank = 3650 P = 0 Q = 4
+myrank = 175 P = 3 Q = 4
+myrank = 2443 P = 4 Q = 0
+myrank = 2996 P = 0 Q = 4
+myrank = 395 P = 3 Q = 4
+myrank = 2626 P = 1 Q = 5
+myrank = 1800 P = 2 Q = 3
+myrank = 311 P = 0 Q = 1
+myrank = 2363 P = 5 Q = 1
+myrank = 3058 P = 2 Q = 1
+myrank = 1983 P = 5 Q = 1
+myrank = 7 P = 2 Q = 2
+myrank = 975 P = 5 Q = 5
+myrank = 1131 P = 4 Q = 0
+myrank = 3174 P = 1 Q = 1
+myrank = 2137 P = 5 Q = 2
+myrank = 3280 P = 1 Q = 5
+myrank = 3083 P = 2 Q = 4
+myrank = 1934 P = 3 Q = 0
+myrank = 3244 P = 4 Q = 2
+myrank = 2425 P = 1 Q = 0
+myrank = 3656 P = 4 Q = 4
+myrank = 1220 P = 4 Q = 3
+myrank = 3245 P = 1 Q = 4
+myrank = 875 P = 4 Q = 1
+myrank = 204 P = 1 Q = 0
+myrank = 167 P = 1 Q = 1
+myrank = 3321 P = 2 Q = 5
+myrank = 9 P = 3 Q = 2
+myrank = 760 P = 2 Q = 1
+myrank = 1222 P = 3 Q = 3
+myrank = 3171 P = 2 Q = 1
+myrank = 212 P = 0 Q = 0
+myrank = 3015 P = 0 Q = 0
+myrank = 2265 P = 3 Q = 0
+myrank = 3075 P = 0 Q = 1
+myrank = 3072 P = 1 Q = 4
+myrank = 3434 P = 2 Q = 0
+myrank = 269 P = 4 Q = 4
+myrank = 2276 P = 1 Q = 3
+myrank = 125 P = 2 Q = 3
+myrank = 1423 P = 3 Q = 1
+myrank = 124 P = 5 Q = 3
+myrank = 6 P = 5 Q = 3
+myrank = 1181 P = 5 Q = 0
+myrank = 2755 P = 5 Q = 2
+myrank = 3797 P = 4 Q = 2
+myrank = 441 P = 5 Q = 4
+myrank = 2977 P = 4 Q = 0
+myrank = 3181 P = 0 Q = 2
+myrank = 2746 P = 4 Q = 5
+myrank = 761 P = 5 Q = 3
+myrank = 1015 P = 2 Q = 2
+myrank = 3114 P = 1 Q = 1
+myrank = 3097 P = 3 Q = 1
+myrank = 540 P = 2 Q = 3
+myrank = 1534 P = 1 Q = 2
+myrank = 3007 P = 1 Q = 4
+myrank = 868 P = 1 Q = 1
+myrank = 1019 P = 0 Q = 5
+myrank = 46 P = 2 Q = 3
+myrank = 2625 P = 2 Q = 1
+myrank = 3314 P = 2 Q = 3
+myrank = 974 P = 1 Q = 5
+myrank = 874 P = 4 Q = 1
+myrank = 149 P = 5 Q = 3
+myrank = 1939 P = 4 Q = 0
+myrank = 274 P = 2 Q = 4
+myrank = 342 P = 0 Q = 4
+myrank = 270 P = 1 Q = 3
+myrank = 148 P = 2 Q = 0
+myrank = 3266 P = 2 Q = 5
+myrank = 2023 P = 0 Q = 5
+myrank = 1253 P = 5 Q = 0
+myrank = 669 P = 0 Q = 0
+myrank = 3647 P = 4 Q = 1
+myrank = 3331 P = 3 Q = 2
+myrank = 89 P = 5 Q = 0
+myrank = 195 P = 2 Q = 1
+myrank = 1017 P = 4 Q = 5
+myrank = 2921 P = 2 Q = 3
+myrank = 2711 P = 3 Q = 2
+myrank = 3240 P = 4 Q = 4
+myrank = 1252 P = 5 Q = 0
+myrank = 3033 P = 3 Q = 3
+myrank = 2954 P = 1 Q = 3
+myrank = 3569 P = 5 Q = 1
+myrank = 2061 P = 2 Q = 5
+myrank = 641 P = 5 Q = 0
+myrank = 3598 P = 3 Q = 3
+myrank = 343 P = 3 Q = 4
+myrank = 2942 P = 4 Q = 0
+myrank = 446 P = 2 Q = 1
+myrank = 5 P = 0 Q = 5
+myrank = 3330 P = 0 Q = 5
+myrank = 267 P = 2 Q = 0
+myrank = 1884 P = 4 Q = 1
+myrank = 10 P = 0 Q = 2
+myrank = 978 P = 3 Q = 4
+myrank = 3232 P = 2 Q = 2
+myrank = 668 P = 4 Q = 0
+myrank = 243 P = 5 Q = 1
+myrank = 1013 P = 3 Q = 2
+myrank = 595 P = 5 Q = 5
+myrank = 3311 P = 4 Q = 2
+myrank = 1219 P = 1 Q = 0
+myrank = 1649 P = 0 Q = 5
+myrank = 1793 P = 3 Q = 5
+myrank = 3312 P = 3 Q = 5
+myrank = 3332 P = 5 Q = 2
+myrank = 3341 P = 1 Q = 2
+myrank = 1269 P = 2 Q = 1
+myrank = 3344 P = 1 Q = 0
+myrank = 3032 P = 0 Q = 4
+myrank = 308 P = 2 Q = 2
+myrank = 3064 P = 2 Q = 1
+myrank = 1792 P = 0 Q = 3
+myrank = 3081 P = 0 Q = 1
+myrank = 3082 P = 2 Q = 4
+myrank = 3246 P = 0 Q = 2
+myrank = 3530 P = 4 Q = 0
+myrank = 2763 P = 4 Q = 5
+myrank = 3529 P = 1 Q = 0
+myrank = 2740 P = 1 Q = 2
+myrank = 2712 P = 3 Q = 5
+myrank = 248 P = 2 Q = 1
+myrank = 2072 P = 5 Q = 1
+myrank = 3291 P = 4 Q = 0
+myrank = 856 P = 1 Q = 4
+myrank = 708 P = 1 Q = 3
+myrank = 1271 P = 2 Q = 3
+myrank = 1128 P = 5 Q = 3
+myrank = 1536 P = 5 Q = 5
+myrank = 880 P = 5 Q = 4
+myrank = 3645 P = 3 Q = 1
+myrank = 3040 P = 5 Q = 1
+myrank = 30 P = 2 Q = 2
+myrank = 1163 P = 5 Q = 3
+myrank = 47 P = 2 Q = 3
+myrank = 2958 P = 5 Q = 3
+myrank = 2995 P = 1 Q = 3
+myrank = 1463 P = 0 Q = 2
+myrank = 154 P = 0 Q = 3
+myrank = 670 P = 3 Q = 3
+myrank = 90 P = 5 Q = 3
+myrank = 3323 P = 1 Q = 2
+myrank = 979 P = 2 Q = 5
+myrank = 1550 P = 5 Q = 5
+myrank = 340 P = 4 Q = 1
+myrank = 3322 P = 4 Q = 2
+myrank = 542 P = 2 Q = 5
+myrank = 3334 P = 3 Q = 0
+myrank = 2267 P = 0 Q = 2
+myrank = 2448 P = 5 Q = 3
+myrank = 3328 P = 1 Q = 5
+myrank = 164 P = 4 Q = 0
+myrank = 3188 P = 5 Q = 2
+myrank = 3247 P = 0 Q = 2
+myrank = 1954 P = 2 Q = 4
+myrank = 3597 P = 3 Q = 1
+myrank = 3658 P = 5 Q = 4
+myrank = 451 P = 2 Q = 5
+myrank = 174 P = 1 Q = 3
+myrank = 642 P = 2 Q = 0
+myrank = 215 P = 4 Q = 4
+myrank = 3599 P = 5 Q = 4
+myrank = 389 P = 3 Q = 2
+myrank = 405 P = 4 Q = 5
+myrank = 3150 P = 0 Q = 5
+myrank = 3091 P = 1 Q = 1
+myrank = 3799 P = 3 Q = 5
+myrank = 194 P = 3 Q = 0
+myrank = 3580 P = 0 Q = 3
+myrank = 3109 P = 1 Q = 1
+myrank = 3099 P = 3 Q = 4
+myrank = 126 P = 2 Q = 0
+myrank = 1803 P = 1 Q = 3
+myrank = 3035 P = 2 Q = 4
+myrank = 1497 P = 2 Q = 4
+myrank = 3329 P = 0 Q = 0
+myrank = 250 P = 4 Q = 4
+myrank = 2022 P = 4 Q = 1
+myrank = 1651 P = 2 Q = 2
+myrank = 3061 P = 4 Q = 3
+myrank = 111 P = 0 Q = 0
+myrank = 2951 P = 5 Q = 1
+myrank = 3053 P = 5 Q = 1
+myrank = 549 P = 1 Q = 2
+myrank = 550 P = 5 Q = 0
+myrank = 843 P = 2 Q = 1
+myrank = 3817 P = 3 Q = 5
+myrank = 173 P = 2 Q = 0
+myrank = 1498 P = 5 Q = 1
+myrank = 3018 P = 2 Q = 3
+myrank = 3595 P = 1 Q = 4
+myrank = 3055 P = 1 Q = 4
+myrank = 2312 P = 1 Q = 2
+myrank = 3044 P = 0 Q = 4
+myrank = 2278 P = 3 Q = 0
+myrank = 1650 P = 2 Q = 5
+myrank = 675 P = 3 Q = 3
+myrank = 139 P = 0 Q = 1
+myrank = 263 P = 4 Q = 4
+myrank = 370 P = 1 Q = 4
+myrank = 1462 P = 5 Q = 1
+myrank = 3073 P = 4 Q = 4
+myrank = 3646 P = 0 Q = 1
+myrank = 2769 P = 1 Q = 3
+myrank = 621 P = 3 Q = 0
+myrank = 846 P = 0 Q = 4
+myrank = 295 P = 3 Q = 1
+myrank = 1161 P = 0 Q = 0
+myrank = 3037 P = 1 Q = 4
+myrank = 3034 P = 2 Q = 4
+myrank = 543 P = 3 Q = 0
+myrank = 3059 P = 4 Q = 4
+myrank = 406 P = 4 Q = 4
+myrank = 231 P = 2 Q = 4
+myrank = 3263 P = 4 Q = 4
+myrank = 853 P = 3 Q = 1
+myrank = 2523 P = 2 Q = 4
+myrank = 627 P = 0 Q = 3
+myrank = 1943 P = 4 Q = 1
+myrank = 13 P = 1 Q = 3
+myrank = 3335 P = 3 Q = 5
+myrank = 3238 P = 1 Q = 5
+myrank = 1496 P = 2 Q = 5
+myrank = 857 P = 1 Q = 1
+myrank = 3264 P = 0 Q = 5
+myrank = 2063 P = 0 Q = 5
+myrank = 309 P = 5 Q = 4
+myrank = 401 P = 4 Q = 1
+myrank = 2952 P = 2 Q = 3
+myrank = 152 P = 3 Q = 4
+myrank = 2998 P = 0 Q = 0
+myrank = 3038 P = 1 Q = 0
+myrank = 196 P = 5 Q = 3
+myrank = 3345 P = 1 Q = 5
+myrank = 3586 P = 5 Q = 1
+myrank = 153 P = 3 Q = 0
+myrank = 517 P = 2 Q = 5
+myrank = 972 P = 0 Q = 5
+myrank = 3042 P = 4 Q = 1
+myrank = 3023 P = 5 Q = 3
+myrank = 45 P = 0 Q = 2
+myrank = 757 P = 3 Q = 4
+myrank = 2213 P = 3 Q = 2
+myrank = 272 P = 0 Q = 1
+myrank = 885 P = 2 Q = 1
+myrank = 519 P = 4 Q = 5
+myrank = 2771 P = 1 Q = 2
+myrank = 3017 P = 2 Q = 4
+myrank = 447 P = 1 Q = 2
+myrank = 2768 P = 2 Q = 2
+myrank = 859 P = 0 Q = 4
+myrank = 3854 P = 2 Q = 5
+myrank = 2062 P = 5 Q = 1
+myrank = 2922 P = 5 Q = 0
+myrank = 3115 P = 0 Q = 1
+myrank = 2264 P = 2 Q = 2
+myrank = 478 P = 0 Q = 2
+myrank = 973 P = 3 Q = 4
+myrank = 3800 P = 0 Q = 1
+myrank = 3069 P = 0 Q = 3
+myrank = 2434 P = 2 Q = 4
+myrank = 3068 P = 3 Q = 1
+myrank = 1731 P = 0 Q = 3
+myrank = 3054 P = 1 Q = 4
+myrank = 191 P = 5 Q = 3
+myrank = 442 P = 3 Q = 2
+myrank = 166 P = 5 Q = 0
+myrank = 3056 P = 1 Q = 0
+myrank = 1494 P = 3 Q = 5
+myrank = 3019 P = 4 Q = 4
+myrank = 643 P = 2 Q = 2
+myrank = 180 P = 4 Q = 1
+myrank = 2346 P = 5 Q = 0
+myrank = 3088 P = 5 Q = 4
+myrank = 557 P = 3 Q = 2
+myrank = 2315 P = 0 Q = 5
+myrank = 2362 P = 0 Q = 3
+myrank = 524 P = 1 Q = 5
+myrank = 223 P = 0 Q = 1
+myrank = 844 P = 5 Q = 4
+myrank = 759 P = 3 Q = 3
+myrank = 155 P = 4 Q = 0
+myrank = 541 P = 2 Q = 2
+myrank = 3592 P = 5 Q = 1
+myrank = 2775 P = 4 Q = 2
+myrank = 1796 P = 0 Q = 0
+myrank = 218 P = 3 Q = 1
+myrank = 3299 P = 0 Q = 2
+myrank = 368 P = 5 Q = 4
+myrank = 2313 P = 3 Q = 3
+myrank = 2111 P = 3 Q = 2
+myrank = 3067 P = 3 Q = 1
+myrank = 1014 P = 2 Q = 2
+myrank = 3237 P = 5 Q = 2
+myrank = 854 P = 3 Q = 1
+myrank = 366 P = 5 Q = 2
+myrank = 2060 P = 3 Q = 1
+myrank = 198 P = 1 Q = 1
+myrank = 2351 P = 5 Q = 3
+myrank = 3594 P = 1 Q = 4
+myrank = 222 P = 1 Q = 3
+myrank = 3527 P = 0 Q = 0
+myrank = 3297 P = 4 Q = 2
+myrank = 873 P = 1 Q = 1
+myrank = 1873 P = 4 Q = 0
+myrank = 186 P = 4 Q = 0
+myrank = 365 P = 1 Q = 4
+myrank = 3004 P = 2 Q = 1
+myrank = 178 P = 2 Q = 0
+myrank = 3113 P = 4 Q = 4
+myrank = 1852 P = 5 Q = 3
+myrank = 1936 P = 2 Q = 4
+myrank = 3090 P = 4 Q = 4
+myrank = 1615 P = 5 Q = 5
+myrank = 193 P = 3 Q = 0
+myrank = 3189 P = 2 Q = 4
+myrank = 3568 P = 3 Q = 3
+myrank = 151 P = 4 Q = 3
+myrank = 3803 P = 0 Q = 2
+myrank = 3046 P = 0 Q = 3
+myrank = 1461 P = 5 Q = 1
+myrank = 276 P = 3 Q = 4
+myrank = 1648 P = 3 Q = 5
+myrank = 3582 P = 5 Q = 4
+myrank = 2103 P = 2 Q = 4
+myrank = 2714 P = 5 Q = 5
+myrank = 41 P = 2 Q = 3
+myrank = 2962 P = 0 Q = 3
+myrank = 394 P = 3 Q = 2
+myrank = 217 P = 1 Q = 0
+myrank = 2164 P = 3 Q = 2
+myrank = 3107 P = 1 Q = 2
+myrank = 1460 P = 3 Q = 4
+myrank = 3047 P = 2 Q = 1
+myrank = 847 P = 3 Q = 1
+myrank = 310 P = 2 Q = 1
+myrank = 3066 P = 5 Q = 4
+myrank = 127 P = 3 Q = 3
+myrank = 891 P = 2 Q = 1
+myrank = 1875 P = 3 Q = 3
+myrank = 3290 P = 2 Q = 5
+myrank = 1886 P = 1 Q = 0
+myrank = 403 P = 0 Q = 1
+myrank = 840 P = 0 Q = 1
+myrank = 1500 P = 4 Q = 4
+myrank = 3256 P = 4 Q = 2
+myrank = 239 P = 4 Q = 3
+myrank = 2311 P = 1 Q = 3
+myrank = 883 P = 5 Q = 5
+myrank = 3012 P = 4 Q = 4
+myrank = 2336 P = 1 Q = 0
+myrank = 762 P = 3 Q = 4
+myrank = 2314 P = 0 Q = 3
+myrank = 872 P = 3 Q = 4
+myrank = 2275 P = 4 Q = 3
+myrank = 1359 P = 0 Q = 3
+myrank = 1854 P = 1 Q = 4
+myrank = 224 P = 0 Q = 0
+myrank = 2754 P = 5 Q = 3
+myrank = 336 P = 0 Q = 5
+myrank = 527 P = 0 Q = 5
+myrank = 1980 P = 0 Q = 4
+myrank = 2923 P = 1 Q = 0
+myrank = 3556 P = 2 Q = 1
+myrank = 1940 P = 0 Q = 1
+myrank = 303 P = 1 Q = 1
+myrank = 3195 P = 3 Q = 1
+myrank = 3265 P = 3 Q = 2
+myrank = 449 P = 1 Q = 4
+myrank = 512 P = 5 Q = 5
+myrank = 2948 P = 0 Q = 4
+myrank = 495 P = 0 Q = 2
+myrank = 855 P = 0 Q = 3
+myrank = 2451 P = 3 Q = 0
+myrank = 192 P = 0 Q = 1
+myrank = 3096 P = 4 Q = 4
+myrank = 277 P = 3 Q = 4
+myrank = 2997 P = 0 Q = 4
+myrank = 448 P = 1 Q = 2
+myrank = 1941 P = 3 Q = 1
+myrank = 3298 P = 1 Q = 2
+myrank = 371 P = 3 Q = 2
+myrank = 3313 P = 0 Q = 2
+myrank = 1357 P = 3 Q = 4
+myrank = 984 P = 5 Q = 2
+myrank = 3041 P = 2 Q = 3
+myrank = 225 P = 2 Q = 4
+myrank = 1267 P = 1 Q = 3
+myrank = 318 P = 0 Q = 5
+myrank = 977 P = 0 Q = 2
+myrank = 476 P = 5 Q = 2
+myrank = 337 P = 3 Q = 1
+myrank = 275 P = 2 Q = 3
+myrank = 2361 P = 3 Q = 3
+myrank = 3022 P = 5 Q = 4
+myrank = 190 P = 5 Q = 1
+myrank = 105 P = 0 Q = 0
+myrank = 3554 P = 1 Q = 1
+myrank = 424 P = 0 Q = 2
+myrank = 1503 P = 2 Q = 4
+myrank = 181 P = 4 Q = 0
+myrank = 3190 P = 5 Q = 1
+myrank = 227 P = 2 Q = 0
+myrank = 216 P = 4 Q = 0
+myrank = 604 P = 3 Q = 0
+myrank = 2770 P = 1 Q = 2
+myrank = 3525 P = 1 Q = 3
+myrank = 2639 P = 4 Q = 5
+myrank = 1012 P = 0 Q = 5
+myrank = 1459 P = 3 Q = 4
+myrank = 756 P = 4 Q = 0
+myrank = 3020 P = 1 Q = 1
+myrank = 3191 P = 1 Q = 2
+myrank = 3818 P = 2 Q = 2
+myrank = 128 P = 0 Q = 0
+myrank = 2949 P = 0 Q = 3
+myrank = 2337 P = 1 Q = 3
+myrank = 2753 P = 4 Q = 2
+myrank = 220 P = 4 Q = 1
+myrank = 440 P = 1 Q = 2
+myrank = 2021 P = 1 Q = 4
+myrank = 1493 P = 4 Q = 1
+myrank = 626 P = 3 Q = 0
+myrank = 2988 P = 2 Q = 0
+myrank = 2436 P = 5 Q = 3
+myrank = 316 P = 4 Q = 1
+myrank = 2102 P = 5 Q = 5
+myrank = 3260 P = 3 Q = 5
+myrank = 3192 P = 1 Q = 1
+myrank = 1797 P = 3 Q = 0
+myrank = 1501 P = 5 Q = 5
+myrank = 2745 P = 1 Q = 5
+myrank = 2959 P = 4 Q = 3
+myrank = 849 P = 2 Q = 4
+myrank = 1853 P = 2 Q = 3
+myrank = 1356 P = 4 Q = 3
+myrank = 1059 P = 1 Q = 5
+myrank = 3567 P = 3 Q = 4
+myrank = 2338 P = 5 Q = 3
+myrank = 3852 P = 0 Q = 5
+myrank = 450 P = 5 Q = 5
+myrank = 867 P = 2 Q = 1
+myrank = 3013 P = 1 Q = 0
+myrank = 3193 P = 3 Q = 2
+myrank = 273 P = 2 Q = 4
+myrank = 402 P = 3 Q = 5
+myrank = 882 P = 1 Q = 1
+myrank = 1291 P = 1 Q = 0
+myrank = 629 P = 2 Q = 3
+myrank = 258 P = 0 Q = 1
+myrank = 2991 P = 0 Q = 4
+myrank = 607 P = 1 Q = 0
+myrank = 1872 P = 1 Q = 1
+myrank = 3259 P = 0 Q = 2
+myrank = 1060 P = 3 Q = 2
+myrank = 845 P = 0 Q = 1
+myrank = 3057 P = 2 Q = 1
+myrank = 3262 P = 4 Q = 2
+myrank = 2074 P = 1 Q = 5
+myrank = 1030 P = 3 Q = 5
+myrank = 2172 P = 0 Q = 2
+myrank = 1728 P = 5 Q = 0
+myrank = 1799 P = 5 Q = 3
+myrank = 3288 P = 4 Q = 5
+myrank = 852 P = 1 Q = 1
+myrank = 3258 P = 4 Q = 4
+myrank = 1063 P = 5 Q = 2
+myrank = 663 P = 0 Q = 3
+myrank = 2950 P = 0 Q = 3
+myrank = 881 P = 4 Q = 1
+myrank = 1162 P = 3 Q = 5
+myrank = 3021 P = 1 Q = 3
+myrank = 104 P = 0 Q = 0
+myrank = 3346 P = 4 Q = 5
+myrank = 3043 P = 1 Q = 1
+myrank = 1901 P = 5 Q = 3
+myrank = 525 P = 3 Q = 0
+myrank = 2920 P = 4 Q = 0
+myrank = 1076 P = 2 Q = 2
+myrank = 377 P = 3 Q = 5
+myrank = 479 P = 0 Q = 5
+myrank = 109 P = 0 Q = 0
+myrank = 292 P = 2 Q = 1
+myrank = 1831 P = 0 Q = 1
+myrank = 242 P = 3 Q = 3
+myrank = 3065 P = 5 Q = 1
+myrank = 400 P = 4 Q = 1
+myrank = 3571 P = 1 Q = 4
+myrank = 165 P = 2 Q = 0
+myrank = 1502 P = 2 Q = 1
+myrank = 841 P = 0 Q = 1
+myrank = 427 P = 2 Q = 5
+myrank = 1798 P = 3 Q = 0
+myrank = 516 P = 5 Q = 5
+myrank = 3074 P = 4 Q = 3
+myrank = 2637 P = 2 Q = 1
+myrank = 1492 P = 1 Q = 4
+myrank = 477 P = 3 Q = 2
+myrank = 473 P = 3 Q = 5
+myrank = 3149 P = 5 Q = 4
+myrank = 40 P = 3 Q = 5
+myrank = 3853 P = 3 Q = 2
+myrank = 80 P = 4 Q = 0
+myrank = 187 P = 0 Q = 4
+myrank = 3005 P = 5 Q = 0
+myrank = 3039 P = 5 Q = 1
+myrank = 3585 P = 3 Q = 3
+myrank = 1529 P = 3 Q = 5
+myrank = 129 P = 2 Q = 1
+myrank = 221 P = 4 Q = 4
+myrank = 3016 P = 0 Q = 3
+myrank = 3169 P = 3 Q = 4
+myrank = 138 P = 4 Q = 0
+myrank = 3524 P = 4 Q = 3
+myrank = 3093 P = 0 Q = 4
+myrank = 259 P = 0 Q = 4
+myrank = 2270 P = 4 Q = 0
+myrank = 1499 P = 1 Q = 2
+myrank = 3131 P = 2 Q = 4
+myrank = 526 P = 0 Q = 5
+myrank = 3045 P = 0 Q = 4
+myrank = 3296 P = 4 Q = 0
+myrank = 1495 P = 0 Q = 1
+myrank = 184 P = 2 Q = 3
+myrank = 971 P = 1 Q = 4
+myrank = 1729 P = 5 Q = 0
+myrank = 2522 P = 2 Q = 4
+myrank = 3089 P = 5 Q = 0
+myrank = 758 P = 0 Q = 0
+myrank = 3125 P = 4 Q = 1
+myrank = 2435 P = 2 Q = 3
+myrank = 423 P = 1 Q = 5
+myrank = 19 P = 4 Q = 3
+myrank = 1531 P = 2 Q = 5
+myrank = 2215 P = 5 Q = 5
+myrank = 1532 P = 5 Q = 2
+myrank = 300 P = 4 Q = 4
+myrank = 420 P = 3 Q = 2
+myrank = 1031 P = 3 Q = 5
+myrank = 3566 P = 3 Q = 1
+myrank = 3208 P = 1 Q = 5
+myrank = 3170 P = 2 Q = 5
+myrank = 536 P = 1 Q = 5
+myrank = 3268 P = 2 Q = 4
+myrank = 414 P = 5 Q = 2
+myrank = 3559 P = 1 Q = 1
+myrank = 850 P = 2 Q = 0
+myrank = 1528 P = 2 Q = 4
+myrank = 2347 P = 2 Q = 3
+myrank = 952 P = 4 Q = 2
+myrank = 1077 P = 3 Q = 0
+myrank = 1730 P = 5 Q = 5
+myrank = 426 P = 0 Q = 4
+myrank = 2688 P = 4 Q = 1
+myrank = 2439 P = 0 Q = 4
+myrank = 2956 P = 2 Q = 4
+myrank = 3271 P = 5 Q = 5
+myrank = 1874 P = 3 Q = 4
+myrank = 492 P = 2 Q = 3
+myrank = 172 P = 2 Q = 4
+myrank = 183 P = 2 Q = 3
+myrank = 2772 P = 5 Q = 0
+myrank = 3584 P = 0 Q = 4
+myrank = 3565 P = 4 Q = 0
+myrank = 82 P = 2 Q = 0
+myrank = 3239 P = 4 Q = 5
+myrank = 3130 P = 2 Q = 5
+myrank = 551 P = 2 Q = 5
+myrank = 503 P = 0 Q = 5
+myrank = 114 P = 4 Q = 3
+myrank = 1828 P = 3 Q = 0
+myrank = 2254 P = 1 Q = 2
+myrank = 1062 P = 2 Q = 0
+myrank = 3289 P = 5 Q = 5
+myrank = 1963 P = 3 Q = 4
+myrank = 2370 P = 5 Q = 3
+myrank = 230 P = 2 Q = 4
+myrank = 2255 P = 5 Q = 3
+myrank = 3095 P = 1 Q = 4
+myrank = 1488 P = 0 Q = 2
+myrank = 2344 P = 0 Q = 0
+myrank = 3552 P = 5 Q = 0
+myrank = 842 P = 0 Q = 1
+myrank = 2981 P = 2 Q = 4
+myrank = 2349 P = 3 Q = 0
+myrank = 3098 P = 3 Q = 1
+myrank = 2773 P = 2 Q = 5
+myrank = 3518 P = 0 Q = 1
+myrank = 1942 P = 4 Q = 4
+myrank = 1801 P = 4 Q = 3
+myrank = 1224 P = 1 Q = 0
+myrank = 3543 P = 4 Q = 3
+myrank = 3092 P = 3 Q = 1
+myrank = 415 P = 5 Q = 2
+myrank = 2756 P = 5 Q = 5
+myrank = 189 P = 3 Q = 3
+myrank = 2990 P = 4 Q = 3
+myrank = 1491 P = 4 Q = 5
+myrank = 188 P = 3 Q = 0
+myrank = 2274 P = 3 Q = 2
+myrank = 431 P = 1 Q = 1
+myrank = 2985 P = 0 Q = 0
+myrank = 1079 P = 0 Q = 2
+myrank = 474 P = 0 Q = 5
+myrank = 1614 P = 3 Q = 2
+myrank = 2174 P = 1 Q = 3
+myrank = 1750 P = 0 Q = 2
+myrank = 176 P = 3 Q = 3
+myrank = 1408 P = 4 Q = 4
+myrank = 1717 P = 5 Q = 2
+myrank = 839 P = 1 Q = 1
+myrank = 1790 P = 4 Q = 0
+myrank = 108 P = 5 Q = 3
+myrank = 514 P = 1 Q = 2
+myrank = 3143 P = 1 Q = 1
+myrank = 836 P = 0 Q = 4
+myrank = 278 P = 5 Q = 4
+myrank = 454 P = 4 Q = 1
+myrank = 429 P = 4 Q = 2
+myrank = 764 P = 3 Q = 0
+myrank = 236 P = 3 Q = 1
+myrank = 2986 P = 5 Q = 1
+myrank = 767 P = 1 Q = 4
+myrank = 3269 P = 3 Q = 2
+myrank = 2271 P = 1 Q = 0
+myrank = 3094 P = 0 Q = 1
+myrank = 182 P = 2 Q = 1
+myrank = 294 P = 0 Q = 4
+myrank = 228 P = 3 Q = 1
+myrank = 472 P = 3 Q = 5
+myrank = 1627 P = 5 Q = 3
+myrank = 107 P = 2 Q = 3
+myrank = 237 P = 0 Q = 3
+myrank = 1479 P = 2 Q = 4
+myrank = 518 P = 4 Q = 2
+myrank = 1235 P = 5 Q = 3
+myrank = 110 P = 3 Q = 0
+myrank = 3014 P = 0 Q = 1
+myrank = 302 P = 0 Q = 1
+myrank = 2167 P = 2 Q = 2
+myrank = 2368 P = 0 Q = 3
+myrank = 417 P = 4 Q = 2
+myrank = 598 P = 2 Q = 3
+myrank = 837 P = 3 Q = 1
+myrank = 2108 P = 3 Q = 1
+myrank = 255 P = 4 Q = 4
+myrank = 2345 P = 3 Q = 0
+myrank = 3106 P = 2 Q = 1
+myrank = 1716 P = 5 Q = 0
+myrank = 115 P = 1 Q = 0
+myrank = 986 P = 5 Q = 4
+myrank = 2726 P = 3 Q = 1
+myrank = 2175 P = 1 Q = 2
+myrank = 1478 P = 5 Q = 5
+myrank = 1477 P = 0 Q = 4
+myrank = 2110 P = 4 Q = 2
+myrank = 3006 P = 1 Q = 4
+myrank = 1458 P = 0 Q = 2
+myrank = 3087 P = 5 Q = 4
+myrank = 1381 P = 0 Q = 4
+myrank = 2339 P = 2 Q = 3
+myrank = 1409 P = 1 Q = 4
+myrank = 2440 P = 5 Q = 0
+myrank = 3513 P = 0 Q = 1
+myrank = 1456 P = 4 Q = 4
+myrank = 1476 P = 0 Q = 5
+myrank = 1784 P = 1 Q = 3
+myrank = 2690 P = 5 Q = 2
+myrank = 2438 P = 4 Q = 3
+myrank = 1751 P = 5 Q = 0
+myrank = 523 P = 1 Q = 2
+myrank = 628 P = 3 Q = 2
+myrank = 2766 P = 3 Q = 2
+myrank = 1209 P = 0 Q = 0
+myrank = 507 P = 1 Q = 5
+myrank = 866 P = 5 Q = 1
+myrank = 3587 P = 5 Q = 4
+myrank = 1073 P = 0 Q = 2
+myrank = 1624 P = 4 Q = 2
+myrank = 624 P = 2 Q = 0
+myrank = 43 P = 5 Q = 5
+myrank = 3211 P = 0 Q = 2
+myrank = 327 P = 2 Q = 1
+myrank = 2960 P = 1 Q = 0
+myrank = 475 P = 2 Q = 2
+myrank = 3086 P = 3 Q = 1
+myrank = 1457 P = 1 Q = 1
+myrank = 257 P = 1 Q = 3
+myrank = 261 P = 2 Q = 1
+myrank = 238 P = 4 Q = 1
+myrank = 3512 P = 4 Q = 3
+myrank = 3105 P = 5 Q = 4
+myrank = 113 P = 5 Q = 0
+myrank = 1719 P = 4 Q = 5
+myrank = 3515 P = 3 Q = 0
+myrank = 3194 P = 3 Q = 1
+myrank = 1018 P = 1 Q = 2
+myrank = 3206 P = 2 Q = 5
+myrank = 2989 P = 1 Q = 1
+myrank = 864 P = 4 Q = 1
+myrank = 489 P = 1 Q = 2
+myrank = 1950 P = 1 Q = 4
+myrank = 1091 P = 0 Q = 2
+myrank = 2774 P = 4 Q = 3
+myrank = 3151 P = 0 Q = 4
+myrank = 3142 P = 2 Q = 4
+myrank = 2020 P = 5 Q = 1
+myrank = 1029 P = 5 Q = 1
+myrank = 1379 P = 2 Q = 3
+myrank = 256 P = 4 Q = 4
+myrank = 493 P = 2 Q = 2
+myrank = 521 P = 0 Q = 2
+myrank = 2724 P = 3 Q = 2
+myrank = 2758 P = 4 Q = 2
+myrank = 539 P = 0 Q = 5
+myrank = 2963 P = 0 Q = 3
+myrank = 2992 P = 3 Q = 0
+myrank = 3257 P = 1 Q = 2
+myrank = 3519 P = 3 Q = 0
+myrank = 1061 P = 0 Q = 2
+myrank = 3168 P = 3 Q = 2
+myrank = 1380 P = 3 Q = 1
+myrank = 848 P = 2 Q = 4
+myrank = 491 P = 0 Q = 2
+myrank = 2079 P = 5 Q = 5
+myrank = 42 P = 2 Q = 0
+myrank = 1208 P = 4 Q = 5
+myrank = 1951 P = 1 Q = 1
+myrank = 2109 P = 4 Q = 2
+myrank = 987 P = 4 Q = 2
+myrank = 1748 P = 3 Q = 0
+myrank = 3431 P = 0 Q = 0
+myrank = 81 P = 5 Q = 3
+myrank = 1056 P = 0 Q = 2
+myrank = 3127 P = 4 Q = 1
+myrank = 3542 P = 4 Q = 3
+myrank = 3236 P = 2 Q = 5
+myrank = 515 P = 5 Q = 0
+myrank = 1489 P = 3 Q = 1
+myrank = 1749 P = 3 Q = 3
+myrank = 3526 P = 3 Q = 1
+myrank = 262 P = 2 Q = 3
+myrank = 504 P = 0 Q = 5
+myrank = 326 P = 2 Q = 1
+myrank = 596 P = 1 Q = 0
+myrank = 3522 P = 2 Q = 3
+myrank = 2369 P = 5 Q = 3
+myrank = 293 P = 3 Q = 4
+myrank = 2757 P = 1 Q = 2
+myrank = 2094 P = 0 Q = 5
+myrank = 1663 P = 2 Q = 5
+myrank = 253 P = 3 Q = 1
+myrank = 2727 P = 1 Q = 2
+myrank = 3001 P = 0 Q = 4
+myrank = 2636 P = 5 Q = 5
+myrank = 631 P = 1 Q = 0
+myrank = 548 P = 1 Q = 3
+myrank = 2699 P = 0 Q = 5
+myrank = 2767 P = 5 Q = 5
+myrank = 2764 P = 3 Q = 3
+myrank = 266 P = 5 Q = 1
+myrank = 2095 P = 0 Q = 4
+myrank = 488 P = 4 Q = 5
+myrank = 413 P = 1 Q = 4
+myrank = 500 P = 4 Q = 2
+myrank = 1009 P = 2 Q = 2
+myrank = 506 P = 1 Q = 2
+myrank = 3564 P = 1 Q = 1
+myrank = 513 P = 4 Q = 2
+myrank = 646 P = 2 Q = 0
+myrank = 1753 P = 1 Q = 0
+myrank = 537 P = 4 Q = 2
+myrank = 985 P = 2 Q = 2
+myrank = 3555 P = 4 Q = 3
+myrank = 3261 P = 1 Q = 5
+myrank = 907 P = 3 Q = 4
+myrank = 197 P = 4 Q = 1
+myrank = 1480 P = 5 Q = 1
+myrank = 2272 P = 4 Q = 5
+myrank = 1028 P = 2 Q = 2
+myrank = 219 P = 3 Q = 3
+myrank = 1490 P = 0 Q = 1
+myrank = 3517 P = 5 Q = 0
+myrank = 226 P = 2 Q = 1
+myrank = 3200 P = 3 Q = 4
+myrank = 970 P = 4 Q = 1
+myrank = 324 P = 0 Q = 1
+myrank = 3140 P = 5 Q = 2
+myrank = 1466 P = 2 Q = 4
+myrank = 3540 P = 5 Q = 0
+myrank = 2987 P = 2 Q = 3
+myrank = 422 P = 1 Q = 2
+myrank = 2269 P = 2 Q = 2
+myrank = 1022 P = 4 Q = 5
+myrank = 3148 P = 5 Q = 1
+myrank = 968 P = 5 Q = 4
+myrank = 1410 P = 0 Q = 4
+myrank = 229 P = 3 Q = 3
+myrank = 3153 P = 2 Q = 4
+myrank = 1227 P = 3 Q = 3
+myrank = 2433 P = 3 Q = 3
+myrank = 1265 P = 2 Q = 3
+myrank = 919 P = 5 Q = 4
+myrank = 2695 P = 0 Q = 2
+myrank = 2970 P = 5 Q = 3
+myrank = 1411 P = 0 Q = 4
+myrank = 2371 P = 1 Q = 0
+myrank = 2092 P = 4 Q = 5
+myrank = 411 P = 2 Q = 1
+myrank = 698 P = 4 Q = 0
+myrank = 2961 P = 3 Q = 1
+myrank = 2759 P = 3 Q = 3
+myrank = 696 P = 5 Q = 3
+myrank = 3084 P = 2 Q = 3
+myrank = 2971 P = 4 Q = 1
+myrank = 1184 P = 1 Q = 3
+myrank = 1187 P = 5 Q = 3
+myrank = 865 P = 4 Q = 1
+myrank = 354 P = 0 Q = 5
+myrank = 2691 P = 4 Q = 2
+myrank = 3523 P = 1 Q = 1
+myrank = 265 P = 1 Q = 0
+myrank = 1289 P = 4 Q = 4
+myrank = 3203 P = 4 Q = 2
+myrank = 1072 P = 3 Q = 3
+myrank = 1088 P = 4 Q = 5
+myrank = 888 P = 3 Q = 5
+myrank = 2475 P = 0 Q = 4
+myrank = 3453 P = 1 Q = 3
+myrank = 130 P = 2 Q = 3
+myrank = 408 P = 0 Q = 1
+myrank = 2214 P = 3 Q = 5
+myrank = 625 P = 5 Q = 2
+myrank = 3558 P = 5 Q = 3
+myrank = 3270 P = 0 Q = 2
+myrank = 851 P = 4 Q = 4
+myrank = 1554 P = 3 Q = 2
+myrank = 2168 P = 5 Q = 5
+myrank = 1058 P = 1 Q = 2
+myrank = 904 P = 4 Q = 1
+myrank = 2166 P = 3 Q = 2
+myrank = 112 P = 2 Q = 0
+myrank = 3553 P = 2 Q = 0
+myrank = 425 P = 0 Q = 5
+myrank = 2088 P = 1 Q = 1
+myrank = 1376 P = 3 Q = 1
+myrank = 2273 P = 3 Q = 0
+myrank = 1021 P = 0 Q = 4
+myrank = 3202 P = 5 Q = 4
+myrank = 199 P = 1 Q = 3
+myrank = 1358 P = 0 Q = 1
+myrank = 1484 P = 2 Q = 1
+myrank = 3126 P = 1 Q = 1
+myrank = 2268 P = 2 Q = 0
+myrank = 3124 P = 2 Q = 4
+myrank = 2327 P = 0 Q = 0
+myrank = 522 P = 0 Q = 2
+myrank = 1210 P = 0 Q = 0
+myrank = 505 P = 4 Q = 2
+myrank = 2969 P = 2 Q = 0
+myrank = 2221 P = 2 Q = 2
+myrank = 1900 P = 2 Q = 1
+myrank = 430 P = 4 Q = 5
+myrank = 1147 P = 2 Q = 5
+myrank = 1811 P = 2 Q = 0
+myrank = 1008 P = 3 Q = 2
+myrank = 980 P = 2 Q = 5
+myrank = 501 P = 4 Q = 2
+myrank = 490 P = 0 Q = 2
+myrank = 1189 P = 1 Q = 0
+myrank = 3511 P = 4 Q = 3
+myrank = 1903 P = 4 Q = 3
+myrank = 2694 P = 0 Q = 2
+myrank = 2984 P = 3 Q = 1
+myrank = 605 P = 0 Q = 5
+myrank = 1791 P = 3 Q = 3
+myrank = 1074 P = 0 Q = 5
+myrank = 630 P = 2 Q = 5
+myrank = 1427 P = 1 Q = 4
+myrank = 1919 P = 5 Q = 3
+myrank = 494 P = 2 Q = 2
+myrank = 3541 P = 4 Q = 1
+myrank = 288 P = 3 Q = 4
+myrank = 2765 P = 0 Q = 2
+myrank = 1216 P = 2 Q = 3
+myrank = 1962 P = 4 Q = 0
+myrank = 3204 P = 4 Q = 5
+myrank = 2689 P = 5 Q = 5
+myrank = 955 P = 3 Q = 1
+myrank = 1023 P = 4 Q = 5
+myrank = 290 P = 3 Q = 3
+myrank = 3421 P = 5 Q = 0
+myrank = 3207 P = 5 Q = 4
+myrank = 3514 P = 0 Q = 0
+myrank = 16 P = 2 Q = 3
+myrank = 2491 P = 1 Q = 3
+myrank = 412 P = 4 Q = 5
+myrank = 3454 P = 3 Q = 3
+myrank = 606 P = 4 Q = 0
+myrank = 1144 P = 3 Q = 5
+myrank = 1530 P = 3 Q = 1
+myrank = 418 P = 1 Q = 4
+myrank = 1244 P = 3 Q = 3
+myrank = 1787 P = 2 Q = 3
+myrank = 1075 P = 2 Q = 5
+myrank = 1094 P = 2 Q = 5
+myrank = 1246 P = 2 Q = 1
+myrank = 3520 P = 3 Q = 3
+myrank = 1011 P = 5 Q = 4
+myrank = 1555 P = 0 Q = 2
+myrank = 2216 P = 2 Q = 5
+myrank = 983 P = 1 Q = 4
+myrank = 645 P = 0 Q = 0
+myrank = 2252 P = 5 Q = 5
+myrank = 346 P = 4 Q = 2
+myrank = 1377 P = 3 Q = 0
+myrank = 2001 P = 5 Q = 1
+myrank = 982 P = 4 Q = 2
+myrank = 2474 P = 3 Q = 4
+myrank = 419 P = 0 Q = 5
+myrank = 2683 P = 3 Q = 1
+myrank = 3209 P = 4 Q = 2
+myrank = 2171 P = 4 Q = 5
+myrank = 1020 P = 0 Q = 5
+myrank = 2520 P = 1 Q = 4
+myrank = 1789 P = 1 Q = 0
+myrank = 981 P = 2 Q = 4
+myrank = 2253 P = 1 Q = 0
+myrank = 1247 P = 2 Q = 0
+myrank = 409 P = 2 Q = 2
+myrank = 535 P = 4 Q = 0
+myrank = 421 P = 3 Q = 4
+myrank = 3275 P = 4 Q = 2
+myrank = 538 P = 0 Q = 3
+myrank = 1366 P = 5 Q = 4
+myrank = 953 P = 4 Q = 4
+myrank = 2685 P = 2 Q = 2
+myrank = 1211 P = 2 Q = 0
+myrank = 1225 P = 1 Q = 0
+myrank = 3420 P = 2 Q = 3
+myrank = 644 P = 3 Q = 0
+myrank = 3104 P = 4 Q = 1
+myrank = 1788 P = 5 Q = 2
+myrank = 707 P = 2 Q = 3
+myrank = 355 P = 3 Q = 1
+myrank = 1485 P = 5 Q = 4
+myrank = 1245 P = 3 Q = 3
+myrank = 647 P = 2 Q = 0
+myrank = 699 P = 2 Q = 4
+myrank = 1989 P = 5 Q = 1
+myrank = 3510 P = 2 Q = 3
+myrank = 136 P = 3 Q = 3
+myrank = 1511 P = 3 Q = 5
+myrank = 905 P = 1 Q = 4
+myrank = 954 P = 0 Q = 2
+myrank = 1486 P = 4 Q = 2
+myrank = 3516 P = 5 Q = 4
+myrank = 1958 P = 3 Q = 4
+myrank = 416 P = 5 Q = 1
+myrank = 1625 P = 3 Q = 2
+myrank = 1218 P = 5 Q = 2
+myrank = 1384 P = 5 Q = 1
+myrank = 533 P = 2 Q = 5
+myrank = 2002 P = 2 Q = 4
+myrank = 1092 P = 0 Q = 5
+myrank = 1755 P = 4 Q = 2
+myrank = 1481 P = 3 Q = 2
+myrank = 254 P = 3 Q = 4
+myrank = 345 P = 2 Q = 4
+myrank = 1057 P = 1 Q = 0
+myrank = 956 P = 4 Q = 5
+myrank = 1786 P = 5 Q = 0
+myrank = 301 P = 0 Q = 1
+myrank = 3152 P = 0 Q = 4
+myrank = 2681 P = 0 Q = 5
+myrank = 2566 P = 2 Q = 4
+myrank = 3002 P = 3 Q = 1
+myrank = 137 P = 4 Q = 3
+myrank = 353 P = 4 Q = 4
+myrank = 1185 P = 1 Q = 5
+myrank = 597 P = 4 Q = 5
+myrank = 317 P = 1 Q = 4
+myrank = 1907 P = 1 Q = 1
+myrank = 2705 P = 1 Q = 2
+myrank = 2444 P = 0 Q = 4
+myrank = 2531 P = 2 Q = 4
+myrank = 252 P = 4 Q = 0
+myrank = 838 P = 4 Q = 1
+myrank = 2076 P = 0 Q = 2
+myrank = 344 P = 5 Q = 4
+myrank = 3132 P = 2 Q = 1
+myrank = 1193 P = 5 Q = 3
+myrank = 2638 P = 1 Q = 5
+myrank = 347 P = 4 Q = 4
+myrank = 1186 P = 0 Q = 0
+myrank = 1961 P = 4 Q = 1
+myrank = 1916 P = 0 Q = 0
+myrank = 2725 P = 3 Q = 2
+myrank = 3455 P = 5 Q = 0
+myrank = 2432 P = 3 Q = 4
+myrank = 1472 P = 0 Q = 4
+myrank = 890 P = 0 Q = 1
+myrank = 1467 P = 5 Q = 1
+myrank = 2692 P = 1 Q = 2
+myrank = 1290 P = 1 Q = 0
+myrank = 1288 P = 3 Q = 3
+myrank = 1387 P = 4 Q = 3
+myrank = 2437 P = 4 Q = 1
+myrank = 1067 P = 5 Q = 0
+myrank = 1960 P = 4 Q = 1
+myrank = 134 P = 0 Q = 4
+myrank = 3459 P = 1 Q = 3
+myrank = 2684 P = 5 Q = 5
+myrank = 2983 P = 5 Q = 3
+myrank = 679 P = 4 Q = 0
+myrank = 2089 P = 3 Q = 2
+myrank = 307 P = 3 Q = 1
+myrank = 410 P = 5 Q = 2
+myrank = 260 P = 5 Q = 1
+myrank = 1166 P = 4 Q = 0
+myrank = 3133 P = 3 Q = 1
+myrank = 1509 P = 4 Q = 2
+myrank = 2980 P = 3 Q = 3
+myrank = 897 P = 5 Q = 4
+myrank = 2696 P = 5 Q = 5
+myrank = 1808 P = 1 Q = 0
+myrank = 3360 P = 3 Q = 0
+myrank = 17 P = 2 Q = 2
+myrank = 655 P = 1 Q = 0
+myrank = 330 P = 1 Q = 4
+myrank = 1382 P = 0 Q = 0
+myrank = 705 P = 3 Q = 3
+myrank = 1612 P = 3 Q = 2
+myrank = 459 P = 5 Q = 4
+myrank = 1378 P = 2 Q = 1
+myrank = 3120 P = 4 Q = 1
+myrank = 135 P = 3 Q = 0
+myrank = 304 P = 1 Q = 4
+myrank = 1164 P = 2 Q = 0
+myrank = 3003 P = 3 Q = 0
+myrank = 3632 P = 0 Q = 4
+myrank = 1819 P = 4 Q = 0
+myrank = 2682 P = 0 Q = 5
+myrank = 3163 P = 0 Q = 2
+myrank = 2333 P = 5 Q = 3
+myrank = 576 P = 2 Q = 0
+myrank = 3134 P = 3 Q = 4
+myrank = 1424 P = 3 Q = 4
+myrank = 704 P = 0 Q = 1
+myrank = 467 P = 5 Q = 5
+myrank = 496 P = 3 Q = 2
+myrank = 1482 P = 3 Q = 4
+myrank = 578 P = 0 Q = 0
+myrank = 863 P = 4 Q = 4
+myrank = 2698 P = 2 Q = 1
+myrank = 1001 P = 4 Q = 4
+myrank = 1217 P = 5 Q = 3
+myrank = 2223 P = 1 Q = 5
+myrank = 2697 P = 2 Q = 2
+myrank = 482 P = 1 Q = 2
+myrank = 2329 P = 5 Q = 3
+myrank = 2464 P = 5 Q = 4
+myrank = 765 P = 2 Q = 4
+myrank = 289 P = 0 Q = 1
+myrank = 1367 P = 4 Q = 1
+myrank = 1199 P = 2 Q = 0
+myrank = 534 P = 2 Q = 2
+myrank = 1616 P = 5 Q = 5
+myrank = 1830 P = 5 Q = 3
+myrank = 706 P = 0 Q = 0
+myrank = 2219 P = 1 Q = 2
+myrank = 2222 P = 1 Q = 3
+myrank = 2051 P = 4 Q = 5
+myrank = 3161 P = 4 Q = 4
+myrank = 3428 P = 4 Q = 3
+myrank = 2003 P = 1 Q = 4
+myrank = 1146 P = 5 Q = 0
+myrank = 103 P = 1 Q = 0
+myrank = 599 P = 2 Q = 0
+myrank = 453 P = 1 Q = 2
+myrank = 697 P = 1 Q = 0
+myrank = 1809 P = 0 Q = 3
+myrank = 3562 P = 3 Q = 1
+myrank = 2617 P = 0 Q = 1
+myrank = 2091 P = 1 Q = 2
+myrank = 2330 P = 2 Q = 5
+myrank = 1464 P = 0 Q = 4
+myrank = 889 P = 3 Q = 4
+myrank = 3000 P = 2 Q = 0
+myrank = 106 P = 0 Q = 2
+myrank = 2019 P = 2 Q = 4
+myrank = 1226 P = 0 Q = 3
+myrank = 325 P = 0 Q = 1
+myrank = 132 P = 4 Q = 3
+myrank = 1089 P = 4 Q = 2
+myrank = 1386 P = 4 Q = 4
+myrank = 329 P = 4 Q = 1
+myrank = 2335 P = 5 Q = 2
+myrank = 1065 P = 4 Q = 5
+myrank = 1145 P = 3 Q = 5
+myrank = 2036 P = 2 Q = 1
+myrank = 896 P = 2 Q = 4
+myrank = 3458 P = 4 Q = 3
+myrank = 3430 P = 3 Q = 0
+myrank = 532 P = 1 Q = 2
+myrank = 2093 P = 4 Q = 4
+myrank = 1810 P = 0 Q = 3
+myrank = 659 P = 2 Q = 0
+myrank = 2982 P = 5 Q = 3
+myrank = 3196 P = 1 Q = 2
+myrank = 2328 P = 2 Q = 3
+myrank = 85 P = 4 Q = 0
+myrank = 3274 P = 1 Q = 5
+myrank = 1000 P = 1 Q = 5
+myrank = 639 P = 0 Q = 0
+myrank = 86 P = 3 Q = 0
+myrank = 3272 P = 2 Q = 5
+myrank = 2078 P = 0 Q = 4
+myrank = 1829 P = 5 Q = 3
+myrank = 2693 P = 1 Q = 1
+myrank = 2090 P = 0 Q = 4
+myrank = 861 P = 5 Q = 1
+myrank = 2077 P = 0 Q = 4
+myrank = 306 P = 3 Q = 4
+myrank = 3457 P = 2 Q = 0
+myrank = 3429 P = 1 Q = 0
+myrank = 2218 P = 4 Q = 2
+myrank = 1752 P = 2 Q = 0
+myrank = 1553 P = 4 Q = 1
+myrank = 1975 P = 0 Q = 4
+myrank = 3085 P = 3 Q = 1
+myrank = 2217 P = 4 Q = 0
+myrank = 2431 P = 5 Q = 0
+myrank = 1626 P = 0 Q = 2
+myrank = 1483 P = 2 Q = 5
+myrank = 3160 P = 4 Q = 2
+myrank = 900 P = 4 Q = 1
+myrank = 1475 P = 1 Q = 4
+myrank = 603 P = 3 Q = 3
+myrank = 2447 P = 2 Q = 1
+myrank = 1165 P = 2 Q = 5
+myrank = 1196 P = 3 Q = 3
+myrank = 3154 P = 5 Q = 1
+myrank = 2993 P = 0 Q = 3
+myrank = 3135 P = 5 Q = 2
+myrank = 766 P = 2 Q = 0
+myrank = 3162 P = 4 Q = 4
+myrank = 1160 P = 2 Q = 5
+myrank = 1078 P = 0 Q = 5
+myrank = 305 P = 4 Q = 1
+myrank = 502 P = 4 Q = 2
+myrank = 3362 P = 4 Q = 3
+myrank = 3487 P = 5 Q = 0
+myrank = 1004 P = 1 Q = 2
+myrank = 1991 P = 4 Q = 1
+myrank = 2220 P = 5 Q = 0
+myrank = 1746 P = 5 Q = 0
+myrank = 1718 P = 1 Q = 0
+myrank = 480 P = 2 Q = 5
+myrank = 1231 P = 4 Q = 0
+myrank = 3363 P = 4 Q = 5
+myrank = 331 P = 2 Q = 2
+myrank = 1066 P = 1 Q = 5
+myrank = 2900 P = 5 Q = 5
+myrank = 1902 P = 1 Q = 1
+myrank = 695 P = 5 Q = 0
+myrank = 1508 P = 0 Q = 4
+myrank = 481 P = 2 Q = 2
+myrank = 428 P = 2 Q = 5
+myrank = 1974 P = 1 Q = 4
+myrank = 2064 P = 3 Q = 2
+myrank = 3521 P = 5 Q = 4
+myrank = 1972 P = 5 Q = 3
+myrank = 3634 P = 5 Q = 4
+myrank = 3478 P = 3 Q = 0
+myrank = 3477 P = 1 Q = 0
+myrank = 1002 P = 5 Q = 2
+myrank = 2000 P = 2 Q = 2
+myrank = 1299 P = 2 Q = 4
+myrank = 1973 P = 1 Q = 4
+myrank = 1990 P = 4 Q = 1
+myrank = 2324 P = 1 Q = 0
+myrank = 2907 P = 4 Q = 0
+myrank = 291 P = 2 Q = 1
+myrank = 1241 P = 4 Q = 1
+myrank = 3199 P = 0 Q = 4
+myrank = 2428 P = 0 Q = 3
+myrank = 1233 P = 4 Q = 3
+myrank = 2017 P = 0 Q = 4
+myrank = 2687 P = 1 Q = 2
+myrank = 2331 P = 3 Q = 3
+myrank = 99 P = 2 Q = 3
+myrank = 906 P = 3 Q = 2
+myrank = 96 P = 2 Q = 5
+myrank = 3122 P = 4 Q = 5
+myrank = 1660 P = 3 Q = 3
+myrank = 335 P = 3 Q = 0
+myrank = 1510 P = 2 Q = 5
+myrank = 959 P = 3 Q = 5
+myrank = 1426 P = 4 Q = 4
+myrank = 1240 P = 0 Q = 3
+myrank = 1239 P = 0 Q = 0
+myrank = 1093 P = 5 Q = 5
+myrank = 2680 P = 0 Q = 1
+myrank = 3129 P = 3 Q = 4
+myrank = 1465 P = 0 Q = 4
+myrank = 1243 P = 1 Q = 3
+myrank = 2423 P = 5 Q = 3
+myrank = 1666 P = 0 Q = 5
+myrank = 601 P = 1 Q = 3
+myrank = 602 P = 1 Q = 2
+myrank = 3273 P = 2 Q = 1
+myrank = 2968 P = 0 Q = 3
+myrank = 3485 P = 0 Q = 3
+myrank = 3456 P = 5 Q = 3
+myrank = 2067 P = 5 Q = 1
+myrank = 1194 P = 0 Q = 4
+myrank = 2530 P = 5 Q = 1
+myrank = 1064 P = 5 Q = 5
+myrank = 3563 P = 0 Q = 0
+myrank = 3442 P = 0 Q = 1
+myrank = 2528 P = 3 Q = 1
+myrank = 1192 P = 0 Q = 1
+myrank = 2422 P = 5 Q = 3
+myrank = 1213 P = 5 Q = 2
+myrank = 1665 P = 0 Q = 0
+myrank = 1662 P = 5 Q = 3
+myrank = 3155 P = 1 Q = 2
+myrank = 3123 P = 0 Q = 4
+myrank = 1904 P = 1 Q = 0
+myrank = 84 P = 1 Q = 0
+myrank = 457 P = 5 Q = 3
+myrank = 776 P = 0 Q = 3
+myrank = 1365 P = 5 Q = 0
+myrank = 1095 P = 2 Q = 1
+myrank = 2114 P = 5 Q = 2
+myrank = 771 P = 1 Q = 3
+myrank = 1474 P = 5 Q = 0
+myrank = 1003 P = 2 Q = 2
+myrank = 328 P = 4 Q = 3
+myrank = 1090 P = 0 Q = 1
+myrank = 969 P = 2 Q = 0
+myrank = 3361 P = 5 Q = 4
+myrank = 1759 P = 3 Q = 3
+myrank = 520 P = 1 Q = 1
+myrank = 1248 P = 0 Q = 2
+myrank = 3557 P = 0 Q = 2
+myrank = 967 P = 2 Q = 1
+myrank = 2446 P = 0 Q = 2
+myrank = 498 P = 5 Q = 2
+myrank = 2994 P = 0 Q = 5
+myrank = 3210 P = 0 Q = 0
+myrank = 117 P = 3 Q = 3
+myrank = 119 P = 1 Q = 0
+myrank = 1956 P = 0 Q = 3
+myrank = 87 P = 0 Q = 5
+myrank = 1455 P = 4 Q = 3
+myrank = 2100 P = 3 Q = 4
+myrank = 1824 P = 2 Q = 0
+myrank = 2334 P = 5 Q = 0
+myrank = 2097 P = 4 Q = 2
+myrank = 2605 P = 0 Q = 1
+myrank = 483 P = 4 Q = 2
+myrank = 2081 P = 1 Q = 5
+myrank = 1667 P = 4 Q = 2
+myrank = 3551 P = 2 Q = 4
+myrank = 2082 P = 0 Q = 1
+myrank = 2098 P = 0 Q = 1
+myrank = 651 P = 3 Q = 2
+myrank = 587 P = 4 Q = 2
+myrank = 1552 P = 4 Q = 5
+myrank = 1724 P = 2 Q = 3
+myrank = 3479 P = 1 Q = 3
+myrank = 2096 P = 5 Q = 0
+myrank = 466 P = 3 Q = 1
+myrank = 1741 P = 3 Q = 0
+myrank = 1364 P = 4 Q = 2
+myrank = 116 P = 4 Q = 0
+myrank = 2303 P = 4 Q = 1
+myrank = 497 P = 3 Q = 3
+myrank = 2112 P = 5 Q = 1
+myrank = 3205 P = 0 Q = 3
+myrank = 1195 P = 5 Q = 0
+myrank = 2896 P = 4 Q = 4
+myrank = 1251 P = 1 Q = 5
+myrank = 923 P = 2 Q = 5
+myrank = 2224 P = 3 Q = 2
+myrank = 1203 P = 4 Q = 4
+myrank = 1664 P = 3 Q = 1
+myrank = 1727 P = 2 Q = 4
+myrank = 1835 P = 5 Q = 3
+myrank = 281 P = 4 Q = 1
+myrank = 1949 P = 1 Q = 0
+myrank = 97 P = 1 Q = 0
+myrank = 2018 P = 3 Q = 1
+myrank = 1263 P = 0 Q = 4
+myrank = 2182 P = 2 Q = 1
+myrank = 1454 P = 5 Q = 1
+myrank = 2325 P = 5 Q = 4
+myrank = 1237 P = 5 Q = 2
+myrank = 917 P = 1 Q = 2
+myrank = 1228 P = 0 Q = 4
+myrank = 3147 P = 1 Q = 3
+myrank = 3145 P = 0 Q = 2
+myrank = 1818 P = 1 Q = 5
+myrank = 2675 P = 1 Q = 1
+myrank = 1452 P = 5 Q = 2
+myrank = 1619 P = 1 Q = 0
+myrank = 2487 P = 3 Q = 5
+myrank = 916 P = 2 Q = 3
+myrank = 2158 P = 3 Q = 1
+myrank = 1383 P = 2 Q = 2
+myrank = 2070 P = 2 Q = 1
+myrank = 1151 P = 4 Q = 5
+myrank = 3201 P = 5 Q = 3
+myrank = 600 P = 5 Q = 4
+myrank = 120 P = 3 Q = 0
+myrank = 3635 P = 2 Q = 1
+myrank = 2326 P = 5 Q = 4
+myrank = 2892 P = 4 Q = 3
+myrank = 3463 P = 1 Q = 3
+myrank = 3486 P = 0 Q = 3
+myrank = 1453 P = 3 Q = 2
+myrank = 2227 P = 4 Q = 2
+myrank = 499 P = 3 Q = 2
+myrank = 2607 P = 3 Q = 3
+myrank = 1906 P = 2 Q = 5
+myrank = 862 P = 0 Q = 1
+myrank = 2083 P = 0 Q = 0
+myrank = 1087 P = 5 Q = 4
+myrank = 3560 P = 5 Q = 3
+myrank = 1307 P = 3 Q = 3
+myrank = 567 P = 1 Q = 0
+myrank = 1659 P = 1 Q = 0
+myrank = 2119 P = 1 Q = 0
+myrank = 2203 P = 1 Q = 5
+myrank = 2484 P = 5 Q = 3
+myrank = 860 P = 3 Q = 1
+myrank = 3198 P = 0 Q = 4
+myrank = 1451 P = 3 Q = 0
+myrank = 133 P = 1 Q = 2
+myrank = 2473 P = 5 Q = 3
+myrank = 2606 P = 4 Q = 4
+myrank = 769 P = 1 Q = 4
+myrank = 2099 P = 4 Q = 5
+myrank = 2053 P = 0 Q = 5
+myrank = 465 P = 4 Q = 5
+myrank = 3452 P = 2 Q = 2
+myrank = 1010 P = 4 Q = 3
+myrank = 2472 P = 3 Q = 4
+myrank = 3633 P = 2 Q = 4
+myrank = 2704 P = 3 Q = 4
+myrank = 3548 P = 4 Q = 0
+myrank = 3422 P = 0 Q = 5
+myrank = 333 P = 0 Q = 0
+myrank = 1385 P = 5 Q = 4
+myrank = 3476 P = 2 Q = 5
+myrank = 2156 P = 3 Q = 5
+myrank = 2037 P = 5 Q = 0
+myrank = 915 P = 1 Q = 3
+myrank = 452 P = 0 Q = 0
+myrank = 1957 P = 4 Q = 0
+myrank = 3509 P = 5 Q = 3
+myrank = 3128 P = 2 Q = 4
+myrank = 2065 P = 3 Q = 4
+myrank = 3460 P = 5 Q = 1
+myrank = 2039 P = 2 Q = 2
+myrank = 768 P = 4 Q = 4
+myrank = 3146 P = 5 Q = 1
+myrank = 2048 P = 1 Q = 4
+myrank = 2299 P = 3 Q = 3
+myrank = 3508 P = 0 Q = 4
+myrank = 946 P = 0 Q = 3
+myrank = 1006 P = 4 Q = 4
+myrank = 2068 P = 4 Q = 3
+myrank = 2080 P = 0 Q = 2
+myrank = 2071 P = 3 Q = 1
+myrank = 3166 P = 5 Q = 3
+myrank = 2194 P = 2 Q = 3
+myrank = 2050 P = 2 Q = 5
+myrank = 2546 P = 5 Q = 5
+myrank = 1375 P = 4 Q = 0
+myrank = 770 P = 5 Q = 1
+myrank = 1762 P = 2 Q = 4
+myrank = 577 P = 0 Q = 1
+myrank = 1917 P = 1 Q = 3
+myrank = 2465 P = 3 Q = 5
+myrank = 3423 P = 1 Q = 5
+myrank = 1242 P = 4 Q = 3
+myrank = 100 P = 4 Q = 4
+myrank = 2163 P = 5 Q = 4
+myrank = 2084 P = 0 Q = 3
+myrank = 566 P = 5 Q = 4
+myrank = 1655 P = 2 Q = 3
+myrank = 1618 P = 5 Q = 4
+myrank = 1756 P = 4 Q = 2
+myrank = 1395 P = 1 Q = 5
+myrank = 584 P = 2 Q = 3
+myrank = 2488 P = 5 Q = 1
+myrank = 1097 P = 0 Q = 2
+myrank = 1085 P = 1 Q = 3
+myrank = 1832 P = 3 Q = 1
+myrank = 1304 P = 1 Q = 4
+myrank = 1007 P = 1 Q = 1
+myrank = 1399 P = 2 Q = 3
+myrank = 1473 P = 0 Q = 1
+myrank = 2911 P = 2 Q = 2
+myrank = 510 P = 0 Q = 0
+myrank = 1306 P = 2 Q = 2
+myrank = 1197 P = 2 Q = 2
+myrank = 98 P = 4 Q = 2
+myrank = 456 P = 2 Q = 3
+myrank = 1260 P = 4 Q = 2
+myrank = 3484 P = 0 Q = 0
+myrank = 3546 P = 5 Q = 2
+myrank = 2421 P = 5 Q = 1
+myrank = 922 P = 0 Q = 0
+myrank = 2467 P = 0 Q = 4
+myrank = 637 P = 5 Q = 0
+myrank = 3441 P = 4 Q = 5
+myrank = 2912 P = 1 Q = 4
+myrank = 1726 P = 2 Q = 2
+myrank = 1071 P = 5 Q = 1
+myrank = 2332 P = 4 Q = 4
+myrank = 1948 P = 5 Q = 1
+myrank = 2619 P = 5 Q = 3
+myrank = 1721 P = 3 Q = 5
+myrank = 93 P = 4 Q = 5
+myrank = 2716 P = 5 Q = 4
+myrank = 898 P = 2 Q = 4
+myrank = 2087 P = 3 Q = 5
+myrank = 3438 P = 2 Q = 0
+myrank = 1988 P = 4 Q = 5
+myrank = 118 P = 0 Q = 1
+myrank = 1232 P = 0 Q = 5
+myrank = 2895 P = 3 Q = 4
+myrank = 2228 P = 3 Q = 4
+myrank = 332 P = 4 Q = 4
+myrank = 1754 P = 1 Q = 5
+myrank = 1262 P = 1 Q = 5
+myrank = 122 P = 0 Q = 2
+myrank = 565 P = 1 Q = 1
+myrank = 2430 P = 0 Q = 4
+myrank = 2901 P = 1 Q = 5
+myrank = 1234 P = 0 Q = 1
+myrank = 658 P = 4 Q = 1
+myrank = 945 P = 2 Q = 0
+myrank = 638 P = 1 Q = 2
+myrank = 579 P = 3 Q = 3
+myrank = 1757 P = 0 Q = 1
+myrank = 2604 P = 4 Q = 2
+myrank = 2429 P = 1 Q = 5
+myrank = 1425 P = 2 Q = 2
+myrank = 1740 P = 2 Q = 0
+myrank = 1261 P = 0 Q = 4
+myrank = 3167 P = 1 Q = 5
+myrank = 2038 P = 5 Q = 0
+myrank = 2066 P = 4 Q = 4
+myrank = 2904 P = 0 Q = 3
+myrank = 3461 P = 4 Q = 0
+myrank = 1785 P = 4 Q = 4
+myrank = 1825 P = 1 Q = 2
+myrank = 2466 P = 2 Q = 4
+myrank = 2318 P = 4 Q = 3
+myrank = 2382 P = 2 Q = 2
+myrank = 1167 P = 1 Q = 5
+myrank = 2161 P = 5 Q = 2
+myrank = 1742 P = 2 Q = 2
+myrank = 1449 P = 0 Q = 4
+myrank = 1487 P = 3 Q = 2
+myrank = 1070 P = 0 Q = 2
+myrank = 1191 P = 1 Q = 2
+myrank = 1745 P = 4 Q = 4
+myrank = 3507 P = 2 Q = 0
+myrank = 1725 P = 2 Q = 2
+myrank = 1372 P = 2 Q = 2
+myrank = 3544 P = 5 Q = 0
+myrank = 1391 P = 4 Q = 4
+myrank = 1827 P = 1 Q = 1
+myrank = 3164 P = 2 Q = 0
+myrank = 3545 P = 2 Q = 5
+myrank = 1661 P = 1 Q = 5
+myrank = 1987 P = 1 Q = 2
+myrank = 648 P = 3 Q = 0
+myrank = 1236 P = 3 Q = 0
+myrank = 899 P = 4 Q = 0
+myrank = 2562 P = 5 Q = 5
+myrank = 1394 P = 3 Q = 2
+myrank = 585 P = 4 Q = 5
+myrank = 1834 P = 3 Q = 0
+myrank = 3165 P = 5 Q = 4
+myrank = 2195 P = 3 Q = 0
+myrank = 2007 P = 0 Q = 4
+myrank = 920 P = 3 Q = 1
+myrank = 2381 P = 0 Q = 0
+myrank = 3415 P = 3 Q = 3
+myrank = 1656 P = 5 Q = 5
+myrank = 940 P = 0 Q = 2
+myrank = 1005 P = 1 Q = 2
+myrank = 1984 P = 1 Q = 1
+myrank = 777 P = 4 Q = 0
+myrank = 458 P = 5 Q = 2
+myrank = 901 P = 4 Q = 2
+myrank = 1448 P = 1 Q = 2
+myrank = 3440 P = 2 Q = 3
+myrank = 1747 P = 4 Q = 3
+myrank = 2470 P = 0 Q = 5
+myrank = 2420 P = 4 Q = 4
+myrank = 615 P = 5 Q = 5
+myrank = 1986 P = 1 Q = 3
+myrank = 1592 P = 1 Q = 5
+myrank = 2910 P = 4 Q = 2
+myrank = 779 P = 5 Q = 4
+myrank = 1591 P = 0 Q = 2
+myrank = 1723 P = 0 Q = 4
+myrank = 912 P = 2 Q = 5
+myrank = 2893 P = 2 Q = 0
+myrank = 2113 P = 1 Q = 3
+myrank = 2323 P = 0 Q = 0
+myrank = 1761 P = 0 Q = 5
+myrank = 2155 P = 0 Q = 5
+myrank = 636 P = 0 Q = 4
+myrank = 2191 P = 0 Q = 2
+myrank = 3413 P = 0 Q = 4
+myrank = 2004 P = 1 Q = 2
+myrank = 2567 P = 1 Q = 5
+myrank = 2300 P = 1 Q = 0
+myrank = 2718 P = 0 Q = 3
+myrank = 508 P = 3 Q = 4
+myrank = 2469 P = 0 Q = 3
+myrank = 101 P = 0 Q = 0
+myrank = 2049 P = 0 Q = 0
+myrank = 3444 P = 0 Q = 0
+myrank = 2571 P = 1 Q = 1
+myrank = 1215 P = 5 Q = 4
+myrank = 2296 P = 1 Q = 5
+myrank = 3547 P = 2 Q = 4
+myrank = 2915 P = 0 Q = 0
+myrank = 2564 P = 2 Q = 4
+myrank = 2706 P = 0 Q = 4
+myrank = 964 P = 0 Q = 3
+myrank = 2159 P = 3 Q = 1
+myrank = 102 P = 4 Q = 0
+myrank = 2006 P = 1 Q = 1
+myrank = 511 P = 5 Q = 5
+myrank = 2183 P = 2 Q = 3
+myrank = 1781 P = 3 Q = 1
+myrank = 2903 P = 1 Q = 1
+myrank = 2616 P = 3 Q = 2
+myrank = 661 P = 5 Q = 3
+myrank = 1617 P = 3 Q = 5
+myrank = 92 P = 5 Q = 2
+myrank = 687 P = 3 Q = 4
+myrank = 1722 P = 5 Q = 4
+myrank = 2897 P = 3 Q = 3
+myrank = 918 P = 0 Q = 2
+myrank = 1296 P = 1 Q = 4
+myrank = 1967 P = 1 Q = 3
+myrank = 1947 P = 0 Q = 2
+myrank = 2913 P = 5 Q = 5
+myrank = 2307 P = 5 Q = 5
+myrank = 2251 P = 2 Q = 4
+myrank = 965 P = 5 Q = 5
+myrank = 3495 P = 0 Q = 3
+myrank = 3561 P = 0 Q = 0
+myrank = 1198 P = 5 Q = 1
+myrank = 2679 P = 1 Q = 2
+myrank = 2686 P = 1 Q = 2
+myrank = 1149 P = 1 Q = 3
+myrank = 1985 P = 2 Q = 1
+myrank = 941 P = 4 Q = 3
+myrank = 1658 P = 5 Q = 4
+myrank = 996 P = 2 Q = 0
+myrank = 464 P = 0 Q = 5
+myrank = 2115 P = 1 Q = 2
+myrank = 2308 P = 3 Q = 2
+myrank = 2908 P = 0 Q = 4
+myrank = 2057 P = 4 Q = 5
+myrank = 1388 P = 1 Q = 3
+myrank = 282 P = 0 Q = 0
+myrank = 694 P = 2 Q = 4
+myrank = 3504 P = 3 Q = 2
+myrank = 1959 P = 5 Q = 4
+myrank = 2471 P = 5 Q = 4
+myrank = 2056 P = 5 Q = 0
+myrank = 2507 P = 0 Q = 4
+myrank = 2201 P = 1 Q = 2
+myrank = 2052 P = 2 Q = 4
+myrank = 2538 P = 0 Q = 0
+myrank = 991 P = 0 Q = 3
+myrank = 1249 P = 4 Q = 5
+myrank = 2899 P = 1 Q = 2
+myrank = 123 P = 3 Q = 1
+myrank = 3412 P = 4 Q = 2
+myrank = 2898 P = 4 Q = 3
+myrank = 1300 P = 4 Q = 3
+myrank = 947 P = 5 Q = 5
+myrank = 2618 P = 3 Q = 4
+myrank = 3437 P = 4 Q = 0
+myrank = 2570 P = 5 Q = 2
+myrank = 2086 P = 3 Q = 2
+myrank = 2919 P = 3 Q = 1
+myrank = 1635 P = 0 Q = 1
+myrank = 2190 P = 4 Q = 2
+myrank = 2005 P = 5 Q = 5
+myrank = 1744 P = 5 Q = 5
+myrank = 1593 P = 0 Q = 4
+myrank = 2909 P = 5 Q = 0
+myrank = 958 P = 3 Q = 2
+myrank = 3447 P = 5 Q = 1
+myrank = 3439 P = 4 Q = 5
+myrank = 944 P = 3 Q = 4
+myrank = 1083 P = 4 Q = 1
+myrank = 1763 P = 3 Q = 4
+myrank = 283 P = 1 Q = 0
+myrank = 1710 P = 3 Q = 2
+myrank = 2894 P = 1 Q = 2
+myrank = 2486 P = 2 Q = 5
+myrank = 943 P = 2 Q = 1
+myrank = 2902 P = 0 Q = 4
+myrank = 1373 P = 4 Q = 1
+myrank = 1417 P = 2 Q = 5
+myrank = 1560 P = 0 Q = 1
+myrank = 2160 P = 0 Q = 3
+myrank = 352 P = 1 Q = 0
+myrank = 2085 P = 3 Q = 2
+myrank = 1230 P = 0 Q = 3
+myrank = 3445 P = 4 Q = 0
+myrank = 2192 P = 1 Q = 5
+myrank = 3443 P = 1 Q = 4
+myrank = 2674 P = 2 Q = 5
+myrank = 2011 P = 3 Q = 2
+myrank = 2180 P = 2 Q = 5
+myrank = 1707 P = 2 Q = 5
+myrank = 1817 P = 2 Q = 3
+myrank = 2536 P = 3 Q = 1
+myrank = 3121 P = 3 Q = 2
+myrank = 903 P = 1 Q = 4
+myrank = 2320 P = 5 Q = 1
+myrank = 1393 P = 4 Q = 0
+myrank = 3483 P = 4 Q = 1
+myrank = 3473 P = 2 Q = 0
+myrank = 2045 P = 3 Q = 2
+myrank = 1712 P = 4 Q = 3
+myrank = 2719 P = 4 Q = 0
+myrank = 1563 P = 2 Q = 2
+myrank = 2152 P = 4 Q = 4
+myrank = 3405 P = 2 Q = 3
+myrank = 1098 P = 4 Q = 2
+myrank = 18 P = 3 Q = 5
+myrank = 3465 P = 4 Q = 5
+myrank = 1450 P = 2 Q = 3
+myrank = 2243 P = 1 Q = 5
+myrank = 2383 P = 4 Q = 4
+myrank = 2008 P = 1 Q = 1
+myrank = 1594 P = 1 Q = 2
+myrank = 921 P = 1 Q = 4
+myrank = 1588 P = 4 Q = 4
+myrank = 1200 P = 2 Q = 0
+myrank = 613 P = 2 Q = 0
+myrank = 3467 P = 2 Q = 0
+myrank = 3493 P = 5 Q = 2
+myrank = 778 P = 0 Q = 2
+myrank = 937 P = 1 Q = 1
+myrank = 1595 P = 3 Q = 1
+myrank = 2717 P = 1 Q = 3
+myrank = 998 P = 2 Q = 0
+myrank = 662 P = 1 Q = 2
+myrank = 2504 P = 5 Q = 2
+myrank = 2120 P = 3 Q = 5
+myrank = 1743 P = 0 Q = 0
+myrank = 94 P = 5 Q = 5
+myrank = 460 P = 5 Q = 5
+myrank = 2040 P = 1 Q = 1
+myrank = 3506 P = 0 Q = 4
+myrank = 1816 P = 0 Q = 1
+myrank = 3414 P = 2 Q = 0
+myrank = 686 P = 2 Q = 1
+myrank = 684 P = 1 Q = 0
+myrank = 2380 P = 5 Q = 0
+myrank = 1715 P = 2 Q = 2
+myrank = 2237 P = 3 Q = 3
+myrank = 2116 P = 5 Q = 2
+myrank = 1713 P = 5 Q = 0
+myrank = 1305 P = 3 Q = 0
+myrank = 966 P = 4 Q = 4
+myrank = 2054 P = 2 Q = 1
+myrank = 660 P = 4 Q = 3
+myrank = 913 P = 4 Q = 4
+myrank = 3492 P = 1 Q = 5
+myrank = 3446 P = 3 Q = 5
+myrank = 1284 P = 1 Q = 2
+myrank = 1783 P = 1 Q = 2
+myrank = 2044 P = 1 Q = 0
+myrank = 2009 P = 0 Q = 3
+myrank = 2569 P = 4 Q = 5
+myrank = 1760 P = 5 Q = 2
+myrank = 650 P = 0 Q = 5
+myrank = 3436 P = 2 Q = 4
+myrank = 1229 P = 1 Q = 4
+myrank = 2248 P = 0 Q = 0
+myrank = 1777 P = 3 Q = 2
+myrank = 3197 P = 2 Q = 4
+myrank = 2059 P = 1 Q = 4
+myrank = 2905 P = 2 Q = 5
+myrank = 1315 P = 1 Q = 1
+myrank = 2231 P = 0 Q = 2
+myrank = 2552 P = 3 Q = 4
+myrank = 2069 P = 3 Q = 2
+myrank = 2162 P = 0 Q = 5
+myrank = 683 P = 3 Q = 3
+myrank = 1419 P = 2 Q = 4
+myrank = 957 P = 3 Q = 0
+myrank = 121 P = 3 Q = 2
+myrank = 1374 P = 0 Q = 3
+myrank = 2468 P = 3 Q = 0
+myrank = 2676 P = 2 Q = 1
+myrank = 2202 P = 2 Q = 3
+myrank = 1188 P = 5 Q = 4
+myrank = 691 P = 4 Q = 5
+myrank = 2673 P = 4 Q = 2
+myrank = 1099 P = 3 Q = 1
+myrank = 2677 P = 4 Q = 0
+myrank = 3464 P = 3 Q = 5
+myrank = 1443 P = 5 Q = 1
+myrank = 334 P = 1 Q = 1
+myrank = 2047 P = 3 Q = 4
+myrank = 1238 P = 1 Q = 4
+myrank = 1561 P = 5 Q = 3
+myrank = 1406 P = 1 Q = 5
+myrank = 2539 P = 0 Q = 2
+myrank = 1654 P = 2 Q = 0
+myrank = 1201 P = 5 Q = 0
+myrank = 2118 P = 0 Q = 3
+myrank = 2916 P = 4 Q = 3
+myrank = 1285 P = 0 Q = 5
+myrank = 1415 P = 3 Q = 4
+myrank = 2319 P = 3 Q = 5
+myrank = 2055 P = 1 Q = 3
+myrank = 2557 P = 2 Q = 1
+myrank = 2058 P = 5 Q = 5
+myrank = 2559 P = 5 Q = 4
+myrank = 656 P = 0 Q = 0
+myrank = 2317 P = 0 Q = 3
+myrank = 1768 P = 5 Q = 5
+myrank = 1705 P = 4 Q = 4
+myrank = 2678 P = 0 Q = 2
+myrank = 942 P = 3 Q = 2
+myrank = 895 P = 1 Q = 5
+myrank = 1826 P = 2 Q = 2
+myrank = 2563 P = 2 Q = 2
+myrank = 1607 P = 1 Q = 4
+myrank = 1918 P = 1 Q = 5
+myrank = 2918 P = 1 Q = 5
+myrank = 1564 P = 0 Q = 2
+myrank = 2041 P = 2 Q = 5
+myrank = 1992 P = 0 Q = 2
+myrank = 989 P = 2 Q = 5
+myrank = 914 P = 2 Q = 4
+myrank = 1313 P = 4 Q = 5
+myrank = 2547 P = 1 Q = 4
+myrank = 1286 P = 5 Q = 4
+myrank = 2250 P = 0 Q = 2
+myrank = 1806 P = 5 Q = 0
+myrank = 1398 P = 3 Q = 3
+myrank = 3470 P = 3 Q = 5
+myrank = 462 P = 2 Q = 1
+myrank = 1871 P = 5 Q = 2
+myrank = 3462 P = 0 Q = 5
+myrank = 1994 P = 3 Q = 4
+myrank = 692 P = 5 Q = 2
+myrank = 2239 P = 4 Q = 1
+myrank = 2568 P = 2 Q = 0
+myrank = 3468 P = 0 Q = 0
+myrank = 657 P = 2 Q = 2
+myrank = 2208 P = 1 Q = 2
+myrank = 1084 P = 3 Q = 3
+myrank = 2016 P = 0 Q = 2
+myrank = 586 P = 5 Q = 3
+myrank = 1969 P = 1 Q = 5
+myrank = 1068 P = 3 Q = 3
+myrank = 3494 P = 1 Q = 4
+myrank = 676 P = 1 Q = 0
+myrank = 2238 P = 2 Q = 5
+myrank = 3402 P = 5 Q = 4
+myrank = 2906 P = 0 Q = 2
+myrank = 612 P = 3 Q = 1
+myrank = 1995 P = 1 Q = 5
+myrank = 999 P = 0 Q = 3
+myrank = 2124 P = 3 Q = 1
+myrank = 988 P = 1 Q = 2
+myrank = 2483 P = 3 Q = 4
+myrank = 2707 P = 5 Q = 0
+myrank = 3418 P = 2 Q = 2
+myrank = 1390 P = 1 Q = 5
+myrank = 1298 P = 1 Q = 4
+myrank = 677 P = 2 Q = 1
+myrank = 3427 P = 0 Q = 5
+myrank = 202 P = 0 Q = 3
+myrank = 689 P = 0 Q = 1
+myrank = 564 P = 2 Q = 2
+myrank = 3466 P = 3 Q = 4
+myrank = 1392 P = 0 Q = 0
+myrank = 614 P = 0 Q = 0
+myrank = 990 P = 1 Q = 1
+myrank = 1418 P = 0 Q = 5
+myrank = 2010 P = 1 Q = 0
+myrank = 2029 P = 3 Q = 4
+myrank = 1562 P = 0 Q = 3
+myrank = 2043 P = 2 Q = 4
+myrank = 1771 P = 1 Q = 0
+myrank = 3475 P = 2 Q = 0
+myrank = 1590 P = 4 Q = 0
+myrank = 2154 P = 4 Q = 3
+myrank = 2506 P = 5 Q = 1
+myrank = 2046 P = 1 Q = 2
+myrank = 902 P = 0 Q = 1
+myrank = 509 P = 5 Q = 3
+myrank = 1758 P = 1 Q = 1
+myrank = 3550 P = 4 Q = 2
+myrank = 1437 P = 5 Q = 1
+myrank = 2672 P = 5 Q = 3
+myrank = 1604 P = 5 Q = 5
+myrank = 1714 P = 4 Q = 2
+myrank = 1096 P = 4 Q = 3
+myrank = 1977 P = 5 Q = 4
+myrank = 1711 P = 2 Q = 4
+myrank = 1870 P = 0 Q = 0
+myrank = 1069 P = 5 Q = 5
+myrank = 1905 P = 3 Q = 0
+myrank = 2556 P = 0 Q = 2
+myrank = 3144 P = 5 Q = 5
+myrank = 2917 P = 0 Q = 2
+myrank = 1833 P = 2 Q = 3
+myrank = 936 P = 4 Q = 2
+myrank = 2242 P = 5 Q = 0
+myrank = 2187 P = 2 Q = 1
+myrank = 1403 P = 5 Q = 1
+myrank = 1447 P = 3 Q = 5
+myrank = 1709 P = 2 Q = 2
+myrank = 1416 P = 0 Q = 0
+myrank = 1720 P = 4 Q = 3
+myrank = 1968 P = 2 Q = 3
+myrank = 1978 P = 0 Q = 1
+myrank = 2553 P = 1 Q = 4
+myrank = 77 P = 5 Q = 4
+myrank = 1214 P = 3 Q = 2
+myrank = 997 P = 3 Q = 3
+myrank = 1389 P = 4 Q = 5
+myrank = 1504 P = 0 Q = 3
+myrank = 1297 P = 5 Q = 5
+myrank = 1647 P = 4 Q = 1
+myrank = 3400 P = 5 Q = 2
+myrank = 3471 P = 2 Q = 1
+myrank = 1082 P = 3 Q = 1
+myrank = 1312 P = 2 Q = 3
+myrank = 3407 P = 2 Q = 2
+myrank = 2495 P = 5 Q = 4
+myrank = 3451 P = 3 Q = 0
+myrank = 2452 P = 3 Q = 5
+myrank = 1912 P = 2 Q = 5
+myrank = 2477 P = 2 Q = 5
+myrank = 1639 P = 4 Q = 1
+myrank = 1965 P = 5 Q = 5
+myrank = 963 P = 5 Q = 2
+myrank = 2453 P = 5 Q = 1
+myrank = 1212 P = 0 Q = 0
+myrank = 1566 P = 4 Q = 3
+myrank = 3482 P = 3 Q = 1
+myrank = 1440 P = 4 Q = 2
+myrank = 1080 P = 4 Q = 0
+myrank = 2560 P = 0 Q = 4
+myrank = 3401 P = 1 Q = 4
+myrank = 2544 P = 5 Q = 5
+myrank = 1686 P = 0 Q = 5
+myrank = 1769 P = 1 Q = 1
+myrank = 461 P = 1 Q = 1
+myrank = 652 P = 3 Q = 4
+myrank = 1444 P = 1 Q = 0
+myrank = 2122 P = 0 Q = 2
+myrank = 280 P = 0 Q = 1
+myrank = 682 P = 4 Q = 1
+myrank = 1148 P = 2 Q = 1
+myrank = 1867 P = 3 Q = 1
+myrank = 1413 P = 3 Q = 5
+myrank = 3469 P = 5 Q = 2
+myrank = 1287 P = 0 Q = 4
+myrank = 2198 P = 2 Q = 4
+myrank = 2031 P = 3 Q = 1
+myrank = 1190 P = 0 Q = 2
+myrank = 1314 P = 2 Q = 2
+myrank = 1770 P = 0 Q = 3
+myrank = 3448 P = 3 Q = 4
+myrank = 3404 P = 4 Q = 2
+myrank = 1971 P = 4 Q = 4
+myrank = 1086 P = 0 Q = 2
+myrank = 2316 P = 1 Q = 1
+myrank = 1706 P = 0 Q = 3
+myrank = 1883 P = 0 Q = 5
+myrank = 1303 P = 3 Q = 4
+myrank = 2123 P = 2 Q = 4
+myrank = 1643 P = 1 Q = 3
+myrank = 1704 P = 0 Q = 1
+myrank = 2298 P = 1 Q = 1
+myrank = 688 P = 2 Q = 3
+myrank = 1436 P = 2 Q = 2
+myrank = 76 P = 2 Q = 5
+myrank = 1708 P = 0 Q = 2
+myrank = 1407 P = 3 Q = 1
+myrank = 3409 P = 0 Q = 0
+myrank = 2890 P = 0 Q = 2
+myrank = 908 P = 1 Q = 1
+myrank = 1405 P = 2 Q = 0
+myrank = 2554 P = 0 Q = 0
+myrank = 1964 P = 5 Q = 5
+myrank = 3403 P = 4 Q = 0
+myrank = 2302 P = 3 Q = 1
+myrank = 2480 P = 4 Q = 3
+myrank = 2419 P = 2 Q = 2
+myrank = 1401 P = 5 Q = 2
+myrank = 3406 P = 4 Q = 2
+myrank = 2210 P = 1 Q = 1
+myrank = 1993 P = 4 Q = 5
+myrank = 1687 P = 2 Q = 1
+myrank = 2188 P = 1 Q = 0
+myrank = 2200 P = 5 Q = 0
+myrank = 1205 P = 1 Q = 4
+myrank = 1804 P = 2 Q = 4
+myrank = 961 P = 3 Q = 1
+myrank = 680 P = 1 Q = 2
+myrank = 1571 P = 0 Q = 3
+myrank = 1402 P = 4 Q = 1
+myrank = 3474 P = 2 Q = 0
+myrank = 911 P = 2 Q = 0
+myrank = 3480 P = 3 Q = 2
+myrank = 1150 P = 1 Q = 5
+myrank = 95 P = 4 Q = 1
+myrank = 1946 P = 2 Q = 2
+myrank = 2211 P = 3 Q = 0
+myrank = 3419 P = 4 Q = 4
+myrank = 1944 P = 5 Q = 0
+myrank = 568 P = 5 Q = 0
+myrank = 2230 P = 0 Q = 3
+myrank = 1914 P = 0 Q = 0
+myrank = 1780 P = 5 Q = 1
+myrank = 3449 P = 2 Q = 0
+myrank = 1318 P = 3 Q = 2
+myrank = 2304 P = 3 Q = 0
+myrank = 1979 P = 5 Q = 0
+myrank = 649 P = 3 Q = 0
+myrank = 1446 P = 1 Q = 3
+myrank = 1207 P = 4 Q = 0
+myrank = 1301 P = 0 Q = 2
+myrank = 1778 P = 1 Q = 0
+myrank = 2505 P = 0 Q = 5
+myrank = 611 P = 4 Q = 5
+myrank = 2888 P = 3 Q = 2
+myrank = 1505 P = 5 Q = 2
+myrank = 2030 P = 5 Q = 4
+myrank = 3416 P = 5 Q = 2
+myrank = 2207 P = 4 Q = 3
+myrank = 690 P = 2 Q = 0
+myrank = 3472 P = 1 Q = 0
+myrank = 2492 P = 2 Q = 0
+myrank = 1606 P = 1 Q = 1
+myrank = 1396 P = 3 Q = 1
+myrank = 1970 P = 5 Q = 2
+myrank = 1776 P = 4 Q = 3
+myrank = 1632 P = 0 Q = 3
+myrank = 1434 P = 5 Q = 0
+myrank = 1081 P = 1 Q = 2
+myrank = 3481 P = 1 Q = 5
+myrank = 2028 P = 1 Q = 5
+myrank = 3408 P = 1 Q = 1
+myrank = 1204 P = 2 Q = 4
+myrank = 1202 P = 5 Q = 5
+myrank = 2232 P = 1 Q = 5
+myrank = 2322 P = 2 Q = 0
+myrank = 203 P = 2 Q = 5
+myrank = 3496 P = 4 Q = 0
+myrank = 2545 P = 0 Q = 3
+myrank = 1782 P = 5 Q = 0
+myrank = 2914 P = 4 Q = 4
+myrank = 2454 P = 0 Q = 2
+myrank = 1605 P = 1 Q = 5
+myrank = 2209 P = 0 Q = 1
+myrank = 200 P = 3 Q = 4
+myrank = 1506 P = 0 Q = 5
+myrank = 653 P = 5 Q = 0
+myrank = 1807 P = 1 Q = 5
+myrank = 79 P = 5 Q = 0
+myrank = 1316 P = 0 Q = 3
+myrank = 1404 P = 1 Q = 0
+myrank = 1302 P = 4 Q = 5
+myrank = 1601 P = 1 Q = 3
+myrank = 1445 P = 3 Q = 2
+myrank = 1414 P = 2 Q = 4
+myrank = 2199 P = 4 Q = 3
+myrank = 570 P = 0 Q = 1
+myrank = 569 P = 1 Q = 5
+myrank = 1671 P = 2 Q = 0
+myrank = 1317 P = 1 Q = 0
+myrank = 654 P = 0 Q = 1
+myrank = 1966 P = 2 Q = 1
+myrank = 1684 P = 3 Q = 2
+myrank = 3424 P = 0 Q = 1
+myrank = 3410 P = 1 Q = 3
+myrank = 3426 P = 0 Q = 3
+myrank = 2891 P = 5 Q = 1
+myrank = 1779 P = 3 Q = 5
+myrank = 1805 P = 4 Q = 0
+myrank = 2455 P = 2 Q = 1
+myrank = 1441 P = 2 Q = 5
+myrank = 608 P = 2 Q = 4
+myrank = 1882 P = 4 Q = 3
+myrank = 1432 P = 2 Q = 0
+myrank = 1879 P = 5 Q = 4
+myrank = 3411 P = 0 Q = 2
+myrank = 2555 P = 4 Q = 3
+myrank = 2127 P = 5 Q = 2
+myrank = 1438 P = 2 Q = 4
+myrank = 1435 P = 1 Q = 2
+myrank = 2889 P = 5 Q = 1
+myrank = 1319 P = 3 Q = 4
+myrank = 1439 P = 2 Q = 3
+myrank = 1869 P = 0 Q = 1
+myrank = 892 P = 5 Q = 3
+myrank = 1634 P = 5 Q = 1
+myrank = 1206 P = 5 Q = 4
+myrank = 1945 P = 3 Q = 0
+myrank = 1860 P = 1 Q = 5
+myrank = 2126 P = 3 Q = 3
+myrank = 1507 P = 5 Q = 1
+myrank = 1864 P = 4 Q = 3
+myrank = 1856 P = 1 Q = 3
+myrank = 1567 P = 2 Q = 3
+myrank = 1675 P = 5 Q = 5
+myrank = 1250 P = 3 Q = 4
+myrank = 939 P = 1 Q = 3
+myrank = 938 P = 0 Q = 0
+myrank = 1400 P = 3 Q = 0
+myrank = 2494 P = 4 Q = 4
+myrank = 1701 P = 3 Q = 3
+myrank = 1159 P = 3 Q = 1
+myrank = 2240 P = 5 Q = 1
+myrank = 2476 P = 1 Q = 4
+myrank = 1137 P = 0 Q = 0
+myrank = 1442 P = 4 Q = 4
+myrank = 2478 P = 4 Q = 4
+myrank = 1412 P = 2 Q = 2
+myrank = 1602 P = 5 Q = 0
+myrank = 2236 P = 5 Q = 0
+myrank = 910 P = 4 Q = 0
+myrank = 1136 P = 1 Q = 1
+myrank = 1638 P = 5 Q = 2
+myrank = 2234 P = 5 Q = 0
+myrank = 2235 P = 0 Q = 3
+myrank = 2611 P = 3 Q = 1
+myrank = 3450 P = 0 Q = 0
+myrank = 2479 P = 5 Q = 1
+myrank = 1433 P = 0 Q = 0
+myrank = 1859 P = 5 Q = 0
+myrank = 894 P = 5 Q = 2
+myrank = 1652 P = 3 Q = 5
+myrank = 1568 P = 4 Q = 2
+myrank = 1880 P = 4 Q = 0
+myrank = 1669 P = 5 Q = 1
+myrank = 201 P = 2 Q = 0
+myrank = 571 P = 4 Q = 4
+myrank = 3497 P = 1 Q = 0
+myrank = 1767 P = 1 Q = 5
+myrank = 3417 P = 3 Q = 3
+myrank = 2493 P = 2 Q = 5
+myrank = 78 P = 4 Q = 0
+myrank = 1676 P = 1 Q = 4
+myrank = 1559 P = 0 Q = 2
+myrank = 3499 P = 4 Q = 5
+myrank = 2226 P = 0 Q = 2
+myrank = 962 P = 0 Q = 3
+myrank = 1569 P = 5 Q = 5
+myrank = 2608 P = 4 Q = 0
+myrank = 1558 P = 3 Q = 4
+myrank = 2205 P = 1 Q = 4
+myrank = 1140 P = 2 Q = 1
+myrank = 893 P = 3 Q = 0
+myrank = 610 P = 3 Q = 5
+myrank = 1155 P = 3 Q = 5
+myrank = 2204 P = 4 Q = 1
+myrank = 1158 P = 1 Q = 2
+myrank = 2558 P = 0 Q = 2
+myrank = 1868 P = 2 Q = 3
+myrank = 1820 P = 1 Q = 4
+myrank = 1862 P = 1 Q = 1
+myrank = 1153 P = 4 Q = 4
+myrank = 2482 P = 4 Q = 5
+myrank = 1673 P = 2 Q = 2
+myrank = 2609 P = 3 Q = 5
+myrank = 1668 P = 3 Q = 5
+myrank = 1677 P = 4 Q = 0
+myrank = 1570 P = 4 Q = 4
+myrank = 1143 P = 0 Q = 0
+myrank = 1857 P = 5 Q = 3
+myrank = 1861 P = 3 Q = 1
+myrank = 2206 P = 1 Q = 0
+myrank = 1764 P = 5 Q = 3
+myrank = 1881 P = 0 Q = 0
+myrank = 1156 P = 1 Q = 2
+myrank = 1565 P = 2 Q = 4
+myrank = 2176 P = 2 Q = 0
+myrank = 2179 P = 0 Q = 0
+myrank = 1138 P = 4 Q = 3
+myrank = 1703 P = 0 Q = 5
+myrank = 1689 P = 2 Q = 0
+myrank = 1878 P = 4 Q = 1
+myrank = 1691 P = 2 Q = 5
+myrank = 1865 P = 3 Q = 2
+myrank = 2613 P = 0 Q = 3
+myrank = 1858 P = 4 Q = 3
+myrank = 1599 P = 3 Q = 2
+myrank = 1863 P = 3 Q = 3
+myrank = 2184 P = 2 Q = 3
+myrank = 1823 P = 4 Q = 5
+myrank = 1139 P = 3 Q = 5
+myrank = 609 P = 1 Q = 3
+myrank = 2177 P = 0 Q = 0
+myrank = 1678 P = 1 Q = 3
+myrank = 1766 P = 5 Q = 3
+myrank = 1672 P = 1 Q = 5
+myrank = 1597 P = 3 Q = 3
+myrank = 1157 P = 0 Q = 1
+myrank = 1600 P = 2 Q = 4
+myrank = 1700 P = 4 Q = 1
+myrank = 2610 P = 3 Q = 1
+myrank = 1642 P = 2 Q = 4
+myrank = 1556 P = 0 Q = 5
+myrank = 3489 P = 5 Q = 4
+myrank = 3498 P = 4 Q = 0
+myrank = 1670 P = 0 Q = 4
+myrank = 2197 P = 0 Q = 5
+myrank = 3425 P = 4 Q = 1
+myrank = 3488 P = 3 Q = 5
+myrank = 1603 P = 4 Q = 2
+myrank = 2186 P = 4 Q = 1
+myrank = 1679 P = 4 Q = 5
+myrank = 1690 P = 3 Q = 3
+myrank = 1152 P = 1 Q = 1
+myrank = 1141 P = 0 Q = 4
+myrank = 1915 P = 4 Q = 4
+myrank = 1765 P = 4 Q = 5
+myrank = 2196 P = 5 Q = 2
+myrank = 1154 P = 1 Q = 3
+myrank = 2229 P = 3 Q = 3
+myrank = 909 P = 2 Q = 1
+myrank = 1688 P = 0 Q = 1
+myrank = 960 P = 3 Q = 4
+myrank = 1674 P = 1 Q = 2
+myrank = 1641 P = 1 Q = 4
+myrank = 2612 P = 0 Q = 0
+myrank = 1877 P = 5 Q = 5
+myrank = 2241 P = 1 Q = 0
+myrank = 1866 P = 2 Q = 1
+myrank = 2178 P = 5 Q = 2
+myrank = 3491 P = 2 Q = 0
+myrank = 1913 P = 1 Q = 4
+myrank = 1636 P = 5 Q = 3
+myrank = 1702 P = 0 Q = 5
+myrank = 1142 P = 5 Q = 0
+myrank = 1637 P = 0 Q = 3
+myrank = 2042 P = 4 Q = 1
+myrank = 1685 P = 4 Q = 5
+myrank = 1557 P = 0 Q = 5
+myrank = 1680 P = 1 Q = 5
+myrank = 1909 P = 4 Q = 3
+myrank = 1646 P = 0 Q = 4
+myrank = 1976 P = 3 Q = 5
+myrank = 1596 P = 5 Q = 0
+myrank = 1681 P = 1 Q = 1
+myrank = 1640 P = 2 Q = 5
+myrank = 1876 P = 4 Q = 5
+myrank = 1911 P = 1 Q = 5
+myrank = 2614 P = 0 Q = 0
+myrank = 1908 P = 5 Q = 4
+myrank = 931 P = 2 Q = 2
+myrank = 1822 P = 1 Q = 0
+myrank = 2456 P = 4 Q = 3
+myrank = 2458 P = 4 Q = 2
+myrank = 1910 P = 2 Q = 3
+myrank = 930 P = 1 Q = 5
+myrank = 2615 P = 2 Q = 2
+myrank = 2233 P = 3 Q = 4
+myrank = 1645 P = 1 Q = 5
+myrank = 1683 P = 4 Q = 3
+myrank = 1644 P = 3 Q = 2
+myrank = 929 P = 2 Q = 3
+myrank = 1598 P = 5 Q = 2
+myrank = 3505 P = 2 Q = 1
+myrank = 2457 P = 2 Q = 3
+myrank = 1821 P = 2 Q = 1
+myrank = 2459 P = 5 Q = 2
+myrank = 1682 P = 0 Q = 0
+myrank = 928 P = 1 Q = 2
+myrank = 3490 P = 1 Q = 3
+myrank = 2185 P = 2 Q = 5
+myrank = 2125 P = 5 Q = 3
+myrank = 681 P = 3 Q = 4
+myrank = 463 P = 4 Q = 0
+myrank = 2305 P = 4 Q = 1
+myrank = 2117 P = 1 Q = 1
+myrank = 685 P = 3 Q = 2
+myrank = 1397 P = 2 Q = 3
+myrank = 1633 P = 0 Q = 2
+myrank = 2450 P = 3 Q = 0
+myrank = 83 P = 3 Q = 4
+myrank = 2442 P = 1 Q = 2
+myrank = 2306 P = 3 Q = 0
+myrank = 3923 P = 2 Q = 5
+myrank = 2449 P = 1 Q = 1
+myrank = 455 P = 2 Q = 1
+myrank = 3863 P = 3 Q = 2
+myrank = 2310 P = 4 Q = 0
+myrank = 2561 P = 5 Q = 3
+myrank = 2225 P = 4 Q = 3
+myrank = 2297 P = 3 Q = 4
+myrank = 2101 P = 1 Q = 1
+myrank = 2173 P = 3 Q = 5
+myrank = 2489 P = 4 Q = 1
+myrank = 2521 P = 3 Q = 5
+myrank = 2165 P = 2 Q = 0
+myrank = 2181 P = 2 Q = 4
+myrank = 2441 P = 0 Q = 1
+myrank = 2485 P = 0 Q = 3
+myrank = 2529 P = 1 Q = 1
+myrank = 2193 P = 3 Q = 1
+myrank = 693 P = 4 Q = 1
+myrank = 2481 P = 0 Q = 2
+myrank = 1657 P = 2 Q = 2
+myrank = 2490 P = 5 Q = 1
+myrank = 2445 P = 1 Q = 0
+myrank = 1653 P = 2 Q = 4
+myrank = 2565 P = 5 Q = 1
+myrank = 2321 P = 3 Q = 1
+myrank = 1613 P = 0 Q = 3
+myrank = 2537 P = 4 Q = 4
+myrank = 3549 P = 2 Q = 0
+myrank = 2169 P = 2 Q = 2
+myrank = 1589 P = 2 Q = 4
+myrank = 2153 P = 3 Q = 0
+myrank = 2189 P = 5 Q = 0
+myrank = 2157 P = 0 Q = 2
+myrank = 2249 P = 5 Q = 2
+myrank = 2301 P = 4 Q = 2
+myrank = 2170 P = 1 Q = 4
+myrank = 2121 P = 1 Q = 3
+myrank = 2309 P = 5 Q = 1
+myrank = 678 P = 1 Q = 3
+*******************************
+dgemm_time	8.965197
+conv_transfer_time	0.000000
+conv_calculate_time	4051.698242
+elastic_calculate_time	4051.748779
+Allen_Cahn_nonlinear_time	4080.571777
+Cahn_Hilliard_nonlinear_time	0.012162
+trans_time	605.535828
+trans_Memcpy_time	12.016808
+trans_MPI_time	590.499390
+trans_pack_time	0.317519
+trans_enlarge_time	0.736171
+trans_mu_time	0.390808
+trans_unpack_time	1.080574
+updateU_new_time	0.461182
+runtime	4.696760
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	2.108747
+*******************************
+dgemm_time	7.791837
+conv_transfer_time	0.000000
+conv_calculate_time	683.479431
+elastic_calculate_time	683.513245
+Allen_Cahn_nonlinear_time	707.458069
+Cahn_Hilliard_nonlinear_time	0.011842
+trans_time	14.496737
+trans_Memcpy_time	6.577996
+trans_MPI_time	5.314948
+trans_pack_time	0.259394
+trans_enlarge_time	0.457183
+trans_mu_time	0.391252
+trans_unpack_time	1.054380
+updateU_new_time	0.455576
+runtime	0.734189
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	6.806916
+*******************************
+dgemm_time	7.798486
+conv_transfer_time	0.000000
+conv_calculate_time	684.025879
+elastic_calculate_time	684.063354
+Allen_Cahn_nonlinear_time	710.921204
+Cahn_Hilliard_nonlinear_time	0.012642
+trans_time	14.657434
+trans_Memcpy_time	6.592008
+trans_MPI_time	5.460670
+trans_pack_time	0.260032
+trans_enlarge_time	0.461497
+trans_mu_time	0.390130
+trans_unpack_time	1.051649
+updateU_new_time	0.453652
+runtime	0.740721
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	7.542491
+*******************************
+dgemm_time	7.795061
+conv_transfer_time	0.000000
+conv_calculate_time	682.040344
+elastic_calculate_time	682.081238
+Allen_Cahn_nonlinear_time	710.264465
+Cahn_Hilliard_nonlinear_time	0.012001
+trans_time	15.207162
+trans_Memcpy_time	6.545543
+trans_MPI_time	6.003722
+trans_pack_time	0.264350
+trans_enlarge_time	0.457971
+trans_mu_time	0.388204
+trans_unpack_time	1.042998
+updateU_new_time	0.453648
+runtime	0.734850
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	8.284598
+*******************************
+dgemm_time	7.794204
+conv_transfer_time	0.000000
+conv_calculate_time	681.537903
+elastic_calculate_time	681.577393
+Allen_Cahn_nonlinear_time	704.600098
+Cahn_Hilliard_nonlinear_time	0.012641
+trans_time	14.778302
+trans_Memcpy_time	6.698145
+trans_MPI_time	5.432412
+trans_pack_time	0.258268
+trans_enlarge_time	0.455410
+trans_mu_time	0.385320
+trans_unpack_time	1.044430
+updateU_new_time	0.454765
+runtime	0.733628
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	9.020811
+*******************************
+dgemm_time	7.783593
+conv_transfer_time	0.000000
+conv_calculate_time	678.470215
+elastic_calculate_time	678.509583
+Allen_Cahn_nonlinear_time	702.680908
+Cahn_Hilliard_nonlinear_time	0.012481
+trans_time	14.632589
+trans_Memcpy_time	6.625289
+trans_MPI_time	5.356364
+trans_pack_time	0.256985
+trans_enlarge_time	0.461004
+trans_mu_time	0.386757
+trans_unpack_time	1.045702
+updateU_new_time	0.459082
+runtime	0.729469
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	9.755803
+*******************************
+dgemm_time	7.799067
+conv_transfer_time	0.000000
+conv_calculate_time	678.791626
+elastic_calculate_time	678.830383
+Allen_Cahn_nonlinear_time	705.718445
+Cahn_Hilliard_nonlinear_time	0.012481
+trans_time	15.217337
+trans_Memcpy_time	6.635807
+trans_MPI_time	5.922621
+trans_pack_time	0.260504
+trans_enlarge_time	0.454923
+trans_mu_time	0.387237
+trans_unpack_time	1.047776
+updateU_new_time	0.453319
+runtime	0.735218
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	10.486702
+*******************************
+dgemm_time	7.804945
+conv_transfer_time	0.000000
+conv_calculate_time	681.629700
+elastic_calculate_time	681.667480
+Allen_Cahn_nonlinear_time	709.887085
+Cahn_Hilliard_nonlinear_time	0.012161
+trans_time	15.294375
+trans_Memcpy_time	6.499916
+trans_MPI_time	6.126763
+trans_pack_time	0.265783
+trans_enlarge_time	0.456838
+trans_mu_time	0.389471
+trans_unpack_time	1.049370
+updateU_new_time	0.452996
+runtime	0.736302
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	11.223335
+*******************************
+dgemm_time	7.803147
+conv_transfer_time	0.000000
+conv_calculate_time	681.057068
+elastic_calculate_time	681.093994
+Allen_Cahn_nonlinear_time	705.025574
+Cahn_Hilliard_nonlinear_time	0.012161
+trans_time	15.014511
+trans_Memcpy_time	6.628691
+trans_MPI_time	5.735019
+trans_pack_time	0.261141
+trans_enlarge_time	0.464357
+trans_mu_time	0.384831
+trans_unpack_time	1.040403
+updateU_new_time	0.452514
+runtime	0.729445
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	11.961018
+*******************************
+dgemm_time	7.788071
+conv_transfer_time	0.000000
+conv_calculate_time	680.567810
+elastic_calculate_time	680.605408
+Allen_Cahn_nonlinear_time	705.122803
+Cahn_Hilliard_nonlinear_time	0.012321
+trans_time	14.869926
+trans_Memcpy_time	6.592335
+trans_MPI_time	5.686507
+trans_pack_time	0.259700
+trans_enlarge_time	0.456192
+trans_mu_time	0.388828
+trans_unpack_time	1.043438
+updateU_new_time	0.454752
+runtime	0.733116
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	12.691857
+*******************************
+dgemm_time	7.800840
+conv_transfer_time	0.000000
+conv_calculate_time	679.694519
+elastic_calculate_time	679.733154
+Allen_Cahn_nonlinear_time	706.747253
+Cahn_Hilliard_nonlinear_time	0.012641
+trans_time	14.638202
+trans_Memcpy_time	6.610227
+trans_MPI_time	5.432543
+trans_pack_time	0.259698
+trans_enlarge_time	0.461152
+trans_mu_time	0.385625
+trans_unpack_time	1.047434
+updateU_new_time	0.465471
+runtime	0.733981
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	13.430914
+*******************************
+dgemm_time	7.799209
+conv_transfer_time	0.000000
+conv_calculate_time	683.517456
+elastic_calculate_time	683.553589
+Allen_Cahn_nonlinear_time	711.012024
+Cahn_Hilliard_nonlinear_time	0.012161
+trans_time	14.645242
+trans_Memcpy_time	6.554355
+trans_MPI_time	5.499245
+trans_pack_time	0.255536
+trans_enlarge_time	0.459551
+trans_mu_time	0.385625
+trans_unpack_time	1.050470
+updateU_new_time	0.456669
+runtime	0.739502
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	14.166319
+*******************************
+dgemm_time	7.788142
+conv_transfer_time	0.000000
+conv_calculate_time	680.945740
+elastic_calculate_time	680.980591
+Allen_Cahn_nonlinear_time	706.250610
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	14.706521
+trans_Memcpy_time	6.573853
+trans_MPI_time	5.540188
+trans_pack_time	0.259216
+trans_enlarge_time	0.458586
+trans_mu_time	0.385145
+trans_unpack_time	1.047586
+updateU_new_time	0.452507
+runtime	0.730520
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	14.907185
+*******************************
+dgemm_time	7.813397
+conv_transfer_time	0.000000
+conv_calculate_time	681.753052
+elastic_calculate_time	681.788269
+Allen_Cahn_nonlinear_time	705.131775
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	14.550121
+trans_Memcpy_time	6.578629
+trans_MPI_time	5.375518
+trans_pack_time	0.259054
+trans_enlarge_time	0.457465
+trans_mu_time	0.386739
+trans_unpack_time	1.046942
+updateU_new_time	0.448825
+runtime	0.733625
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	15.639084
+*******************************
+dgemm_time	7.797854
+conv_transfer_time	0.000000
+conv_calculate_time	683.220032
+elastic_calculate_time	683.254639
+Allen_Cahn_nonlinear_time	713.547302
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	14.707932
+trans_Memcpy_time	6.579728
+trans_MPI_time	5.532469
+trans_pack_time	0.260494
+trans_enlarge_time	0.456664
+trans_mu_time	0.388178
+trans_unpack_time	1.050139
+updateU_new_time	0.456024
+runtime	0.737036
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	16.374080
+*******************************
+dgemm_time	7.811113
+conv_transfer_time	0.000000
+conv_calculate_time	675.059448
+elastic_calculate_time	675.094666
+Allen_Cahn_nonlinear_time	703.993347
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	14.806774
+trans_Memcpy_time	6.578589
+trans_MPI_time	5.631498
+trans_pack_time	0.259374
+trans_enlarge_time	0.458424
+trans_mu_time	0.385938
+trans_unpack_time	1.050615
+updateU_new_time	0.466583
+runtime	0.731568
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	17.112486
+*******************************
+dgemm_time	7.804052
+conv_transfer_time	0.000000
+conv_calculate_time	678.103577
+elastic_calculate_time	678.139771
+Allen_Cahn_nonlinear_time	701.706177
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	14.574610
+trans_Memcpy_time	6.613131
+trans_MPI_time	5.371949
+trans_pack_time	0.256492
+trans_enlarge_time	0.457779
+trans_mu_time	0.388498
+trans_unpack_time	1.046292
+updateU_new_time	0.454581
+runtime	0.731097
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	17.845410
+*******************************
+dgemm_time	7.797153
+conv_transfer_time	0.000000
+conv_calculate_time	670.005737
+elastic_calculate_time	670.041382
+Allen_Cahn_nonlinear_time	699.499817
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	18.177324
+trans_Memcpy_time	6.581752
+trans_MPI_time	9.005868
+trans_pack_time	0.259372
+trans_enlarge_time	0.459219
+trans_mu_time	0.384978
+trans_unpack_time	1.044369
+updateU_new_time	0.454100
+runtime	0.731321
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	18.577884
+*******************************
+dgemm_time	7.797774
+conv_transfer_time	0.000000
+conv_calculate_time	682.877502
+elastic_calculate_time	682.914307
+Allen_Cahn_nonlinear_time	708.599121
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	14.533625
+trans_Memcpy_time	6.585256
+trans_MPI_time	5.358001
+trans_pack_time	0.258412
+trans_enlarge_time	0.454738
+trans_mu_time	0.392177
+trans_unpack_time	1.043727
+updateU_new_time	0.450899
+runtime	0.736858
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	19.310556
+*******************************
+dgemm_time	7.793757
+conv_transfer_time	0.000000
+conv_calculate_time	678.339722
+elastic_calculate_time	678.376709
+Allen_Cahn_nonlinear_time	702.801636
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	14.614836
+trans_Memcpy_time	6.568281
+trans_MPI_time	5.462313
+trans_pack_time	0.257130
+trans_enlarge_time	0.455858
+trans_mu_time	0.386893
+trans_unpack_time	1.045324
+updateU_new_time	0.453778
+runtime	0.726412
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	20.048848
+*******************************
+dgemm_time	7.809262
+conv_transfer_time	0.000000
+conv_calculate_time	677.457031
+elastic_calculate_time	677.492981
+Allen_Cahn_nonlinear_time	702.460693
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	14.639255
+trans_Memcpy_time	6.567147
+trans_MPI_time	5.473342
+trans_pack_time	0.257290
+trans_enlarge_time	0.459058
+trans_mu_time	0.391213
+trans_unpack_time	1.049162
+updateU_new_time	0.456657
+runtime	0.730291
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	20.776624
+*******************************
+dgemm_time	7.795166
+conv_transfer_time	0.000000
+conv_calculate_time	681.858887
+elastic_calculate_time	681.895386
+Allen_Cahn_nonlinear_time	708.738098
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	14.531751
+trans_Memcpy_time	6.550493
+trans_MPI_time	5.389328
+trans_pack_time	0.260970
+trans_enlarge_time	0.457456
+trans_mu_time	0.384972
+trans_unpack_time	1.045960
+updateU_new_time	0.454096
+runtime	0.732267
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	21.508263
+*******************************
+dgemm_time	7.796272
+conv_transfer_time	0.000000
+conv_calculate_time	665.375671
+elastic_calculate_time	665.413513
+Allen_Cahn_nonlinear_time	698.650879
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	19.754107
+trans_Memcpy_time	6.559120
+trans_MPI_time	10.598469
+trans_pack_time	0.261128
+trans_enlarge_time	0.459853
+trans_mu_time	0.386572
+trans_unpack_time	1.046758
+updateU_new_time	0.456656
+runtime	0.728769
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	22.241879
+*******************************
+dgemm_time	7.790659
+conv_transfer_time	0.000000
+conv_calculate_time	670.501587
+elastic_calculate_time	670.537476
+Allen_Cahn_nonlinear_time	702.696045
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	15.480901
+trans_Memcpy_time	6.552227
+trans_MPI_time	6.336860
+trans_pack_time	0.259688
+trans_enlarge_time	0.456012
+trans_mu_time	0.386092
+trans_unpack_time	1.049956
+updateU_new_time	0.453775
+runtime	0.730904
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	22.972003
+*******************************
+dgemm_time	7.796886
+conv_transfer_time	0.000000
+conv_calculate_time	683.658020
+elastic_calculate_time	683.693359
+Allen_Cahn_nonlinear_time	710.544556
+Cahn_Hilliard_nonlinear_time	0.012480
+trans_time	14.483010
+trans_Memcpy_time	6.595896
+trans_MPI_time	5.287855
+trans_pack_time	0.256968
+trans_enlarge_time	0.457452
+trans_mu_time	0.388172
+trans_unpack_time	1.050915
+updateU_new_time	0.454734
+runtime	0.736403
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	23.704291
+*******************************
+dgemm_time	7.770633
+conv_transfer_time	0.000000
+conv_calculate_time	669.464844
+elastic_calculate_time	669.500061
+Allen_Cahn_nonlinear_time	703.607544
+Cahn_Hilliard_nonlinear_time	0.013760
+trans_time	14.534639
+trans_Memcpy_time	6.574606
+trans_MPI_time	5.365289
+trans_pack_time	0.260328
+trans_enlarge_time	0.456172
+trans_mu_time	0.387212
+trans_unpack_time	1.050433
+updateU_new_time	0.452653
+runtime	0.732121
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	24.442083
+*******************************
+dgemm_time	7.773182
+conv_transfer_time	0.000000
+conv_calculate_time	683.404846
+elastic_calculate_time	683.442444
+Allen_Cahn_nonlinear_time	709.427307
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	14.617488
+trans_Memcpy_time	6.570436
+trans_MPI_time	5.447523
+trans_pack_time	0.262408
+trans_enlarge_time	0.457932
+trans_mu_time	0.388490
+trans_unpack_time	1.050271
+updateU_new_time	0.454733
+runtime	0.737294
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	25.175586
+*******************************
+dgemm_time	7.808532
+conv_transfer_time	0.000000
+conv_calculate_time	683.193054
+elastic_calculate_time	683.229858
+Allen_Cahn_nonlinear_time	706.713989
+Cahn_Hilliard_nonlinear_time	0.012480
+trans_time	14.946266
+trans_Memcpy_time	6.558585
+trans_MPI_time	5.792165
+trans_pack_time	0.257766
+trans_enlarge_time	0.458732
+trans_mu_time	0.386726
+trans_unpack_time	1.048830
+updateU_new_time	0.451372
+runtime	0.734880
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	25.914241
+*******************************
+dgemm_time	7.801801
+conv_transfer_time	0.000000
+conv_calculate_time	683.809387
+elastic_calculate_time	683.847534
+Allen_Cahn_nonlinear_time	708.356689
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	14.740689
+trans_Memcpy_time	6.558737
+trans_MPI_time	5.590071
+trans_pack_time	0.260486
+trans_enlarge_time	0.458572
+trans_mu_time	0.385926
+trans_unpack_time	1.039708
+updateU_new_time	0.452971
+runtime	0.737836
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	26.650465
+*******************************
+dgemm_time	7.783710
+conv_transfer_time	0.000000
+conv_calculate_time	682.765442
+elastic_calculate_time	682.803101
+Allen_Cahn_nonlinear_time	710.222595
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	14.606106
+trans_Memcpy_time	6.580647
+trans_MPI_time	5.421419
+trans_pack_time	0.260006
+trans_enlarge_time	0.460490
+trans_mu_time	0.386726
+trans_unpack_time	1.050107
+updateU_new_time	0.455531
+runtime	0.738785
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	27.389675
+*******************************
+dgemm_time	7.797941
+conv_transfer_time	0.000000
+conv_calculate_time	684.165100
+elastic_calculate_time	684.201660
+Allen_Cahn_nonlinear_time	707.498840
+Cahn_Hilliard_nonlinear_time	0.012480
+trans_time	14.562786
+trans_Memcpy_time	6.574080
+trans_MPI_time	5.395811
+trans_pack_time	0.258726
+trans_enlarge_time	0.455687
+trans_mu_time	0.388806
+trans_unpack_time	1.047705
+updateU_new_time	0.451530
+runtime	0.737923
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	28.129827
+*******************************
+dgemm_time	7.819532
+conv_transfer_time	0.000000
+conv_calculate_time	681.466003
+elastic_calculate_time	681.503784
+Allen_Cahn_nonlinear_time	706.270264
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	14.612741
+trans_Memcpy_time	6.551991
+trans_MPI_time	5.459167
+trans_pack_time	0.258726
+trans_enlarge_time	0.457286
+trans_mu_time	0.392806
+trans_unpack_time	1.050584
+updateU_new_time	0.458090
+runtime	0.733664
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	28.875812
+*******************************
+dgemm_time	7.777123
+conv_transfer_time	0.000000
+conv_calculate_time	684.742126
+elastic_calculate_time	684.777161
+Allen_Cahn_nonlinear_time	709.386230
+Cahn_Hilliard_nonlinear_time	0.012800
+trans_time	14.541391
+trans_Memcpy_time	6.561103
+trans_MPI_time	5.375478
+trans_pack_time	0.262726
+trans_enlarge_time	0.457766
+trans_mu_time	0.388166
+trans_unpack_time	1.053623
+updateU_new_time	0.451849
+runtime	0.735410
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	29.610843
+*******************************
+dgemm_time	7.781434
+conv_transfer_time	0.000000
+conv_calculate_time	683.579468
+elastic_calculate_time	683.615112
+Allen_Cahn_nonlinear_time	709.699524
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	14.623768
+trans_Memcpy_time	6.562535
+trans_MPI_time	5.460274
+trans_pack_time	0.258724
+trans_enlarge_time	0.459686
+trans_mu_time	0.386886
+trans_unpack_time	1.047382
+updateU_new_time	0.453129
+runtime	0.738949
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	30.347614
+*******************************
+dgemm_time	7.786867
+conv_transfer_time	0.000000
+conv_calculate_time	680.449097
+elastic_calculate_time	680.485779
+Allen_Cahn_nonlinear_time	706.408813
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	14.619092
+trans_Memcpy_time	6.584929
+trans_MPI_time	5.430188
+trans_pack_time	0.258404
+trans_enlarge_time	0.458406
+trans_mu_time	0.388966
+trans_unpack_time	1.054901
+updateU_new_time	0.452808
+runtime	0.730721
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	31.087964
+*******************************
+dgemm_time	7.810379
+conv_transfer_time	0.000000
+conv_calculate_time	681.122498
+elastic_calculate_time	681.159668
+Allen_Cahn_nonlinear_time	705.520447
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	14.551175
+trans_Memcpy_time	6.562201
+trans_MPI_time	5.393061
+trans_pack_time	0.257924
+trans_enlarge_time	0.455846
+trans_mu_time	0.392806
+trans_unpack_time	1.049299
+updateU_new_time	0.453448
+runtime	0.734704
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	31.820044
+*******************************
+dgemm_time	7.804772
+conv_transfer_time	0.000000
+conv_calculate_time	683.148315
+elastic_calculate_time	683.184998
+Allen_Cahn_nonlinear_time	710.505737
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	14.581332
+trans_Memcpy_time	6.558995
+trans_MPI_time	5.427297
+trans_pack_time	0.257924
+trans_enlarge_time	0.459846
+trans_mu_time	0.384966
+trans_unpack_time	1.048018
+updateU_new_time	0.457287
+runtime	0.734357
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	32.556091
+*******************************
+dgemm_time	7.801886
+conv_transfer_time	0.000000
+conv_calculate_time	681.500000
+elastic_calculate_time	681.535583
+Allen_Cahn_nonlinear_time	707.601807
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	14.586349
+trans_Memcpy_time	6.590989
+trans_MPI_time	5.391931
+trans_pack_time	0.260324
+trans_enlarge_time	0.458086
+trans_mu_time	0.387846
+trans_unpack_time	1.054258
+updateU_new_time	0.454247
+runtime	0.731329
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	33.291898
+*******************************
+dgemm_time	7.784118
+conv_transfer_time	0.000000
+conv_calculate_time	671.117615
+elastic_calculate_time	671.154114
+Allen_Cahn_nonlinear_time	697.616638
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	19.164118
+trans_Memcpy_time	6.573224
+trans_MPI_time	9.992160
+trans_pack_time	0.258404
+trans_enlarge_time	0.457446
+trans_mu_time	0.393926
+trans_unpack_time	1.047696
+updateU_new_time	0.452806
+runtime	0.729587
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	34.024595
+*******************************
+dgemm_time	7.781071
+conv_transfer_time	0.000000
+conv_calculate_time	681.762695
+elastic_calculate_time	681.800232
+Allen_Cahn_nonlinear_time	707.732422
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	14.858586
+trans_Memcpy_time	6.561218
+trans_MPI_time	5.697365
+trans_pack_time	0.264004
+trans_enlarge_time	0.457766
+trans_mu_time	0.388166
+trans_unpack_time	1.045136
+updateU_new_time	0.463686
+runtime	0.735982
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	34.755538
+*******************************
+dgemm_time	7.797065
+conv_transfer_time	0.000000
+conv_calculate_time	683.026123
+elastic_calculate_time	683.062927
+Allen_Cahn_nonlinear_time	709.906799
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	14.618151
+trans_Memcpy_time	6.558332
+trans_MPI_time	5.460237
+trans_pack_time	0.261122
+trans_enlarge_time	0.460486
+trans_mu_time	0.387521
+trans_unpack_time	1.052015
+updateU_new_time	0.453766
+runtime	0.738805
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	35.495902
+*******************************
+dgemm_time	7.781699
+conv_transfer_time	0.000000
+conv_calculate_time	680.436096
+elastic_calculate_time	680.473755
+Allen_Cahn_nonlinear_time	707.858154
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	14.853132
+trans_Memcpy_time	6.562966
+trans_MPI_time	5.696236
+trans_pack_time	0.258722
+trans_enlarge_time	0.458566
+trans_mu_time	0.386080
+trans_unpack_time	1.047854
+updateU_new_time	0.451845
+runtime	0.735774
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	36.236075
+*******************************
+dgemm_time	7.798013
+conv_transfer_time	0.000000
+conv_calculate_time	680.250000
+elastic_calculate_time	680.287964
+Allen_Cahn_nonlinear_time	703.524902
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	14.880711
+trans_Memcpy_time	6.554000
+trans_MPI_time	5.733672
+trans_pack_time	0.258082
+trans_enlarge_time	0.461603
+trans_mu_time	0.384480
+trans_unpack_time	1.048013
+updateU_new_time	0.454565
+runtime	0.732925
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	36.973272
+*******************************
+dgemm_time	7.785368
+conv_transfer_time	0.000000
+conv_calculate_time	671.291870
+elastic_calculate_time	671.332703
+Allen_Cahn_nonlinear_time	711.508423
+Cahn_Hilliard_nonlinear_time	0.012480
+trans_time	14.592595
+trans_Memcpy_time	6.550797
+trans_MPI_time	5.453184
+trans_pack_time	0.258242
+trans_enlarge_time	0.457281
+trans_mu_time	0.387680
+trans_unpack_time	1.043532
+updateU_new_time	0.452485
+runtime	0.734791
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	37.707555
+*******************************
+dgemm_time	7.770322
+conv_transfer_time	0.000000
+conv_calculate_time	675.054016
+elastic_calculate_time	675.090576
+Allen_Cahn_nonlinear_time	705.873413
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	14.739646
+trans_Memcpy_time	6.512390
+trans_MPI_time	5.588542
+trans_pack_time	0.259842
+trans_enlarge_time	0.454880
+trans_mu_time	0.390240
+trans_unpack_time	1.046891
+updateU_new_time	0.471525
+runtime	0.739564
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	38.443689
+*******************************
+dgemm_time	7.792397
+conv_transfer_time	0.000000
+conv_calculate_time	666.044617
+elastic_calculate_time	666.083557
+Allen_Cahn_nonlinear_time	700.710876
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	14.615666
+trans_Memcpy_time	6.566467
+trans_MPI_time	5.386936
+trans_pack_time	0.258402
+trans_enlarge_time	0.459040
+trans_mu_time	0.385760
+trans_unpack_time	1.049771
+updateU_new_time	0.450564
+runtime	0.729101
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	39.184614
+*******************************
+dgemm_time	7.793192
+conv_transfer_time	0.000000
+conv_calculate_time	678.326538
+elastic_calculate_time	678.365112
+Allen_Cahn_nonlinear_time	705.017944
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	14.700446
+trans_Memcpy_time	6.554944
+trans_MPI_time	5.485974
+trans_pack_time	0.260322
+trans_enlarge_time	0.459040
+trans_mu_time	0.386560
+trans_unpack_time	1.047690
+updateU_new_time	0.452324
+runtime	0.730151
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	39.915081
+*******************************
+dgemm_time	7.787427
+conv_transfer_time	0.000000
+conv_calculate_time	673.827515
+elastic_calculate_time	673.866150
+Allen_Cahn_nonlinear_time	702.093689
+Cahn_Hilliard_nonlinear_time	0.012480
+trans_time	14.743388
+trans_Memcpy_time	6.561818
+trans_MPI_time	5.533171
+trans_pack_time	0.258402
+trans_enlarge_time	0.458720
+trans_mu_time	0.385600
+trans_unpack_time	1.047049
+updateU_new_time	0.454564
+runtime	0.728200
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	40.646661
+*******************************
+dgemm_time	7.816223
+conv_transfer_time	0.000000
+conv_calculate_time	684.433289
+elastic_calculate_time	684.472351
+Allen_Cahn_nonlinear_time	709.437805
+Cahn_Hilliard_nonlinear_time	0.012480
+trans_time	14.581357
+trans_Memcpy_time	6.556376
+trans_MPI_time	5.374926
+trans_pack_time	0.260002
+trans_enlarge_time	0.458720
+trans_mu_time	0.387200
+trans_unpack_time	1.037929
+updateU_new_time	0.453283
+runtime	0.739672
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	41.376239
+*******************************
+dgemm_time	7.788698
+conv_transfer_time	0.000000
+conv_calculate_time	683.249329
+elastic_calculate_time	683.289185
+Allen_Cahn_nonlinear_time	710.144165
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	14.579099
+trans_Memcpy_time	6.573330
+trans_MPI_time	5.352202
+trans_pack_time	0.264642
+trans_enlarge_time	0.458720
+trans_mu_time	0.386080
+trans_unpack_time	1.045128
+updateU_new_time	0.479843
+runtime	0.735151
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	42.117301
+*******************************
+dgemm_time	7.797334
+conv_transfer_time	0.000000
+conv_calculate_time	679.217224
+elastic_calculate_time	679.252319
+Allen_Cahn_nonlinear_time	703.272644
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	14.463088
+trans_Memcpy_time	6.579727
+trans_MPI_time	5.225638
+trans_pack_time	0.261282
+trans_enlarge_time	0.456800
+trans_mu_time	0.388320
+trans_unpack_time	1.048807
+updateU_new_time	0.454403
+runtime	0.731704
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	42.853802
+*******************************
+dgemm_time	7.800689
+conv_transfer_time	0.000000
+conv_calculate_time	681.972656
+elastic_calculate_time	682.009155
+Allen_Cahn_nonlinear_time	709.838806
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	13.463384
+trans_Memcpy_time	6.674284
+trans_MPI_time	4.196667
+trans_pack_time	0.260800
+trans_enlarge_time	0.456640
+trans_mu_time	0.386240
+trans_unpack_time	1.048647
+updateU_new_time	0.455362
+runtime	0.732442
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	43.585724
+*******************************
+dgemm_time	7.805165
+conv_transfer_time	0.000000
+conv_calculate_time	680.738525
+elastic_calculate_time	680.774963
+Allen_Cahn_nonlinear_time	710.755188
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	13.483575
+trans_Memcpy_time	6.670278
+trans_MPI_time	4.226746
+trans_pack_time	0.257920
+trans_enlarge_time	0.453760
+trans_mu_time	0.386400
+trans_unpack_time	1.047046
+updateU_new_time	0.453922
+runtime	0.733065
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	44.318310
+*******************************
+dgemm_time	7.782920
+conv_transfer_time	0.000000
+conv_calculate_time	683.430359
+elastic_calculate_time	683.467529
+Allen_Cahn_nonlinear_time	711.748901
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	13.574778
+trans_Memcpy_time	6.643876
+trans_MPI_time	4.337783
+trans_pack_time	0.257760
+trans_enlarge_time	0.457760
+trans_mu_time	0.386240
+trans_unpack_time	1.043526
+updateU_new_time	0.453762
+runtime	0.734868
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	45.051491
+*******************************
+dgemm_time	7.806276
+conv_transfer_time	0.000000
+conv_calculate_time	679.520691
+elastic_calculate_time	679.556641
+Allen_Cahn_nonlinear_time	707.547607
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.452341
+trans_Memcpy_time	6.661792
+trans_MPI_time	4.195860
+trans_pack_time	0.260320
+trans_enlarge_time	0.460000
+trans_mu_time	0.387360
+trans_unpack_time	1.046565
+updateU_new_time	0.477442
+runtime	0.735086
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	45.786457
+*******************************
+dgemm_time	7.788833
+conv_transfer_time	0.000000
+conv_calculate_time	673.770752
+elastic_calculate_time	673.806519
+Allen_Cahn_nonlinear_time	708.307739
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.439705
+trans_Memcpy_time	6.627869
+trans_MPI_time	4.217459
+trans_pack_time	0.259680
+trans_enlarge_time	0.456000
+trans_mu_time	0.387360
+trans_unpack_time	1.047205
+updateU_new_time	0.451521
+runtime	0.733833
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	46.521646
+*******************************
+dgemm_time	7.794428
+conv_transfer_time	0.000000
+conv_calculate_time	676.637024
+elastic_calculate_time	676.674011
+Allen_Cahn_nonlinear_time	705.073975
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	13.664508
+trans_Memcpy_time	6.655866
+trans_MPI_time	4.407057
+trans_pack_time	0.262720
+trans_enlarge_time	0.459520
+trans_mu_time	0.390080
+trans_unpack_time	1.049604
+updateU_new_time	0.453281
+runtime	0.733013
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	47.255578
+*******************************
+dgemm_time	7.800985
+conv_transfer_time	0.000000
+conv_calculate_time	677.287231
+elastic_calculate_time	677.323914
+Allen_Cahn_nonlinear_time	702.750427
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	13.478382
+trans_Memcpy_time	6.655062
+trans_MPI_time	4.226575
+trans_pack_time	0.257440
+trans_enlarge_time	0.457440
+trans_mu_time	0.388320
+trans_unpack_time	1.048964
+updateU_new_time	0.453281
+runtime	0.727144
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	47.988735
+*******************************
+dgemm_time	7.790422
+conv_transfer_time	0.000000
+conv_calculate_time	678.204224
+elastic_calculate_time	678.241028
+Allen_Cahn_nonlinear_time	702.546692
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.478186
+trans_Memcpy_time	6.648021
+trans_MPI_time	4.232173
+trans_pack_time	0.259520
+trans_enlarge_time	0.464000
+trans_mu_time	0.384480
+trans_unpack_time	1.047683
+updateU_new_time	0.453761
+runtime	0.726045
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	48.716009
+*******************************
+dgemm_time	7.786738
+conv_transfer_time	0.000000
+conv_calculate_time	680.895142
+elastic_calculate_time	680.931763
+Allen_Cahn_nonlinear_time	710.572266
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	13.343828
+trans_Memcpy_time	6.642896
+trans_MPI_time	4.102090
+trans_pack_time	0.258560
+trans_enlarge_time	0.463520
+trans_mu_time	0.386880
+trans_unpack_time	1.050563
+updateU_new_time	0.468961
+runtime	0.733103
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	49.442150
+*******************************
+dgemm_time	7.779375
+conv_transfer_time	0.000000
+conv_calculate_time	680.078552
+elastic_calculate_time	680.115784
+Allen_Cahn_nonlinear_time	704.498840
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.463584
+trans_Memcpy_time	6.643054
+trans_MPI_time	4.232649
+trans_pack_time	0.257120
+trans_enlarge_time	0.459680
+trans_mu_time	0.386560
+trans_unpack_time	1.042882
+updateU_new_time	0.453440
+runtime	0.728006
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	50.175379
+*******************************
+dgemm_time	7.782572
+conv_transfer_time	0.000000
+conv_calculate_time	677.902405
+elastic_calculate_time	677.939941
+Allen_Cahn_nonlinear_time	701.797668
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	13.469967
+trans_Memcpy_time	6.629450
+trans_MPI_time	4.240327
+trans_pack_time	0.258400
+trans_enlarge_time	0.459520
+trans_mu_time	0.386720
+trans_unpack_time	1.048162
+updateU_new_time	0.453600
+runtime	0.733417
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	50.903477
+*******************************
+dgemm_time	7.798569
+conv_transfer_time	0.000000
+conv_calculate_time	681.836670
+elastic_calculate_time	681.872437
+Allen_Cahn_nonlinear_time	706.304749
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.380672
+trans_Memcpy_time	6.638728
+trans_MPI_time	4.157445
+trans_pack_time	0.258400
+trans_enlarge_time	0.456320
+trans_mu_time	0.385920
+trans_unpack_time	1.042081
+updateU_new_time	0.453760
+runtime	0.733952
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	51.637023
+*******************************
+dgemm_time	7.800646
+conv_transfer_time	0.000000
+conv_calculate_time	677.991272
+elastic_calculate_time	678.027161
+Allen_Cahn_nonlinear_time	702.400757
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.556196
+trans_Memcpy_time	6.641286
+trans_MPI_time	4.320004
+trans_pack_time	0.261280
+trans_enlarge_time	0.458240
+trans_mu_time	0.383360
+trans_unpack_time	1.050721
+updateU_new_time	0.455040
+runtime	0.731498
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	52.371082
+*******************************
+dgemm_time	7.788483
+conv_transfer_time	0.000000
+conv_calculate_time	679.127686
+elastic_calculate_time	679.165100
+Allen_Cahn_nonlinear_time	703.703186
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	13.493081
+trans_Memcpy_time	6.637922
+trans_MPI_time	4.258883
+trans_pack_time	0.260480
+trans_enlarge_time	0.457920
+trans_mu_time	0.387360
+trans_unpack_time	1.049280
+updateU_new_time	0.459360
+runtime	0.729351
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	53.102774
+*******************************
+dgemm_time	7.796000
+conv_transfer_time	0.000000
+conv_calculate_time	675.636536
+elastic_calculate_time	675.673279
+Allen_Cahn_nonlinear_time	709.260498
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	13.629167
+trans_Memcpy_time	6.630720
+trans_MPI_time	4.410880
+trans_pack_time	0.259360
+trans_enlarge_time	0.456480
+trans_mu_time	0.385600
+trans_unpack_time	1.044800
+updateU_new_time	0.453600
+runtime	0.731868
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	53.832284
+*******************************
+dgemm_time	7.805758
+conv_transfer_time	0.000000
+conv_calculate_time	669.043640
+elastic_calculate_time	669.079407
+Allen_Cahn_nonlinear_time	704.341919
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	14.279151
+trans_Memcpy_time	6.630080
+trans_MPI_time	5.058400
+trans_pack_time	0.260160
+trans_enlarge_time	0.456960
+trans_mu_time	0.384800
+trans_unpack_time	1.048800
+updateU_new_time	0.456160
+runtime	0.734558
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	54.564261
+*******************************
+dgemm_time	7.784156
+conv_transfer_time	0.000000
+conv_calculate_time	682.847412
+elastic_calculate_time	682.884705
+Allen_Cahn_nonlinear_time	710.812378
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	13.737647
+trans_Memcpy_time	6.639359
+trans_MPI_time	4.500960
+trans_pack_time	0.262560
+trans_enlarge_time	0.456800
+trans_mu_time	0.386720
+trans_unpack_time	1.048640
+updateU_new_time	0.453280
+runtime	0.737677
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	55.298959
+*******************************
+dgemm_time	7.804633
+conv_transfer_time	0.000000
+conv_calculate_time	684.102661
+elastic_calculate_time	684.137756
+Allen_Cahn_nonlinear_time	709.349976
+Cahn_Hilliard_nonlinear_time	0.012480
+trans_time	13.730761
+trans_Memcpy_time	6.659679
+trans_MPI_time	4.478878
+trans_pack_time	0.259200
+trans_enlarge_time	0.457760
+trans_mu_time	0.387200
+trans_unpack_time	1.046560
+updateU_new_time	0.455200
+runtime	0.737443
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	56.036732
+*******************************
+dgemm_time	7.796471
+conv_transfer_time	0.000000
+conv_calculate_time	666.079468
+elastic_calculate_time	666.117371
+Allen_Cahn_nonlinear_time	699.645203
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	16.257915
+trans_Memcpy_time	6.657757
+trans_MPI_time	7.006075
+trans_pack_time	0.258880
+trans_enlarge_time	0.459360
+trans_mu_time	0.386880
+trans_unpack_time	1.046559
+updateU_new_time	0.460960
+runtime	0.729828
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	56.774294
+*******************************
+dgemm_time	7.797588
+conv_transfer_time	0.000000
+conv_calculate_time	683.198730
+elastic_calculate_time	683.234253
+Allen_Cahn_nonlinear_time	710.820984
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.682252
+trans_Memcpy_time	6.628633
+trans_MPI_time	4.453916
+trans_pack_time	0.260800
+trans_enlarge_time	0.457120
+trans_mu_time	0.387680
+trans_unpack_time	1.043359
+updateU_new_time	0.452160
+runtime	0.737458
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	57.504231
+*******************************
+dgemm_time	7.798224
+conv_transfer_time	0.000000
+conv_calculate_time	683.802490
+elastic_calculate_time	683.841858
+Allen_Cahn_nonlinear_time	709.467834
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.692747
+trans_Memcpy_time	6.644472
+trans_MPI_time	4.452954
+trans_pack_time	0.259040
+trans_enlarge_time	0.457440
+trans_mu_time	0.387680
+trans_unpack_time	1.050559
+updateU_new_time	0.453280
+runtime	0.736161
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	58.241831
+*******************************
+dgemm_time	7.795502
+conv_transfer_time	0.000000
+conv_calculate_time	683.019226
+elastic_calculate_time	683.057495
+Allen_Cahn_nonlinear_time	709.295105
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.505923
+trans_Memcpy_time	6.650390
+trans_MPI_time	4.266233
+trans_pack_time	0.260640
+trans_enlarge_time	0.458720
+trans_mu_time	0.383840
+trans_unpack_time	1.044958
+updateU_new_time	0.452319
+runtime	0.735060
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	58.978087
+*******************************
+dgemm_time	7.797741
+conv_transfer_time	0.000000
+conv_calculate_time	680.213745
+elastic_calculate_time	680.249268
+Allen_Cahn_nonlinear_time	704.214783
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	13.498399
+trans_Memcpy_time	6.634706
+trans_MPI_time	4.261592
+trans_pack_time	0.260960
+trans_enlarge_time	0.456960
+trans_mu_time	0.388160
+trans_unpack_time	1.049598
+updateU_new_time	0.454399
+runtime	0.729918
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	59.713257
+*******************************
+dgemm_time	7.804618
+conv_transfer_time	0.000000
+conv_calculate_time	682.306335
+elastic_calculate_time	682.345886
+Allen_Cahn_nonlinear_time	707.435181
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	13.514535
+trans_Memcpy_time	6.638385
+trans_MPI_time	4.289430
+trans_pack_time	0.264480
+trans_enlarge_time	0.454080
+trans_mu_time	0.386240
+trans_unpack_time	1.039838
+updateU_new_time	0.465599
+runtime	0.731003
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	60.443349
+*******************************
+dgemm_time	7.800296
+conv_transfer_time	0.000000
+conv_calculate_time	683.665161
+elastic_calculate_time	683.704041
+Allen_Cahn_nonlinear_time	706.329224
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.450192
+trans_Memcpy_time	6.662224
+trans_MPI_time	4.191830
+trans_pack_time	0.259360
+trans_enlarge_time	0.457440
+trans_mu_time	0.391360
+trans_unpack_time	1.044317
+updateU_new_time	0.455519
+runtime	0.732499
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	61.174448
+*******************************
+dgemm_time	7.810533
+conv_transfer_time	0.000000
+conv_calculate_time	680.922546
+elastic_calculate_time	680.959656
+Allen_Cahn_nonlinear_time	704.871460
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	13.419858
+trans_Memcpy_time	6.641421
+trans_MPI_time	4.186228
+trans_pack_time	0.258880
+trans_enlarge_time	0.456960
+trans_mu_time	0.386400
+trans_unpack_time	1.047677
+updateU_new_time	0.452319
+runtime	0.727814
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	61.907174
+*******************************
+dgemm_time	7.789892
+conv_transfer_time	0.000000
+conv_calculate_time	684.528137
+elastic_calculate_time	684.563599
+Allen_Cahn_nonlinear_time	710.101013
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	13.663152
+trans_Memcpy_time	6.644139
+trans_MPI_time	4.417586
+trans_pack_time	0.258720
+trans_enlarge_time	0.457120
+trans_mu_time	0.388320
+trans_unpack_time	1.052797
+updateU_new_time	0.454079
+runtime	0.739061
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	62.635094
+*******************************
+dgemm_time	7.795489
+conv_transfer_time	0.000000
+conv_calculate_time	682.582214
+elastic_calculate_time	682.619019
+Allen_Cahn_nonlinear_time	709.028015
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	13.803929
+trans_Memcpy_time	6.640458
+trans_MPI_time	4.571824
+trans_pack_time	0.257920
+trans_enlarge_time	0.455520
+trans_mu_time	0.386400
+trans_unpack_time	1.050556
+updateU_new_time	0.454879
+runtime	0.736125
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	63.374287
+*******************************
+dgemm_time	7.798367
+conv_transfer_time	0.000000
+conv_calculate_time	679.518799
+elastic_calculate_time	679.554504
+Allen_Cahn_nonlinear_time	704.591553
+Cahn_Hilliard_nonlinear_time	0.012640
+trans_time	13.701485
+trans_Memcpy_time	6.640296
+trans_MPI_time	4.473743
+trans_pack_time	0.259040
+trans_enlarge_time	0.457440
+trans_mu_time	0.387040
+trans_unpack_time	1.042396
+updateU_new_time	0.464478
+runtime	0.729835
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	64.110682
+*******************************
+dgemm_time	7.800124
+conv_transfer_time	0.000000
+conv_calculate_time	681.414124
+elastic_calculate_time	681.450989
+Allen_Cahn_nonlinear_time	707.271851
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.563022
+trans_Memcpy_time	6.624133
+trans_MPI_time	4.338542
+trans_pack_time	0.258080
+trans_enlarge_time	0.457760
+trans_mu_time	0.388160
+trans_unpack_time	1.049116
+updateU_new_time	0.455358
+runtime	0.733890
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	64.840645
+*******************************
+dgemm_time	7.806363
+conv_transfer_time	0.000000
+conv_calculate_time	677.215088
+elastic_calculate_time	677.250854
+Allen_Cahn_nonlinear_time	703.027039
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	14.616213
+trans_Memcpy_time	6.638371
+trans_MPI_time	5.379177
+trans_pack_time	0.264480
+trans_enlarge_time	0.458560
+trans_mu_time	0.385920
+trans_unpack_time	1.049436
+updateU_new_time	0.454078
+runtime	0.732928
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	65.574626
+*******************************
+dgemm_time	7.800921
+conv_transfer_time	0.000000
+conv_calculate_time	683.117920
+elastic_calculate_time	683.155029
+Allen_Cahn_nonlinear_time	710.729431
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	13.563835
+trans_Memcpy_time	6.626690
+trans_MPI_time	4.349100
+trans_pack_time	0.256640
+trans_enlarge_time	0.455840
+trans_mu_time	0.387040
+trans_unpack_time	1.049595
+updateU_new_time	0.451838
+runtime	0.735807
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	66.307795
+*******************************
+dgemm_time	7.790680
+conv_transfer_time	0.000000
+conv_calculate_time	685.116821
+elastic_calculate_time	685.154480
+Allen_Cahn_nonlinear_time	710.174011
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.691890
+trans_Memcpy_time	6.646050
+trans_MPI_time	4.452298
+trans_pack_time	0.259040
+trans_enlarge_time	0.457600
+trans_mu_time	0.388000
+trans_unpack_time	1.045275
+updateU_new_time	0.455518
+runtime	0.737616
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	67.043690
+*******************************
+dgemm_time	7.802677
+conv_transfer_time	0.000000
+conv_calculate_time	683.357788
+elastic_calculate_time	683.395081
+Allen_Cahn_nonlinear_time	708.378418
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	13.399998
+trans_Memcpy_time	6.620446
+trans_MPI_time	4.194059
+trans_pack_time	0.256320
+trans_enlarge_time	0.454560
+trans_mu_time	0.388160
+trans_unpack_time	1.045915
+updateU_new_time	0.457278
+runtime	0.730593
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	67.781523
+*******************************
+dgemm_time	7.776915
+conv_transfer_time	0.000000
+conv_calculate_time	669.306213
+elastic_calculate_time	669.343811
+Allen_Cahn_nonlinear_time	704.081543
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	14.129061
+trans_Memcpy_time	6.635005
+trans_MPI_time	4.845894
+trans_pack_time	0.260320
+trans_enlarge_time	0.458400
+trans_mu_time	0.384320
+trans_unpack_time	1.048795
+updateU_new_time	0.454878
+runtime	0.730387
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	68.512193
+*******************************
+dgemm_time	7.786514
+conv_transfer_time	0.000000
+conv_calculate_time	679.563538
+elastic_calculate_time	679.601807
+Allen_Cahn_nonlinear_time	707.247925
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	13.747580
+trans_Memcpy_time	6.692763
+trans_MPI_time	4.402376
+trans_pack_time	0.259680
+trans_enlarge_time	0.464320
+trans_mu_time	0.383840
+trans_unpack_time	1.052634
+updateU_new_time	0.457278
+runtime	0.733063
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	69.242686
+*******************************
+dgemm_time	7.782512
+conv_transfer_time	0.000000
+conv_calculate_time	676.903259
+elastic_calculate_time	676.942505
+Allen_Cahn_nonlinear_time	701.808838
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.657729
+trans_Memcpy_time	6.696762
+trans_MPI_time	4.309415
+trans_pack_time	0.258720
+trans_enlarge_time	0.458720
+trans_mu_time	0.384800
+trans_unpack_time	1.046874
+updateU_new_time	0.452638
+runtime	0.729143
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	69.975874
+*******************************
+dgemm_time	7.795469
+conv_transfer_time	0.000000
+conv_calculate_time	683.776001
+elastic_calculate_time	683.811829
+Allen_Cahn_nonlinear_time	710.924805
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	13.595145
+trans_Memcpy_time	6.645082
+trans_MPI_time	4.303495
+trans_pack_time	0.258880
+trans_enlarge_time	0.456800
+trans_mu_time	0.385600
+trans_unpack_time	1.047674
+updateU_new_time	0.454717
+runtime	0.733942
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	70.705101
+*******************************
+dgemm_time	7.788588
+conv_transfer_time	0.000000
+conv_calculate_time	678.824890
+elastic_calculate_time	678.860046
+Allen_Cahn_nonlinear_time	703.436768
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	14.056730
+trans_Memcpy_time	6.642838
+trans_MPI_time	4.826850
+trans_pack_time	0.258400
+trans_enlarge_time	0.458560
+trans_mu_time	0.387040
+trans_unpack_time	1.046554
+updateU_new_time	0.453437
+runtime	0.737513
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	71.439145
+*******************************
+dgemm_time	7.808426
+conv_transfer_time	0.000000
+conv_calculate_time	683.013794
+elastic_calculate_time	683.051270
+Allen_Cahn_nonlinear_time	715.448792
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	13.406380
+trans_Memcpy_time	6.666357
+trans_MPI_time	4.155653
+trans_pack_time	0.260960
+trans_enlarge_time	0.458240
+trans_mu_time	0.386240
+trans_unpack_time	1.038873
+updateU_new_time	0.452797
+runtime	0.738497
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	72.176780
+*******************************
+dgemm_time	7.787945
+conv_transfer_time	0.000000
+conv_calculate_time	679.426941
+elastic_calculate_time	679.464905
+Allen_Cahn_nonlinear_time	702.972107
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	13.449248
+trans_Memcpy_time	6.636436
+trans_MPI_time	4.217412
+trans_pack_time	0.256960
+trans_enlarge_time	0.458560
+trans_mu_time	0.385120
+trans_unpack_time	1.048633
+updateU_new_time	0.452957
+runtime	0.732816
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	72.915389
+*******************************
+dgemm_time	7.786343
+conv_transfer_time	0.000000
+conv_calculate_time	684.591919
+elastic_calculate_time	684.627808
+Allen_Cahn_nonlinear_time	710.456421
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	13.629594
+trans_Memcpy_time	6.650676
+trans_MPI_time	4.383970
+trans_pack_time	0.257440
+trans_enlarge_time	0.463360
+trans_mu_time	0.386560
+trans_unpack_time	1.046553
+updateU_new_time	0.454077
+runtime	0.734105
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	73.648362
+*******************************
+dgemm_time	7.789222
+conv_transfer_time	0.000000
+conv_calculate_time	683.742004
+elastic_calculate_time	683.778564
+Allen_Cahn_nonlinear_time	714.865723
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	13.414681
+trans_Memcpy_time	6.643475
+trans_MPI_time	4.180131
+trans_pack_time	0.261599
+trans_enlarge_time	0.457760
+trans_mu_time	0.384800
+trans_unpack_time	1.046073
+updateU_new_time	0.452317
+runtime	0.737114
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	74.382593
+*******************************
+dgemm_time	7.791780
+conv_transfer_time	0.000000
+conv_calculate_time	678.096008
+elastic_calculate_time	678.132812
+Allen_Cahn_nonlinear_time	702.995178
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	13.812727
+trans_Memcpy_time	6.638033
+trans_MPI_time	4.595007
+trans_pack_time	0.256638
+trans_enlarge_time	0.456320
+trans_mu_time	0.383360
+trans_unpack_time	1.043993
+updateU_new_time	0.452477
+runtime	0.726915
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	75.119792
+*******************************
+dgemm_time	7.780899
+conv_transfer_time	0.000000
+conv_calculate_time	682.627991
+elastic_calculate_time	682.665039
+Allen_Cahn_nonlinear_time	709.486023
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	13.644784
+trans_Memcpy_time	6.667630
+trans_MPI_time	4.388927
+trans_pack_time	0.259678
+trans_enlarge_time	0.461760
+trans_mu_time	0.385120
+trans_unpack_time	1.041272
+updateU_new_time	0.454557
+runtime	0.731898
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	75.846808
+*******************************
+dgemm_time	7.791937
+conv_transfer_time	0.000000
+conv_calculate_time	683.873474
+elastic_calculate_time	683.908691
+Allen_Cahn_nonlinear_time	709.888245
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	13.471853
+trans_Memcpy_time	6.641389
+trans_MPI_time	4.239488
+trans_pack_time	0.260318
+trans_enlarge_time	0.455520
+trans_mu_time	0.386880
+trans_unpack_time	1.047672
+updateU_new_time	0.454237
+runtime	0.743676
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	76.578805
+*******************************
+dgemm_time	7.792256
+conv_transfer_time	0.000000
+conv_calculate_time	684.253296
+elastic_calculate_time	684.290710
+Allen_Cahn_nonlinear_time	708.993408
+Cahn_Hilliard_nonlinear_time	0.012480
+trans_time	13.563379
+trans_Memcpy_time	6.657069
+trans_MPI_time	4.319966
+trans_pack_time	0.258398
+trans_enlarge_time	0.456480
+trans_mu_time	0.385440
+trans_unpack_time	1.045432
+updateU_new_time	0.452957
+runtime	0.734614
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	77.322574
+*******************************
+dgemm_time	7.794174
+conv_transfer_time	0.000000
+conv_calculate_time	681.492920
+elastic_calculate_time	681.528442
+Allen_Cahn_nonlinear_time	705.740906
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	13.566757
+trans_Memcpy_time	6.654668
+trans_MPI_time	4.319805
+trans_pack_time	0.258078
+trans_enlarge_time	0.457920
+trans_mu_time	0.387680
+trans_unpack_time	1.047832
+updateU_new_time	0.453757
+runtime	0.728895
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	78.057336
+*******************************
+dgemm_time	7.803613
+conv_transfer_time	0.000000
+conv_calculate_time	679.727661
+elastic_calculate_time	679.763245
+Allen_Cahn_nonlinear_time	704.383240
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	13.335016
+trans_Memcpy_time	6.638986
+trans_MPI_time	4.104766
+trans_pack_time	0.256638
+trans_enlarge_time	0.455680
+trans_mu_time	0.384800
+trans_unpack_time	1.049751
+updateU_new_time	0.452956
+runtime	0.730869
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	78.786345

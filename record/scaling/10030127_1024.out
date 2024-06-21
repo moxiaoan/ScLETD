@@ -1,0 +1,3161 @@
+running   on	4096   processors
+nx,ny,nz	260	260	260
+px,py,pz	16	16	16
+nghost		2
+output   dir	./output/output1/
+data dir	./data/
+detect result dir	./detect_result/
+epn2		0.695500
+dt,t_total	0.010000,1.010000
+nac,nch		4,0
+xmin,ymin,zmin	0.000000	0.000000	0.000000
+xmax,ymax,zmax	4096.000000	4096.000000	4096.000000
+ANISOTROPIC		1
+rad		5.000000
+percent		0.900000
+rotation		1
+checkpoint,nchk,chk	1,1000,0
+nout		500
+counts		1
+Approx		32
+Reading input.txt file:
+--------------iter 0, eta0--------------
+ac[0].fieldE
+max phi		+1.000000000000000
+min phi		+0.000000000000000
+vol		+68771427867.856567382812500
+eng		-1081984.271550395060331
+--------------iter 0, eta1--------------
+ac[1].fieldE
+max phi		+1.000000000000000
+min phi		+0.000000000000000
+vol		+68771438211.430587768554688
+eng		-1089426.699450720800087
+--------------iter 0, eta2--------------
+ac[2].fieldE
+max phi		+1.000000000000000
+min phi		+0.000000000000000
+vol		+68771433458.950607299804688
+eng		-1085287.251218374818563
+--------------iter 0, eta3--------------
+ac[3].fieldE
+max phi		+1.000000000000000
+min phi		+0.000000000000000
+vol		+68771398753.537811279296875
+eng		-1060412.362817492336035
+*******************************
+dgemm_time	122.669785
+chemical_time	9.693197
+anisotropic_time	25.176010
+elastic_calculate_time	6763.974609
+elast_transfer_time	41.923538
+nonlinear_add_time	12.758976
+trans_time	66.941521
+trans_Memcpy_time	33.082546
+trans_MPI_time	30.889141
+trans_pack_time	0.509307
+trans_enlarge_time	0.559871
+trans_mu_time	0.346100
+trans_unpack_time	0.448185
+updateU_new_time	5.983865
+runtime	7.059750
+--------------------------------------------------!
+--------------iter 1, eta0--------------
+ac[0].fieldE
+max phi		+1.001016208487744
+min phi		-0.002633415966191
+vol		+68771427677.961776733398438
+eng		-1086418.965609041741118
+--------------iter 1, eta1--------------
+ac[1].fieldE
+max phi		+1.001000882500138
+min phi		-0.002633975247482
+vol		+68771437999.973297119140625
+eng		-1093993.391192715847865
+--------------iter 1, eta2--------------
+ac[2].fieldE
+max phi		+1.000983512538083
+min phi		-0.002635336676458
+vol		+68771433249.282882690429688
+eng		-1089860.766373037593439
+--------------iter 1, eta3--------------
+ac[3].fieldE
+max phi		+1.001003097098038
+min phi		-0.002635599808655
+vol		+68771398540.837432861328125
+eng		-1065010.095878122374415
+*******************************
+dgemm_time	121.810555
+chemical_time	9.648876
+anisotropic_time	24.957916
+elastic_calculate_time	3529.546631
+elast_transfer_time	50.825325
+nonlinear_add_time	12.549044
+trans_time	32.772800
+trans_Memcpy_time	17.986471
+trans_MPI_time	12.074774
+trans_pack_time	0.480025
+trans_enlarge_time	0.527069
+trans_mu_time	0.335217
+trans_unpack_time	0.441464
+updateU_new_time	6.036667
+runtime	3.815909
+--------------------------------------------------!
+--------------iter 2, eta0--------------
+ac[0].fieldE
+max phi		+1.001784801660139
+min phi		-0.005015705277246
+vol		+68772990183.246643066406250
+eng		-2151287.470446417573839
+--------------iter 2, eta1--------------
+ac[1].fieldE
+max phi		+1.001747326468034
+min phi		-0.005016322476665
+vol		+68773028248.860534667968750
+eng		-2180688.438755521085113
+--------------iter 2, eta2--------------
+ac[2].fieldE
+max phi		+1.001711394799335
+min phi		-0.005019319834169
+vol		+68773005391.854278564453125
+eng		-2163501.590436508879066
+--------------iter 2, eta3--------------
+ac[3].fieldE
+max phi		+1.002693267486564
+min phi		-0.005019673402312
+vol		+68772987852.116897583007812
+eng		-2150220.426473774481565
+*******************************
+dgemm_time	121.768776
+chemical_time	9.552711
+anisotropic_time	24.834072
+elastic_calculate_time	3520.951172
+elast_transfer_time	61.457466
+nonlinear_add_time	12.980268
+trans_time	33.033966
+trans_Memcpy_time	17.926306
+trans_MPI_time	12.387431
+trans_pack_time	0.480185
+trans_enlarge_time	0.530110
+trans_mu_time	0.329778
+trans_unpack_time	0.453465
+updateU_new_time	5.916660
+runtime	3.797256
+--------------------------------------------------!
+--------------iter 3, eta0--------------
+ac[0].fieldE
+max phi		+1.002349832784778
+min phi		-0.007167202753053
+vol		+68774584845.840118408203125
+eng		-3243312.120849656406790
+--------------iter 3, eta1--------------
+ac[1].fieldE
+max phi		+1.002285802250383
+min phi		-0.007167468719902
+vol		+68774616054.078857421875000
+eng		-3268300.902694599237293
+--------------iter 3, eta2--------------
+ac[2].fieldE
+max phi		+1.002842736071280
+min phi		-0.007172308690651
+vol		+68774603886.651412963867188
+eng		-3258957.960044862702489
+--------------iter 3, eta3--------------
+ac[3].fieldE
+max phi		+1.004240938230105
+min phi		-0.007172591183399
+vol		+68774577052.256256103515625
+eng		-3238362.751242162659764
+*******************************
+dgemm_time	121.759499
+chemical_time	9.626315
+anisotropic_time	25.069286
+elastic_calculate_time	3542.344238
+elast_transfer_time	60.009384
+nonlinear_add_time	12.998508
+trans_time	130.956253
+trans_Memcpy_time	17.933989
+trans_MPI_time	110.298683
+trans_pack_time	0.486746
+trans_enlarge_time	0.537470
+trans_mu_time	0.333940
+trans_unpack_time	0.440024
+updateU_new_time	6.052029
+runtime	3.914614
+--------------------------------------------------!
+--------------iter 4, eta0--------------
+ac[0].fieldE
+max phi		+1.002775542346436
+min phi		-0.009106047750148
+vol		+68776185052.577590942382812
+eng		-4341701.301871800795197
+--------------iter 4, eta1--------------
+ac[1].fieldE
+max phi		+1.002762124357633
+min phi		-0.009105628187272
+vol		+68776211536.978439331054688
+eng		-4363955.101005891337991
+--------------iter 4, eta2--------------
+ac[2].fieldE
+max phi		+1.004199575351339
+min phi		-0.009112464137523
+vol		+68776221162.268386840820312
+eng		-4370320.377878493629396
+--------------iter 4, eta3--------------
+ac[3].fieldE
+max phi		+1.005448377879032
+min phi		-0.009112524331351
+vol		+68776165397.981384277343750
+eng		-4328717.229895090684295
+*******************************
+dgemm_time	121.804779
+chemical_time	9.894169
+anisotropic_time	24.977438
+elastic_calculate_time	3521.106445
+elast_transfer_time	77.474548
+nonlinear_add_time	12.674970
+trans_time	32.623444
+trans_Memcpy_time	17.981514
+trans_MPI_time	11.803399
+trans_pack_time	0.480985
+trans_enlarge_time	0.526109
+trans_mu_time	0.341138
+trans_unpack_time	0.436824
+updateU_new_time	6.176996
+runtime	3.813578
+--------------------------------------------------!
+--------------iter 5, eta0--------------
+ac[0].fieldE
+max phi		+1.003122526142625
+min phi		-0.010848562955253
+vol		+68777797151.000885009765625
+eng		-5449391.206866417080164
+--------------iter 5, eta1--------------
+ac[1].fieldE
+max phi		+1.003132413408098
+min phi		-0.010847184707089
+vol		+68777805252.216964721679688
+eng		-5460312.196455723606050
+--------------iter 5, eta2--------------
+ac[2].fieldE
+max phi		+1.005370010912072
+min phi		-0.010856128015470
+vol		+68777827966.516891479492188
+eng		-5475032.031956369057298
+--------------iter 5, eta3--------------
+ac[3].fieldE
+max phi		+1.006373374761545
+min phi		-0.010855824110549
+vol		+68777760212.481903076171875
+eng		-5424959.432045220397413
+*******************************
+dgemm_time	121.787819
+chemical_time	9.557831
+anisotropic_time	24.869274
+elastic_calculate_time	3523.966553
+elast_transfer_time	75.314903
+nonlinear_add_time	12.690811
+trans_time	34.509430
+trans_Memcpy_time	17.931273
+trans_MPI_time	13.870718
+trans_pack_time	0.494746
+trans_enlarge_time	0.523870
+trans_mu_time	0.330418
+trans_unpack_time	0.438104
+updateU_new_time	6.146433
+runtime	3.814450
+--------------------------------------------------!
+--------------iter 6, eta0--------------
+ac[0].fieldE
+max phi		+1.003482589608276
+min phi		-0.012409533111194
+vol		+68779403024.739715576171875
+eng		-6557787.911195945926011
+--------------iter 6, eta1--------------
+ac[1].fieldE
+max phi		+1.003563666550779
+min phi		-0.012466270186198
+vol		+68779411680.098907470703125
+eng		-6567846.256418908014894
+--------------iter 6, eta2--------------
+ac[2].fieldE
+max phi		+1.006288375752734
+min phi		-0.012418102171089
+vol		+68779449877.035263061523438
+eng		-6595485.401902822777629
+--------------iter 6, eta3--------------
+ac[3].fieldE
+max phi		+1.007121450125408
+min phi		-0.012417300987777
+vol		+68779351444.978576660156250
+eng		-6521638.156418224796653
+*******************************
+dgemm_time	121.804779
+chemical_time	9.557350
+anisotropic_time	24.647341
+elastic_calculate_time	3527.436279
+elast_transfer_time	96.234192
+nonlinear_add_time	12.953707
+trans_time	258.778870
+trans_Memcpy_time	17.907427
+trans_MPI_time	238.154541
+trans_pack_time	0.481305
+trans_enlarge_time	0.550431
+trans_mu_time	0.328017
+trans_unpack_time	0.434584
+updateU_new_time	6.024026
+runtime	4.063819
+--------------------------------------------------!
+--------------iter 7, eta0--------------
+ac[0].fieldE
+max phi		+1.004214581583106
+min phi		-0.013802416563560
+vol		+68781000022.380447387695312
+eng		-7660902.303662888705730
+--------------iter 7, eta1--------------
+ac[1].fieldE
+max phi		+1.003921070507579
+min phi		-0.013799233526408
+vol		+68780999503.377716064453125
+eng		-7665020.772558274678886
+--------------iter 7, eta2--------------
+ac[2].fieldE
+max phi		+1.007028045419230
+min phi		-0.013811860301781
+vol		+68781031652.400222778320312
+eng		-7689519.053756421431899
+--------------iter 7, eta3--------------
+ac[3].fieldE
+max phi		+1.007692014686700
+min phi		-0.013810197776919
+vol		+68780934384.324127197265625
+eng		-7615506.197517962194979
+*******************************
+dgemm_time	121.813744
+chemical_time	9.607594
+anisotropic_time	25.148970
+elastic_calculate_time	3534.155762
+elast_transfer_time	73.423119
+nonlinear_add_time	12.974028
+trans_time	136.130203
+trans_Memcpy_time	17.877028
+trans_MPI_time	115.541695
+trans_pack_time	0.480665
+trans_enlarge_time	0.527389
+trans_mu_time	0.332498
+trans_unpack_time	0.446745
+updateU_new_time	5.884019
+runtime	3.933825
+--------------------------------------------------!
+--------------iter 8, eta0--------------
+ac[0].fieldE
+max phi		+1.005172734656464
+min phi		-0.015050182875627
+vol		+68782598393.200469970703125
+eng		-8767786.264674847945571
+--------------iter 8, eta1--------------
+ac[1].fieldE
+max phi		+1.005309576745965
+min phi		-0.015035679307331
+vol		+68782605893.734161376953125
+eng		-8776030.493855539709330
+--------------iter 8, eta2--------------
+ac[2].fieldE
+max phi		+1.007543579824338
+min phi		-0.015049713261850
+vol		+68782657162.630218505859375
+eng		-8814915.300118349492550
+--------------iter 8, eta3--------------
+ac[3].fieldE
+max phi		+1.008087288632915
+min phi		-0.015047076286044
+vol		+68782528364.705993652343750
+eng		-8717446.795646052807570
+*******************************
+dgemm_time	121.845909
+chemical_time	9.715760
+anisotropic_time	25.002720
+elastic_calculate_time	3519.850098
+elast_transfer_time	60.273876
+nonlinear_add_time	12.761695
+trans_time	32.573357
+trans_Memcpy_time	17.915428
+trans_MPI_time	11.951887
+trans_pack_time	0.485305
+trans_enlarge_time	0.521149
+trans_mu_time	0.331538
+trans_unpack_time	0.441144
+updateU_new_time	6.157954
+runtime	3.800773
+--------------------------------------------------!
+--------------iter 9, eta0--------------
+ac[0].fieldE
+max phi		+1.006093497032578
+min phi		-0.016155179222584
+vol		+68784189220.929290771484375
+eng		-9872512.131081400439143
+--------------iter 9, eta1--------------
+ac[1].fieldE
+max phi		+1.006399844970834
+min phi		-0.016129028751373
+vol		+68784226440.756652832031250
+eng		-9900840.132251176983118
+--------------iter 9, eta2--------------
+ac[2].fieldE
+max phi		+1.007876914923864
+min phi		-0.016142941336851
+vol		+68784278476.309265136718750
+eng		-9938805.546537052839994
+--------------iter 9, eta3--------------
+ac[3].fieldE
+max phi		+1.008339692194655
+min phi		-0.016143821692155
+vol		+68784139574.308715820312500
+eng		-9834374.931933237239718
+*******************************
+dgemm_time	121.836792
+chemical_time	9.739601
+anisotropic_time	25.125126
+elastic_calculate_time	3518.059326
+elast_transfer_time	67.839912
+nonlinear_add_time	12.695452
+trans_time	33.091290
+trans_Memcpy_time	17.926628
+trans_MPI_time	12.471277
+trans_pack_time	0.479065
+trans_enlarge_time	0.525629
+trans_mu_time	0.327697
+trans_unpack_time	0.439544
+updateU_new_time	6.015387
+runtime	3.807814
+--------------------------------------------------!
+--------------iter 10, eta0--------------
+ac[0].fieldE
+max phi		+1.006824700078560
+min phi		-0.017126508100252
+vol		+68785771022.107879638671875
+eng		-10968989.077810138463974
+--------------iter 10, eta1--------------
+ac[1].fieldE
+max phi		+1.008354473986875
+min phi		-0.017089566706710
+vol		+68785843780.760314941406250
+eng		-11023790.564667418599129
+--------------iter 10, eta2--------------
+ac[2].fieldE
+max phi		+1.008061801909349
+min phi		-0.017101902494210
+vol		+68785894947.991760253906250
+eng		-11060759.616745982319117
+--------------iter 10, eta3--------------
+ac[3].fieldE
+max phi		+1.008476334097948
+min phi		-0.017112173164863
+vol		+68785768416.023590087890625
+eng		-10964181.422725301235914
+*******************************
+dgemm_time	121.834549
+chemical_time	9.564071
+anisotropic_time	24.849272
+elastic_calculate_time	3548.245361
+elast_transfer_time	70.099556
+nonlinear_add_time	12.912903
+trans_time	120.021461
+trans_Memcpy_time	17.902149
+trans_MPI_time	99.405258
+trans_pack_time	0.481945
+trans_enlarge_time	0.515868
+trans_mu_time	0.330099
+trans_unpack_time	0.452665
+updateU_new_time	5.999224
+runtime	3.927373
+--------------------------------------------------!
+--------------iter 11, eta0--------------
+ac[0].fieldE
+max phi		+1.007344390328379
+min phi		-0.017973786577644
+vol		+68787394757.730926513671875
+eng		-12097157.742442900314927
+--------------iter 11, eta1--------------
+ac[1].fieldE
+max phi		+1.010107358038295
+min phi		-0.017925987686713
+vol		+68787432880.587173461914062
+eng		-12126202.103278148919344
+--------------iter 11, eta2--------------
+ac[2].fieldE
+max phi		+1.008126450277995
+min phi		-0.017936122767888
+vol		+68787494843.132629394531250
+eng		-12172668.655274711549282
+--------------iter 11, eta3--------------
+ac[3].fieldE
+max phi		+1.009214322688723
+min phi		-0.017956428172981
+vol		+68787386933.868774414062500
+eng		-12087778.952156543731689
+*******************************
+dgemm_time	121.880898
+chemical_time	9.600006
+anisotropic_time	24.875980
+elastic_calculate_time	3529.733643
+elast_transfer_time	66.851883
+nonlinear_add_time	12.802408
+trans_time	33.608791
+trans_Memcpy_time	17.963913
+trans_MPI_time	12.797057
+trans_pack_time	0.487866
+trans_enlarge_time	0.525149
+trans_mu_time	0.330897
+trans_unpack_time	0.440664
+updateU_new_time	6.016624
+runtime	3.816799
+--------------------------------------------------!
+--------------iter 12, eta0--------------
+ac[0].fieldE
+max phi		+1.007691146058809
+min phi		-0.018705690190494
+vol		+68789017144.424072265625000
+eng		-13224746.621908588334918
+--------------iter 12, eta1--------------
+ac[1].fieldE
+max phi		+1.011479171386720
+min phi		-0.018647050172235
+vol		+68789040649.544189453125000
+eng		-13246046.002647120505571
+--------------iter 12, eta2--------------
+ac[2].fieldE
+max phi		+1.008349620082066
+min phi		-0.018654359830211
+vol		+68789113901.800964355468750
+eng		-13299680.322334878146648
+--------------iter 12, eta3--------------
+ac[3].fieldE
+max phi		+1.010167074680907
+min phi		-0.018685347881622
+vol		+68789007459.510528564453125
+eng		-13216633.211484313011169
+*******************************
+dgemm_time	121.818436
+chemical_time	10.021921
+anisotropic_time	25.384727
+elastic_calculate_time	3549.145996
+elast_transfer_time	50.778591
+nonlinear_add_time	12.658125
+trans_time	126.207222
+trans_Memcpy_time	17.902649
+trans_MPI_time	105.604347
+trans_pack_time	0.478734
+trans_enlarge_time	0.514416
+trans_mu_time	0.341289
+trans_unpack_time	0.435532
+updateU_new_time	6.000895
+runtime	3.915247
+--------------------------------------------------!
+--------------iter 13, eta0--------------
+ac[0].fieldE
+max phi		+1.007897242560951
+min phi		-0.019330296821006
+vol		+68790663752.740646362304688
+eng		-14372109.537682686001062
+--------------iter 13, eta1--------------
+ac[1].fieldE
+max phi		+1.012533113419911
+min phi		-0.019260821773262
+vol		+68790672166.193389892578125
+eng		-14381726.039882859215140
+--------------iter 13, eta2--------------
+ac[2].fieldE
+max phi		+1.008925735406009
+min phi		-0.019284055199522
+vol		+68790730375.616668701171875
+eng		-14424301.762359954416752
+--------------iter 13, eta3--------------
+ac[3].fieldE
+max phi		+1.011391400268970
+min phi		-0.019306514853962
+vol		+68790613412.008392333984375
+eng		-14334761.092067118734121
+*******************************
+dgemm_time	121.811668
+chemical_time	9.799974
+anisotropic_time	25.022335
+elastic_calculate_time	3545.391846
+elast_transfer_time	65.433899
+nonlinear_add_time	12.653727
+trans_time	126.945976
+trans_Memcpy_time	18.016001
+trans_MPI_time	106.208328
+trans_pack_time	0.494880
+trans_enlarge_time	0.532000
+trans_mu_time	0.332480
+trans_unpack_time	0.435680
+updateU_new_time	5.935825
+runtime	3.925321
+--------------------------------------------------!
+--------------iter 14, eta0--------------
+ac[0].fieldE
+max phi		+1.008535818389754
+min phi		-0.019855052328307
+vol		+68792290720.146484375000000
+eng		-15505861.166626311838627
+--------------iter 14, eta1--------------
+ac[1].fieldE
+max phi		+1.013322657057425
+min phi		-0.019774737641122
+vol		+68792310100.763290405273438
+eng		-15520870.096185870468616
+--------------iter 14, eta2--------------
+ac[2].fieldE
+max phi		+1.009360684612876
+min phi		-0.019819947953797
+vol		+68792354154.931945800781250
+eng		-15554132.617092635482550
+--------------iter 14, eta3--------------
+ac[3].fieldE
+max phi		+1.012474492328737
+min phi		-0.019827862323290
+vol		+68792262589.776824951171875
+eng		-15481979.039328433573246
+*******************************
+dgemm_time	121.807465
+chemical_time	9.691689
+anisotropic_time	25.475380
+elastic_calculate_time	3530.608398
+elast_transfer_time	51.443085
+nonlinear_add_time	13.017929
+trans_time	33.404636
+trans_Memcpy_time	17.939522
+trans_MPI_time	12.744156
+trans_pack_time	0.482080
+trans_enlarge_time	0.541120
+trans_mu_time	0.329760
+trans_unpack_time	0.437440
+updateU_new_time	6.093444
+runtime	3.812426
+--------------------------------------------------!
+--------------iter 15, eta0--------------
+ac[0].fieldE
+max phi		+1.009155897811874
+min phi		-0.020286822118966
+vol		+68793929014.430603027343750
+eng		-16647499.868712473660707
+--------------iter 15, eta1--------------
+ac[1].fieldE
+max phi		+1.013892884034336
+min phi		-0.020195652162500
+vol		+68793938341.430694580078125
+eng		-16658325.264830600470304
+--------------iter 15, eta2--------------
+ac[2].fieldE
+max phi		+1.009677751445299
+min phi		-0.020262094475429
+vol		+68793984113.563720703125000
+eng		-16693295.879741970449686
+--------------iter 15, eta3--------------
+ac[3].fieldE
+max phi		+1.013301982197648
+min phi		-0.020256248075911
+vol		+68793896548.502929687500000
+eng		-16621458.597349446266890
+*******************************
+dgemm_time	121.841789
+chemical_time	9.829960
+anisotropic_time	25.022343
+elastic_calculate_time	3527.213135
+elast_transfer_time	51.533657
+nonlinear_add_time	12.694132
+trans_time	32.746971
+trans_Memcpy_time	17.908678
+trans_MPI_time	12.107388
+trans_pack_time	0.486720
+trans_enlarge_time	0.541120
+trans_mu_time	0.330400
+trans_unpack_time	0.445280
+updateU_new_time	5.846902
+runtime	3.795435
+--------------------------------------------------!
+--------------iter 16, eta0--------------
+ac[0].fieldE
+max phi		+1.009633779509160
+min phi		-0.020631937174870
+vol		+68795559275.108993530273438
+eng		-17786088.247641261667013
+--------------iter 16, eta1--------------
+ac[1].fieldE
+max phi		+1.014281784285755
+min phi		-0.020529885049984
+vol		+68795565793.250518798828125
+eng		-17793660.642852090299129
+--------------iter 16, eta2--------------
+ac[2].fieldE
+max phi		+1.010259406798005
+min phi		-0.020616867514702
+vol		+68795630840.699188232421875
+eng		-17841557.911611203104258
+--------------iter 16, eta3--------------
+ac[3].fieldE
+max phi		+1.013917105960966
+min phi		-0.020597995556688
+vol		+68795527449.686538696289062
+eng		-17756932.225701488554478
+*******************************
+dgemm_time	121.789658
+chemical_time	9.808068
+anisotropic_time	25.051697
+elastic_calculate_time	3522.258057
+elast_transfer_time	85.695648
+nonlinear_add_time	12.741848
+trans_time	32.903431
+trans_Memcpy_time	17.965858
+trans_MPI_time	12.210785
+trans_pack_time	0.489600
+trans_enlarge_time	0.535200
+trans_mu_time	0.332000
+trans_unpack_time	0.442240
+updateU_new_time	6.235082
+runtime	3.822403
+--------------------------------------------------!
+--------------iter 17, eta0--------------
+ac[0].fieldE
+max phi		+1.010028498856419
+min phi		-0.020896235430330
+vol		+68797211530.560791015625000
+eng		-18938470.673567745834589
+--------------iter 17, eta1--------------
+ac[1].fieldE
+max phi		+1.014560335128756
+min phi		-0.020783262783543
+vol		+68797210084.508117675781250
+eng		-18938495.915476825088263
+--------------iter 17, eta2--------------
+ac[2].fieldE
+max phi		+1.011663520386267
+min phi		-0.020890143141463
+vol		+68797273644.553619384765625
+eng		-18985635.081664867699146
+--------------iter 17, eta3--------------
+ac[3].fieldE
+max phi		+1.014356278069994
+min phi		-0.020858935284576
+vol		+68797178517.892028808593750
+eng		-18909089.320276502519846
+*******************************
+dgemm_time	121.796219
+chemical_time	9.593052
+anisotropic_time	25.007761
+elastic_calculate_time	3530.835449
+elast_transfer_time	46.335972
+nonlinear_add_time	12.779643
+trans_time	32.908123
+trans_Memcpy_time	17.980303
+trans_MPI_time	12.231138
+trans_pack_time	0.475360
+trans_enlarge_time	0.529604
+trans_mu_time	0.334080
+trans_unpack_time	0.439361
+updateU_new_time	6.170778
+runtime	3.797183
+--------------------------------------------------!
+--------------iter 18, eta0--------------
+ac[0].fieldE
+max phi		+1.010408363797551
+min phi		-0.021085099249580
+vol		+68798857701.280776977539062
+eng		-20088337.982260353863239
+--------------iter 18, eta1--------------
+ac[1].fieldE
+max phi		+1.014814653785156
+min phi		-0.020961156090397
+vol		+68798852841.779632568359375
+eng		-20085210.077608324587345
+--------------iter 18, eta2--------------
+ac[2].fieldE
+max phi		+1.012746447725714
+min phi		-0.021087338550623
+vol		+68798910239.987731933593750
+eng		-20130781.361542738974094
+--------------iter 18, eta3--------------
+ac[3].fieldE
+max phi		+1.014650077748821
+min phi		-0.021044442305296
+vol		+68798844826.782867431640625
+eng		-20072899.561444509774446
+*******************************
+dgemm_time	121.758743
+chemical_time	9.700116
+anisotropic_time	25.211023
+elastic_calculate_time	3514.955322
+elast_transfer_time	77.679657
+nonlinear_add_time	12.801114
+trans_time	34.651234
+trans_Memcpy_time	17.929464
+trans_MPI_time	14.000789
+trans_pack_time	0.479200
+trans_enlarge_time	0.537924
+trans_mu_time	0.329600
+trans_unpack_time	0.450884
+updateU_new_time	5.919910
+runtime	3.807072
+--------------------------------------------------!
+--------------iter 19, eta0--------------
+ac[0].fieldE
+max phi		+1.010877025417646
+min phi		-0.021253568560037
+vol		+68800508490.561080932617188
+eng		-21242169.650308333337307
+--------------iter 19, eta1--------------
+ac[1].fieldE
+max phi		+1.014942621625516
+min phi		-0.021068514023483
+vol		+68800502301.359466552734375
+eng		-21235875.943716496229172
+--------------iter 19, eta2--------------
+ac[2].fieldE
+max phi		+1.013562157525294
+min phi		-0.021213446507565
+vol		+68800570966.449264526367188
+eng		-21291692.002871781587601
+--------------iter 19, eta3--------------
+ac[3].fieldE
+max phi		+1.014824100172176
+min phi		-0.021159470243777
+vol		+68800490466.716201782226562
+eng		-21221600.596833892166615
+*******************************
+dgemm_time	121.735008
+chemical_time	9.439814
+anisotropic_time	24.851231
+elastic_calculate_time	3537.602295
+elast_transfer_time	63.776909
+nonlinear_add_time	12.808981
+trans_time	127.982620
+trans_Memcpy_time	17.934145
+trans_MPI_time	107.210854
+trans_pack_time	0.485920
+trans_enlarge_time	0.524804
+trans_mu_time	0.331364
+trans_unpack_time	0.442404
+updateU_new_time	6.025525
+runtime	3.913857
+--------------------------------------------------!
+--------------iter 20, eta0--------------
+ac[0].fieldE
+max phi		+1.011877678264872
+min phi		-0.021461624739419
+vol		+68802168460.897674560546875
+eng		-22402227.297821819782257
+--------------iter 20, eta1--------------
+ac[1].fieldE
+max phi		+1.014966510124895
+min phi		-0.021342401475303
+vol		+68802153824.609802246093750
+eng		-22390032.127646267414093
+--------------iter 20, eta2--------------
+ac[2].fieldE
+max phi		+1.014154982546462
+min phi		-0.021273066535837
+vol		+68802210506.150726318359375
+eng		-22441944.303118996322155
+--------------iter 20, eta3--------------
+ac[3].fieldE
+max phi		+1.014899752522337
+min phi		-0.021228359021807
+vol		+68802143996.401672363281250
+eng		-22379218.130332827568054
+*******************************
+dgemm_time	121.820854
+chemical_time	9.810396
+anisotropic_time	24.951761
+elastic_calculate_time	3526.894043
+elast_transfer_time	55.069046
+nonlinear_add_time	12.665323
+trans_time	32.800781
+trans_Memcpy_time	17.921066
+trans_MPI_time	12.156343
+trans_pack_time	0.480801
+trans_enlarge_time	0.527847
+trans_mu_time	0.341764
+trans_unpack_time	0.450564
+updateU_new_time	6.031775
+runtime	3.792313
+--------------------------------------------------!
+--------------iter 21, eta0--------------
+ac[0].fieldE
+max phi		+1.012629172392407
+min phi		-0.021599096752755
+vol		+68803835906.552978515625000
+eng		-23571031.333812642842531
+--------------iter 21, eta1--------------
+ac[1].fieldE
+max phi		+1.014904873422998
+min phi		-0.021551602757693
+vol		+68803826237.420410156250000
+eng		-23561277.591892689466476
+--------------iter 21, eta2--------------
+ac[2].fieldE
+max phi		+1.014562867858121
+min phi		-0.021270433728627
+vol		+68803871983.167694091796875
+eng		-23604387.858232125639915
+--------------iter 21, eta3--------------
+ac[3].fieldE
+max phi		+1.014894858165700
+min phi		-0.021270418528224
+vol		+68803832957.016937255859375
+eng		-23561743.691343717277050
+*******************************
+dgemm_time	121.830498
+chemical_time	9.644652
+anisotropic_time	24.927166
+elastic_calculate_time	3516.020264
+elast_transfer_time	69.937088
+nonlinear_add_time	12.785668
+trans_time	33.578777
+trans_Memcpy_time	17.934858
+trans_MPI_time	12.933338
+trans_pack_time	0.493128
+trans_enlarge_time	0.518088
+trans_mu_time	0.330724
+trans_unpack_time	0.440644
+updateU_new_time	6.045228
+runtime	3.820615
+--------------------------------------------------!
+--------------iter 22, eta0--------------
+ac[0].fieldE
+max phi		+1.013174509511725
+min phi		-0.021670557123728
+vol		+68805506504.200653076171875
+eng		-24739682.243858668953180
+--------------iter 22, eta1--------------
+ac[1].fieldE
+max phi		+1.014773132220600
+min phi		-0.021690355807135
+vol		+68805496032.138732910156250
+eng		-24728456.579238019883633
+--------------iter 22, eta2--------------
+ac[2].fieldE
+max phi		+1.014817672131905
+min phi		-0.021209445050710
+vol		+68805538011.363204956054688
+eng		-24766285.973772730678320
+--------------iter 22, eta3--------------
+ac[3].fieldE
+max phi		+1.014824238265169
+min phi		-0.021624159277281
+vol		+68805505134.918701171875000
+eng		-24731194.040905229747295
+*******************************
+dgemm_time	121.807983
+chemical_time	9.603706
+anisotropic_time	25.362736
+elastic_calculate_time	3514.603516
+elast_transfer_time	65.934731
+nonlinear_add_time	12.678488
+trans_time	32.333820
+trans_Memcpy_time	17.926407
+trans_MPI_time	11.709176
+trans_pack_time	0.480008
+trans_enlarge_time	0.523048
+trans_mu_time	0.331044
+trans_unpack_time	0.438568
+updateU_new_time	6.094678
+runtime	3.799325
+--------------------------------------------------!
+--------------iter 23, eta0--------------
+ac[0].fieldE
+max phi		+1.013549865453346
+min phi		-0.021680217481822
+vol		+68807192102.536682128906250
+eng		-25923042.632499963045120
+--------------iter 23, eta1--------------
+ac[1].fieldE
+max phi		+1.014584073362524
+min phi		-0.021763231093354
+vol		+68807161159.764434814453125
+eng		-25896241.776690058410168
+--------------iter 23, eta2--------------
+ac[2].fieldE
+max phi		+1.014946070663631
+min phi		-0.021151037239221
+vol		+68807231100.715164184570312
+eng		-25951695.338873453438282
+--------------iter 23, eta3--------------
+ac[3].fieldE
+max phi		+1.014700163940443
+min phi		-0.022008330669091
+vol		+68807177736.688827514648438
+eng		-25903945.585038375109434
+*******************************
+dgemm_time	121.807365
+chemical_time	9.902928
+anisotropic_time	24.940367
+elastic_calculate_time	3524.367920
+elast_transfer_time	53.534405
+nonlinear_add_time	12.791629
+trans_time	34.047997
+trans_Memcpy_time	17.893795
+trans_MPI_time	13.433869
+trans_pack_time	0.479048
+trans_enlarge_time	0.527529
+trans_mu_time	0.330404
+trans_unpack_time	0.450088
+updateU_new_time	6.139167
+runtime	3.800537
+--------------------------------------------------!
+--------------iter 24, eta0--------------
+ac[0].fieldE
+max phi		+1.013785583802944
+min phi		-0.021631954556392
+vol		+68808872348.162399291992188
+eng		-27100047.265602231025696
+--------------iter 24, eta1--------------
+ac[1].fieldE
+max phi		+1.014348276007896
+min phi		-0.021774438801723
+vol		+68808856891.509552001953125
+eng		-27082890.355712540447712
+--------------iter 24, eta2--------------
+ac[2].fieldE
+max phi		+1.014970341345512
+min phi		-0.021200123816033
+vol		+68808925056.011840820312500
+eng		-27139359.603090532124043
+--------------iter 24, eta3--------------
+ac[3].fieldE
+max phi		+1.014532786868788
+min phi		-0.022336663783087
+vol		+68808863285.670852661132812
+eng		-27084532.452520973980427
+*******************************
+dgemm_time	121.778740
+chemical_time	9.533652
+anisotropic_time	25.149525
+elastic_calculate_time	3521.427490
+elast_transfer_time	81.389832
+nonlinear_add_time	12.708603
+trans_time	33.861141
+trans_Memcpy_time	17.957981
+trans_MPI_time	13.177241
+trans_pack_time	0.487528
+trans_enlarge_time	0.530891
+trans_mu_time	0.332004
+trans_unpack_time	0.443048
+updateU_new_time	5.922371
+runtime	3.818712
+--------------------------------------------------!
+--------------iter 25, eta0--------------
+ac[0].fieldE
+max phi		+1.013907045098894
+min phi		-0.021731773097710
+vol		+68810578479.676254272460938
+eng		-28297983.552628237754107
+--------------iter 25, eta1--------------
+ac[1].fieldE
+max phi		+1.014074474103682
+min phi		-0.021727508215726
+vol		+68810553048.805984497070312
+eng		-28272239.440768230706453
+--------------iter 25, eta2--------------
+ac[2].fieldE
+max phi		+1.014908112857999
+min phi		-0.021188794554362
+vol		+68810601868.855468750000000
+eng		-28314944.085405182093382
+--------------iter 25, eta3--------------
+ac[3].fieldE
+max phi		+1.014330475965948
+min phi		-0.022613264568594
+vol		+68810550942.612854003906250
+eng		-28269795.992950610816479
+*******************************
+dgemm_time	121.761772
+chemical_time	9.536866
+anisotropic_time	24.857870
+elastic_calculate_time	3521.168701
+elast_transfer_time	64.292564
+nonlinear_add_time	12.672621
+trans_time	34.395920
+trans_Memcpy_time	17.889523
+trans_MPI_time	13.806233
+trans_pack_time	0.479688
+trans_enlarge_time	0.530412
+trans_mu_time	0.329607
+trans_unpack_time	0.436488
+updateU_new_time	5.987980
+runtime	3.804654
+--------------------------------------------------!
+--------------iter 26, eta0--------------
+ac[0].fieldE
+max phi		+1.013935421060556
+min phi		-0.021779977767113
+vol		+68812287189.332611083984375
+eng		-29494651.491708055138588
+--------------iter 26, eta1--------------
+ac[1].fieldE
+max phi		+1.013769232657293
+min phi		-0.021796194723960
+vol		+68812247571.737182617187500
+eng		-29462070.514687880873680
+--------------iter 26, eta2--------------
+ac[2].fieldE
+max phi		+1.014775847436869
+min phi		-0.021226209059360
+vol		+68812303246.622665405273438
+eng		-29508987.354000482708216
+--------------iter 26, eta3--------------
+ac[3].fieldE
+max phi		+1.014099842447318
+min phi		-0.022841909807238
+vol		+68812250366.636596679687500
+eng		-29462870.972717035561800
+*******************************
+dgemm_time	121.798714
+chemical_time	9.635919
+anisotropic_time	24.539650
+elastic_calculate_time	3518.362793
+elast_transfer_time	56.771660
+nonlinear_add_time	12.685916
+trans_time	33.203922
+trans_Memcpy_time	17.949549
+trans_MPI_time	12.545903
+trans_pack_time	0.483528
+trans_enlarge_time	0.512972
+trans_mu_time	0.329768
+trans_unpack_time	0.457609
+updateU_new_time	6.073110
+runtime	3.792522
+--------------------------------------------------!
+--------------iter 27, eta0--------------
+ac[0].fieldE
+max phi		+1.013888324460104
+min phi		-0.021816491113775
+vol		+68814004751.353576660156250
+eng		-30698876.758329115808010
+--------------iter 27, eta1--------------
+ac[1].fieldE
+max phi		+1.013439174649727
+min phi		-0.022072650439751
+vol		+68813951208.771179199218750
+eng		-30659146.321326557546854
+--------------iter 27, eta2--------------
+ac[2].fieldE
+max phi		+1.014586323951940
+min phi		-0.021229041839162
+vol		+68814009967.194549560546875
+eng		-30704321.620617106556892
+--------------iter 27, eta3--------------
+ac[3].fieldE
+max phi		+1.013846817282255
+min phi		-0.023026286539762
+vol		+68813973656.942169189453125
+eng		-30670050.365099065005779
+*******************************
+dgemm_time	121.867188
+chemical_time	9.580889
+anisotropic_time	25.265297
+elastic_calculate_time	3546.130615
+elast_transfer_time	62.959240
+nonlinear_add_time	12.585127
+trans_time	115.298325
+trans_Memcpy_time	17.965086
+trans_MPI_time	94.620018
+trans_pack_time	0.487368
+trans_enlarge_time	0.530092
+trans_mu_time	0.331048
+trans_unpack_time	0.439688
+updateU_new_time	6.029756
+runtime	3.904826
+--------------------------------------------------!
+--------------iter 28, eta0--------------
+ac[0].fieldE
+max phi		+1.013780366590850
+min phi		-0.021903671275351
+vol		+68815707686.787384033203125
+eng		-31895968.301256939768791
+--------------iter 28, eta1--------------
+ac[1].fieldE
+max phi		+1.013089155181100
+min phi		-0.022305936250930
+vol		+68815683065.941940307617188
+eng		-31874462.463081244379282
+--------------iter 28, eta2--------------
+ac[2].fieldE
+max phi		+1.014350114525813
+min phi		-0.021235950393136
+vol		+68815716249.168945312500000
+eng		-31903018.750529076904058
+--------------iter 28, eta3--------------
+ac[3].fieldE
+max phi		+1.013575996425304
+min phi		-0.023169379561559
+vol		+68815699619.088088989257812
+eng		-31881920.567280061542988
+*******************************
+dgemm_time	121.826660
+chemical_time	9.895468
+anisotropic_time	25.169962
+elastic_calculate_time	3519.360840
+elast_transfer_time	62.568737
+nonlinear_add_time	12.887229
+trans_time	35.574520
+trans_Memcpy_time	17.919029
+trans_MPI_time	14.958154
+trans_pack_time	0.482089
+trans_enlarge_time	0.512972
+trans_mu_time	0.341928
+trans_unpack_time	0.438252
+updateU_new_time	5.915358
+runtime	3.810419
+--------------------------------------------------!
+--------------iter 29, eta0--------------
+ac[0].fieldE
+max phi		+1.013623633172078
+min phi		-0.021928790082919
+vol		+68817423665.284088134765625
+eng		-33100330.120147056877613
+--------------iter 29, eta1--------------
+ac[1].fieldE
+max phi		+1.012723161205316
+min phi		-0.022498380257691
+vol		+68817420122.588851928710938
+eng		-33094307.442286945879459
+--------------iter 29, eta2--------------
+ac[2].fieldE
+max phi		+1.014362330863810
+min phi		-0.021244585638559
+vol		+68817424123.180068969726562
+eng		-33103837.615743357688189
+--------------iter 29, eta3--------------
+ac[3].fieldE
+max phi		+1.013291117368651
+min phi		-0.023274135691192
+vol		+68817423704.655654907226562
+eng		-33093101.708967171609402
+*******************************
+dgemm_time	121.766937
+chemical_time	9.466346
+anisotropic_time	24.960699
+elastic_calculate_time	3534.598145
+elast_transfer_time	60.150970
+nonlinear_add_time	12.563871
+trans_time	32.976093
+trans_Memcpy_time	17.975855
+trans_MPI_time	12.281298
+trans_pack_time	0.495209
+trans_enlarge_time	0.522253
+trans_mu_time	0.330888
+trans_unpack_time	0.438892
+updateU_new_time	5.733280
+runtime	3.813332
+--------------------------------------------------!
+--------------iter 30, eta0--------------
+ac[0].fieldE
+max phi		+1.013428089313670
+min phi		-0.021895731190266
+vol		+68819144274.500350952148438
+eng		-34312686.520088225603104
+--------------iter 30, eta1--------------
+ac[1].fieldE
+max phi		+1.012344469122145
+min phi		-0.022652232957964
+vol		+68819149910.941955566406250
+eng		-34312947.333853378891945
+--------------iter 30, eta2--------------
+ac[2].fieldE
+max phi		+1.014721195861580
+min phi		-0.021305299674677
+vol		+68819156006.127105712890625
+eng		-34320539.953199416399002
+--------------iter 30, eta3--------------
+ac[3].fieldE
+max phi		+1.013433527204818
+min phi		-0.023343269170409
+vol		+68819135478.760757446289062
+eng		-34296980.278657495975494
+*******************************
+dgemm_time	121.788811
+chemical_time	9.827965
+anisotropic_time	24.847761
+elastic_calculate_time	3525.743408
+elast_transfer_time	77.562408
+nonlinear_add_time	12.780050
+trans_time	32.655327
+trans_Memcpy_time	17.880501
+trans_MPI_time	12.063221
+trans_pack_time	0.480649
+trans_enlarge_time	0.540494
+trans_mu_time	0.328168
+trans_unpack_time	0.438732
+updateU_new_time	6.137616
+runtime	3.817421
+--------------------------------------------------!
+--------------iter 31, eta0--------------
+ac[0].fieldE
+max phi		+1.013201923184872
+min phi		-0.021808066152188
+vol		+68820864958.092590332031250
+eng		-35521997.256381407380104
+--------------iter 31, eta1--------------
+ac[1].fieldE
+max phi		+1.012509229569847
+min phi		-0.022769657426773
+vol		+68820869554.148010253906250
+eng		-35523745.060895591974258
+--------------iter 31, eta2--------------
+ac[2].fieldE
+max phi		+1.014958707128330
+min phi		-0.021395959181590
+vol		+68820876624.897094726562500
+eng		-35531324.026478834450245
+--------------iter 31, eta3--------------
+ac[3].fieldE
+max phi		+1.014373346552620
+min phi		-0.023379280319212
+vol		+68820858365.048645019531250
+eng		-35509362.272649116814137
+*******************************
+dgemm_time	121.783943
+chemical_time	9.987977
+anisotropic_time	25.430679
+elastic_calculate_time	3520.177979
+elast_transfer_time	67.792419
+nonlinear_add_time	12.615896
+trans_time	34.641960
+trans_Memcpy_time	17.880997
+trans_MPI_time	14.051449
+trans_pack_time	0.479049
+trans_enlarge_time	0.520333
+trans_mu_time	0.337448
+trans_unpack_time	0.447852
+updateU_new_time	5.851054
+runtime	3.807063
+--------------------------------------------------!
+--------------iter 32, eta0--------------
+ac[0].fieldE
+max phi		+1.012953658615202
+min phi		-0.021669076498477
+vol		+68822616722.355316162109375
+eng		-36756247.155513390898705
+--------------iter 32, eta1--------------
+ac[1].fieldE
+max phi		+1.012760923653408
+min phi		-0.022852722919063
+vol		+68822611943.914718627929688
+eng		-36747445.413183778524399
+--------------iter 32, eta2--------------
+ac[2].fieldE
+max phi		+1.015094828214013
+min phi		-0.021456967517525
+vol		+68822602957.280212402343750
+eng		-36745442.714081078767776
+--------------iter 32, eta3--------------
+ac[3].fieldE
+max phi		+1.015784563884654
+min phi		-0.023384472525559
+vol		+68822596485.614212036132812
+eng		-36729452.437597401440144
+*******************************
+dgemm_time	121.881981
+chemical_time	9.487329
+anisotropic_time	25.209732
+elastic_calculate_time	3525.741211
+elast_transfer_time	65.954987
+nonlinear_add_time	12.880074
+trans_time	33.332024
+trans_Memcpy_time	17.885017
+trans_MPI_time	12.737501
+trans_pack_time	0.486890
+trans_enlarge_time	0.519215
+trans_mu_time	0.332168
+trans_unpack_time	0.443692
+updateU_new_time	6.255391
+runtime	3.810625
+--------------------------------------------------!
+--------------iter 33, eta0--------------
+ac[0].fieldE
+max phi		+1.012686739711592
+min phi		-0.021481774108954
+vol		+68824370837.724716186523438
+eng		-37990902.326791621744633
+--------------iter 33, eta1--------------
+ac[1].fieldE
+max phi		+1.012878056183282
+min phi		-0.022903401091152
+vol		+68824361296.951400756835938
+eng		-37981389.123221918940544
+--------------iter 33, eta2--------------
+ac[2].fieldE
+max phi		+1.015146253085849
+min phi		-0.021670119497443
+vol		+68824365385.133483886718750
+eng		-37984189.272023484110832
+--------------iter 33, eta3--------------
+ac[3].fieldE
+max phi		+1.016872305466685
+min phi		-0.023360967613153
+vol		+68824331816.131210327148438
+eng		-37948841.620643228292465
+*******************************
+dgemm_time	121.846390
+chemical_time	9.700784
+anisotropic_time	25.088146
+elastic_calculate_time	3530.094727
+elast_transfer_time	57.071716
+nonlinear_add_time	12.713359
+trans_time	126.296486
+trans_Memcpy_time	17.952229
+trans_MPI_time	105.637680
+trans_pack_time	0.478890
+trans_enlarge_time	0.522255
+trans_mu_time	0.329608
+trans_unpack_time	0.440012
+updateU_new_time	6.329638
+runtime	3.897371
+--------------------------------------------------!
+--------------iter 34, eta0--------------
+ac[0].fieldE
+max phi		+1.012454997332557
+min phi		-0.021515184561813
+vol		+68826159391.835021972656250
+eng		-39251586.251991406083107
+--------------iter 34, eta1--------------
+ac[1].fieldE
+max phi		+1.012886899953973
+min phi		-0.022954900387320
+vol		+68826117617.889358520507812
+eng		-39218553.153477355837822
+--------------iter 34, eta2--------------
+ac[2].fieldE
+max phi		+1.015127066881694
+min phi		-0.021812498674509
+vol		+68826155315.550384521484375
+eng		-39245628.615131378173828
+--------------iter 34, eta3--------------
+ac[3].fieldE
+max phi		+1.017687564148493
+min phi		-0.023310719966382
+vol		+68826071907.926757812500000
+eng		-39176111.774791210889816
+*******************************
+dgemm_time	121.836075
+chemical_time	9.679030
+anisotropic_time	24.980961
+elastic_calculate_time	3515.314453
+elast_transfer_time	88.760139
+nonlinear_add_time	12.191590
+trans_time	34.654026
+trans_Memcpy_time	18.376419
+trans_MPI_time	13.451144
+trans_pack_time	0.479215
+trans_enlarge_time	0.522096
+trans_mu_time	0.329448
+trans_unpack_time	0.454093
+updateU_new_time	5.933148
+runtime	3.817393
+--------------------------------------------------!
+--------------iter 35, eta0--------------
+ac[0].fieldE
+max phi		+1.012845797013523
+min phi		-0.021843366415511
+vol		+68827900857.089141845703125
+eng		-40476693.266529679298401
+--------------iter 35, eta1--------------
+ac[1].fieldE
+max phi		+1.012809752112049
+min phi		-0.023116106988052
+vol		+68827862839.198593139648438
+eng		-40446560.312216237187386
+--------------iter 35, eta2--------------
+ac[2].fieldE
+max phi		+1.015092258103247
+min phi		-0.021888892788638
+vol		+68827923327.324356079101562
+eng		-40494575.993682675063610
+--------------iter 35, eta3--------------
+ac[3].fieldE
+max phi		+1.018273698860105
+min phi		-0.023235529407068
+vol		+68827841105.609680175781250
+eng		-40423626.680606469511986
+*******************************
+dgemm_time	121.831718
+chemical_time	9.688776
+anisotropic_time	25.190689
+elastic_calculate_time	3521.730957
+elast_transfer_time	71.928444
+nonlinear_add_time	12.552703
+trans_time	122.722900
+trans_Memcpy_time	17.912415
+trans_MPI_time	101.971474
+trans_pack_time	0.486416
+trans_enlarge_time	0.519856
+trans_mu_time	0.330728
+trans_unpack_time	0.442252
+updateU_new_time	6.301632
+runtime	3.909507
+--------------------------------------------------!
+--------------iter 36, eta0--------------
+ac[0].fieldE
+max phi		+1.013102544816498
+min phi		-0.022213857033478
+vol		+68829675730.101852416992188
+eng		-41726655.902723692357540
+--------------iter 36, eta1--------------
+ac[1].fieldE
+max phi		+1.012664993779202
+min phi		-0.023205933770115
+vol		+68829628556.636413574218750
+eng		-41691298.445991851389408
+--------------iter 36, eta2--------------
+ac[2].fieldE
+max phi		+1.015323979171989
+min phi		-0.021903277786971
+vol		+68829711507.887969970703125
+eng		-41752318.229877337813377
+--------------iter 36, eta3--------------
+ac[3].fieldE
+max phi		+1.018667457340972
+min phi		-0.023137052961280
+vol		+68829615446.029632568359375
+eng		-41673192.351684078574181
+*******************************
+dgemm_time	121.773567
+chemical_time	9.806577
+anisotropic_time	24.895969
+elastic_calculate_time	3518.345947
+elast_transfer_time	70.052467
+nonlinear_add_time	12.927273
+trans_time	33.318577
+trans_Memcpy_time	17.919781
+trans_MPI_time	12.699018
+trans_pack_time	0.484008
+trans_enlarge_time	0.511852
+trans_mu_time	0.342408
+trans_unpack_time	0.440168
+updateU_new_time	5.939305
+runtime	3.803221
+--------------------------------------------------!
+--------------iter 37, eta0--------------
+ac[0].fieldE
+max phi		+1.013247786137150
+min phi		-0.022501302209447
+vol		+68831451595.060470581054688
+eng		-42978740.761794552206993
+--------------iter 37, eta1--------------
+ac[1].fieldE
+max phi		+1.012467728275719
+min phi		-0.023227940490036
+vol		+68831399335.774627685546875
+eng		-42939769.853059515357018
+--------------iter 37, eta2--------------
+ac[2].fieldE
+max phi		+1.015452136679200
+min phi		-0.021914690914919
+vol		+68831509083.202102661132812
+eng		-43018682.400058992207050
+--------------iter 37, eta3--------------
+ac[3].fieldE
+max phi		+1.018899895349662
+min phi		-0.023016815652777
+vol		+68831401096.973129272460938
+eng		-42936727.852311000227928
+*******************************
+dgemm_time	121.780762
+chemical_time	9.497178
+anisotropic_time	24.713593
+elastic_calculate_time	3548.100586
+elast_transfer_time	78.488976
+nonlinear_add_time	12.627757
+trans_time	235.120041
+trans_Memcpy_time	18.070286
+trans_MPI_time	214.343033
+trans_pack_time	0.495360
+trans_enlarge_time	0.517604
+trans_mu_time	0.332324
+trans_unpack_time	0.437764
+updateU_new_time	5.938755
+runtime	4.037621
+--------------------------------------------------!
+--------------iter 38, eta0--------------
+ac[0].fieldE
+max phi		+1.013300441140715
+min phi		-0.022710139736683
+vol		+68833241916.427230834960938
+eng		-44243320.925577804446220
+--------------iter 38, eta1--------------
+ac[1].fieldE
+max phi		+1.012433856398960
+min phi		-0.023185430597094
+vol		+68833173378.363891601562500
+eng		-44191894.085212096571922
+--------------iter 38, eta2--------------
+ac[2].fieldE
+max phi		+1.015494152494154
+min phi		-0.021910179032239
+vol		+68833311497.748092651367188
+eng		-44293778.597172841429710
+--------------iter 38, eta3--------------
+ac[3].fieldE
+max phi		+1.018997192666770
+min phi		-0.022876220395385
+vol		+68833196015.854644775390625
+eng		-44200623.258661434054375
+*******************************
+dgemm_time	121.853806
+chemical_time	9.718035
+anisotropic_time	25.313797
+elastic_calculate_time	3564.335205
+elast_transfer_time	86.052055
+nonlinear_add_time	12.703617
+trans_time	112.240700
+trans_Memcpy_time	18.143360
+trans_MPI_time	90.997475
+trans_pack_time	0.518880
+trans_enlarge_time	0.548800
+trans_mu_time	0.344000
+trans_unpack_time	0.453760
+updateU_new_time	5.996292
+runtime	3.949923
+--------------------------------------------------!
+--------------iter 39, eta0--------------
+ac[0].fieldE
+max phi		+1.013276360545533
+min phi		-0.022844489726241
+vol		+68835032255.194656372070312
+eng		-45506768.058949083089828
+--------------iter 39, eta1--------------
+ac[1].fieldE
+max phi		+1.012979029778872
+min phi		-0.023081465830636
+vol		+68834952050.732727050781250
+eng		-45448210.697172529995441
+--------------iter 39, eta2--------------
+ac[2].fieldE
+max phi		+1.015464637214367
+min phi		-0.021870956833205
+vol		+68835092677.160858154296875
+eng		-45552089.251771032810211
+--------------iter 39, eta3--------------
+ac[3].fieldE
+max phi		+1.018981370528081
+min phi		-0.022716557071647
+vol		+68834985530.305053710937500
+eng		-45463928.081941440701485
+*******************************
+dgemm_time	121.819695
+chemical_time	9.829032
+anisotropic_time	25.174973
+elastic_calculate_time	3519.882080
+elast_transfer_time	55.400459
+nonlinear_add_time	12.636208
+trans_time	33.998688
+trans_Memcpy_time	18.154072
+trans_MPI_time	12.869962
+trans_pack_time	0.505440
+trans_enlarge_time	0.526236
+trans_mu_time	0.352000
+trans_unpack_time	0.460476
+updateU_new_time	5.876588
+runtime	3.800246
+--------------------------------------------------!
+--------------iter 40, eta0--------------
+ac[0].fieldE
+max phi		+1.015122288220846
+min phi		-0.022908174697667
+vol		+68836832192.767272949218750
+eng		-46776639.533443614840508
+--------------iter 40, eta1--------------
+ac[1].fieldE
+max phi		+1.013440630913433
+min phi		-0.022918879838377
+vol		+68836764018.760070800781250
+eng		-46726766.154898732900620
+--------------iter 40, eta2--------------
+ac[2].fieldE
+max phi		+1.015375816330719
+min phi		-0.021800304469525
+vol		+68836887713.661026000976562
+eng		-46821444.585036024451256
+--------------iter 40, eta3--------------
+ac[3].fieldE
+max phi		+1.018870917615460
+min phi		-0.022539010871685
+vol		+68836788176.743774414062500
+eng		-46739216.221726238727570
+*******************************
+dgemm_time	121.867882
+chemical_time	9.663287
+anisotropic_time	24.748934
+elastic_calculate_time	3544.800537
+elast_transfer_time	71.364258
+nonlinear_add_time	12.744225
+trans_time	122.026161
+trans_Memcpy_time	18.191854
+trans_MPI_time	100.882217
+trans_pack_time	0.513280
+trans_enlarge_time	0.527356
+trans_mu_time	0.347840
+trans_unpack_time	0.453759
+updateU_new_time	5.965556
+runtime	3.924143
+--------------------------------------------------!
+--------------iter 41, eta0--------------
+ac[0].fieldE
+max phi		+1.016574755749566
+min phi		-0.022904738184445
+vol		+68838652862.696380615234375
+eng		-48062142.313398361206055
+--------------iter 41, eta1--------------
+ac[1].fieldE
+max phi		+1.013766466816379
+min phi		-0.022963434972810
+vol		+68838570894.730987548828125
+eng		-48003003.625307098031044
+--------------iter 41, eta2--------------
+ac[2].fieldE
+max phi		+1.015237896737422
+min phi		-0.021867251200446
+vol		+68838696718.863540649414062
+eng		-48098543.759830281138420
+--------------iter 41, eta3--------------
+ac[3].fieldE
+max phi		+1.018681342325195
+min phi		-0.022344669956403
+vol		+68838611735.886306762695312
+eng		-48029198.396407045423985
+*******************************
+dgemm_time	121.833817
+chemical_time	9.537383
+anisotropic_time	25.663204
+elastic_calculate_time	3559.424805
+elast_transfer_time	65.229843
+nonlinear_add_time	12.557365
+trans_time	117.296555
+trans_Memcpy_time	18.148685
+trans_MPI_time	96.195824
+trans_pack_time	0.504000
+trans_enlarge_time	0.531680
+trans_mu_time	0.348160
+trans_unpack_time	0.452480
+updateU_new_time	6.019005
+runtime	3.923744
+--------------------------------------------------!
+--------------iter 42, eta0--------------
+ac[0].fieldE
+max phi		+1.017683352437853
+min phi		-0.022987724808071
+vol		+68840476592.770553588867188
+eng		-49352696.930681511759758
+--------------iter 42, eta1--------------
+ac[1].fieldE
+max phi		+1.013978823165772
+min phi		-0.023014430788383
+vol		+68840416941.134582519531250
+eng		-49309405.529993690550327
+--------------iter 42, eta2--------------
+ac[2].fieldE
+max phi		+1.015059380644471
+min phi		-0.022144276834773
+vol		+68840531478.425079345703125
+eng		-49396309.515609800815582
+--------------iter 42, eta3--------------
+ac[3].fieldE
+max phi		+1.018425612275285
+min phi		-0.022134532504305
+vol		+68840408100.134155273437500
+eng		-49301433.614043653011322
+*******************************
+dgemm_time	121.836060
+chemical_time	9.705715
+anisotropic_time	25.149481
+elastic_calculate_time	3525.787598
+elast_transfer_time	61.866745
+nonlinear_add_time	12.497542
+trans_time	33.291691
+trans_Memcpy_time	18.153515
+trans_MPI_time	12.066500
+trans_pack_time	0.505600
+trans_enlarge_time	0.537920
+trans_mu_time	0.343840
+trans_unpack_time	0.466080
+updateU_new_time	5.842054
+runtime	3.803688
+--------------------------------------------------!
+--------------iter 43, eta0--------------
+ac[0].fieldE
+max phi		+1.018503906744457
+min phi		-0.023120403607491
+vol		+68842294257.684051513671875
+eng		-50638647.978643223643303
+--------------iter 43, eta1--------------
+ac[1].fieldE
+max phi		+1.014096458275409
+min phi		-0.023036654010446
+vol		+68842247886.162811279296875
+eng		-50605249.293410897254944
+--------------iter 43, eta2--------------
+ac[2].fieldE
+max phi		+1.014847333976897
+min phi		-0.022375112601062
+vol		+68842345858.430389404296875
+eng		-50680796.181322127580643
+--------------iter 43, eta3--------------
+ac[3].fieldE
+max phi		+1.018114588327557
+min phi		-0.021909513198996
+vol		+68842241198.163131713867188
+eng		-50598370.602504134178162
+*******************************
+dgemm_time	121.821663
+chemical_time	9.619808
+anisotropic_time	24.568077
+elastic_calculate_time	3522.961182
+elast_transfer_time	75.637657
+nonlinear_add_time	12.792117
+trans_time	112.188797
+trans_Memcpy_time	18.156733
+trans_MPI_time	91.050674
+trans_pack_time	0.521280
+trans_enlarge_time	0.538720
+trans_mu_time	0.345280
+trans_unpack_time	0.461600
+updateU_new_time	6.001581
+runtime	3.891198
+--------------------------------------------------!
+--------------iter 44, eta0--------------
+ac[0].fieldE
+max phi		+1.019083560149517
+min phi		-0.023185201174508
+vol		+68844145475.784454345703125
+eng		-51946293.132212191820145
+--------------iter 44, eta1--------------
+ac[1].fieldE
+max phi		+1.014232272817602
+min phi		-0.023031625080058
+vol		+68844090329.465515136718750
+eng		-51912452.804904758930206
+--------------iter 44, eta2--------------
+ac[2].fieldE
+max phi		+1.014607615701362
+min phi		-0.022562680362669
+vol		+68844193878.430999755859375
+eng		-51992726.827325180172920
+--------------iter 44, eta3--------------
+ac[3].fieldE
+max phi		+1.017757359675861
+min phi		-0.021740725611467
+vol		+68844070298.107299804687500
+eng		-51893938.095883756875992
+*******************************
+dgemm_time	121.836227
+chemical_time	10.046700
+anisotropic_time	25.099949
+elastic_calculate_time	3514.331787
+elast_transfer_time	63.761627
+nonlinear_add_time	12.790535
+trans_time	33.623112
+trans_Memcpy_time	18.134195
+trans_MPI_time	12.528449
+trans_pack_time	0.506560
+trans_enlarge_time	0.525280
+trans_mu_time	0.358080
+trans_unpack_time	0.456800
+updateU_new_time	5.997908
+runtime	3.812032
+--------------------------------------------------!
+--------------iter 45, eta0--------------
+ac[0].fieldE
+max phi		+1.019462129002041
+min phi		-0.023185418278382
+vol		+68846009922.750274658203125
+eng		-53267397.670578211545944
+--------------iter 45, eta1--------------
+ac[1].fieldE
+max phi		+1.014897418336323
+min phi		-0.023000823033213
+vol		+68845932385.478881835937500
+eng		-53215275.787700846791267
+--------------iter 45, eta2--------------
+ac[2].fieldE
+max phi		+1.014345073101096
+min phi		-0.022709757582526
+vol		+68846056130.935455322265625
+eng		-53311486.363475605845451
+--------------iter 45, eta3--------------
+ac[3].fieldE
+max phi		+1.017359843632265
+min phi		-0.021774881757672
+vol		+68845915152.933746337890625
+eng		-53199202.858092084527016
+*******************************
+dgemm_time	121.872704
+chemical_time	9.658392
+anisotropic_time	25.153740
+elastic_calculate_time	3521.041992
+elast_transfer_time	66.998344
+nonlinear_add_time	12.726711
+trans_time	33.518822
+trans_Memcpy_time	18.165577
+trans_MPI_time	12.380466
+trans_pack_time	0.520320
+trans_enlarge_time	0.532800
+trans_mu_time	0.347200
+trans_unpack_time	0.451520
+updateU_new_time	5.948796
+runtime	3.805274
+--------------------------------------------------!
+--------------iter 46, eta0--------------
+ac[0].fieldE
+max phi		+1.019673137804753
+min phi		-0.023124118943400
+vol		+68847853634.587905883789062
+eng		-54573506.364908874034882
+--------------iter 46, eta1--------------
+ac[1].fieldE
+max phi		+1.015374057052533
+min phi		-0.022945676223486
+vol		+68847799357.318267822265625
+eng		-54535855.433703541755676
+--------------iter 46, eta2--------------
+ac[2].fieldE
+max phi		+1.014063708234080
+min phi		-0.022818973693552
+vol		+68847926543.668548583984375
+eng		-54636563.596563786268234
+--------------iter 46, eta3--------------
+ac[3].fieldE
+max phi		+1.016930320563451
+min phi		-0.021849265852528
+vol		+68847779635.372192382812500
+eng		-54523512.669404245913029
+*******************************
+dgemm_time	121.869476
+chemical_time	9.666241
+anisotropic_time	24.894407
+elastic_calculate_time	3516.169678
+elast_transfer_time	78.691223
+nonlinear_add_time	12.971684
+trans_time	33.140095
+trans_Memcpy_time	18.164801
+trans_MPI_time	11.998080
+trans_pack_time	0.513440
+trans_enlarge_time	0.541760
+trans_mu_time	0.343840
+trans_unpack_time	0.452640
+updateU_new_time	6.148640
+runtime	3.816317
+--------------------------------------------------!
+--------------iter 47, eta0--------------
+ac[0].fieldE
+max phi		+1.019744735048241
+min phi		-0.023004143739028
+vol		+68849722454.789001464843750
+eng		-55898117.265562951564789
+--------------iter 47, eta1--------------
+ac[1].fieldE
+max phi		+1.015694701227656
+min phi		-0.022872228931650
+vol		+68849669074.750366210937500
+eng		-55863764.353002771735191
+--------------iter 47, eta2--------------
+ac[2].fieldE
+max phi		+1.013766819394770
+min phi		-0.022892809606797
+vol		+68849793506.926101684570312
+eng		-55962636.211598724126816
+--------------iter 47, eta3--------------
+ac[3].fieldE
+max phi		+1.016474246877057
+min phi		-0.021959739205520
+vol		+68849643614.051101684570312
+eng		-55844609.285268254578114
+*******************************
+dgemm_time	121.789932
+chemical_time	10.164494
+anisotropic_time	24.893633
+elastic_calculate_time	3542.573730
+elast_transfer_time	85.293404
+nonlinear_add_time	12.860975
+trans_time	113.470688
+trans_Memcpy_time	18.118879
+trans_MPI_time	92.380402
+trans_pack_time	0.506400
+trans_enlarge_time	0.534080
+trans_mu_time	0.345600
+trans_unpack_time	0.460320
+updateU_new_time	5.851848
+runtime	3.922239
+--------------------------------------------------!
+--------------iter 48, eta0--------------
+ac[0].fieldE
+max phi		+1.019700496555814
+min phi		-0.022828122075329
+vol		+68851602450.079895019531250
+eng		-57234046.944465637207031
+--------------iter 48, eta1--------------
+ac[1].fieldE
+max phi		+1.015886630158148
+min phi		-0.022777045440740
+vol		+68851555105.751205444335938
+eng		-57204699.897972412407398
+--------------iter 48, eta2--------------
+ac[2].fieldE
+max phi		+1.013457793309251
+min phi		-0.022933599453773
+vol		+68851675114.659149169921875
+eng		-57300829.786949686706066
+--------------iter 48, eta3--------------
+ac[3].fieldE
+max phi		+1.015996057548111
+min phi		-0.022191138905428
+vol		+68851509188.451553344726562
+eng		-57172957.387663811445236
+*******************************
+dgemm_time	121.804634
+chemical_time	9.860984
+anisotropic_time	25.075903
+elastic_calculate_time	3524.208984
+elast_transfer_time	59.002708
+nonlinear_add_time	12.571071
+trans_time	32.748779
+trans_Memcpy_time	18.056503
+trans_MPI_time	11.976180
+trans_pack_time	0.484800
+trans_enlarge_time	0.527040
+trans_mu_time	0.335840
+trans_unpack_time	0.440960
+updateU_new_time	6.014733
+runtime	3.807295
+--------------------------------------------------!
+--------------iter 49, eta0--------------
+ac[0].fieldE
+max phi		+1.019559715007468
+min phi		-0.022932030407941
+vol		+68853484266.625030517578125
+eng		-58573169.157210923731327
+--------------iter 49, eta1--------------
+ac[1].fieldE
+max phi		+1.015972671335152
+min phi		-0.022661372194029
+vol		+68853454851.653457641601562
+eng		-58555180.609278902411461
+--------------iter 49, eta2--------------
+ac[2].fieldE
+max phi		+1.013248098788882
+min phi		-0.022952051072401
+vol		+68853578493.794738769531250
+eng		-58650836.991003528237343
+--------------iter 49, eta3--------------
+ac[3].fieldE
+max phi		+1.015499628547306
+min phi		-0.022484857818417
+vol		+68853391989.042602539062500
+eng		-58510566.042148329317570
+*******************************
+dgemm_time	121.790855
+chemical_time	9.716034
+anisotropic_time	24.641689
+elastic_calculate_time	3549.314941
+elast_transfer_time	63.967590
+nonlinear_add_time	12.344683
+trans_time	238.270676
+trans_Memcpy_time	18.091887
+trans_MPI_time	217.472214
+trans_pack_time	0.482560
+trans_enlarge_time	0.520000
+trans_mu_time	0.329440
+trans_unpack_time	0.437120
+updateU_new_time	5.931540
+runtime	4.033642
+--------------------------------------------------!
+--------------iter 50, eta0--------------
+ac[0].fieldE
+max phi		+1.019339280342887
+min phi		-0.023144578735521
+vol		+68855386953.584304809570312
+eng		-59926416.448546737432480
+--------------iter 50, eta1--------------
+ac[1].fieldE
+max phi		+1.015972126418567
+min phi		-0.022526389933911
+vol		+68855362082.106430053710938
+eng		-59911473.458835572004318
+--------------iter 50, eta2--------------
+ac[2].fieldE
+max phi		+1.013043914659476
+min phi		-0.023156301919544
+vol		+68855464892.017044067382812
+eng		-59993399.994084388017654
+--------------iter 50, eta3--------------
+ac[3].fieldE
+max phi		+1.014988301078288
+min phi		-0.022749705335704
+vol		+68855260818.891952514648438
+eng		-59838091.429577261209488
+*******************************
+dgemm_time	121.737526
+chemical_time	9.765644
+anisotropic_time	25.085234
+elastic_calculate_time	3513.476074
+elast_transfer_time	64.202858
+nonlinear_add_time	12.623736
+trans_time	33.419991
+trans_Memcpy_time	18.068232
+trans_MPI_time	12.636208
+trans_pack_time	0.479840
+trans_enlarge_time	0.527200
+trans_mu_time	0.329280
+trans_unpack_time	0.450880
+updateU_new_time	5.924506
+runtime	3.797260
+--------------------------------------------------!
+--------------iter 51, eta0--------------
+ac[0].fieldE
+max phi		+1.019052871625157
+min phi		-0.023279847375669
+vol		+68857302181.539459228515625
+eng		-61291761.471843019127846
+--------------iter 51, eta1--------------
+ac[1].fieldE
+max phi		+1.015900583194378
+min phi		-0.022373213271805
+vol		+68857276063.736145019531250
+eng		-61274088.182158559560776
+--------------iter 51, eta2--------------
+ac[2].fieldE
+max phi		+1.013025594244396
+min phi		-0.023353943338000
+vol		+68857387983.624038696289062
+eng		-61359980.230577826499939
+--------------iter 51, eta3--------------
+ac[3].fieldE
+max phi		+1.014464991451590
+min phi		-0.022939044585711
+vol		+68857170737.096740722656250
+eng		-61197458.806455455720425
+*******************************
+dgemm_time	121.773628
+chemical_time	9.831094
+anisotropic_time	24.808138
+elastic_calculate_time	3520.159668
+elast_transfer_time	84.846558
+nonlinear_add_time	12.795429
+trans_time	32.780689
+trans_Memcpy_time	18.121361
+trans_MPI_time	11.936376
+trans_pack_time	0.489440
+trans_enlarge_time	0.536320
+trans_mu_time	0.329760
+trans_unpack_time	0.437920
+updateU_new_time	5.800511
+runtime	3.822039
+--------------------------------------------------!
+--------------iter 52, eta0--------------
+ac[0].fieldE
+max phi		+1.018711866005906
+min phi		-0.023342800538009
+vol		+68857633111.657501220703125
+eng		-61593994.530342176556587
+--------------iter 52, eta1--------------
+ac[1].fieldE
+max phi		+1.015771213564260
+min phi		-0.022254765636946
+vol		+68857606605.819198608398438
+eng		-61576702.131056800484657
+--------------iter 52, eta2--------------
+ac[2].fieldE
+max phi		+1.012954681539606
+min phi		-0.023510819251987
+vol		+68857719100.552169799804688
+eng		-61663152.289909705519676
+--------------iter 52, eta3--------------
+ac[3].fieldE
+max phi		+1.014463344939235
+min phi		-0.023057867368584
+vol		+68857501479.543212890625000
+eng		-61499465.705143846571445
+*******************************
+dgemm_time	121.778389
+chemical_time	10.062464
+anisotropic_time	25.352322
+elastic_calculate_time	3519.890625
+elast_transfer_time	61.541355
+nonlinear_add_time	12.793523
+trans_time	32.493118
+trans_Memcpy_time	18.047937
+trans_MPI_time	11.743906
+trans_pack_time	0.481120
+trans_enlarge_time	0.524480
+trans_mu_time	0.344480
+trans_unpack_time	0.433920
+updateU_new_time	6.024357
+runtime	3.800413
+--------------------------------------------------!
+--------------iter 53, eta0--------------
+ac[0].fieldE
+max phi		+1.018325719971638
+min phi		-0.023338002369055
+vol		+68857975023.755264282226562
+eng		-61897424.940433539450169
+--------------iter 53, eta1--------------
+ac[1].fieldE
+max phi		+1.015594924821363
+min phi		-0.022363066315303
+vol		+68857948156.725219726562500
+eng		-61880296.385078541934490
+--------------iter 53, eta2--------------
+ac[2].fieldE
+max phi		+1.012839591472531
+min phi		-0.023629891180096
+vol		+68858061237.848007202148438
+eng		-61967166.335184827446938
+--------------iter 53, eta3--------------
+ac[3].fieldE
+max phi		+1.014668161057179
+min phi		-0.023110771748474
+vol		+68857843171.149948120117188
+eng		-61802532.545464262366295
+*******************************
+dgemm_time	121.795441
+chemical_time	9.854630
+anisotropic_time	24.564499
+elastic_calculate_time	3520.263916
+elast_transfer_time	82.278366
+nonlinear_add_time	12.428409
+trans_time	34.056477
+trans_Memcpy_time	18.079960
+trans_MPI_time	13.275764
+trans_pack_time	0.491200
+trans_enlarge_time	0.513120
+trans_mu_time	0.331200
+trans_unpack_time	0.435680
+updateU_new_time	5.954122
+runtime	3.816208
+--------------------------------------------------!
+--------------iter 54, eta0--------------
+ac[0].fieldE
+max phi		+1.017902294499060
+min phi		-0.023269645858778
+vol		+68858327253.276077270507812
+eng		-62203836.906364016234875
+--------------iter 54, eta1--------------
+ac[1].fieldE
+max phi		+1.015380722934768
+min phi		-0.022404891862556
+vol		+68858300040.692779541015625
+eng		-62186770.413798674941063
+--------------iter 54, eta2--------------
+ac[2].fieldE
+max phi		+1.012687378602563
+min phi		-0.023713879927743
+vol		+68858413715.394515991210938
+eng		-62274018.185491122305393
+--------------iter 54, eta3--------------
+ac[3].fieldE
+max phi		+1.014774334466624
+min phi		-0.023101990759833
+vol		+68858195146.290893554687500
+eng		-62108540.110624723136425
+*******************************
+dgemm_time	121.783066
+chemical_time	9.888079
+anisotropic_time	25.113964
+elastic_calculate_time	3517.382568
+elast_transfer_time	86.315422
+nonlinear_add_time	12.923143
+trans_time	33.091537
+trans_Memcpy_time	18.066048
+trans_MPI_time	12.320410
+trans_pack_time	0.476160
+trans_enlarge_time	0.532644
+trans_mu_time	0.329440
+trans_unpack_time	0.438080
+updateU_new_time	6.003726
+runtime	3.816756
+--------------------------------------------------!
+--------------iter 55, eta0--------------
+ac[0].fieldE
+max phi		+1.017448131853409
+min phi		-0.023141579397975
+vol		+68858689309.628463745117188
+eng		-62514144.154064349830151
+--------------iter 55, eta1--------------
+ac[1].fieldE
+max phi		+1.015136021165001
+min phi		-0.022594927971615
+vol		+68858661761.242767333984375
+eng		-62497083.491349555552006
+--------------iter 55, eta2--------------
+ac[2].fieldE
+max phi		+1.012849356910856
+min phi		-0.023765285404010
+vol		+68858776035.555236816406250
+eng		-62584699.228448837995529
+--------------iter 55, eta3--------------
+ac[3].fieldE
+max phi		+1.014798808286159
+min phi		-0.023035418781573
+vol		+68858556916.344879150390625
+eng		-62418430.532198511064053
+*******************************
+dgemm_time	121.786049
+chemical_time	9.533204
+anisotropic_time	25.112385
+elastic_calculate_time	3513.791260
+elast_transfer_time	79.609833
+nonlinear_add_time	12.724913
+trans_time	37.099861
+trans_Memcpy_time	18.097105
+trans_MPI_time	16.293255
+trans_pack_time	0.476000
+trans_enlarge_time	0.529124
+trans_mu_time	0.329600
+trans_unpack_time	0.442401
+updateU_new_time	5.883091
+runtime	3.811909
+--------------------------------------------------!
+--------------iter 56, eta0--------------
+ac[0].fieldE
+max phi		+1.016968690810072
+min phi		-0.022957331217188
+vol		+68859060814.858825683593750
+eng		-62828904.939433149993420
+--------------iter 56, eta1--------------
+ac[1].fieldE
+max phi		+1.014866901627303
+min phi		-0.022729506100016
+vol		+68859032936.849212646484375
+eng		-62811815.100911282002926
+--------------iter 56, eta2--------------
+ac[2].fieldE
+max phi		+1.012955404922683
+min phi		-0.023786404612075
+vol		+68859147816.679901123046875
+eng		-62899801.397463306784630
+--------------iter 56, eta3--------------
+ac[3].fieldE
+max phi		+1.015057313764527
+min phi		-0.022914635816893
+vol		+68858928105.931701660156250
+eng		-62732770.859106540679932
+*******************************
+dgemm_time	121.787262
+chemical_time	9.781854
+anisotropic_time	25.372887
+elastic_calculate_time	3521.515381
+elast_transfer_time	59.254013
+nonlinear_add_time	12.570520
+trans_time	36.598484
+trans_Memcpy_time	18.085276
+trans_MPI_time	15.810223
+trans_pack_time	0.483200
+trans_enlarge_time	0.521764
+trans_mu_time	0.331520
+trans_unpack_time	0.437284
+updateU_new_time	5.937497
+runtime	3.804319
+--------------------------------------------------!
+--------------iter 57, eta0--------------
+ac[0].fieldE
+max phi		+1.016468546157144
+min phi		-0.022720131903292
+vol		+68859441471.503417968750000
+eng		-63148503.393880836665630
+--------------iter 57, eta1--------------
+ac[1].fieldE
+max phi		+1.014578336652716
+min phi		-0.022798069022106
+vol		+68859413267.659973144531250
+eng		-63131360.376569055020809
+--------------iter 57, eta2--------------
+ac[2].fieldE
+max phi		+1.012974148493584
+min phi		-0.023779348010822
+vol		+68859528759.156127929687500
+eng		-63219725.058549135923386
+--------------iter 57, eta3--------------
+ac[3].fieldE
+max phi		+1.015377293805144
+min phi		-0.022742929879318
+vol		+68859308420.096237182617188
+eng		-63051947.493559919297695
+*******************************
+dgemm_time	121.812477
+chemical_time	9.652899
+anisotropic_time	25.039143
+elastic_calculate_time	3521.419922
+elast_transfer_time	63.543705
+nonlinear_add_time	12.537889
+trans_time	34.152367
+trans_Memcpy_time	18.049452
+trans_MPI_time	13.400289
+trans_pack_time	0.480000
+trans_enlarge_time	0.514404
+trans_mu_time	0.330560
+trans_unpack_time	0.438884
+updateU_new_time	6.045341
+runtime	3.801298
+--------------------------------------------------!
+--------------iter 58, eta0--------------
+ac[0].fieldE
+max phi		+1.015951557474322
+min phi		-0.022432935162782
+vol		+68859831042.806594848632812
+eng		-63473227.305332057178020
+--------------iter 58, eta1--------------
+ac[1].fieldE
+max phi		+1.014587184377235
+min phi		-0.022804861939661
+vol		+68859802515.204071044921875
+eng		-63456013.246216282248497
+--------------iter 58, eta2--------------
+ac[2].fieldE
+max phi		+1.012922058909826
+min phi		-0.023746054418396
+vol		+68859918624.871551513671875
+eng		-63544766.410271659493446
+--------------iter 58, eta3--------------
+ac[3].fieldE
+max phi		+1.015571310047957
+min phi		-0.022593155160820
+vol		+68859697624.344970703125000
+eng		-63376248.207817897200584
+*******************************
+dgemm_time	121.785683
+chemical_time	9.826029
+anisotropic_time	24.639315
+elastic_calculate_time	3512.574219
+elast_transfer_time	67.443314
+nonlinear_add_time	12.605740
+trans_time	34.901600
+trans_Memcpy_time	18.065144
+trans_MPI_time	13.988307
+trans_pack_time	0.480320
+trans_enlarge_time	0.523844
+trans_mu_time	0.330560
+trans_unpack_time	0.452164
+updateU_new_time	5.844863
+runtime	3.796257
+--------------------------------------------------!
+--------------iter 59, eta0--------------
+ac[0].fieldE
+max phi		+1.015421011400957
+min phi		-0.022169569958146
+vol		+68860229339.339172363281250
+eng		-63803306.188131719827652
+--------------iter 59, eta1--------------
+ac[1].fieldE
+max phi		+1.014514569414431
+min phi		-0.022798934846523
+vol		+68860200488.749389648437500
+eng		-63786006.837170124053955
+--------------iter 59, eta2--------------
+ac[2].fieldE
+max phi		+1.012812798169524
+min phi		-0.023688304606204
+vol		+68860317223.477600097656250
+eng		-63875159.548733174800873
+--------------iter 59, eta3--------------
+ac[3].fieldE
+max phi		+1.015661530543787
+min phi		-0.022575516068678
+vol		+68860095531.229949951171875
+eng		-63705901.736659072339535
+*******************************
+dgemm_time	121.789619
+chemical_time	9.770035
+anisotropic_time	24.950375
+elastic_calculate_time	3518.711914
+elast_transfer_time	62.250820
+nonlinear_add_time	12.768791
+trans_time	34.489502
+trans_Memcpy_time	18.047720
+trans_MPI_time	13.714556
+trans_pack_time	0.486240
+trans_enlarge_time	0.542244
+trans_mu_time	0.331522
+trans_unpack_time	0.439524
+updateU_new_time	6.033669
+runtime	3.803644
+--------------------------------------------------!
+--------------iter 60, eta0--------------
+ac[0].fieldE
+max phi		+1.014879740913994
+min phi		-0.022158480051804
+vol		+68860636209.373260498046875
+eng		-64138931.782495647668839
+--------------iter 60, eta1--------------
+ac[1].fieldE
+max phi		+1.014375038925904
+min phi		-0.022909390244634
+vol		+68860607035.533905029296875
+eng		-64121535.098777905106544
+--------------iter 60, eta2--------------
+ac[2].fieldE
+max phi		+1.012807092055645
+min phi		-0.023607733713248
+vol		+68860724402.582702636718750
+eng		-64211098.797835133969784
+--------------iter 60, eta3--------------
+ac[3].fieldE
+max phi		+1.015666453809687
+min phi		-0.022617196965779
+vol		+68860501990.741546630859375
+eng		-64041098.853998757898808
+*******************************
+dgemm_time	121.747604
+chemical_time	10.002003
+anisotropic_time	25.087410
+elastic_calculate_time	3519.192627
+elast_transfer_time	60.379719
+nonlinear_add_time	12.861228
+trans_time	33.028679
+trans_Memcpy_time	18.077803
+trans_MPI_time	12.219980
+trans_pack_time	0.480640
+trans_enlarge_time	0.531364
+trans_mu_time	0.344004
+trans_unpack_time	0.440324
+updateU_new_time	5.788847
+runtime	3.803498
+--------------------------------------------------!
+--------------iter 61, eta0--------------
+ac[0].fieldE
+max phi		+1.014330224540890
+min phi		-0.022211067492606
+vol		+68861051531.662506103515625
+eng		-64480269.918976247310638
+--------------iter 61, eta1--------------
+ac[1].fieldE
+max phi		+1.014181271343161
+min phi		-0.022953987269386
+vol		+68861022033.464767456054688
+eng		-64462765.249605074524879
+--------------iter 61, eta2--------------
+ac[2].fieldE
+max phi		+1.013013849648570
+min phi		-0.023505842594963
+vol		+68861140040.436492919921875
+eng		-64552751.478067860007286
+--------------iter 61, eta3--------------
+ac[3].fieldE
+max phi		+1.015601476638726
+min phi		-0.022614374269315
+vol		+68860916883.120910644531250
+eng		-64382004.456494942307472
+*******************************
+dgemm_time	121.804527
+chemical_time	9.846416
+anisotropic_time	24.387882
+elastic_calculate_time	3521.616943
+elast_transfer_time	68.842201
+nonlinear_add_time	12.550261
+trans_time	33.247646
+trans_Memcpy_time	18.074320
+trans_MPI_time	12.464860
+trans_pack_time	0.489280
+trans_enlarge_time	0.524800
+trans_mu_time	0.330880
+trans_unpack_time	0.436960
+updateU_new_time	6.142249
+runtime	3.806847
+--------------------------------------------------!
+--------------iter 62, eta0--------------
+ac[0].fieldE
+max phi		+1.013774667936001
+min phi		-0.022244851131949
+vol		+68861475209.866638183593750
+eng		-64827467.782425105571747
+--------------iter 62, eta1--------------
+ac[1].fieldE
+max phi		+1.013943750582854
+min phi		-0.022936970247721
+vol		+68861445385.486114501953125
+eng		-64809845.362652689218521
+--------------iter 62, eta2--------------
+ac[2].fieldE
+max phi		+1.013131671626434
+min phi		-0.023384008207414
+vol		+68861564040.293762207031250
+eng		-64900265.644534766674042
+--------------iter 62, eta3--------------
+ac[3].fieldE
+max phi		+1.015479380761467
+min phi		-0.022801863735104
+vol		+68861340113.313140869140625
+eng		-64728764.904177621006966
+*******************************
+dgemm_time	121.849190
+chemical_time	9.837235
+anisotropic_time	24.897163
+elastic_calculate_time	3523.113770
+elast_transfer_time	51.534477
+nonlinear_add_time	12.792901
+trans_time	33.615093
+trans_Memcpy_time	18.115177
+trans_MPI_time	12.667027
+trans_pack_time	0.477760
+trans_enlarge_time	0.533280
+trans_mu_time	0.330560
+trans_unpack_time	0.433280
+updateU_new_time	5.968134
+runtime	3.792865
+--------------------------------------------------!
+--------------iter 63, eta0--------------
+ac[0].fieldE
+max phi		+1.013215069851458
+min phi		-0.022401021439527
+vol		+68861907168.136703491210938
+eng		-65180658.563024848699570
+--------------iter 63, eta1--------------
+ac[1].fieldE
+max phi		+1.013671133220991
+min phi		-0.022862244470892
+vol		+68861877015.133270263671875
+eng		-65162909.202476322650909
+--------------iter 63, eta2--------------
+ac[2].fieldE
+max phi		+1.013174986575208
+min phi		-0.023243493116319
+vol		+68861996325.968887329101562
+eng		-65253774.998802095651627
+--------------iter 63, eta3--------------
+ac[3].fieldE
+max phi		+1.015310748363156
+min phi		-0.022918851401917
+vol		+68861771606.585357666015625
+eng		-65081512.690375320613384
+*******************************
+dgemm_time	121.815514
+chemical_time	9.915295
+anisotropic_time	25.184313
+elastic_calculate_time	3521.531494
+elast_transfer_time	66.989792
+nonlinear_add_time	12.777996
+trans_time	33.345734
+trans_Memcpy_time	18.085159
+trans_MPI_time	12.536875
+trans_pack_time	0.477120
+trans_enlarge_time	0.540318
+trans_mu_time	0.331040
+trans_unpack_time	0.448000
+updateU_new_time	5.799963
+runtime	3.805101
+--------------------------------------------------!
+--------------iter 64, eta0--------------
+ac[0].fieldE
+max phi		+1.012653274232545
+min phi		-0.022566931482643
+vol		+68862347347.561172485351562
+eng		-65539964.544210210442543
+--------------iter 64, eta1--------------
+ac[1].fieldE
+max phi		+1.013370559314934
+min phi		-0.022932016694052
+vol		+68862316862.957015991210938
+eng		-65522079.425421044230461
+--------------iter 64, eta2--------------
+ac[2].fieldE
+max phi		+1.013155921743476
+min phi		-0.023128247392017
+vol		+68862436838.262786865234375
+eng		-65613402.126178383827209
+--------------iter 64, eta3--------------
+ac[3].fieldE
+max phi		+1.015104315778479
+min phi		-0.022969968019045
+vol		+68862211304.995178222656250
+eng		-65440369.525614373385906
+*******************************
+dgemm_time	121.835617
+chemical_time	9.866825
+anisotropic_time	24.940977
+elastic_calculate_time	3523.156982
+elast_transfer_time	69.099281
+nonlinear_add_time	12.665209
+trans_time	33.011635
+trans_Memcpy_time	18.027102
+trans_MPI_time	12.280730
+trans_pack_time	0.482400
+trans_enlarge_time	0.520480
+trans_mu_time	0.331360
+trans_unpack_time	0.440480
+updateU_new_time	5.981567
+runtime	3.806879
+--------------------------------------------------!
+--------------iter 65, eta0--------------
+ac[0].fieldE
+max phi		+1.012091009957217
+min phi		-0.022762543599871
+vol		+68862795703.262603759765625
+eng		-65905499.214256390929222
+--------------iter 65, eta1--------------
+ac[1].fieldE
+max phi		+1.013047914912978
+min phi		-0.023030293943623
+vol		+68862764883.604248046875000
+eng		-65887469.761357754468918
+--------------iter 65, eta2--------------
+ac[2].fieldE
+max phi		+1.013084653555927
+min phi		-0.023149873819349
+vol		+68862885532.045837402343750
+eng		-65979260.695682495832443
+--------------iter 65, eta3--------------
+ac[3].fieldE
+max phi		+1.014867273841157
+min phi		-0.022959475485682
+vol		+68862659164.512451171875000
+eng		-65805448.436927981674671
+*******************************
+dgemm_time	121.789001
+chemical_time	9.612275
+anisotropic_time	25.312357
+elastic_calculate_time	3534.654541
+elast_transfer_time	53.587097
+nonlinear_add_time	12.592739
+trans_time	33.656990
+trans_Memcpy_time	18.076551
+trans_MPI_time	12.869056
+trans_pack_time	0.478400
+trans_enlarge_time	0.528800
+trans_mu_time	0.328640
+trans_unpack_time	0.440800
+updateU_new_time	5.978692
+runtime	3.808256
+--------------------------------------------------!
+--------------iter 66, eta0--------------
+ac[0].fieldE
+max phi		+1.011529919609990
+min phi		-0.023069666976019
+vol		+68863252201.998992919921875
+eng		-66277368.744880564510822
+--------------iter 66, eta1--------------
+ac[1].fieldE
+max phi		+1.012747584479211
+min phi		-0.023091258143377
+vol		+68863221043.408386230468750
+eng		-66259186.537328913807869
+--------------iter 66, eta2--------------
+ac[2].fieldE
+max phi		+1.012969708561398
+min phi		-0.023106545255786
+vol		+68863342373.851531982421875
+eng		-66351456.992305085062981
+--------------iter 66, eta3--------------
+ac[3].fieldE
+max phi		+1.014605522461276
+min phi		-0.022891293895321
+vol		+68863115152.633209228515625
+eng		-66176855.232072353363037
+*******************************
+dgemm_time	121.742699
+chemical_time	9.725883
+anisotropic_time	24.646461
+elastic_calculate_time	3516.912109
+elast_transfer_time	57.033371
+nonlinear_add_time	12.671151
+trans_time	36.082951
+trans_Memcpy_time	18.079449
+trans_MPI_time	15.160577
+trans_pack_time	0.475200
+trans_enlarge_time	0.517920
+trans_mu_time	0.327360
+trans_unpack_time	0.454560
+updateU_new_time	6.030377
+runtime	3.792590
+--------------------------------------------------!
+--------------iter 67, eta0--------------
+ac[0].fieldE
+max phi		+1.010988554955857
+min phi		-0.023295700828472
+vol		+68863716820.154052734375000
+eng		-66655673.045228943228722
+--------------iter 67, eta1--------------
+ac[1].fieldE
+max phi		+1.012490376289514
+min phi		-0.023117307372761
+vol		+68863685318.373703002929688
+eng		-66637329.761132813990116
+--------------iter 67, eta2--------------
+ac[2].fieldE
+max phi		+1.012818221178252
+min phi		-0.023001445436440
+vol		+68863807339.864715576171875
+eng		-66730091.004157349467278
+--------------iter 67, eta3--------------
+ac[3].fieldE
+max phi		+1.014323886104684
+min phi		-0.022915615912724
+vol		+68863579246.390167236328125
+eng		-66554689.539502292871475
+*******************************
+dgemm_time	121.742332
+chemical_time	9.785891
+anisotropic_time	24.711443
+elastic_calculate_time	3525.332275
+elast_transfer_time	58.103653
+nonlinear_add_time	12.703959
+trans_time	33.351730
+trans_Memcpy_time	18.082352
+trans_MPI_time	12.505878
+trans_pack_time	0.488000
+trans_enlarge_time	0.537120
+trans_mu_time	0.330720
+trans_unpack_time	0.437760
+updateU_new_time	5.988623
+runtime	3.798805
+--------------------------------------------------!
+--------------iter 68, eta0--------------
+ac[0].fieldE
+max phi		+1.010556789951802
+min phi		-0.023446273049008
+vol		+68864189542.047149658203125
+eng		-67040506.521326944231987
+--------------iter 68, eta1--------------
+ac[1].fieldE
+max phi		+1.012251304951820
+min phi		-0.023110668117374
+vol		+68864157692.479248046875000
+eng		-67021993.900551676750183
+--------------iter 68, eta2--------------
+ac[2].fieldE
+max phi		+1.012636154005407
+min phi		-0.022837523184509
+vol		+68864280414.227081298828125
+eng		-67115257.202565178275108
+--------------iter 68, eta3--------------
+ac[3].fieldE
+max phi		+1.014026295995392
+min phi		-0.022903684419273
+vol		+68864051430.673950195312500
+eng		-66939045.555065602064133
+*******************************
+dgemm_time	121.825630
+chemical_time	9.854858
+anisotropic_time	24.954500
+elastic_calculate_time	3513.840820
+elast_transfer_time	65.032967
+nonlinear_add_time	12.628932
+trans_time	33.410686
+trans_Memcpy_time	18.152430
+trans_MPI_time	12.540771
+trans_pack_time	0.478560
+trans_enlarge_time	0.529280
+trans_mu_time	0.342400
+trans_unpack_time	0.438240
+updateU_new_time	5.898228
+runtime	3.799809
+--------------------------------------------------!
+--------------iter 69, eta0--------------
+ac[0].fieldE
+max phi		+1.010327146743909
+min phi		-0.023526566728644
+vol		+68864670358.491867065429688
+eng		-67431958.623865395784378
+--------------iter 69, eta1--------------
+ac[1].fieldE
+max phi		+1.012045945378067
+min phi		-0.023073406370774
+vol		+68864638156.233917236328125
+eng		-67413268.444506227970123
+--------------iter 69, eta2--------------
+ac[2].fieldE
+max phi		+1.012428485848628
+min phi		-0.022768319277827
+vol		+68864761587.595382690429688
+eng		-67507045.102596193552017
+--------------iter 69, eta3--------------
+ac[3].fieldE
+max phi		+1.013715944075059
+min phi		-0.022834268568528
+vol		+68864531696.800109863281250
+eng		-67330012.578487277030945
+*******************************
+dgemm_time	121.757256
+chemical_time	9.703826
+anisotropic_time	25.098360
+elastic_calculate_time	3528.076172
+elast_transfer_time	63.797337
+nonlinear_add_time	12.706060
+trans_time	33.379856
+trans_Memcpy_time	18.107019
+trans_MPI_time	12.558540
+trans_pack_time	0.492800
+trans_enlarge_time	0.528160
+trans_mu_time	0.327680
+trans_unpack_time	0.434720
+updateU_new_time	5.920792
+runtime	3.808769
+--------------------------------------------------!
+--------------iter 70, eta0--------------
+ac[0].fieldE
+max phi		+1.010080048111345
+min phi		-0.023541353452230
+vol		+68865159265.558776855468750
+eng		-67830114.237845674157143
+--------------iter 70, eta1--------------
+ac[1].fieldE
+max phi		+1.011818722552011
+min phi		-0.023007438039061
+vol		+68865126705.435180664062500
+eng		-67811238.301792711019516
+--------------iter 70, eta2--------------
+ac[2].fieldE
+max phi		+1.012199372003818
+min phi		-0.022817504065911
+vol		+68865250855.903823852539062
+eng		-67905539.660299897193909
+--------------iter 70, eta3--------------
+ac[3].fieldE
+max phi		+1.013395413043186
+min phi		-0.022710952072190
+vol		+68865020041.284286499023438
+eng		-67727675.393117070198059
+*******************************
+dgemm_time	121.850945
+chemical_time	9.639032
+anisotropic_time	25.262699
+elastic_calculate_time	3522.124023
+elast_transfer_time	65.556580
+nonlinear_add_time	12.857593
+trans_time	33.768452
+trans_Memcpy_time	18.386396
+trans_MPI_time	12.519669
+trans_pack_time	0.486240
+trans_enlarge_time	0.536160
+trans_mu_time	0.330880
+trans_unpack_time	0.442720
+updateU_new_time	6.395356
+runtime	3.804762
+--------------------------------------------------!
+--------------iter 71, eta0--------------
+ac[0].fieldE
+max phi		+1.009818527544802
+min phi		-0.023495023823786
+vol		+68865656263.501129150390625
+eng		-68235053.948909968137741
+--------------iter 71, eta1--------------
+ac[1].fieldE
+max phi		+1.011572653169557
+min phi		-0.022914538686265
+vol		+68865623340.094116210937500
+eng		-68215984.073576122522354
+--------------iter 71, eta2--------------
+ac[2].fieldE
+max phi		+1.011952280763582
+min phi		-0.022805078463766
+vol		+68865748219.288238525390625
+eng		-68310821.543188139796257
+--------------iter 71, eta3--------------
+ac[3].fieldE
+max phi		+1.013066786169142
+min phi		-0.022537025910373
+vol		+68865516464.772674560546875
+eng		-68132114.523600369691849
+*******************************
+dgemm_time	121.843033
+chemical_time	10.031521
+anisotropic_time	25.274561
+elastic_calculate_time	3521.587402
+elast_transfer_time	69.049118
+nonlinear_add_time	12.562880
+trans_time	33.630398
+trans_Memcpy_time	18.071201
+trans_MPI_time	12.842561
+trans_pack_time	0.477920
+trans_enlarge_time	0.536320
+trans_mu_time	0.328800
+trans_unpack_time	0.451040
+updateU_new_time	5.891840
+runtime	3.819171
+--------------------------------------------------!
+--------------iter 72, eta0--------------
+ac[0].fieldE
+max phi		+1.009545240239924
+min phi		-0.023391615518453
+vol		+68866161355.812377929687500
+eng		-68646854.209122270345688
+--------------iter 72, eta1--------------
+ac[1].fieldE
+max phi		+1.011310329811393
+min phi		-0.022796352657106
+vol		+68866128063.490722656250000
+eng		-68627582.223316028714180
+--------------iter 72, eta2--------------
+ac[2].fieldE
+max phi		+1.011690109582010
+min phi		-0.022734950981217
+vol		+68866253681.145812988281250
+eng		-68722967.297798231244087
+--------------iter 72, eta3--------------
+ac[3].fieldE
+max phi		+1.012731740010398
+min phi		-0.022315509154434
+vol		+68866020971.107818603515625
+eng		-68543406.394091516733170
+*******************************
+dgemm_time	121.824234
+chemical_time	9.692324
+anisotropic_time	24.916973
+elastic_calculate_time	3516.621582
+elast_transfer_time	65.318436
+nonlinear_add_time	12.684805
+trans_time	33.260479
+trans_Memcpy_time	18.075520
+trans_MPI_time	12.471041
+trans_pack_time	0.488160
+trans_enlarge_time	0.526880
+trans_mu_time	0.330560
+trans_unpack_time	0.441760
+updateU_new_time	5.759200
+runtime	3.804054
+--------------------------------------------------!
+--------------iter 73, eta0--------------
+ac[0].fieldE
+max phi		+1.009262522599964
+min phi		-0.023234839106017
+vol		+68866674548.391174316406250
+eng		-69065587.417157903313637
+--------------iter 73, eta1--------------
+ac[1].fieldE
+max phi		+1.011033992995895
+min phi		-0.022654401612149
+vol		+68866640881.335800170898438
+eng		-69046105.159661740064621
+--------------iter 73, eta2--------------
+ac[2].fieldE
+max phi		+1.011415283851003
+min phi		-0.022610715113837
+vol		+68866767247.298141479492188
+eng		-69142049.429998084902763
+--------------iter 73, eta3--------------
+ac[3].fieldE
+max phi		+1.012391622684792
+min phi		-0.022049168190653
+vol		+68866533566.499176025390625
+eng		-68961623.401810377836227
+*******************************
+dgemm_time	121.836319
+chemical_time	9.830732
+anisotropic_time	24.795555
+elastic_calculate_time	3518.287842
+elast_transfer_time	65.142487
+nonlinear_add_time	12.496816
+trans_time	33.548935
+trans_Memcpy_time	18.082720
+trans_MPI_time	12.764007
+trans_pack_time	0.480640
+trans_enlarge_time	0.525760
+trans_mu_time	0.330400
+trans_unpack_time	0.436480
+updateU_new_time	5.943527
+runtime	3.799733
+--------------------------------------------------!
+--------------iter 74, eta0--------------
+ac[0].fieldE
+max phi		+1.008972440028835
+min phi		-0.023028101852587
+vol		+68867195848.787399291992188
+eng		-69491321.922833859920502
+--------------iter 74, eta1--------------
+ac[1].fieldE
+max phi		+1.010745592880026
+min phi		-0.022490092508866
+vol		+68867161801.017639160156250
+eng		-69471621.242685586214066
+--------------iter 74, eta2--------------
+ac[2].fieldE
+max phi		+1.011129840810865
+min phi		-0.022435671886572
+vol		+68867288925.238098144531250
+eng		-69568136.408453583717346
+--------------iter 74, eta3--------------
+ac[3].fieldE
+max phi		+1.012047519922159
+min phi		-0.021741077440760
+vol		+68867054258.772918701171875
+eng		-69386833.915757626295090
+*******************************
+dgemm_time	121.833672
+chemical_time	9.687698
+anisotropic_time	24.786448
+elastic_calculate_time	3518.902344
+elast_transfer_time	66.907814
+nonlinear_add_time	12.724983
+trans_time	32.782337
+trans_Memcpy_time	18.073305
+trans_MPI_time	11.988813
+trans_pack_time	0.475040
+trans_enlarge_time	0.528000
+trans_mu_time	0.330240
+trans_unpack_time	0.457600
+updateU_new_time	5.931209
+runtime	3.798181
+--------------------------------------------------!
+--------------iter 75, eta0--------------
+ac[0].fieldE
+max phi		+1.008676824793228
+min phi		-0.022774529677724
+vol		+68867725265.519165039062500
+eng		-69924121.962829053401947
+--------------iter 75, eta1--------------
+ac[1].fieldE
+max phi		+1.010446841903688
+min phi		-0.022304725060568
+vol		+68867690830.914123535156250
+eng		-69904194.720575064420700
+--------------iter 75, eta2--------------
+ac[2].fieldE
+max phi		+1.010835500737222
+min phi		-0.022212850643774
+vol		+68867818723.444458007812500
+eng		-70001292.598455846309662
+--------------iter 75, eta3--------------
+ac[3].fieldE
+max phi		+1.011700310755571
+min phi		-0.021445957064474
+vol		+68867583056.693908691406250
+eng		-69819102.207342147827148
+*******************************
+dgemm_time	121.806091
+chemical_time	9.725464
+anisotropic_time	24.830784
+elastic_calculate_time	3518.049316
+elast_transfer_time	57.964958
+nonlinear_add_time	12.495392
+trans_time	37.791573
+trans_Memcpy_time	18.108665
+trans_MPI_time	16.830753
+trans_pack_time	0.491520
+trans_enlarge_time	0.539520
+trans_mu_time	0.332000
+trans_unpack_time	0.437920
+updateU_new_time	6.100494
+runtime	3.794690
+--------------------------------------------------!
+--------------iter 76, eta0--------------
+ac[0].fieldE
+max phi		+1.008377305639838
+min phi		-0.022476987421507
+vol		+68868262807.434661865234375
+eng		-70364047.532649606466293
+--------------iter 76, eta1--------------
+ac[1].fieldE
+max phi		+1.010139259473914
+min phi		-0.022099498703657
+vol		+68868227979.757080078125000
+eng		-70343885.602057248353958
+--------------iter 76, eta2--------------
+ac[2].fieldE
+max phi		+1.010533727213094
+min phi		-0.021945028237147
+vol		+68868356650.745742797851562
+eng		-70441578.131388992071152
+--------------iter 76, eta3--------------
+ac[3].fieldE
+max phi		+1.011350714398376
+min phi		-0.021110724530105
+vol		+68868119969.331817626953125
+eng		-70258488.317895889282227

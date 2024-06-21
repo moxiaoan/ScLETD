@@ -1,0 +1,3242 @@
+running   on	1024   processors
+restart		0
+nx,ny,nz	260	260	132
+px,py,pz	8	8	16
+nghost		2
+output   dir	./output/output2/
+data   dir	./data/
+dt,t_total	2.000000,200.100000
+ELASTIC		1
+ANISOTROPIC		1
+nac,nch		6,2
+xmin,ymin,zmin	0.000000	0.000000	0.000000
+xmax,ymax,zmax	2048.000000	2048.000000	2048.000000
+checkpoint_,nchk,chk	1,1000,0
+nout		10000
+Approx		32
+detect_iter		100000
+Reading input.txt file:
+myrank = 540 P = 4 Q = 5
+myrank = 541 P = 4 Q = 5
+myrank = 621 P = 3 Q = 5
+myrank = 962 P = 5 Q = 2
+myrank = 363 P = 4 Q = 0
+myrank = 622 P = 3 Q = 4
+myrank = 551 P = 4 Q = 5
+myrank = 559 P = 0 Q = 5
+myrank = 557 P = 5 Q = 2
+myrank = 963 P = 2 Q = 5
+myrank = 548 P = 3 Q = 5
+myrank = 623 P = 3 Q = 4
+myrank = 620 P = 5 Q = 1
+myrank = 360 P = 3 Q = 0
+myrank = 627 P = 4 Q = 1
+myrank = 625 P = 2 Q = 4
+myrank = 299 P = 4 Q = 3
+myrank = 544 P = 2 Q = 5
+myrank = 624 P = 2 Q = 2
+myrank = 565 P = 1 Q = 1
+myrank = 961 P = 3 Q = 2
+myrank = 368 P = 2 Q = 3
+myrank = 554 P = 3 Q = 2
+myrank = 553 P = 0 Q = 5
+myrank = 626 P = 4 Q = 5
+myrank = 613 P = 5 Q = 1
+myrank = 294 P = 4 Q = 0
+myrank = 567 P = 2 Q = 4
+myrank = 552 P = 1 Q = 5
+myrank = 361 P = 4 Q = 1
+myrank = 564 P = 1 Q = 5
+myrank = 960 P = 0 Q = 2
+myrank = 566 P = 2 Q = 5
+myrank = 292 P = 2 Q = 0
+myrank = 362 P = 1 Q = 3
+myrank = 298 P = 1 Q = 4
+myrank = 563 P = 1 Q = 5
+myrank = 370 P = 0 Q = 3
+myrank = 547 P = 1 Q = 5
+myrank = 556 P = 2 Q = 2
+myrank = 371 P = 0 Q = 5
+myrank = 555 P = 3 Q = 4
+myrank = 558 P = 3 Q = 2
+myrank = 998 P = 1 Q = 5
+myrank = 369 P = 3 Q = 0
+myrank = 218 P = 2 Q = 4
+myrank = 367 P = 5 Q = 3
+myrank = 612 P = 3 Q = 4
+myrank = 297 P = 0 Q = 3
+myrank = 296 P = 0 Q = 4
+myrank = 365 P = 0 Q = 3
+myrank = 561 P = 5 Q = 2
+myrank = 999 P = 0 Q = 2
+myrank = 614 P = 4 Q = 2
+myrank = 219 P = 1 Q = 1
+myrank = 545 P = 2 Q = 1
+myrank = 546 P = 4 Q = 2
+myrank = 562 P = 2 Q = 1
+myrank = 615 P = 1 Q = 1
+myrank = 560 P = 0 Q = 1
+myrank = 373 P = 5 Q = 3
+myrank = 375 P = 4 Q = 0
+myrank = 366 P = 2 Q = 4
+myrank = 339 P = 4 Q = 3
+myrank = 902 P = 1 Q = 5
+myrank = 903 P = 4 Q = 2
+myrank = 996 P = 0 Q = 5
+myrank = 378 P = 5 Q = 0
+myrank = 364 P = 3 Q = 3
+myrank = 543 P = 5 Q = 5
+myrank = 377 P = 2 Q = 0
+myrank = 997 P = 2 Q = 2
+myrank = 379 P = 4 Q = 0
+myrank = 987 P = 4 Q = 2
+myrank = 926 P = 3 Q = 0
+myrank = 537 P = 0 Q = 2
+myrank = 939 P = 2 Q = 0
+myrank = 641 P = 2 Q = 2
+myrank = 938 P = 3 Q = 5
+myrank = 338 P = 5 Q = 3
+myrank = 227 P = 3 Q = 3
+myrank = 927 P = 5 Q = 5
+myrank = 925 P = 1 Q = 5
+myrank = 359 P = 3 Q = 3
+myrank = 643 P = 2 Q = 4
+myrank = 372 P = 5 Q = 3
+myrank = 984 P = 5 Q = 5
+myrank = 550 P = 5 Q = 4
+myrank = 226 P = 4 Q = 1
+myrank = 901 P = 4 Q = 0
+myrank = 542 P = 3 Q = 5
+myrank = 900 P = 5 Q = 5
+myrank = 293 P = 1 Q = 1
+myrank = 382 P = 3 Q = 0
+myrank = 216 P = 3 Q = 1
+myrank = 640 P = 0 Q = 1
+myrank = 295 P = 1 Q = 0
+myrank = 1019 P = 3 Q = 4
+myrank = 743 P = 3 Q = 1
+myrank = 549 P = 0 Q = 2
+myrank = 924 P = 4 Q = 0
+myrank = 380 P = 4 Q = 3
+myrank = 642 P = 2 Q = 4
+myrank = 649 P = 1 Q = 1
+myrank = 225 P = 4 Q = 4
+myrank = 3 P = 0 Q = 3
+myrank = 374 P = 4 Q = 3
+myrank = 741 P = 1 Q = 3
+myrank = 383 P = 0 Q = 3
+myrank = 931 P = 0 Q = 3
+myrank = 936 P = 3 Q = 0
+myrank = 217 P = 3 Q = 4
+myrank = 381 P = 4 Q = 5
+myrank = 589 P = 5 Q = 2
+myrank = 883 P = 4 Q = 0
+myrank = 376 P = 1 Q = 2
+myrank = 336 P = 2 Q = 1
+myrank = 875 P = 3 Q = 2
+myrank = 881 P = 2 Q = 3
+myrank = 882 P = 5 Q = 3
+myrank = 357 P = 4 Q = 3
+myrank = 536 P = 3 Q = 5
+myrank = 1 P = 4 Q = 0
+myrank = 644 P = 3 Q = 1
+myrank = 337 P = 5 Q = 3
+myrank = 986 P = 5 Q = 2
+myrank = 1016 P = 1 Q = 1
+myrank = 740 P = 4 Q = 4
+myrank = 994 P = 3 Q = 2
+myrank = 707 P = 3 Q = 1
+myrank = 878 P = 4 Q = 3
+myrank = 949 P = 0 Q = 0
+myrank = 742 P = 0 Q = 4
+myrank = 877 P = 2 Q = 0
+myrank = 879 P = 4 Q = 0
+myrank = 648 P = 5 Q = 1
+myrank = 964 P = 1 Q = 2
+myrank = 716 P = 2 Q = 0
+myrank = 647 P = 5 Q = 4
+myrank = 876 P = 5 Q = 3
+myrank = 215 P = 3 Q = 1
+myrank = 214 P = 1 Q = 1
+myrank = 588 P = 2 Q = 5
+myrank = 590 P = 5 Q = 4
+myrank = 1017 P = 3 Q = 5
+myrank = 646 P = 2 Q = 5
+myrank = 651 P = 5 Q = 5
+myrank = 937 P = 0 Q = 2
+myrank = 356 P = 1 Q = 4
+myrank = 0 P = 5 Q = 5
+myrank = 2 P = 4 Q = 5
+myrank = 915 P = 3 Q = 5
+myrank = 461 P = 4 Q = 2
+myrank = 921 P = 2 Q = 0
+myrank = 1022 P = 0 Q = 5
+myrank = 718 P = 4 Q = 1
+myrank = 967 P = 5 Q = 5
+myrank = 687 P = 5 Q = 4
+myrank = 929 P = 1 Q = 3
+myrank = 645 P = 0 Q = 4
+myrank = 992 P = 1 Q = 2
+myrank = 715 P = 5 Q = 1
+myrank = 118 P = 3 Q = 4
+myrank = 950 P = 3 Q = 5
+myrank = 458 P = 5 Q = 2
+myrank = 224 P = 2 Q = 4
+myrank = 899 P = 2 Q = 0
+myrank = 713 P = 1 Q = 1
+myrank = 988 P = 1 Q = 5
+myrank = 923 P = 5 Q = 5
+myrank = 779 P = 2 Q = 3
+myrank = 995 P = 3 Q = 5
+myrank = 726 P = 0 Q = 3
+myrank = 591 P = 4 Q = 5
+myrank = 945 P = 2 Q = 2
+myrank = 1020 P = 2 Q = 5
+myrank = 509 P = 0 Q = 5
+myrank = 880 P = 1 Q = 2
+myrank = 993 P = 1 Q = 5
+myrank = 213 P = 1 Q = 1
+myrank = 913 P = 1 Q = 2
+myrank = 948 P = 4 Q = 2
+myrank = 864 P = 2 Q = 3
+myrank = 898 P = 3 Q = 5
+myrank = 1021 P = 5 Q = 5
+myrank = 460 P = 1 Q = 3
+myrank = 18 P = 4 Q = 3
+myrank = 10 P = 0 Q = 5
+myrank = 95 P = 0 Q = 5
+myrank = 951 P = 0 Q = 5
+myrank = 691 P = 4 Q = 3
+myrank = 120 P = 5 Q = 5
+myrank = 897 P = 0 Q = 2
+myrank = 896 P = 3 Q = 3
+myrank = 463 P = 5 Q = 2
+myrank = 497 P = 0 Q = 5
+myrank = 867 P = 1 Q = 3
+myrank = 727 P = 5 Q = 1
+myrank = 914 P = 3 Q = 0
+myrank = 459 P = 2 Q = 5
+myrank = 930 P = 4 Q = 5
+myrank = 307 P = 0 Q = 0
+myrank = 83 P = 4 Q = 4
+myrank = 928 P = 5 Q = 5
+myrank = 59 P = 1 Q = 5
+myrank = 221 P = 0 Q = 1
+myrank = 303 P = 2 Q = 4
+myrank = 985 P = 2 Q = 2
+myrank = 232 P = 1 Q = 0
+myrank = 724 P = 1 Q = 0
+myrank = 234 P = 3 Q = 1
+myrank = 16 P = 2 Q = 3
+myrank = 212 P = 5 Q = 0
+myrank = 932 P = 0 Q = 2
+myrank = 160 P = 2 Q = 1
+myrank = 61 P = 2 Q = 5
+myrank = 947 P = 4 Q = 2
+myrank = 690 P = 4 Q = 1
+myrank = 358 P = 1 Q = 3
+myrank = 93 P = 4 Q = 1
+myrank = 684 P = 3 Q = 1
+myrank = 920 P = 0 Q = 5
+myrank = 233 P = 0 Q = 4
+myrank = 712 P = 1 Q = 4
+myrank = 965 P = 1 Q = 5
+myrank = 922 P = 2 Q = 2
+myrank = 1006 P = 1 Q = 5
+myrank = 435 P = 5 Q = 3
+myrank = 872 P = 5 Q = 0
+myrank = 1012 P = 0 Q = 5
+myrank = 714 P = 2 Q = 1
+myrank = 946 P = 5 Q = 2
+myrank = 499 P = 2 Q = 2
+myrank = 117 P = 0 Q = 2
+myrank = 462 P = 5 Q = 0
+myrank = 50 P = 0 Q = 2
+myrank = 155 P = 5 Q = 2
+myrank = 705 P = 5 Q = 4
+myrank = 19 P = 4 Q = 5
+myrank = 220 P = 0 Q = 4
+myrank = 123 P = 1 Q = 1
+myrank = 688 P = 2 Q = 1
+myrank = 689 P = 1 Q = 1
+myrank = 952 P = 1 Q = 2
+myrank = 6 P = 1 Q = 0
+myrank = 498 P = 2 Q = 2
+myrank = 235 P = 4 Q = 1
+myrank = 725 P = 3 Q = 1
+myrank = 874 P = 3 Q = 3
+myrank = 92 P = 5 Q = 5
+myrank = 704 P = 2 Q = 4
+myrank = 94 P = 0 Q = 5
+myrank = 933 P = 0 Q = 2
+myrank = 1018 P = 3 Q = 5
+myrank = 650 P = 1 Q = 4
+myrank = 305 P = 5 Q = 3
+myrank = 904 P = 5 Q = 0
+myrank = 943 P = 1 Q = 2
+myrank = 519 P = 3 Q = 2
+myrank = 873 P = 0 Q = 0
+myrank = 1014 P = 0 Q = 1
+myrank = 76 P = 0 Q = 5
+myrank = 657 P = 3 Q = 1
+myrank = 300 P = 1 Q = 3
+myrank = 778 P = 5 Q = 3
+myrank = 57 P = 5 Q = 5
+myrank = 944 P = 5 Q = 0
+myrank = 530 P = 0 Q = 5
+myrank = 148 P = 5 Q = 1
+myrank = 632 P = 4 Q = 1
+myrank = 912 P = 1 Q = 2
+myrank = 659 P = 1 Q = 4
+myrank = 1023 P = 3 Q = 5
+myrank = 80 P = 5 Q = 2
+myrank = 162 P = 1 Q = 2
+myrank = 78 P = 3 Q = 2
+myrank = 954 P = 0 Q = 0
+myrank = 516 P = 2 Q = 5
+myrank = 934 P = 2 Q = 0
+myrank = 447 P = 1 Q = 3
+myrank = 51 P = 5 Q = 2
+myrank = 163 P = 4 Q = 1
+myrank = 108 P = 0 Q = 4
+myrank = 47 P = 1 Q = 2
+myrank = 17 P = 2 Q = 5
+myrank = 306 P = 0 Q = 4
+myrank = 302 P = 3 Q = 3
+myrank = 511 P = 4 Q = 5
+myrank = 966 P = 4 Q = 2
+myrank = 456 P = 0 Q = 2
+myrank = 675 P = 3 Q = 4
+myrank = 953 P = 4 Q = 2
+myrank = 64 P = 1 Q = 2
+myrank = 161 P = 5 Q = 4
+myrank = 496 P = 0 Q = 2
+myrank = 116 P = 2 Q = 1
+myrank = 894 P = 5 Q = 3
+myrank = 44 P = 3 Q = 2
+myrank = 77 P = 3 Q = 5
+myrank = 139 P = 3 Q = 5
+myrank = 121 P = 5 Q = 1
+myrank = 699 P = 4 Q = 1
+myrank = 887 P = 3 Q = 3
+myrank = 892 P = 0 Q = 0
+myrank = 457 P = 5 Q = 0
+myrank = 717 P = 1 Q = 4
+myrank = 991 P = 5 Q = 5
+myrank = 198 P = 3 Q = 1
+myrank = 154 P = 0 Q = 4
+myrank = 151 P = 4 Q = 4
+myrank = 539 P = 5 Q = 2
+myrank = 538 P = 5 Q = 5
+myrank = 109 P = 4 Q = 2
+myrank = 119 P = 5 Q = 2
+myrank = 434 P = 0 Q = 5
+myrank = 508 P = 3 Q = 2
+myrank = 935 P = 4 Q = 5
+myrank = 510 P = 4 Q = 2
+myrank = 455 P = 3 Q = 3
+myrank = 706 P = 5 Q = 0
+myrank = 681 P = 0 Q = 4
+myrank = 719 P = 1 Q = 0
+myrank = 917 P = 5 Q = 5
+myrank = 451 P = 3 Q = 5
+myrank = 8 P = 0 Q = 3
+myrank = 918 P = 2 Q = 5
+myrank = 487 P = 3 Q = 2
+myrank = 884 P = 1 Q = 3
+myrank = 805 P = 0 Q = 4
+myrank = 81 P = 1 Q = 5
+myrank = 1005 P = 1 Q = 2
+myrank = 895 P = 5 Q = 2
+myrank = 63 P = 5 Q = 2
+myrank = 658 P = 3 Q = 4
+myrank = 518 P = 0 Q = 5
+myrank = 703 P = 3 Q = 4
+myrank = 122 P = 1 Q = 5
+myrank = 11 P = 2 Q = 0
+myrank = 866 P = 1 Q = 0
+myrank = 955 P = 3 Q = 5
+myrank = 907 P = 4 Q = 2
+myrank = 517 P = 2 Q = 5
+myrank = 1007 P = 2 Q = 5
+myrank = 36 P = 4 Q = 2
+myrank = 776 P = 1 Q = 3
+myrank = 698 P = 3 Q = 4
+myrank = 111 P = 1 Q = 4
+myrank = 9 P = 0 Q = 5
+myrank = 893 P = 0 Q = 5
+myrank = 48 P = 4 Q = 5
+myrank = 67 P = 3 Q = 2
+myrank = 79 P = 2 Q = 2
+myrank = 199 P = 3 Q = 1
+myrank = 732 P = 5 Q = 1
+myrank = 941 P = 1 Q = 3
+myrank = 445 P = 3 Q = 0
+myrank = 304 P = 2 Q = 0
+myrank = 110 P = 1 Q = 2
+myrank = 685 P = 3 Q = 4
+myrank = 656 P = 0 Q = 5
+myrank = 633 P = 4 Q = 4
+myrank = 702 P = 3 Q = 1
+myrank = 152 P = 3 Q = 5
+myrank = 231 P = 1 Q = 4
+myrank = 697 P = 3 Q = 4
+myrank = 150 P = 4 Q = 5
+myrank = 801 P = 0 Q = 3
+myrank = 1015 P = 1 Q = 2
+myrank = 453 P = 2 Q = 2
+myrank = 56 P = 2 Q = 5
+myrank = 696 P = 1 Q = 3
+myrank = 738 P = 3 Q = 1
+myrank = 1011 P = 1 Q = 2
+myrank = 868 P = 3 Q = 3
+myrank = 448 P = 1 Q = 5
+myrank = 126 P = 5 Q = 4
+myrank = 4 P = 3 Q = 2
+myrank = 916 P = 2 Q = 3
+myrank = 49 P = 3 Q = 5
+myrank = 722 P = 4 Q = 1
+myrank = 1013 P = 0 Q = 5
+myrank = 432 P = 0 Q = 0
+myrank = 940 P = 5 Q = 2
+myrank = 38 P = 1 Q = 5
+myrank = 869 P = 3 Q = 3
+myrank = 906 P = 4 Q = 0
+myrank = 885 P = 1 Q = 5
+myrank = 686 P = 0 Q = 0
+myrank = 197 P = 3 Q = 2
+myrank = 701 P = 4 Q = 0
+myrank = 721 P = 0 Q = 0
+myrank = 700 P = 1 Q = 4
+myrank = 723 P = 1 Q = 4
+myrank = 433 P = 0 Q = 2
+myrank = 720 P = 0 Q = 4
+myrank = 919 P = 3 Q = 0
+myrank = 865 P = 2 Q = 5
+myrank = 5 P = 3 Q = 2
+myrank = 905 P = 5 Q = 5
+myrank = 908 P = 1 Q = 2
+myrank = 734 P = 2 Q = 0
+myrank = 39 P = 2 Q = 5
+myrank = 223 P = 2 Q = 1
+myrank = 66 P = 3 Q = 5
+myrank = 777 P = 1 Q = 0
+myrank = 886 P = 3 Q = 0
+myrank = 149 P = 2 Q = 1
+myrank = 791 P = 2 Q = 0
+myrank = 58 P = 5 Q = 2
+myrank = 1004 P = 2 Q = 4
+myrank = 911 P = 4 Q = 3
+myrank = 7 P = 1 Q = 2
+myrank = 670 P = 5 Q = 1
+myrank = 125 P = 2 Q = 5
+myrank = 531 P = 3 Q = 2
+myrank = 733 P = 5 Q = 4
+myrank = 682 P = 5 Q = 1
+myrank = 819 P = 5 Q = 0
+myrank = 62 P = 5 Q = 5
+myrank = 979 P = 5 Q = 2
+myrank = 669 P = 2 Q = 1
+myrank = 802 P = 2 Q = 0
+myrank = 1009 P = 5 Q = 4
+myrank = 520 P = 2 Q = 5
+myrank = 1010 P = 1 Q = 2
+myrank = 635 P = 3 Q = 4
+myrank = 788 P = 3 Q = 3
+myrank = 634 P = 0 Q = 2
+myrank = 668 P = 0 Q = 4
+myrank = 222 P = 0 Q = 3
+myrank = 969 P = 4 Q = 2
+myrank = 196 P = 1 Q = 4
+myrank = 971 P = 1 Q = 2
+myrank = 871 P = 5 Q = 0
+myrank = 85 P = 3 Q = 2
+myrank = 989 P = 5 Q = 5
+myrank = 739 P = 5 Q = 3
+myrank = 526 P = 2 Q = 5
+myrank = 228 P = 5 Q = 4
+myrank = 672 P = 1 Q = 1
+myrank = 806 P = 0 Q = 3
+myrank = 71 P = 3 Q = 2
+myrank = 301 P = 0 Q = 4
+myrank = 803 P = 4 Q = 0
+myrank = 619 P = 2 Q = 2
+myrank = 671 P = 2 Q = 4
+myrank = 790 P = 5 Q = 4
+myrank = 789 P = 0 Q = 0
+myrank = 131 P = 3 Q = 4
+myrank = 665 P = 5 Q = 4
+myrank = 889 P = 4 Q = 3
+myrank = 46 P = 4 Q = 2
+myrank = 769 P = 2 Q = 0
+myrank = 65 P = 4 Q = 5
+myrank = 87 P = 4 Q = 2
+myrank = 910 P = 0 Q = 2
+myrank = 527 P = 2 Q = 2
+myrank = 82 P = 4 Q = 5
+myrank = 909 P = 3 Q = 3
+myrank = 153 P = 3 Q = 4
+myrank = 683 P = 2 Q = 1
+myrank = 128 P = 1 Q = 4
+myrank = 968 P = 5 Q = 5
+myrank = 99 P = 4 Q = 2
+myrank = 708 P = 0 Q = 1
+myrank = 534 P = 1 Q = 2
+myrank = 97 P = 5 Q = 2
+myrank = 1008 P = 5 Q = 2
+myrank = 45 P = 3 Q = 2
+myrank = 446 P = 0 Q = 5
+myrank = 96 P = 0 Q = 4
+myrank = 136 P = 3 Q = 1
+myrank = 816 P = 1 Q = 3
+myrank = 37 P = 4 Q = 2
+myrank = 664 P = 2 Q = 1
+myrank = 138 P = 2 Q = 4
+myrank = 631 P = 1 Q = 2
+myrank = 450 P = 0 Q = 0
+myrank = 942 P = 1 Q = 5
+myrank = 140 P = 3 Q = 5
+myrank = 768 P = 2 Q = 0
+myrank = 870 P = 0 Q = 2
+myrank = 843 P = 4 Q = 0
+myrank = 973 P = 0 Q = 5
+myrank = 142 P = 5 Q = 5
+myrank = 210 P = 5 Q = 1
+myrank = 106 P = 1 Q = 1
+myrank = 107 P = 3 Q = 5
+myrank = 91 P = 3 Q = 4
+myrank = 191 P = 1 Q = 1
+myrank = 1001 P = 0 Q = 2
+myrank = 535 P = 3 Q = 5
+myrank = 1003 P = 2 Q = 2
+myrank = 667 P = 4 Q = 1
+myrank = 180 P = 3 Q = 4
+myrank = 69 P = 1 Q = 5
+myrank = 579 P = 5 Q = 5
+myrank = 464 P = 2 Q = 5
+myrank = 523 P = 4 Q = 5
+myrank = 146 P = 1 Q = 1
+myrank = 638 P = 4 Q = 4
+myrank = 639 P = 3 Q = 2
+myrank = 990 P = 5 Q = 2
+myrank = 28 P = 0 Q = 2
+myrank = 230 P = 4 Q = 4
+myrank = 23 P = 1 Q = 3
+myrank = 73 P = 0 Q = 5
+myrank = 68 P = 3 Q = 2
+myrank = 449 P = 1 Q = 5
+myrank = 145 P = 4 Q = 2
+myrank = 525 P = 5 Q = 5
+myrank = 888 P = 3 Q = 2
+myrank = 735 P = 4 Q = 1
+myrank = 578 P = 5 Q = 5
+myrank = 444 P = 4 Q = 5
+myrank = 970 P = 1 Q = 2
+myrank = 528 P = 1 Q = 5
+myrank = 84 P = 0 Q = 2
+myrank = 443 P = 1 Q = 2
+myrank = 351 P = 4 Q = 4
+myrank = 807 P = 0 Q = 0
+myrank = 736 P = 1 Q = 0
+myrank = 452 P = 5 Q = 0
+myrank = 147 P = 5 Q = 5
+myrank = 60 P = 1 Q = 2
+myrank = 86 P = 2 Q = 4
+myrank = 25 P = 1 Q = 2
+myrank = 795 P = 2 Q = 1
+myrank = 143 P = 2 Q = 1
+myrank = 467 P = 3 Q = 3
+myrank = 853 P = 5 Q = 0
+myrank = 439 P = 1 Q = 5
+myrank = 253 P = 1 Q = 4
+myrank = 29 P = 2 Q = 2
+myrank = 711 P = 2 Q = 3
+myrank = 124 P = 2 Q = 2
+myrank = 976 P = 1 Q = 2
+myrank = 98 P = 2 Q = 1
+myrank = 680 P = 3 Q = 4
+myrank = 890 P = 4 Q = 2
+myrank = 710 P = 5 Q = 1
+myrank = 786 P = 1 Q = 0
+myrank = 27 P = 0 Q = 5
+myrank = 137 P = 2 Q = 5
+myrank = 654 P = 1 Q = 4
+myrank = 637 P = 1 Q = 1
+myrank = 666 P = 2 Q = 4
+myrank = 577 P = 3 Q = 1
+myrank = 695 P = 4 Q = 1
+myrank = 804 P = 4 Q = 3
+myrank = 800 P = 0 Q = 1
+myrank = 663 P = 0 Q = 1
+myrank = 30 P = 4 Q = 2
+myrank = 796 P = 2 Q = 3
+myrank = 156 P = 4 Q = 1
+myrank = 891 P = 3 Q = 3
+myrank = 576 P = 3 Q = 5
+myrank = 673 P = 4 Q = 1
+myrank = 208 P = 1 Q = 4
+myrank = 709 P = 5 Q = 4
+myrank = 127 P = 4 Q = 5
+myrank = 259 P = 4 Q = 1
+myrank = 677 P = 4 Q = 1
+myrank = 676 P = 5 Q = 4
+myrank = 267 P = 0 Q = 0
+myrank = 129 P = 3 Q = 2
+myrank = 323 P = 4 Q = 0
+myrank = 41 P = 1 Q = 2
+myrank = 42 P = 4 Q = 2
+myrank = 652 P = 5 Q = 1
+myrank = 616 P = 3 Q = 2
+myrank = 628 P = 4 Q = 1
+myrank = 521 P = 2 Q = 2
+myrank = 486 P = 3 Q = 2
+myrank = 485 P = 0 Q = 3
+myrank = 974 P = 4 Q = 2
+myrank = 43 P = 4 Q = 2
+myrank = 272 P = 1 Q = 3
+myrank = 674 P = 3 Q = 4
+myrank = 188 P = 2 Q = 4
+myrank = 274 P = 2 Q = 1
+myrank = 863 P = 3 Q = 3
+myrank = 653 P = 2 Q = 1
+myrank = 74 P = 5 Q = 2
+myrank = 229 P = 2 Q = 1
+myrank = 636 P = 1 Q = 5
+myrank = 26 P = 0 Q = 0
+myrank = 395 P = 2 Q = 3
+myrank = 617 P = 0 Q = 4
+myrank = 532 P = 0 Q = 2
+myrank = 533 P = 4 Q = 2
+myrank = 141 P = 0 Q = 4
+myrank = 158 P = 0 Q = 4
+myrank = 256 P = 0 Q = 1
+myrank = 507 P = 1 Q = 5
+myrank = 144 P = 5 Q = 1
+myrank = 484 P = 4 Q = 5
+myrank = 90 P = 0 Q = 2
+myrank = 692 P = 2 Q = 4
+myrank = 505 P = 4 Q = 5
+myrank = 1002 P = 5 Q = 2
+myrank = 787 P = 1 Q = 0
+myrank = 730 P = 3 Q = 1
+myrank = 504 P = 2 Q = 2
+myrank = 770 P = 3 Q = 1
+myrank = 54 P = 3 Q = 2
+myrank = 494 P = 2 Q = 2
+myrank = 959 P = 0 Q = 0
+myrank = 975 P = 4 Q = 5
+myrank = 852 P = 0 Q = 0
+myrank = 771 P = 3 Q = 0
+myrank = 437 P = 1 Q = 3
+myrank = 472 P = 0 Q = 3
+myrank = 340 P = 1 Q = 0
+myrank = 524 P = 4 Q = 2
+myrank = 679 P = 3 Q = 1
+myrank = 983 P = 0 Q = 5
+myrank = 211 P = 5 Q = 1
+myrank = 842 P = 2 Q = 0
+myrank = 72 P = 0 Q = 2
+myrank = 978 P = 3 Q = 2
+myrank = 209 P = 1 Q = 4
+myrank = 454 P = 5 Q = 2
+myrank = 275 P = 2 Q = 3
+myrank = 195 P = 1 Q = 4
+myrank = 581 P = 3 Q = 2
+myrank = 88 P = 1 Q = 4
+myrank = 335 P = 1 Q = 0
+myrank = 442 P = 4 Q = 3
+myrank = 655 P = 1 Q = 4
+myrank = 660 P = 1 Q = 1
+myrank = 522 P = 5 Q = 5
+myrank = 261 P = 0 Q = 1
+myrank = 273 P = 2 Q = 1
+myrank = 728 P = 5 Q = 1
+myrank = 824 P = 0 Q = 0
+myrank = 70 P = 4 Q = 2
+myrank = 181 P = 0 Q = 4
+myrank = 24 P = 1 Q = 2
+myrank = 797 P = 5 Q = 0
+myrank = 75 P = 5 Q = 2
+myrank = 252 P = 2 Q = 0
+myrank = 387 P = 3 Q = 3
+myrank = 343 P = 0 Q = 3
+myrank = 89 P = 0 Q = 5
+myrank = 265 P = 5 Q = 0
+myrank = 475 P = 2 Q = 3
+myrank = 1000 P = 3 Q = 2
+myrank = 495 P = 0 Q = 3
+myrank = 112 P = 0 Q = 2
+myrank = 436 P = 5 Q = 5
+myrank = 818 P = 2 Q = 0
+myrank = 737 P = 3 Q = 4
+myrank = 817 P = 4 Q = 0
+myrank = 321 P = 1 Q = 1
+myrank = 729 P = 2 Q = 3
+myrank = 332 P = 5 Q = 3
+myrank = 731 P = 3 Q = 3
+myrank = 784 P = 3 Q = 0
+myrank = 102 P = 2 Q = 2
+myrank = 315 P = 2 Q = 3
+myrank = 785 P = 1 Q = 1
+myrank = 827 P = 1 Q = 3
+myrank = 20 P = 4 Q = 2
+myrank = 661 P = 4 Q = 4
+myrank = 440 P = 5 Q = 3
+myrank = 972 P = 3 Q = 5
+myrank = 314 P = 5 Q = 3
+myrank = 342 P = 0 Q = 3
+myrank = 130 P = 3 Q = 2
+myrank = 474 P = 0 Q = 2
+myrank = 841 P = 2 Q = 3
+myrank = 264 P = 5 Q = 1
+myrank = 630 P = 2 Q = 4
+myrank = 515 P = 5 Q = 5
+myrank = 159 P = 3 Q = 1
+myrank = 260 P = 1 Q = 3
+myrank = 290 P = 4 Q = 3
+myrank = 53 P = 2 Q = 2
+myrank = 629 P = 2 Q = 4
+myrank = 349 P = 5 Q = 3
+myrank = 40 P = 5 Q = 5
+myrank = 157 P = 3 Q = 2
+myrank = 262 P = 3 Q = 3
+myrank = 255 P = 0 Q = 4
+myrank = 192 P = 3 Q = 2
+myrank = 328 P = 2 Q = 3
+myrank = 782 P = 4 Q = 3
+myrank = 266 P = 0 Q = 4
+myrank = 855 P = 2 Q = 2
+myrank = 441 P = 2 Q = 5
+myrank = 575 P = 1 Q = 1
+myrank = 783 P = 0 Q = 3
+myrank = 313 P = 2 Q = 1
+myrank = 193 P = 3 Q = 4
+myrank = 977 P = 3 Q = 2
+myrank = 103 P = 5 Q = 4
+myrank = 483 P = 4 Q = 2
+myrank = 529 P = 4 Q = 5
+myrank = 854 P = 5 Q = 0
+myrank = 574 P = 4 Q = 2
+myrank = 798 P = 1 Q = 3
+myrank = 21 P = 3 Q = 0
+myrank = 840 P = 1 Q = 5
+myrank = 190 P = 1 Q = 1
+myrank = 492 P = 3 Q = 5
+myrank = 491 P = 0 Q = 5
+myrank = 52 P = 5 Q = 2
+myrank = 826 P = 4 Q = 0
+myrank = 312 P = 4 Q = 3
+myrank = 182 P = 5 Q = 2
+myrank = 33 P = 3 Q = 2
+myrank = 982 P = 0 Q = 5
+myrank = 582 P = 3 Q = 4
+myrank = 799 P = 1 Q = 0
+myrank = 22 P = 5 Q = 5
+myrank = 331 P = 5 Q = 1
+myrank = 678 P = 4 Q = 1
+myrank = 859 P = 2 Q = 0
+myrank = 194 P = 0 Q = 4
+myrank = 438 P = 1 Q = 5
+myrank = 618 P = 0 Q = 4
+myrank = 493 P = 2 Q = 5
+myrank = 822 P = 1 Q = 0
+myrank = 320 P = 0 Q = 0
+myrank = 254 P = 1 Q = 4
+myrank = 258 P = 1 Q = 1
+myrank = 31 P = 0 Q = 5
+myrank = 330 P = 0 Q = 3
+myrank = 55 P = 3 Q = 2
+myrank = 183 P = 2 Q = 1
+myrank = 506 P = 1 Q = 2
+myrank = 263 P = 5 Q = 4
+myrank = 513 P = 0 Q = 2
+myrank = 114 P = 5 Q = 5
+myrank = 861 P = 1 Q = 3
+myrank = 177 P = 2 Q = 2
+myrank = 514 P = 0 Q = 5
+myrank = 981 P = 5 Q = 5
+myrank = 347 P = 3 Q = 3
+myrank = 189 P = 2 Q = 1
+myrank = 34 P = 2 Q = 2
+myrank = 980 P = 5 Q = 5
+myrank = 580 P = 2 Q = 1
+myrank = 662 P = 0 Q = 4
+myrank = 257 P = 0 Q = 3
+myrank = 115 P = 5 Q = 5
+myrank = 856 P = 0 Q = 3
+myrank = 291 P = 2 Q = 1
+myrank = 348 P = 0 Q = 0
+myrank = 423 P = 2 Q = 5
+myrank = 169 P = 4 Q = 1
+myrank = 694 P = 1 Q = 1
+myrank = 35 P = 5 Q = 5
+myrank = 308 P = 5 Q = 4
+myrank = 329 P = 3 Q = 0
+myrank = 350 P = 2 Q = 0
+myrank = 100 P = 1 Q = 5
+myrank = 693 P = 5 Q = 1
+myrank = 334 P = 1 Q = 0
+myrank = 571 P = 3 Q = 5
+myrank = 512 P = 1 Q = 5
+myrank = 287 P = 2 Q = 0
+myrank = 32 P = 3 Q = 5
+myrank = 105 P = 1 Q = 2
+myrank = 957 P = 2 Q = 5
+myrank = 421 P = 4 Q = 2
+myrank = 569 P = 4 Q = 2
+myrank = 240 P = 5 Q = 4
+myrank = 242 P = 2 Q = 0
+myrank = 168 P = 1 Q = 1
+myrank = 327 P = 2 Q = 3
+myrank = 860 P = 2 Q = 2
+myrank = 241 P = 5 Q = 1
+myrank = 13 P = 3 Q = 0
+myrank = 279 P = 0 Q = 1
+myrank = 391 P = 5 Q = 2
+myrank = 794 P = 3 Q = 3
+myrank = 570 P = 1 Q = 1
+myrank = 792 P = 2 Q = 3
+myrank = 113 P = 0 Q = 4
+myrank = 12 P = 2 Q = 2
+myrank = 573 P = 1 Q = 5
+myrank = 246 P = 5 Q = 4
+myrank = 583 P = 5 Q = 2
+myrank = 322 P = 1 Q = 3
+myrank = 488 P = 1 Q = 2
+myrank = 815 P = 1 Q = 1
+myrank = 15 P = 3 Q = 5
+myrank = 482 P = 1 Q = 0
+myrank = 765 P = 0 Q = 4
+myrank = 333 P = 5 Q = 0
+myrank = 268 P = 2 Q = 4
+myrank = 862 P = 1 Q = 3
+myrank = 593 P = 0 Q = 2
+myrank = 468 P = 0 Q = 5
+myrank = 277 P = 4 Q = 3
+myrank = 793 P = 0 Q = 3
+myrank = 14 P = 0 Q = 2
+myrank = 780 P = 1 Q = 4
+myrank = 572 P = 0 Q = 4
+myrank = 310 P = 5 Q = 3
+myrank = 324 P = 3 Q = 0
+myrank = 392 P = 3 Q = 3
+myrank = 956 P = 0 Q = 2
+myrank = 823 P = 3 Q = 0
+myrank = 958 P = 5 Q = 5
+myrank = 243 P = 3 Q = 1
+myrank = 187 P = 5 Q = 5
+myrank = 811 P = 0 Q = 3
+myrank = 341 P = 0 Q = 4
+myrank = 775 P = 1 Q = 1
+myrank = 311 P = 4 Q = 1
+myrank = 384 P = 1 Q = 3
+myrank = 104 P = 4 Q = 2
+myrank = 490 P = 3 Q = 3
+myrank = 170 P = 3 Q = 1
+myrank = 419 P = 4 Q = 0
+myrank = 825 P = 4 Q = 1
+myrank = 568 P = 1 Q = 5
+myrank = 174 P = 4 Q = 4
+myrank = 808 P = 2 Q = 0
+myrank = 245 P = 2 Q = 4
+myrank = 271 P = 1 Q = 4
+myrank = 276 P = 1 Q = 4
+myrank = 289 P = 4 Q = 0
+myrank = 416 P = 0 Q = 2
+myrank = 857 P = 0 Q = 3
+myrank = 185 P = 4 Q = 1
+myrank = 178 P = 2 Q = 4
+myrank = 500 P = 4 Q = 2
+myrank = 420 P = 1 Q = 3
+myrank = 344 P = 4 Q = 0
+myrank = 839 P = 4 Q = 0
+myrank = 820 P = 1 Q = 4
+myrank = 309 P = 5 Q = 0
+myrank = 247 P = 5 Q = 3
+myrank = 319 P = 0 Q = 3
+myrank = 403 P = 4 Q = 3
+myrank = 283 P = 3 Q = 4
+myrank = 394 P = 5 Q = 3
+myrank = 603 P = 2 Q = 1
+myrank = 809 P = 2 Q = 3
+myrank = 821 P = 4 Q = 3
+myrank = 605 P = 3 Q = 1
+myrank = 781 P = 4 Q = 3
+myrank = 184 P = 5 Q = 1
+myrank = 764 P = 4 Q = 0
+myrank = 858 P = 2 Q = 3
+myrank = 835 P = 0 Q = 2
+myrank = 417 P = 5 Q = 3
+myrank = 600 P = 0 Q = 4
+myrank = 288 P = 4 Q = 4
+myrank = 101 P = 4 Q = 4
+myrank = 747 P = 0 Q = 4
+myrank = 280 P = 3 Q = 0
+myrank = 774 P = 5 Q = 3
+myrank = 393 P = 3 Q = 3
+myrank = 502 P = 1 Q = 2
+myrank = 386 P = 4 Q = 5
+myrank = 476 P = 2 Q = 2
+myrank = 133 P = 1 Q = 4
+myrank = 810 P = 0 Q = 4
+myrank = 814 P = 2 Q = 3
+myrank = 478 P = 0 Q = 5
+myrank = 751 P = 5 Q = 0
+myrank = 773 P = 2 Q = 3
+myrank = 501 P = 1 Q = 5
+myrank = 601 P = 2 Q = 2
+myrank = 345 P = 4 Q = 0
+myrank = 172 P = 4 Q = 5
+myrank = 248 P = 1 Q = 1
+myrank = 479 P = 3 Q = 2
+myrank = 286 P = 2 Q = 4
+myrank = 837 P = 5 Q = 3
+myrank = 606 P = 5 Q = 2
+myrank = 389 P = 2 Q = 0
+myrank = 249 P = 4 Q = 4
+myrank = 480 P = 5 Q = 0
+myrank = 388 P = 3 Q = 3
+myrank = 270 P = 5 Q = 0
+myrank = 762 P = 1 Q = 1
+myrank = 772 P = 0 Q = 0
+myrank = 813 P = 5 Q = 0
+myrank = 186 P = 1 Q = 4
+myrank = 838 P = 1 Q = 0
+myrank = 281 P = 1 Q = 4
+myrank = 385 P = 1 Q = 0
+myrank = 847 P = 3 Q = 0
+myrank = 134 P = 3 Q = 5
+myrank = 749 P = 3 Q = 0
+myrank = 471 P = 1 Q = 5
+myrank = 845 P = 4 Q = 5
+myrank = 422 P = 3 Q = 3
+myrank = 269 P = 5 Q = 1
+myrank = 284 P = 0 Q = 1
+myrank = 766 P = 3 Q = 0
+myrank = 596 P = 1 Q = 2
+myrank = 418 P = 2 Q = 0
+myrank = 346 P = 3 Q = 1
+myrank = 401 P = 2 Q = 5
+myrank = 200 P = 2 Q = 4
+myrank = 400 P = 2 Q = 0
+myrank = 325 P = 3 Q = 3
+myrank = 176 P = 0 Q = 1
+myrank = 238 P = 3 Q = 4
+myrank = 244 P = 3 Q = 1
+myrank = 607 P = 5 Q = 1
+myrank = 602 P = 2 Q = 4
+myrank = 763 P = 1 Q = 1
+myrank = 760 P = 3 Q = 4
+myrank = 836 P = 2 Q = 3
+myrank = 135 P = 0 Q = 5
+myrank = 282 P = 1 Q = 3
+myrank = 746 P = 5 Q = 0
+myrank = 354 P = 5 Q = 0
+myrank = 132 P = 4 Q = 5
+myrank = 316 P = 4 Q = 4
+myrank = 236 P = 4 Q = 1
+myrank = 355 P = 5 Q = 3
+myrank = 326 P = 5 Q = 4
+myrank = 750 P = 2 Q = 4
+myrank = 812 P = 0 Q = 0
+myrank = 430 P = 5 Q = 0
+myrank = 390 P = 5 Q = 3
+myrank = 166 P = 2 Q = 1
+myrank = 846 P = 0 Q = 3
+myrank = 604 P = 0 Q = 2
+myrank = 851 P = 0 Q = 3
+myrank = 756 P = 5 Q = 0
+myrank = 754 P = 1 Q = 0
+myrank = 425 P = 1 Q = 0
+myrank = 597 P = 4 Q = 1
+myrank = 412 P = 2 Q = 3
+myrank = 744 P = 0 Q = 3
+myrank = 759 P = 4 Q = 0
+myrank = 481 P = 5 Q = 2
+myrank = 586 P = 1 Q = 2
+myrank = 767 P = 5 Q = 4
+myrank = 317 P = 4 Q = 3
+myrank = 609 P = 4 Q = 2
+myrank = 833 P = 3 Q = 3
+myrank = 745 P = 2 Q = 1
+myrank = 503 P = 2 Q = 5
+myrank = 415 P = 1 Q = 0
+myrank = 285 P = 0 Q = 0
+myrank = 353 P = 3 Q = 3
+myrank = 761 P = 3 Q = 0
+myrank = 584 P = 5 Q = 2
+myrank = 278 P = 0 Q = 4
+myrank = 831 P = 2 Q = 3
+myrank = 407 P = 4 Q = 3
+myrank = 598 P = 3 Q = 5
+myrank = 239 P = 0 Q = 1
+myrank = 164 P = 4 Q = 4
+myrank = 414 P = 1 Q = 0
+myrank = 599 P = 3 Q = 2
+myrank = 431 P = 5 Q = 5
+myrank = 587 P = 4 Q = 1
+myrank = 828 P = 0 Q = 0
+myrank = 470 P = 4 Q = 3
+myrank = 428 P = 3 Q = 2
+myrank = 585 P = 5 Q = 4
+myrank = 427 P = 0 Q = 3
+myrank = 832 P = 2 Q = 3
+myrank = 424 P = 4 Q = 0
+myrank = 595 P = 3 Q = 1
+myrank = 203 P = 3 Q = 4
+myrank = 592 P = 4 Q = 4
+myrank = 594 P = 0 Q = 5
+myrank = 834 P = 3 Q = 0
+myrank = 758 P = 4 Q = 4
+myrank = 237 P = 1 Q = 0
+myrank = 413 P = 5 Q = 0
+myrank = 844 P = 1 Q = 3
+myrank = 757 P = 1 Q = 1
+myrank = 206 P = 2 Q = 4
+myrank = 429 P = 3 Q = 2
+myrank = 829 P = 3 Q = 3
+myrank = 830 P = 0 Q = 5
+myrank = 251 P = 2 Q = 1
+myrank = 753 P = 4 Q = 4
+myrank = 402 P = 4 Q = 3
+myrank = 396 P = 2 Q = 5
+myrank = 426 P = 1 Q = 5
+myrank = 318 P = 1 Q = 0
+myrank = 404 P = 3 Q = 0
+myrank = 250 P = 2 Q = 4
+myrank = 352 P = 0 Q = 0
+myrank = 611 P = 3 Q = 2
+myrank = 610 P = 1 Q = 4
+myrank = 752 P = 4 Q = 1
+myrank = 405 P = 0 Q = 3
+myrank = 848 P = 4 Q = 0
+myrank = 399 P = 2 Q = 0
+myrank = 397 P = 1 Q = 3
+myrank = 608 P = 2 Q = 1
+myrank = 410 P = 0 Q = 3
+myrank = 850 P = 1 Q = 2
+myrank = 409 P = 3 Q = 0
+myrank = 398 P = 4 Q = 3
+myrank = 165 P = 2 Q = 4
+myrank = 406 P = 3 Q = 2
+myrank = 748 P = 3 Q = 1
+myrank = 202 P = 5 Q = 1
+myrank = 204 P = 0 Q = 1
+myrank = 408 P = 1 Q = 0
+myrank = 755 P = 5 Q = 1
+myrank = 205 P = 5 Q = 4
+myrank = 411 P = 3 Q = 2
+myrank = 207 P = 5 Q = 1
+myrank = 173 P = 4 Q = 4
+myrank = 179 P = 2 Q = 1
+myrank = 849 P = 1 Q = 3
+myrank = 201 P = 2 Q = 1
+myrank = 167 P = 4 Q = 2
+myrank = 175 P = 3 Q = 1
+myrank = 171 P = 0 Q = 4
+myrank = 489 P = 1 Q = 2
+myrank = 469 P = 3 Q = 5
+myrank = 477 P = 5 Q = 2
+myrank = 473 P = 5 Q = 1
+myrank = 465 P = 1 Q = 3
+myrank = 466 P = 3 Q = 5
+*******************************
+dgemm_time	81.330238
+conv_transfer_time	0.000000
+conv_calculate_time	6820.430664
+elastic_calculate_time	6820.478516
+Allen_Cahn_nonlinear_time	6922.661133
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	595.567871
+trans_Memcpy_time	35.868225
+trans_MPI_time	553.628662
+trans_pack_time	0.463369
+trans_enlarge_time	0.903056
+trans_mu_time	0.449446
+trans_unpack_time	3.713193
+updateU_new_time	2.705493
+runtime	7.610409
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	2.141450
+*******************************
+dgemm_time	80.055008
+conv_transfer_time	0.000000
+conv_calculate_time	3347.648193
+elastic_calculate_time	3347.685059
+Allen_Cahn_nonlinear_time	3453.976318
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	51.802048
+trans_Memcpy_time	19.302937
+trans_MPI_time	26.899086
+trans_pack_time	0.378406
+trans_enlarge_time	0.681932
+trans_mu_time	0.439366
+trans_unpack_time	3.648391
+updateU_new_time	2.701013
+runtime	3.597029
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	9.759130
+*******************************
+dgemm_time	80.098854
+conv_transfer_time	0.000000
+conv_calculate_time	3354.154541
+elastic_calculate_time	3354.190674
+Allen_Cahn_nonlinear_time	3460.645020
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	46.203259
+trans_Memcpy_time	19.210934
+trans_MPI_time	21.451620
+trans_pack_time	0.377766
+trans_enlarge_time	0.682092
+trans_mu_time	0.448646
+trans_unpack_time	3.577190
+updateU_new_time	2.702453
+runtime	3.591875
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	13.363419
+*******************************
+dgemm_time	80.063171
+conv_transfer_time	0.000000
+conv_calculate_time	3354.250244
+elastic_calculate_time	3354.289307
+Allen_Cahn_nonlinear_time	3456.812256
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	46.267879
+trans_Memcpy_time	19.297657
+trans_MPI_time	21.416739
+trans_pack_time	0.375046
+trans_enlarge_time	0.692812
+trans_mu_time	0.440966
+trans_unpack_time	3.587430
+updateU_new_time	2.702133
+runtime	3.591648
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	16.962581
+*******************************
+dgemm_time	80.078140
+conv_transfer_time	0.000000
+conv_calculate_time	3348.521729
+elastic_calculate_time	3348.559326
+Allen_Cahn_nonlinear_time	3455.209717
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	47.327148
+trans_Memcpy_time	19.304218
+trans_MPI_time	22.496922
+trans_pack_time	0.387847
+trans_enlarge_time	0.662252
+trans_mu_time	0.438406
+trans_unpack_time	3.578790
+updateU_new_time	2.699847
+runtime	3.591054
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	20.561514
+*******************************
+dgemm_time	80.067841
+conv_transfer_time	0.000000
+conv_calculate_time	3352.106201
+elastic_calculate_time	3352.144043
+Allen_Cahn_nonlinear_time	3455.916748
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	46.453175
+trans_Memcpy_time	19.316355
+trans_MPI_time	21.580200
+trans_pack_time	0.387840
+trans_enlarge_time	0.672320
+trans_mu_time	0.439200
+trans_unpack_time	3.603205
+updateU_new_time	2.701786
+runtime	3.589136
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	24.159899
+*******************************
+dgemm_time	80.124756
+conv_transfer_time	0.000000
+conv_calculate_time	3352.509277
+elastic_calculate_time	3352.547363
+Allen_Cahn_nonlinear_time	3455.406982
+Cahn_Hilliard_nonlinear_time	0.012319
+trans_time	46.169128
+trans_Memcpy_time	19.246864
+trans_MPI_time	21.392838
+trans_pack_time	0.376621
+trans_enlarge_time	0.681728
+trans_mu_time	0.444141
+trans_unpack_time	3.573098
+updateU_new_time	2.702951
+runtime	3.593094
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	27.756298
+*******************************
+dgemm_time	80.054390
+conv_transfer_time	0.000000
+conv_calculate_time	3353.175537
+elastic_calculate_time	3353.214111
+Allen_Cahn_nonlinear_time	3454.937744
+Cahn_Hilliard_nonlinear_time	0.011998
+trans_time	46.260551
+trans_Memcpy_time	19.385874
+trans_MPI_time	21.338816
+trans_pack_time	0.377405
+trans_enlarge_time	0.678818
+trans_mu_time	0.451640
+trans_unpack_time	3.571187
+updateU_new_time	2.711669
+runtime	3.588298
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	31.356648
+*******************************
+dgemm_time	80.069290
+conv_transfer_time	0.000000
+conv_calculate_time	3352.288086
+elastic_calculate_time	3352.326660
+Allen_Cahn_nonlinear_time	3455.826660
+Cahn_Hilliard_nonlinear_time	0.011999
+trans_time	45.819839
+trans_Memcpy_time	19.328037
+trans_MPI_time	20.936321
+trans_pack_time	0.375474
+trans_enlarge_time	0.681197
+trans_mu_time	0.440425
+trans_unpack_time	3.594281
+updateU_new_time	2.699858
+runtime	3.593542
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	34.952256
+*******************************
+dgemm_time	80.100639
+conv_transfer_time	0.000000
+conv_calculate_time	3346.454102
+elastic_calculate_time	3346.494385
+Allen_Cahn_nonlinear_time	3452.142822
+Cahn_Hilliard_nonlinear_time	0.011679
+trans_time	46.272396
+trans_Memcpy_time	19.262812
+trans_MPI_time	21.481285
+trans_pack_time	0.375638
+trans_enlarge_time	0.677685
+trans_mu_time	0.438830
+trans_unpack_time	3.582481
+updateU_new_time	2.700685
+runtime	3.585929
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	38.553058
+*******************************
+dgemm_time	80.065643
+conv_transfer_time	0.000000
+conv_calculate_time	3347.933105
+elastic_calculate_time	3347.972900
+Allen_Cahn_nonlinear_time	3458.592285
+Cahn_Hilliard_nonlinear_time	0.011839
+trans_time	46.755367
+trans_Memcpy_time	19.237244
+trans_MPI_time	21.960327
+trans_pack_time	0.383961
+trans_enlarge_time	0.680251
+trans_mu_time	0.438037
+trans_unpack_time	3.598354
+updateU_new_time	2.701987
+runtime	3.590705
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	42.146264
+*******************************
+dgemm_time	80.085587
+conv_transfer_time	0.000000
+conv_calculate_time	3349.060791
+elastic_calculate_time	3349.098877
+Allen_Cahn_nonlinear_time	3453.970947
+Cahn_Hilliard_nonlinear_time	0.011839
+trans_time	46.367500
+trans_Memcpy_time	19.220446
+trans_MPI_time	21.552868
+trans_pack_time	0.373405
+trans_enlarge_time	0.685856
+trans_mu_time	0.447477
+trans_unpack_time	3.570867
+updateU_new_time	2.703447
+runtime	3.591807
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	45.744223
+*******************************
+dgemm_time	80.099861
+conv_transfer_time	0.000000
+conv_calculate_time	3350.998535
+elastic_calculate_time	3351.034424
+Allen_Cahn_nonlinear_time	3456.488770
+Cahn_Hilliard_nonlinear_time	0.012319
+trans_time	46.374416
+trans_Memcpy_time	19.199146
+trans_MPI_time	21.654137
+trans_pack_time	0.375167
+trans_enlarge_time	0.675463
+trans_mu_time	0.443323
+trans_unpack_time	3.571053
+updateU_new_time	2.715624
+runtime	3.592481
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	49.343293
+*******************************
+dgemm_time	80.066078
+conv_transfer_time	0.000000
+conv_calculate_time	3353.145264
+elastic_calculate_time	3353.183838
+Allen_Cahn_nonlinear_time	3460.413086
+Cahn_Hilliard_nonlinear_time	0.011679
+trans_time	46.522095
+trans_Memcpy_time	19.255747
+trans_MPI_time	21.715233
+trans_pack_time	0.377570
+trans_enlarge_time	0.673388
+trans_mu_time	0.447645
+trans_unpack_time	3.594914
+updateU_new_time	2.699960
+runtime	3.595722
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	52.943021
+*******************************
+dgemm_time	80.078323
+conv_transfer_time	0.000000
+conv_calculate_time	3353.361084
+elastic_calculate_time	3353.396973
+Allen_Cahn_nonlinear_time	3456.544434
+Cahn_Hilliard_nonlinear_time	0.011679
+trans_time	46.381187
+trans_Memcpy_time	19.199701
+trans_MPI_time	21.659201
+trans_pack_time	0.375013
+trans_enlarge_time	0.675630
+trans_mu_time	0.440609
+trans_unpack_time	3.579416
+updateU_new_time	2.700774
+runtime	3.592523
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	56.546023
+*******************************
+dgemm_time	80.046844
+conv_transfer_time	0.000000
+conv_calculate_time	3352.662354
+elastic_calculate_time	3352.701172
+Allen_Cahn_nonlinear_time	3455.456055
+Cahn_Hilliard_nonlinear_time	0.011679
+trans_time	46.218502
+trans_Memcpy_time	19.220600
+trans_MPI_time	21.465242
+trans_pack_time	0.375495
+trans_enlarge_time	0.677876
+trans_mu_time	0.439489
+trans_unpack_time	3.583914
+updateU_new_time	2.699186
+runtime	3.591236
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	60.145817
+*******************************
+dgemm_time	80.003014
+conv_transfer_time	0.000000
+conv_calculate_time	3348.677490
+elastic_calculate_time	3348.713135
+Allen_Cahn_nonlinear_time	3456.573242
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	46.429226
+trans_Memcpy_time	19.259241
+trans_MPI_time	21.617489
+trans_pack_time	0.377896
+trans_enlarge_time	0.684917
+trans_mu_time	0.449894
+trans_unpack_time	3.584090
+updateU_new_time	2.700317
+runtime	3.591319
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	63.744322
+*******************************
+dgemm_time	80.071625
+conv_transfer_time	0.000000
+conv_calculate_time	3352.320801
+elastic_calculate_time	3352.357910
+Allen_Cahn_nonlinear_time	3460.506348
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	46.891506
+trans_Memcpy_time	19.339794
+trans_MPI_time	22.016594
+trans_pack_time	0.375658
+trans_enlarge_time	0.682842
+trans_mu_time	0.441095
+trans_unpack_time	3.582184
+updateU_new_time	2.731046
+runtime	3.591808
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	67.342914
+*******************************
+dgemm_time	80.069183
+conv_transfer_time	0.000000
+conv_calculate_time	3351.488281
+elastic_calculate_time	3351.538818
+Allen_Cahn_nonlinear_time	3457.004639
+Cahn_Hilliard_nonlinear_time	0.012159
+trans_time	46.208302
+trans_Memcpy_time	19.214754
+trans_MPI_time	21.435747
+trans_pack_time	0.389578
+trans_enlarge_time	0.668603
+trans_mu_time	0.446856
+trans_unpack_time	3.596117
+updateU_new_time	2.697777
+runtime	3.594818
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	70.941989
+*******************************
+dgemm_time	80.085907
+conv_transfer_time	0.000000
+conv_calculate_time	3350.432373
+elastic_calculate_time	3350.470215
+Allen_Cahn_nonlinear_time	3454.704834
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	46.614365
+trans_Memcpy_time	19.337370
+trans_MPI_time	21.688448
+trans_pack_time	0.371981
+trans_enlarge_time	0.667966
+trans_mu_time	0.439498
+trans_unpack_time	3.594049
+updateU_new_time	2.702105
+runtime	3.588517
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	74.544091
+*******************************
+dgemm_time	80.023254
+conv_transfer_time	0.000000
+conv_calculate_time	3354.150391
+elastic_calculate_time	3354.187988
+Allen_Cahn_nonlinear_time	3456.091064
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	46.166397
+trans_Memcpy_time	19.208958
+trans_MPI_time	21.430925
+trans_pack_time	0.374222
+trans_enlarge_time	0.670849
+trans_mu_time	0.448460
+trans_unpack_time	3.575661
+updateU_new_time	2.698592
+runtime	3.598373
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	78.140002
+*******************************
+dgemm_time	80.120415
+conv_transfer_time	0.000000
+conv_calculate_time	3352.375977
+elastic_calculate_time	3352.415039
+Allen_Cahn_nonlinear_time	3455.213867
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	46.927311
+trans_Memcpy_time	19.237970
+trans_MPI_time	22.147593
+trans_pack_time	0.375183
+trans_enlarge_time	0.695329
+trans_mu_time	0.445261
+trans_unpack_time	3.569911
+updateU_new_time	2.701799
+runtime	3.591208
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	81.745638
+*******************************
+dgemm_time	80.116287
+conv_transfer_time	0.000000
+conv_calculate_time	3353.574219
+elastic_calculate_time	3353.612305
+Allen_Cahn_nonlinear_time	3457.277832
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	46.434246
+trans_Memcpy_time	19.242823
+trans_MPI_time	21.641272
+trans_pack_time	0.376464
+trans_enlarge_time	0.685252
+trans_mu_time	0.440462
+trans_unpack_time	3.588960
+updateU_new_time	2.727405
+runtime	3.592959
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	85.344104
+*******************************
+dgemm_time	80.063667
+conv_transfer_time	0.000000
+conv_calculate_time	3352.324951
+elastic_calculate_time	3352.364258
+Allen_Cahn_nonlinear_time	3455.986816
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	46.357952
+trans_Memcpy_time	19.260145
+trans_MPI_time	21.530289
+trans_pack_time	0.403343
+trans_enlarge_time	0.665735
+trans_mu_time	0.447182
+trans_unpack_time	3.592808
+updateU_new_time	2.701972
+runtime	3.595506
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	88.944331
+*******************************
+dgemm_time	80.070396
+conv_transfer_time	0.000000
+conv_calculate_time	3343.414795
+elastic_calculate_time	3343.452881
+Allen_Cahn_nonlinear_time	3448.321289
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	48.061798
+trans_Memcpy_time	19.234911
+trans_MPI_time	23.297628
+trans_pack_time	0.372946
+trans_enlarge_time	0.680775
+trans_mu_time	0.439186
+trans_unpack_time	3.587057
+updateU_new_time	2.702458
+runtime	3.587949
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	92.547111
+*******************************
+dgemm_time	80.088150
+conv_transfer_time	0.000000
+conv_calculate_time	3347.463135
+elastic_calculate_time	3347.500977
+Allen_Cahn_nonlinear_time	3453.786621
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	46.581264
+trans_Memcpy_time	19.233992
+trans_MPI_time	21.827011
+trans_pack_time	0.373106
+trans_enlarge_time	0.665895
+trans_mu_time	0.451026
+trans_unpack_time	3.576505
+updateU_new_time	2.704863
+runtime	3.592396
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	96.142375
+*******************************
+dgemm_time	80.101578
+conv_transfer_time	0.000000
+conv_calculate_time	3354.229736
+elastic_calculate_time	3354.267578
+Allen_Cahn_nonlinear_time	3457.463379
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	46.502380
+trans_Memcpy_time	19.225550
+trans_MPI_time	21.733618
+trans_pack_time	0.376787
+trans_enlarge_time	0.685417
+trans_mu_time	0.437908
+trans_unpack_time	3.578752
+updateU_new_time	2.698788
+runtime	3.591332
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	99.742060
+*******************************
+dgemm_time	80.111160
+conv_transfer_time	0.000000
+conv_calculate_time	3352.284180
+elastic_calculate_time	3352.322510
+Allen_Cahn_nonlinear_time	3454.584717
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	46.479343
+trans_Memcpy_time	19.249104
+trans_MPI_time	21.687099
+trans_pack_time	0.376628
+trans_enlarge_time	0.690538
+trans_mu_time	0.447348
+trans_unpack_time	3.572038
+updateU_new_time	2.720872
+runtime	3.591337
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	103.340637
+*******************************
+dgemm_time	80.073212
+conv_transfer_time	0.000000
+conv_calculate_time	3353.649902
+elastic_calculate_time	3353.687012
+Allen_Cahn_nonlinear_time	3456.744141
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	46.513031
+trans_Memcpy_time	19.207058
+trans_MPI_time	21.743774
+trans_pack_time	0.407187
+trans_enlarge_time	0.666221
+trans_mu_time	0.443988
+trans_unpack_time	3.590124
+updateU_new_time	2.703277
+runtime	3.591763
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	106.939237
+*******************************
+dgemm_time	80.098770
+conv_transfer_time	0.000000
+conv_calculate_time	3347.133545
+elastic_calculate_time	3347.169922
+Allen_Cahn_nonlinear_time	3451.893066
+Cahn_Hilliard_nonlinear_time	0.011520
+trans_time	48.641621
+trans_Memcpy_time	19.255569
+trans_MPI_time	23.811586
+trans_pack_time	0.377589
+trans_enlarge_time	0.691981
+trans_mu_time	0.441588
+trans_unpack_time	3.598449
+updateU_new_time	2.702001
+runtime	3.590132
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	110.538296
+*******************************
+dgemm_time	80.056320
+conv_transfer_time	0.000000
+conv_calculate_time	3353.407715
+elastic_calculate_time	3353.443604
+Allen_Cahn_nonlinear_time	3456.151855
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	46.489948
+trans_Memcpy_time	19.243755
+trans_MPI_time	21.728323
+trans_pack_time	0.376630
+trans_enlarge_time	0.673422
+trans_mu_time	0.439348
+trans_unpack_time	3.571096
+updateU_new_time	2.703125
+runtime	3.594519
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	114.135708
+*******************************
+dgemm_time	80.132111
+conv_transfer_time	0.000000
+conv_calculate_time	3350.527344
+elastic_calculate_time	3350.565918
+Allen_Cahn_nonlinear_time	3454.133545
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	48.520657
+trans_Memcpy_time	19.207306
+trans_MPI_time	23.771496
+trans_pack_time	0.375510
+trans_enlarge_time	0.673742
+trans_mu_time	0.454548
+trans_unpack_time	3.576540
+updateU_new_time	2.701688
+runtime	3.591377
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	117.737454
+*******************************
+dgemm_time	80.103088
+conv_transfer_time	0.000000
+conv_calculate_time	3353.939209
+elastic_calculate_time	3353.978271
+Allen_Cahn_nonlinear_time	3455.718506
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	46.608280
+trans_Memcpy_time	19.235970
+trans_MPI_time	21.848219
+trans_pack_time	0.376151
+trans_enlarge_time	0.664787
+trans_mu_time	0.452471
+trans_unpack_time	3.572545
+updateU_new_time	2.708572
+runtime	3.591793
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	121.336067
+*******************************
+dgemm_time	80.099663
+conv_transfer_time	0.000000
+conv_calculate_time	3352.404785
+elastic_calculate_time	3352.441895
+Allen_Cahn_nonlinear_time	3455.098877
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	46.583363
+trans_Memcpy_time	19.257431
+trans_MPI_time	21.794807
+trans_pack_time	0.391350
+trans_enlarge_time	0.674227
+trans_mu_time	0.439034
+trans_unpack_time	3.570150
+updateU_new_time	2.699295
+runtime	3.597179
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	124.935155
+*******************************
+dgemm_time	80.093842
+conv_transfer_time	0.000000
+conv_calculate_time	3353.332275
+elastic_calculate_time	3353.370850
+Allen_Cahn_nonlinear_time	3456.323242
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	46.447311
+trans_Memcpy_time	19.241938
+trans_MPI_time	21.648758
+trans_pack_time	0.376632
+trans_enlarge_time	0.667987
+trans_mu_time	0.445913
+trans_unpack_time	3.606633
+updateU_new_time	2.702338
+runtime	3.595432
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	128.539633
+*******************************
+dgemm_time	80.084961
+conv_transfer_time	0.000000
+conv_calculate_time	3351.385986
+elastic_calculate_time	3351.426758
+Allen_Cahn_nonlinear_time	3454.807129
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	46.144920
+trans_Memcpy_time	19.257160
+trans_MPI_time	21.343349
+trans_pack_time	0.382712
+trans_enlarge_time	0.679828
+trans_mu_time	0.445594
+trans_unpack_time	3.577358
+updateU_new_time	2.699621
+runtime	3.589182
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	132.142328
+*******************************
+dgemm_time	80.064728
+conv_transfer_time	0.000000
+conv_calculate_time	3347.940186
+elastic_calculate_time	3347.978760
+Allen_Cahn_nonlinear_time	3453.895264
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	48.532078
+trans_Memcpy_time	19.259741
+trans_MPI_time	23.712921
+trans_pack_time	0.381272
+trans_enlarge_time	0.685268
+trans_mu_time	0.448474
+trans_unpack_time	3.583922
+updateU_new_time	2.695304
+runtime	3.591071
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	135.738840
+*******************************
+dgemm_time	80.100967
+conv_transfer_time	0.000000
+conv_calculate_time	3347.332275
+elastic_calculate_time	3347.370361
+Allen_Cahn_nonlinear_time	3453.137939
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	46.657005
+trans_Memcpy_time	19.211603
+trans_MPI_time	21.918583
+trans_pack_time	0.376153
+trans_enlarge_time	0.672308
+trans_mu_time	0.440154
+trans_unpack_time	3.579926
+updateU_new_time	2.708746
+runtime	3.594347
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	139.337187
+*******************************
+dgemm_time	80.086960
+conv_transfer_time	0.000000
+conv_calculate_time	3351.577148
+elastic_calculate_time	3351.613770
+Allen_Cahn_nonlinear_time	3454.430664
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	48.732738
+trans_Memcpy_time	19.218338
+trans_MPI_time	23.952484
+trans_pack_time	0.372794
+trans_enlarge_time	0.687988
+trans_mu_time	0.441914
+trans_unpack_time	3.593849
+updateU_new_time	2.701069
+runtime	3.595675
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	142.938764
+*******************************
+dgemm_time	80.163826
+conv_transfer_time	0.000000
+conv_calculate_time	3352.433350
+elastic_calculate_time	3352.470459
+Allen_Cahn_nonlinear_time	3457.377197
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	46.308495
+trans_Memcpy_time	19.227798
+trans_MPI_time	21.536552
+trans_pack_time	0.372154
+trans_enlarge_time	0.674708
+trans_mu_time	0.444794
+trans_unpack_time	3.598972
+updateU_new_time	2.701071
+runtime	3.592840
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	146.541728
+*******************************
+dgemm_time	80.078934
+conv_transfer_time	0.000000
+conv_calculate_time	3350.146240
+elastic_calculate_time	3350.184814
+Allen_Cahn_nonlinear_time	3455.932129
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	46.387112
+trans_Memcpy_time	19.209414
+trans_MPI_time	21.611610
+trans_pack_time	0.382714
+trans_enlarge_time	0.696949
+trans_mu_time	0.439994
+trans_unpack_time	3.582815
+updateU_new_time	2.701234
+runtime	3.591872
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	150.141805
+*******************************
+dgemm_time	80.112122
+conv_transfer_time	0.000000
+conv_calculate_time	3348.048828
+elastic_calculate_time	3348.084717
+Allen_Cahn_nonlinear_time	3457.173340
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	46.267860
+trans_Memcpy_time	19.283508
+trans_MPI_time	21.452112
+trans_pack_time	0.376314
+trans_enlarge_time	0.675672
+trans_mu_time	0.445594
+trans_unpack_time	3.579939
+updateU_new_time	2.702196
+runtime	3.592324
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	153.740949
+*******************************
+dgemm_time	80.095062
+conv_transfer_time	0.000000
+conv_calculate_time	3349.474365
+elastic_calculate_time	3349.512451
+Allen_Cahn_nonlinear_time	3458.913086
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	46.274010
+trans_Memcpy_time	19.211046
+trans_MPI_time	21.532446
+trans_pack_time	0.377274
+trans_enlarge_time	0.680313
+trans_mu_time	0.440634
+trans_unpack_time	3.573381
+updateU_new_time	2.711958
+runtime	3.593849
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	157.340557
+*******************************
+dgemm_time	80.110001
+conv_transfer_time	0.000000
+conv_calculate_time	3343.693604
+elastic_calculate_time	3343.745605
+Allen_Cahn_nonlinear_time	3452.760010
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	48.264214
+trans_Memcpy_time	19.220341
+trans_MPI_time	23.526670
+trans_pack_time	0.375195
+trans_enlarge_time	0.668793
+trans_mu_time	0.440474
+trans_unpack_time	3.576584
+updateU_new_time	2.704920
+runtime	3.590420
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	160.941658
+*******************************
+dgemm_time	80.093094
+conv_transfer_time	0.000000
+conv_calculate_time	3347.274902
+elastic_calculate_time	3347.314697
+Allen_Cahn_nonlinear_time	3452.340332
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	49.954563
+trans_Memcpy_time	19.259554
+trans_MPI_time	25.130184
+trans_pack_time	0.372956
+trans_enlarge_time	0.674074
+trans_mu_time	0.436314
+trans_unpack_time	3.601066
+updateU_new_time	2.699962
+runtime	3.593407
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	164.539393
+*******************************
+dgemm_time	80.127068
+conv_transfer_time	0.000000
+conv_calculate_time	3351.349121
+elastic_calculate_time	3351.387695
+Allen_Cahn_nonlinear_time	3454.809082
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	48.360279
+trans_Memcpy_time	19.214769
+trans_MPI_time	23.631344
+trans_pack_time	0.376636
+trans_enlarge_time	0.663514
+trans_mu_time	0.445434
+trans_unpack_time	3.573069
+updateU_new_time	2.699484
+runtime	3.594217
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	168.140070
+*******************************
+dgemm_time	80.060715
+conv_transfer_time	0.000000
+conv_calculate_time	3352.653564
+elastic_calculate_time	3352.691650
+Allen_Cahn_nonlinear_time	3454.685059
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	46.998161
+trans_Memcpy_time	19.217821
+trans_MPI_time	22.238258
+trans_pack_time	0.375036
+trans_enlarge_time	0.675194
+trans_mu_time	0.447354
+trans_unpack_time	3.589872
+updateU_new_time	2.700605
+runtime	3.591151
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	171.741510
+*******************************
+dgemm_time	80.143166
+conv_transfer_time	0.000000
+conv_calculate_time	3353.202637
+elastic_calculate_time	3353.240234
+Allen_Cahn_nonlinear_time	3455.835693
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	46.239353
+trans_Memcpy_time	19.202154
+trans_MPI_time	21.501963
+trans_pack_time	0.378556
+trans_enlarge_time	0.679034
+trans_mu_time	0.437119
+trans_unpack_time	3.581714
+updateU_new_time	2.716607
+runtime	3.591731
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	175.339939
+*******************************
+dgemm_time	80.089142
+conv_transfer_time	0.000000
+conv_calculate_time	3353.878906
+elastic_calculate_time	3353.914062
+Allen_Cahn_nonlinear_time	3457.932129
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	46.735443
+trans_Memcpy_time	19.198164
+trans_MPI_time	22.020050
+trans_pack_time	0.381916
+trans_enlarge_time	0.662074
+trans_mu_time	0.443359
+trans_unpack_time	3.574356
+updateU_new_time	2.700929
+runtime	3.601635
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	178.938946
+*******************************
+dgemm_time	80.161499
+conv_transfer_time	0.000000
+conv_calculate_time	3347.397461
+elastic_calculate_time	3347.435547
+Allen_Cahn_nonlinear_time	3459.490723
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	46.513065
+trans_Memcpy_time	19.202496
+trans_MPI_time	21.751106
+trans_pack_time	0.375836
+trans_enlarge_time	0.675514
+trans_mu_time	0.444799
+trans_unpack_time	3.601558
+updateU_new_time	2.703650
+runtime	3.591464
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	182.547835
+*******************************
+dgemm_time	80.075790
+conv_transfer_time	0.000000
+conv_calculate_time	3351.604004
+elastic_calculate_time	3351.640869
+Allen_Cahn_nonlinear_time	3454.801758
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	48.592747
+trans_Memcpy_time	19.238987
+trans_MPI_time	23.826296
+trans_pack_time	0.378076
+trans_enlarge_time	0.671034
+trans_mu_time	0.449760
+trans_unpack_time	3.571640
+updateU_new_time	2.699972
+runtime	3.593506
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	186.146585
+*******************************
+dgemm_time	80.129913
+conv_transfer_time	0.000000
+conv_calculate_time	3350.632568
+elastic_calculate_time	3350.669189
+Allen_Cahn_nonlinear_time	3455.789307
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	39.497772
+trans_Memcpy_time	19.391796
+trans_MPI_time	14.573288
+trans_pack_time	0.374237
+trans_enlarge_time	0.679674
+trans_mu_time	0.439040
+trans_unpack_time	3.589882
+updateU_new_time	2.701573
+runtime	3.584675
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	189.740192
+*******************************
+dgemm_time	80.099869
+conv_transfer_time	0.000000
+conv_calculate_time	3351.607178
+elastic_calculate_time	3351.645264
+Allen_Cahn_nonlinear_time	3456.229980
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.786018
+trans_Memcpy_time	19.425406
+trans_MPI_time	14.816011
+trans_pack_time	0.376158
+trans_enlarge_time	0.688794
+trans_mu_time	0.448320
+trans_unpack_time	3.580764
+updateU_new_time	2.708934
+runtime	3.587114
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	193.324981
+*******************************
+dgemm_time	80.159111
+conv_transfer_time	0.000000
+conv_calculate_time	3353.134277
+elastic_calculate_time	3353.173340
+Allen_Cahn_nonlinear_time	3461.102783
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	39.779442
+trans_Memcpy_time	19.369095
+trans_MPI_time	14.823859
+trans_pack_time	0.386877
+trans_enlarge_time	0.671674
+trans_mu_time	0.442080
+trans_unpack_time	3.573886
+updateU_new_time	2.701576
+runtime	3.587449
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	196.912272
+*******************************
+dgemm_time	80.101074
+conv_transfer_time	0.000000
+conv_calculate_time	3349.250732
+elastic_calculate_time	3349.287109
+Allen_Cahn_nonlinear_time	3456.431152
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.950947
+trans_Memcpy_time	19.423183
+trans_MPI_time	14.965305
+trans_pack_time	0.382878
+trans_enlarge_time	0.680154
+trans_mu_time	0.441280
+trans_unpack_time	3.606528
+updateU_new_time	2.703497
+runtime	3.591615
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	200.499815
+*******************************
+dgemm_time	80.107826
+conv_transfer_time	0.000000
+conv_calculate_time	3351.771484
+elastic_calculate_time	3351.810791
+Allen_Cahn_nonlinear_time	3456.717773
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	39.971546
+trans_Memcpy_time	19.393915
+trans_MPI_time	15.067713
+trans_pack_time	0.376958
+trans_enlarge_time	0.668319
+trans_mu_time	0.438880
+trans_unpack_time	3.573890
+updateU_new_time	2.702058
+runtime	3.588751
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	204.091544
+*******************************
+dgemm_time	80.039207
+conv_transfer_time	0.000000
+conv_calculate_time	3354.300049
+elastic_calculate_time	3354.337402
+Allen_Cahn_nonlinear_time	3456.752197
+Cahn_Hilliard_nonlinear_time	0.012480
+trans_time	39.734615
+trans_Memcpy_time	19.411203
+trans_MPI_time	14.789960
+trans_pack_time	0.373118
+trans_enlarge_time	0.683199
+trans_mu_time	0.441760
+trans_unpack_time	3.583811
+updateU_new_time	2.700779
+runtime	3.590023
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	207.680439
+*******************************
+dgemm_time	80.102264
+conv_transfer_time	0.000000
+conv_calculate_time	3353.114746
+elastic_calculate_time	3353.153076
+Allen_Cahn_nonlinear_time	3454.750732
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	40.202209
+trans_Memcpy_time	19.463526
+trans_MPI_time	15.221159
+trans_pack_time	0.375038
+trans_enlarge_time	0.658079
+trans_mu_time	0.449760
+trans_unpack_time	3.585571
+updateU_new_time	2.701878
+runtime	3.583082
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	211.270544
+*******************************
+dgemm_time	80.124390
+conv_transfer_time	0.000000
+conv_calculate_time	3354.508545
+elastic_calculate_time	3354.544678
+Allen_Cahn_nonlinear_time	3460.021729
+Cahn_Hilliard_nonlinear_time	0.011520
+trans_time	39.823586
+trans_Memcpy_time	19.422895
+trans_MPI_time	14.866486
+trans_pack_time	0.400315
+trans_enlarge_time	0.666874
+trans_mu_time	0.441114
+trans_unpack_time	3.572904
+updateU_new_time	2.701058
+runtime	3.589136
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	214.860026
+*******************************
+dgemm_time	80.086296
+conv_transfer_time	0.000000
+conv_calculate_time	3352.332031
+elastic_calculate_time	3352.369629
+Allen_Cahn_nonlinear_time	3459.281738
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	39.932934
+trans_Memcpy_time	19.406912
+trans_MPI_time	14.982693
+trans_pack_time	0.374712
+trans_enlarge_time	0.669748
+trans_mu_time	0.447514
+trans_unpack_time	3.605676
+updateU_new_time	2.704087
+runtime	3.587989
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	218.449289
+*******************************
+dgemm_time	80.123634
+conv_transfer_time	0.000000
+conv_calculate_time	3349.549316
+elastic_calculate_time	3349.590820
+Allen_Cahn_nonlinear_time	3456.039307
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	39.847286
+trans_Memcpy_time	19.389872
+trans_MPI_time	14.912394
+trans_pack_time	0.376630
+trans_enlarge_time	0.695662
+trans_mu_time	0.441268
+trans_unpack_time	3.578143
+updateU_new_time	2.702649
+runtime	3.585003
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	222.037354
+*******************************
+dgemm_time	80.108490
+conv_transfer_time	0.000000
+conv_calculate_time	3351.979248
+elastic_calculate_time	3352.016357
+Allen_Cahn_nonlinear_time	3457.741211
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.856403
+trans_Memcpy_time	19.416286
+trans_MPI_time	14.849366
+trans_pack_time	0.373591
+trans_enlarge_time	0.680144
+trans_mu_time	0.439189
+trans_unpack_time	3.582625
+updateU_new_time	2.703290
+runtime	3.587192
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	225.622487
+*******************************
+dgemm_time	80.139740
+conv_transfer_time	0.000000
+conv_calculate_time	3353.766602
+elastic_calculate_time	3353.805176
+Allen_Cahn_nonlinear_time	3458.045898
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.728535
+trans_Memcpy_time	19.426060
+trans_MPI_time	14.782819
+trans_pack_time	0.376951
+trans_enlarge_time	0.668147
+trans_mu_time	0.442553
+trans_unpack_time	3.575428
+updateU_new_time	2.701372
+runtime	3.592506
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	229.209777
+*******************************
+dgemm_time	80.067322
+conv_transfer_time	0.000000
+conv_calculate_time	3349.983887
+elastic_calculate_time	3350.020752
+Allen_Cahn_nonlinear_time	3461.686523
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	39.825359
+trans_Memcpy_time	19.400955
+trans_MPI_time	14.877545
+trans_pack_time	0.401751
+trans_enlarge_time	0.670227
+trans_mu_time	0.442713
+trans_unpack_time	3.579910
+updateU_new_time	2.702014
+runtime	3.587920
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	232.802387
+*******************************
+dgemm_time	80.160645
+conv_transfer_time	0.000000
+conv_calculate_time	3352.999023
+elastic_calculate_time	3353.035156
+Allen_Cahn_nonlinear_time	3470.399902
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.432137
+trans_Memcpy_time	19.379688
+trans_MPI_time	14.508286
+trans_pack_time	0.383032
+trans_enlarge_time	0.668147
+trans_mu_time	0.449273
+trans_unpack_time	3.597032
+updateU_new_time	2.699776
+runtime	3.603560
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	236.390405
+*******************************
+dgemm_time	80.107262
+conv_transfer_time	0.000000
+conv_calculate_time	3352.884033
+elastic_calculate_time	3352.922119
+Allen_Cahn_nonlinear_time	3456.045410
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	39.948460
+trans_Memcpy_time	19.405458
+trans_MPI_time	15.010843
+trans_pack_time	0.375512
+trans_enlarge_time	0.686387
+trans_mu_time	0.436634
+trans_unpack_time	3.581195
+updateU_new_time	2.701378
+runtime	3.586039
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	239.994072
+*******************************
+dgemm_time	80.102348
+conv_transfer_time	0.000000
+conv_calculate_time	3352.774658
+elastic_calculate_time	3352.812500
+Allen_Cahn_nonlinear_time	3456.237549
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.464165
+trans_Memcpy_time	19.460192
+trans_MPI_time	14.472146
+trans_pack_time	0.375192
+trans_enlarge_time	0.684308
+trans_mu_time	0.455034
+trans_unpack_time	3.568078
+updateU_new_time	2.701699
+runtime	3.585778
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	243.580231
+*******************************
+dgemm_time	80.048477
+conv_transfer_time	0.000000
+conv_calculate_time	3351.280029
+elastic_calculate_time	3351.317627
+Allen_Cahn_nonlinear_time	3458.132080
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	39.842674
+trans_Memcpy_time	19.459084
+trans_MPI_time	14.843347
+trans_pack_time	0.375032
+trans_enlarge_time	0.682068
+trans_mu_time	0.437754
+trans_unpack_time	3.595119
+updateU_new_time	2.701541
+runtime	3.590429
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	247.166107
+*******************************
+dgemm_time	80.096367
+conv_transfer_time	0.000000
+conv_calculate_time	3350.185547
+elastic_calculate_time	3350.240967
+Allen_Cahn_nonlinear_time	3456.991699
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	39.589703
+trans_Memcpy_time	19.410934
+trans_MPI_time	14.646240
+trans_pack_time	0.389272
+trans_enlarge_time	0.674708
+trans_mu_time	0.440474
+trans_unpack_time	3.574322
+updateU_new_time	2.701063
+runtime	3.588177
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	250.756633
+*******************************
+dgemm_time	80.114487
+conv_transfer_time	0.000000
+conv_calculate_time	3348.523438
+elastic_calculate_time	3348.566162
+Allen_Cahn_nonlinear_time	3454.047607
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	40.151222
+trans_Memcpy_time	19.456705
+trans_MPI_time	15.110558
+trans_pack_time	0.382872
+trans_enlarge_time	0.684947
+trans_mu_time	0.443354
+trans_unpack_time	3.595923
+updateU_new_time	2.703304
+runtime	3.585228
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	254.344908
+*******************************
+dgemm_time	80.116615
+conv_transfer_time	0.000000
+conv_calculate_time	3347.494385
+elastic_calculate_time	3347.534180
+Allen_Cahn_nonlinear_time	3456.815430
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	39.807453
+trans_Memcpy_time	19.413359
+trans_MPI_time	14.870890
+trans_pack_time	0.373913
+trans_enlarge_time	0.675348
+trans_mu_time	0.447514
+trans_unpack_time	3.579126
+updateU_new_time	2.701386
+runtime	3.588978
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	257.930248
+*******************************
+dgemm_time	80.087059
+conv_transfer_time	0.000000
+conv_calculate_time	3352.479492
+elastic_calculate_time	3352.517822
+Allen_Cahn_nonlinear_time	3456.231445
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.775486
+trans_Memcpy_time	19.446007
+trans_MPI_time	14.789301
+trans_pack_time	0.377273
+trans_enlarge_time	0.675668
+trans_mu_time	0.446554
+trans_unpack_time	3.586008
+updateU_new_time	2.714507
+runtime	3.585005
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	261.519326
+*******************************
+dgemm_time	80.107582
+conv_transfer_time	0.000000
+conv_calculate_time	3350.681152
+elastic_calculate_time	3350.717773
+Allen_Cahn_nonlinear_time	3456.092041
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	40.042950
+trans_Memcpy_time	19.420258
+trans_MPI_time	15.086742
+trans_pack_time	0.376794
+trans_enlarge_time	0.680308
+trans_mu_time	0.438394
+trans_unpack_time	3.583770
+updateU_new_time	2.699948
+runtime	3.588484
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	265.104420
+*******************************
+dgemm_time	80.093056
+conv_transfer_time	0.000000
+conv_calculate_time	3353.380127
+elastic_calculate_time	3353.417725
+Allen_Cahn_nonlinear_time	3456.853516
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	39.723988
+trans_Memcpy_time	19.405548
+trans_MPI_time	14.778276
+trans_pack_time	0.382074
+trans_enlarge_time	0.672628
+trans_mu_time	0.438714
+trans_unpack_time	3.585851
+updateU_new_time	2.703470
+runtime	3.589949
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	268.693028
+*******************************
+dgemm_time	80.066223
+conv_transfer_time	0.000000
+conv_calculate_time	3352.950684
+elastic_calculate_time	3352.988037
+Allen_Cahn_nonlinear_time	3457.211426
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	40.122589
+trans_Memcpy_time	19.408119
+trans_MPI_time	15.157157
+trans_pack_time	0.376794
+trans_enlarge_time	0.676148
+trans_mu_time	0.439514
+trans_unpack_time	3.604573
+updateU_new_time	2.700911
+runtime	3.586251
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	272.283078
+*******************************
+dgemm_time	80.089615
+conv_transfer_time	0.000000
+conv_calculate_time	3348.293701
+elastic_calculate_time	3348.332031
+Allen_Cahn_nonlinear_time	3456.677002
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	39.556770
+trans_Memcpy_time	19.400606
+trans_MPI_time	14.611095
+trans_pack_time	0.381274
+trans_enlarge_time	0.675030
+trans_mu_time	0.449434
+trans_unpack_time	3.589215
+updateU_new_time	2.700752
+runtime	3.585986
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	275.869642
+*******************************
+dgemm_time	80.128212
+conv_transfer_time	0.000000
+conv_calculate_time	3353.867676
+elastic_calculate_time	3353.903564
+Allen_Cahn_nonlinear_time	3459.781006
+Cahn_Hilliard_nonlinear_time	0.012480
+trans_time	39.852863
+trans_Memcpy_time	19.391178
+trans_MPI_time	14.926776
+trans_pack_time	0.378394
+trans_enlarge_time	0.682869
+trans_mu_time	0.443034
+trans_unpack_time	3.578657
+updateU_new_time	2.715153
+runtime	3.585657
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	279.455723
+*******************************
+dgemm_time	80.093208
+conv_transfer_time	0.000000
+conv_calculate_time	3352.701904
+elastic_calculate_time	3352.739014
+Allen_Cahn_nonlinear_time	3455.151123
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	40.041458
+trans_Memcpy_time	19.405266
+trans_MPI_time	15.083899
+trans_pack_time	0.375514
+trans_enlarge_time	0.671353
+trans_mu_time	0.451034
+trans_unpack_time	3.600738
+updateU_new_time	2.704115
+runtime	3.584636
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	283.041486
+*******************************
+dgemm_time	80.084122
+conv_transfer_time	0.000000
+conv_calculate_time	3353.500244
+elastic_calculate_time	3353.536621
+Allen_Cahn_nonlinear_time	3457.107910
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	39.885269
+trans_Memcpy_time	19.423033
+trans_MPI_time	14.948069
+trans_pack_time	0.375034
+trans_enlarge_time	0.669113
+trans_mu_time	0.435834
+trans_unpack_time	3.583940
+updateU_new_time	2.701396
+runtime	3.590110
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	286.626232
+*******************************
+dgemm_time	80.088799
+conv_transfer_time	0.000000
+conv_calculate_time	3352.141113
+elastic_calculate_time	3352.178223
+Allen_Cahn_nonlinear_time	3457.129639
+Cahn_Hilliard_nonlinear_time	0.012480
+trans_time	39.684361
+trans_Memcpy_time	19.404324
+trans_MPI_time	14.748240
+trans_pack_time	0.378714
+trans_enlarge_time	0.675673
+trans_mu_time	0.439994
+trans_unpack_time	3.586182
+updateU_new_time	2.701397
+runtime	3.591234
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	290.216448
+*******************************
+dgemm_time	80.098755
+conv_transfer_time	0.000000
+conv_calculate_time	3351.225586
+elastic_calculate_time	3351.262939
+Allen_Cahn_nonlinear_time	3456.974365
+Cahn_Hilliard_nonlinear_time	0.012320
+trans_time	39.487419
+trans_Memcpy_time	19.403692
+trans_MPI_time	14.564729
+trans_pack_time	0.371515
+trans_enlarge_time	0.675353
+trans_mu_time	0.450234
+trans_unpack_time	3.572583
+updateU_new_time	2.701878
+runtime	3.585415
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	293.807786
+*******************************
+dgemm_time	80.080864
+conv_transfer_time	0.000000
+conv_calculate_time	3352.632568
+elastic_calculate_time	3352.670898
+Allen_Cahn_nonlinear_time	3455.491455
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	39.593136
+trans_Memcpy_time	19.446417
+trans_MPI_time	14.619133
+trans_pack_time	0.375195
+trans_enlarge_time	0.683033
+trans_mu_time	0.443194
+trans_unpack_time	3.575785
+updateU_new_time	2.730839
+runtime	3.587070
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	297.393315
+*******************************
+dgemm_time	80.157852
+conv_transfer_time	0.000000
+conv_calculate_time	3350.065430
+elastic_calculate_time	3350.104004
+Allen_Cahn_nonlinear_time	3456.669922
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.665371
+trans_Memcpy_time	19.389149
+trans_MPI_time	14.720259
+trans_pack_time	0.390554
+trans_enlarge_time	0.674394
+trans_mu_time	0.445594
+trans_unpack_time	3.594186
+updateU_new_time	2.699641
+runtime	3.589765
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	300.980476
+*******************************
+dgemm_time	80.103966
+conv_transfer_time	0.000000
+conv_calculate_time	3352.918945
+elastic_calculate_time	3352.954102
+Allen_Cahn_nonlinear_time	3457.224854
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.908234
+trans_Memcpy_time	19.434914
+trans_MPI_time	14.944100
+trans_pack_time	0.375036
+trans_enlarge_time	0.677274
+trans_mu_time	0.438554
+trans_unpack_time	3.582988
+updateU_new_time	2.702202
+runtime	3.589953
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	304.570331
+*******************************
+dgemm_time	80.121117
+conv_transfer_time	0.000000
+conv_calculate_time	3352.795166
+elastic_calculate_time	3352.832275
+Allen_Cahn_nonlinear_time	3458.481445
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	40.072826
+trans_Memcpy_time	19.539560
+trans_MPI_time	15.010506
+trans_pack_time	0.373436
+trans_enlarge_time	0.668954
+trans_mu_time	0.450714
+trans_unpack_time	3.575949
+updateU_new_time	2.702523
+runtime	3.589087
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	308.160447
+*******************************
+dgemm_time	80.073151
+conv_transfer_time	0.000000
+conv_calculate_time	3348.178223
+elastic_calculate_time	3348.217529
+Allen_Cahn_nonlinear_time	3455.177490
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.949863
+trans_Memcpy_time	19.407091
+trans_MPI_time	15.005231
+trans_pack_time	0.374716
+trans_enlarge_time	0.682074
+trans_mu_time	0.447034
+trans_unpack_time	3.580270
+updateU_new_time	2.701564
+runtime	3.588364
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	311.749639
+*******************************
+dgemm_time	80.133820
+conv_transfer_time	0.000000
+conv_calculate_time	3350.307861
+elastic_calculate_time	3350.344727
+Allen_Cahn_nonlinear_time	3457.560547
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.630692
+trans_Memcpy_time	19.401178
+trans_MPI_time	14.628922
+trans_pack_time	0.376796
+trans_enlarge_time	0.697434
+trans_mu_time	0.439194
+trans_unpack_time	3.576432
+updateU_new_time	2.728604
+runtime	3.590037
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	315.338121
+*******************************
+dgemm_time	80.080246
+conv_transfer_time	0.000000
+conv_calculate_time	3353.895996
+elastic_calculate_time	3353.933105
+Allen_Cahn_nonlinear_time	3458.844971
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	39.764267
+trans_Memcpy_time	19.515265
+trans_MPI_time	14.689726
+trans_pack_time	0.401916
+trans_enlarge_time	0.667514
+trans_mu_time	0.441438
+trans_unpack_time	3.599153
+updateU_new_time	2.701566
+runtime	3.586926
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	318.928269
+*******************************
+dgemm_time	80.098831
+conv_transfer_time	0.000000
+conv_calculate_time	3353.041992
+elastic_calculate_time	3353.077881
+Allen_Cahn_nonlinear_time	3457.539307
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	40.185604
+trans_Memcpy_time	19.404072
+trans_MPI_time	15.241566
+trans_pack_time	0.374556
+trans_enlarge_time	0.682714
+trans_mu_time	0.441599
+trans_unpack_time	3.593234
+updateU_new_time	2.701247
+runtime	3.593580
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	322.515305
+*******************************
+dgemm_time	80.079178
+conv_transfer_time	0.000000
+conv_calculate_time	3353.840576
+elastic_calculate_time	3353.877930
+Allen_Cahn_nonlinear_time	3456.682617
+Cahn_Hilliard_nonlinear_time	0.012480
+trans_time	39.811893
+trans_Memcpy_time	19.398960
+trans_MPI_time	14.885256
+trans_pack_time	0.375996
+trans_enlarge_time	0.674074
+trans_mu_time	0.448478
+trans_unpack_time	3.577876
+updateU_new_time	2.704767
+runtime	3.585320
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	326.108977
+*******************************
+dgemm_time	80.076324
+conv_transfer_time	0.000000
+conv_calculate_time	3349.958496
+elastic_calculate_time	3349.995117
+Allen_Cahn_nonlinear_time	3456.586182
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	39.951973
+trans_Memcpy_time	19.401686
+trans_MPI_time	15.035817
+trans_pack_time	0.374236
+trans_enlarge_time	0.676314
+trans_mu_time	0.437920
+trans_unpack_time	3.574357
+updateU_new_time	2.700448
+runtime	3.590309
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	329.694416
+*******************************
+dgemm_time	80.105316
+conv_transfer_time	0.000000
+conv_calculate_time	3348.099365
+elastic_calculate_time	3348.135010
+Allen_Cahn_nonlinear_time	3454.887451
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.647034
+trans_Memcpy_time	19.453211
+trans_MPI_time	14.653267
+trans_pack_time	0.371356
+trans_enlarge_time	0.688954
+trans_mu_time	0.448800
+trans_unpack_time	3.579638
+updateU_new_time	2.720609
+runtime	3.586783
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	333.284823
+*******************************
+dgemm_time	80.087425
+conv_transfer_time	0.000000
+conv_calculate_time	3347.799316
+elastic_calculate_time	3347.836426
+Allen_Cahn_nonlinear_time	3454.894287
+Cahn_Hilliard_nonlinear_time	0.011680
+trans_time	40.173687
+trans_Memcpy_time	19.394337
+trans_MPI_time	15.220145
+trans_pack_time	0.396796
+trans_enlarge_time	0.678074
+trans_mu_time	0.439680
+trans_unpack_time	3.585559
+updateU_new_time	2.701890
+runtime	3.590722
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	336.871694
+*******************************
+dgemm_time	80.123611
+conv_transfer_time	0.000000
+conv_calculate_time	3348.565918
+elastic_calculate_time	3348.603027
+Allen_Cahn_nonlinear_time	3461.857422
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.758774
+trans_Memcpy_time	19.400425
+trans_MPI_time	14.799034
+trans_pack_time	0.375836
+trans_enlarge_time	0.684314
+trans_mu_time	0.443520
+trans_unpack_time	3.597240
+updateU_new_time	2.701731
+runtime	3.592902
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	340.462514
+*******************************
+dgemm_time	80.109390
+conv_transfer_time	0.000000
+conv_calculate_time	3354.105225
+elastic_calculate_time	3354.145508
+Allen_Cahn_nonlinear_time	3464.039551
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.905537
+trans_Memcpy_time	19.390511
+trans_MPI_time	14.930239
+trans_pack_time	0.377116
+trans_enlarge_time	0.662394
+trans_mu_time	0.437760
+trans_unpack_time	3.585241
+updateU_new_time	2.701252
+runtime	3.589047
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	344.055511
+*******************************
+dgemm_time	80.124939
+conv_transfer_time	0.000000
+conv_calculate_time	3347.741455
+elastic_calculate_time	3347.780518
+Allen_Cahn_nonlinear_time	3453.635010
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	39.619225
+trans_Memcpy_time	19.348919
+trans_MPI_time	14.737604
+trans_pack_time	0.374557
+trans_enlarge_time	0.681114
+trans_mu_time	0.450240
+trans_unpack_time	3.573883
+updateU_new_time	2.698693
+runtime	3.583087
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	347.644651
+*******************************
+dgemm_time	80.109276
+conv_transfer_time	0.000000
+conv_calculate_time	3344.453857
+elastic_calculate_time	3344.492188
+Allen_Cahn_nonlinear_time	3450.827637
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	46.325455
+trans_Memcpy_time	19.289564
+trans_MPI_time	21.518341
+trans_pack_time	0.373917
+trans_enlarge_time	0.675674
+trans_mu_time	0.446560
+trans_unpack_time	3.569404
+updateU_new_time	2.711653
+runtime	3.586562
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	351.227847
+*******************************
+dgemm_time	80.093460
+conv_transfer_time	0.000000
+conv_calculate_time	3353.103760
+elastic_calculate_time	3353.142090
+Allen_Cahn_nonlinear_time	3457.451416
+Cahn_Hilliard_nonlinear_time	0.011840
+trans_time	39.887344
+trans_Memcpy_time	19.392288
+trans_MPI_time	14.964331
+trans_pack_time	0.389437
+trans_enlarge_time	0.670554
+trans_mu_time	0.444160
+trans_unpack_time	3.575485
+updateU_new_time	2.699814
+runtime	3.589480
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	354.814556
+*******************************
+dgemm_time	80.106606
+conv_transfer_time	0.000000
+conv_calculate_time	3352.979736
+elastic_calculate_time	3353.019043
+Allen_Cahn_nonlinear_time	3459.299805
+Cahn_Hilliard_nonlinear_time	0.012000
+trans_time	39.544846
+trans_Memcpy_time	19.316294
+trans_MPI_time	14.681780
+trans_pack_time	0.376798
+trans_enlarge_time	0.670714
+trans_mu_time	0.446720
+trans_unpack_time	3.600925
+updateU_new_time	2.700615
+runtime	3.592440
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	358.404138
+*******************************
+dgemm_time	80.119263
+conv_transfer_time	0.000000
+conv_calculate_time	3349.196777
+elastic_calculate_time	3349.235840
+Allen_Cahn_nonlinear_time	3455.178467
+Cahn_Hilliard_nonlinear_time	0.012160
+trans_time	39.447018
+trans_Memcpy_time	19.299181
+trans_MPI_time	14.598583
+trans_pack_time	0.384798
+trans_enlarge_time	0.690714
+trans_mu_time	0.440960
+trans_unpack_time	3.576767
+updateU_new_time	2.702536
+runtime	3.586925
+--------------------------------------------------!
+***************dt=2.000000***************
+***************flag=0***************
+--------------------------------------------------!
+time		0.000000
+wall time	361.996674
